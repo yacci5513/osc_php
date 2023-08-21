@@ -27,37 +27,50 @@
 <body>
 	<table>
 		<caption>성적표</caption>
-		<tr>
-			<th>반</th>
-			<th>이름</th>
-			<th>국어</th>
-			<th>영어</th>
-			<th>수학</th>
-			<th>과학</th>
-		</tr>
-		<tr>
-			<td rowspan="2">1반</td>
-			<td>홍길동</td>
-			<td>90점</td>
-			<td>80점</td>
-			<td>70점</td>
-			<td>50점</td>
-		</tr>
-		<tr>
-			<td>김영희</td>
-			<td>50점</td>
-			<td>60점</td>
-			<td>90점</td>
-			<td>50점</td>
-		</tr>
-		<tr>
-			<td>평균</td>
-			<td></td>
-			<td>70점</td>
-			<td>80점</td>
-			<td>80점</td>
-			<td>50점</td>
-		</tr>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<thead>
+			<tr class="col2">
+				<th>반</th>
+				<th>이름</th>
+				<th>국어</th>
+				<th>영어</th>
+				<th>수학</th>
+				<th>과학</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">1반</td>
+				<td>홍길동</td>
+				<td>90점</td>
+				<td>80점</td>
+				<td>70점</td>
+				<td>50점</td>
+			</tr>
+			<tr>
+				<td>김영희</td>
+				<td>50점</td>
+				<td>60점</td>
+				<td>90점</td>
+				<td>50점</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="2">평균</th>
+				<td>70점</td>
+				<td>80점</td>
+				<td>80점</td>
+				<td>50점</td>
+			</tr>
+		</tfoot>
 	</table>
 </body>
 </html>

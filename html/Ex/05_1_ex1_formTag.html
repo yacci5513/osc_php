@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="" method="">
+		<fieldset>
+			<legend> 기본사항 </legend>
+			<label for="id">ID : </label>
+			<input type="text" name="id" id="id" maxlength="5" placeholder="아이디 치기">
+			<br>
+			<label for="pw">PW : </label>
+			<input type="password" name="pw" id="pw" required>
+		</fieldset>
+
+		<br>
+		<label for="email">email : </label>
+		<input type="email"name="email"  id="email" value="asdf@naver.com" readonly>
+		<br>
+		<label for="number">number : </label>
+		<input type="number" name="number" id="number" min="0" max="5">
+		<br>
+		<label for="range">range : </label>
+		<input type="range" name="range" id="range" min="0" max="5">
+		<br>
+		<label for="date">date : </label>
+		<input type="date" name="date" id="date">
+		<br>
+		<label for="banana">바나나</label>
+		<input type="checkbox" name="banana" id="banana" name="chk_fruit">
+		<label for="sb">딸기</label>
+		<input type="checkbox" name="sb" id="sb" name="chk_fruit">
+		<label for="wm">수박</label>
+		<input type="checkbox" name="wm" id="wm" name="chk_fruit">
+		<br>
+		<label for="zz">짜장면</label>
+		<input type="radio" name="zz" id="zz" name="foods">
+		<label for="ta">탕수육</label>
+		<input type="radio" name="ta" id="ta" name="foods">
+		<br>
+		<!-- <input type="submit" value="전송">
+		<input type="reset"> -->
+		<br>
+		<label for="txta">텍스트에어리어:</label>
+		<textarea name="txta" id="txta" cols="30" rows="10"></textarea>
+		<br>
+		<label for="poketmon">셀렉트박스</label>
+		<select name="poketmon" id="poketmon">
+			<option value="0">파이리</option>
+			<option value="1">라이츄</option>
+			<option value="2">피카츄</option>
+			<option value="3">4</option>
+			<option value="4">5</option>
+		</select>
+		<br>
+		<input type="hidden" name="hidden" value="히든">
+		<button type="submit">전송</button>
+		<button type="reset">초기화</button>
+		<button type="button">버튼</button>
+	</form>
+</body>
+</html>
