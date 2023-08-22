@@ -1,0 +1,24 @@
+
+.h2-name{
+	color: aqua;
+}
+
+.h2-hex{
+	color: #00ffff;
+	/*  색상코드로 16진수 이용 */
+}
+
+.h2-rgb{
+	color: rgb(red, green, blue);
+}
+
+.h2-rgba{
+	color: rgba(red, green, blue, alpha);
+	/*  alpha에 명도 추가 1이 기본값 */
+}
+
+.h2-hsla{
+	color: hsla(hue, saturation, lightness, alpha)
+}
+
+/* 웬만하면 hex rgb rgba를 사용한다 */

@@ -1,0 +1,16 @@
+.form{
+	width: 500px;
+	border: 1px solid #000000;
+}
+
+.top{
+	list-style-type: none;
+	line-height: 2rem;
+}
+
+.top span{
+	color: #ad3000;
+	font-weight: bold;
+}
+
+/* span이 자주 쓰이는 경우라면 span마다 class를 지정해주는것이 좋음 */

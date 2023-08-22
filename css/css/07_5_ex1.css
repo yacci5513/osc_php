@@ -1,0 +1,15 @@
+table{
+	width: 500px;
+	background-color: #00ffff;
+	color: #000000;
+	text-align: center;
+
+	border: 1px solid #000000;
+	/* border-collapse: collapse; */
+	caption-side: top;
+	border-spacing: 20px 5px;
+}
+
+th, td{
+	border: 1px dotted #000000;
+}
