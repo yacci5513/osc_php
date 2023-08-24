@@ -1,0 +1,6 @@
+h1 {
+	background-color: palegreen;
+	border: 5px dotted #000;
+	background-clip: content-box;
+	padding: 10px;
+}

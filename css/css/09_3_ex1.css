@@ -1,0 +1,13 @@
+div {
+	width: 400px;
+	height: 200px;
+	border: 2px solid #000;
+}
+
+.div_1 {
+	background: linear-gradient(to right bottom, blue, white);
+}
+
+.div_2 {
+	background: radial-gradient(circle at 0% 20%,white,yellow,red);
+}

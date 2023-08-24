@@ -1,0 +1,28 @@
+.div_main{
+	width: 600px;
+	height: 600px;
+	border: 1px solid #000;
+	position: relative;
+}
+
+.div_1, .div_2, .div_3{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+	position: absolute;
+}
+
+.div_1{
+	top:20px;
+	left:50px;
+}
+
+.div_2{
+	top: 70px;
+	left: 300px;
+}
+
+.div_3{
+	top:300px;
+	left:50px;
+}

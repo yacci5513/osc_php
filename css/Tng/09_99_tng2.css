@@ -1,0 +1,44 @@
+
+body{
+	background-color:black;
+	background-size: 100%;
+}
+
+.container{
+	width: 500px;
+	background-color: white;
+	margin:auto;
+	}
+
+.container > .header {
+	width: 480px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #004344;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+.container > .atc_1 > h2 {
+	text-align: center;
+}
+
+.container > .atc_2> h3 {
+	color:red;
+	padding:10px;
+}
+
+.container > .atc_2 > .ul_text {
+	list-style-type: none;
+	line-height: 1.5;
+}
+
+.container > footer > .ft_img {
+	background-image: url(../img/imgfile.png);
+	width: 500px;
+	height: 300px;
+	background-size: 300px 250px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

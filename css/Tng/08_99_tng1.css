@@ -1,0 +1,31 @@
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.container > .atc_box {
+	width: 350px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed #ccc;
+	float: left;
+	background-image: url(../img/imgfile3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.atc_box > p {
+	font-size: 12px;
+}
+
+.container > .ft_box {
+	clear: left;
+	padding: 8px;
+	background-color: #000;
+}
+
+.container > .ft_box > p {
+	text-align: center;
+	color: #ffffff;
+}

@@ -1,0 +1,14 @@
+.div_img {
+	background-image: url(../img/imgfile.png),
+					url(../img/imgfile2.png);
+	width: 500px;
+	height: 500px;
+	border: 1px solid darkblue;
+	background-size: 100px 100px;
+
+}
+
+body{
+	background-image:url(../img/imgfile2.png);
+	background-size: 100%;
+}
