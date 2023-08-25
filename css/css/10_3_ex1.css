@@ -1,0 +1,81 @@
+.as:link {
+	color: rgb(35, 11, 255);
+}
+/*  방문 전 색 변경 */
+
+.as:visited {
+	color: rgb(43, 255, 0);
+}
+/*  방문 후 색 변경 */
+
+.as:hover {
+	background-color: aquamarine;
+}
+
+/* 마우스 올리면 색 변경 */
+
+#input-1:focus {
+	outline: none;
+	border: 5px solid rgb(241, 36, 36);
+}
+/* 마우스 올리면 설정 */
+
+#input-1:active {
+	background-color: blue;
+}
+/* 마우스 클릭시 설정 */
+
+input:checked + label {
+	color: orange;
+}
+/* 체크시 label 색 변경 cf)label을 인접선택자로 잡아줘야함 */
+
+
+nav ul li {
+	float:left;
+	width: 150px;
+	padding: 10px;
+}
+
+#target-1:target {
+	background-color: red;
+	color: #fff;
+}
+/* 타겟으로 되었을때 빨간색으로 변경된다 */
+
+.container :nth-child(3) {
+	color: blue;
+}
+/* 부모 안에 있는 모든요소중에서 n번째 자식 요소 */
+
+.container p:nth-of-type(3) {
+	color: green;
+}
+/* 부모 안에 있는 p요소중에서 n번째 자식 요소 */
+
+.container :not(p) {
+	color: aqua;
+}
+/* p가 아닌 태그에 스타일 적용 */
+
+#label-2::before {
+	content:'중요';
+	color: rgb(150, 114, 218);
+}
+/* 특정 요소의 앞,뒤의 내용에 스타일 추가 */
+
+/* #label-2::after {
+	content:'중요';
+	color: rgb(150, 114, 218);
+} */
+
+.korean-1::first-letter {
+	background-color: black;
+}
+/* 첫번쨰 글자 적용 */
+
+.korean-2::first-line {
+	background-color: black;
+}
+/* 첫번째 라인 적용 */
+

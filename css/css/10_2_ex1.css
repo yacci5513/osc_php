@@ -1,0 +1,33 @@
+[target] {
+	color: green;
+}
+
+[target=daum] {
+	color: blue;
+}
+
+
+[class~=att_class] {
+	color: rgb(30, 210, 30);
+}
+/* att_class라는 클래스명이 포함되어 있으면 적용 */
+
+/* [class*=att_class] {
+	color: brown;
+} */
+/* att_class라는 클래스명 일부가 일치하는 경우에 모두 적용 */
+
+[class|=att] {
+	color: palevioletred;
+}
+/* 일부가 일치 속성명에 _가 들어가 있으면 적용 안된다. */
+
+[class^=co] {
+	color: aqua;
+}
+/* co로 시작하는 속성값이 있는 클래스에 모두 적용 */
+
+[class$="1"] {
+	color: darkgray;
+}
+/* 1을 포함하는 클래스에 모두 적용 */

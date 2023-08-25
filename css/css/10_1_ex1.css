@@ -1,0 +1,22 @@
+header > span {
+	color: blue;
+}
+/* header안에 있는 자식 요소에만 들어감*/
+
+header span {
+	color: rgb(12, 56, 73);
+}
+/* header안에 있는 모든 span에 적용 */
+
+/* 부모요소 상위요소 차이? */
+
+span + p{
+	color: red;
+}
+/* 인접 형제한테만 스타일 주는 방법 
+br이 들어갈 경우 span + br + p*/
+
+span~p {
+	color: rgb(165, 20, 100);
+}
+/* span태그 밑으로 있는 형제들 다 적용 */
