@@ -1,0 +1,21 @@
+.container {
+	display:flex;
+}
+
+.ball {
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	border-radius: 50%;
+	animation: moveUpDown 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+	from{
+		transform: translate(0, 0);
+	}
+	to {
+		transform: translate(100px, 100px);
+	}
+}

@@ -1,0 +1,82 @@
+ul {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0px;
+}
+/* ul앞에거 없애고 패딩값 */
+
+li *{
+	vertical-align: top;
+}
+/* 요청사항을 위로 */
+
+li {
+	font-weight: bold;
+}
+
+li:not(li:last-of-type){
+	margin-bottom: 10px;
+}
+
+.container {
+	width: 700px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	margin: 0 auto;
+	background-image:url(../img/imgfile3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+/* 박스 크기 조절 */
+
+.title{
+	font-size: 30px;
+	font-weight: 1000;
+	color: purple;
+}
+/* 제목 꾸미기 */
+
+.essential::before {
+	content:'*';
+	color: red;
+}
+/* 앞에 중요표시 */
+
+.input-b {
+	border:2px solid #555;
+}
+/* input 박스 테두리 변경 */
+
+.focus-red:focus {
+	outline: none;
+	border: 3px solid rgb(241, 36, 36);
+}
+/* 마우스 올리면 설정 */
+
+.focus-red:checked + label{
+	color: red;
+}
+/* 마우스 올리면 설정 */
+
+.back-trans {
+	background-color:transparent;
+}
+
+#submit-1:hover + p.textline {
+	display: block;
+} 
+
+
+.rela{
+	position: relative;
+}
+
+.textline {
+	background-color: black;
+	color:white;
+	display: none;
+	font-size: 20px;
+	position: absolute;
+	top: -20px; left: 60px;
+}
