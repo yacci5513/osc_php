@@ -1,0 +1,23 @@
+.container {
+	background-color: gray;
+	width: 70vw;
+	height: 70vh;
+}
+
+.item {
+	width: 20vw;
+	height: 20vh;
+	background-color: skyblue;
+	border: 1px solid black;
+	box-sizing: border-box;
+	float: left;
+}
+
+.margin-l {
+	margin-left: 20vw;
+	/* item의 width를 맞춰 준다.(박스크기와 간격 맞춰주기) */
+}
+
+.clear-l {
+	clear: left;
+}
