@@ -159,4 +159,4 @@ HAVING sal_avg >= 70000;
 -- 10. 현재 직책이 'Senior Engineer'인 사원의 사원번호와 성을 조회해 주세요
 SELECT emp.emp_no, emp.last_name
 FROM employees AS emp
-WHERE emp.emp_no IN (SELECT tit.emp_no FROM titles AS tit WHERE tit.title = 'Senior Engineer' AND tit.to_date >= NOW());
+WHERE emp.emp_no IN (SELECT tit.emp_no FROM titles AS tit WHERE tit.title = 'Senior Engineer' AND tit.to_date >= NOW()); 
