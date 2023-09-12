@@ -56,5 +56,18 @@ for($i=1; $i<=9; $i++){
 	}
 }
 
+// 
+for($i=1; $i<=9; $i++){
+	if (($i%2)===0){
+		continue;
+	}
+	echo "{$i}단"."\n";
+	for ($z=1; $z<=10; $z++){
+		$mul=$i*$z;
+		$result = "{$i} X {$z} = {$mul}"."\n";
+		echo $result;
+	}
+}
+
 ?>
 
