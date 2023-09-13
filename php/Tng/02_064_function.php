@@ -43,14 +43,33 @@
 	// 숫자로 이루어진 문자열을 하나 받습니다.
 	// 이 문자열의 모든 숫자를 더해주세요
 
+	//나의 코드
 	$text = '3424';
 	$text_arr = [];
 	$sum = 0;
-	$mb_strlen_text = mb_strlen($text)-1;
-	for ($i=0; $i<=$mb_strlen_text; $i++){
-		$text_arr[$i]=(int)mb_substr($text, $i, 1);
+
+	$len = mb_strlen($text)-1;
+	for ($i=0; $i<=$len; $i++){
+		$text_arr[$i]= mb_substr($text, $i, 1);
 	}
 	foreach($text_arr as $value){
 		$sum += $value;
 	}
 	echo $sum;
+
+// str_split 써도 된다.
+// 	foreach 한번 더 쓸 필요 없었음
+// 구조는 같으나 데이터타입 변경시 명시하는 부분 달랐음.
+
+	// 강사님 코드
+	$str = "34215";
+	function my_test(string $str) {
+		$len = mb_strlen($str);
+		$sum = 0;
+		for($idx = 0; $idx <= $len -1; $idx++) {
+			$sum += (int)mb_substr($str, $idx, 1);
+		}
+		return $sum;
+	}
+	echo my_test($str);
+	
