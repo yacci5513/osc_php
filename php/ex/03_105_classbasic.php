@@ -9,6 +9,15 @@
 		public $computer; //클래스 안에서든 밖에서든 접근 가능, 상속 가능
 		private $book; // class 내에서 접근 가능
 		protected $bag; // class와 자식 class에서 사용 가능
+		public $now;
+
+		//생성자(construct) :
+		// - 클래스를 이용하여 객체를 생성할 때 사용
+		// - 생성자를 정의하지 않을때는 디폴트 생성자가 선언 됨
+		// - 인스턴스가 만들어 질 때 초기값 등을 지정하는 역할을 한다.
+		public function __construct() {
+			echo "컨스트럭트 실행";
+		}
 
 		//메소드(method) : class 내에 있는 함수
 		public function classRoomSetValue() {
@@ -23,11 +32,26 @@
 				.$this->bag."\n";
 			echo $str;
 		}
+		
+		// getter 메소드
+		public function getNow() {
+			return $this->bag;
+		}
+		// setter 메소드
+		public function setNow() {
+			$this->bag = "가방";
+		}
+
+		//static : instance생성을 하지 않아도 호출할 수 있습니다.
+		public static function static_test() {
+			echo "스태틱 메소드";
+		}
 	}
 
 // class instance 생성
 $objClassRoom = new ClassRoom();
-$objClassRoom->classRoomSetValue();
-$objClassRoom->classRoomPrint();
-
+// $objClassRoom->classRoomSetValue();
+$objClassRoom->setNow();
+echo $objClassRoom->getNow();
+// ClassRoom::static_test();
 ?>

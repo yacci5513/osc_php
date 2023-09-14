@@ -115,26 +115,26 @@
 	// }
 
 // 마름모
-	$text= "*";
-	$count= 5;
+	// $text= "*";
+	// $count= 5;
 	
-	for($x=1; $x<=$count; $x++) {
-		for($y=1; $y<=$count-$x; $y++){
-			echo " ";
-		}
-		for ($z=1; $z<=$x*2-1; $z++){
-			echo $text;
-		}
-		echo "\n";
-	}
-	for($x=1; $x<$count; $x++) {
-		for($y=1; $y<=$x; $y++){
-			echo " ";
-		}
-		for ($z=1; $z<=($count-$x)*2-1; $z++){
-			echo $text;
-		}
-		echo "\n";
-	}
+	// for($x=1; $x<=$count; $x++) {
+	// 	for($y=1; $y<=$count-$x; $y++){
+	// 		echo " ";
+	// 	}
+	// 	for ($z=1; $z<=$x*2-1; $z++){
+	// 		echo $text;
+	// 	}
+	// 	echo "\n";
+	// }
+	// for($x=1; $x<$count; $x++) {
+	// 	for($y=1; $y<=$x; $y++){
+	// 		echo " ";
+	// 	}
+	// 	for ($z=1; $z<=($count-$x)*2-1; $z++){
+	// 		echo $text;
+	// 	}
+	// 	echo "\n";
+	// }
 
 ?>
