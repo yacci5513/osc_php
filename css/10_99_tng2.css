@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+fieldset {
+    
+    padding: 10px 20px;
+    background-image: url(../html/JPG/tanghuru.jpg);
+    background-size: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+span {
+    color: red;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #fd0bc1;
+}
+
+.memo {
+    float: left;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+}
+
+label[for="radio-1"],
+label[for="radio-2"] {
+    color: #000000;
+}
+
+ul{
+    list-style: none;
+}
+
+#fullname:focus, #age:focus, #tel:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+.custom-button {
+    position: relative;
+}
+
+.custom-button::before {
+    content: "내용을 다시 한번 확인 해 주세요.";
+    display: none;
+    position: absolute;
+    left: 110%;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.custom-button:hover::before {
+    display: block;
+    
+}
+

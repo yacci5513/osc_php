@@ -1,0 +1,23 @@
+[target] {
+    color: green;
+}
+
+[target=daum] {
+    color: blue ;
+}
+
+[class*=att_class] {
+    color: yellow;
+}
+[class~=att_class] {
+    color: red;
+}
+[class|=att]{
+    color:yellowgreen
+}
+[class^=co] {
+    color: pink;
+}
+[class$=k1]{
+    color: orange;
+}

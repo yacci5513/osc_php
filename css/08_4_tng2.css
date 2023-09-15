@@ -1,0 +1,40 @@
+* {  
+    margin:0;  /* 브라우저 기본 마진 리셋 */
+    padding:0;  /* 브라우저 기본 패딩 리셋 */
+    box-sizing: border-box;  /* 테두리까지 포함해서 박스 모델 너비로 계산 */
+  }
+header {
+    background-color:aqua;
+    height: 100px;
+    width: 900px;
+}
+/* /* 부모 요소의 너비와 똑같게 */ 
+.side_1 {
+    background-color: #ffedcb;
+    float: left;
+    width: 180px;
+    height: 800px;
+    /* 헤더의 높이 */
+}
+.side_2 {
+    background-color: #ffedcb;
+    width: 180px;
+    height: 800px;
+    float: left;
+/* 왼쪽으로 플로팅 */
+}
+article {
+    background-color: #6495ed;
+    width: 540px;
+    height: 800px;
+    float: left;
+
+}
+footer{
+    background-color: rgb(11, 240, 99);
+    width: 900px;
+    height: 100px;
+    clear: both;
+}
+   /* 플로팅 해제 */
+

@@ -1,0 +1,54 @@
+.container {
+    background-color: gray;
+    margin: 10px;
+    width: 60vw;
+    height: 60vh;
+}
+
+
+
+
+.box-1 {
+
+
+}
+
+.box-2{
+
+
+}
+.box-3{
+
+
+}
+.box-4 {
+
+}
+
+.box-5 {
+
+
+}
+.box-6 {
+
+    
+}
+.header {
+    float: left;
+    width: 180px;
+    height: 15vh;
+    box-sizing: border-box;
+    background-color: rgb(79, 192, 230);
+    border: 1px solid #000;
+}
+
+.article 
+{
+    float: left;
+    width: 180px;
+    height: 15vh;
+    box-sizing: border-box;
+    border:none;
+    background-color: none;
+}
+.foother

@@ -1,0 +1,13 @@
+header div  {
+    color: pink;
+}
+
+header > span {
+    color:lavender
+}
+main span+p {
+    color: blue;
+}
+span~p {
+    color: blueviolet;
+}

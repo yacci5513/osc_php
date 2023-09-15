@@ -1,0 +1,17 @@
+.tran {
+     text-transform: capitalize;
+     text-transform: uppercase;
+     text-transform: lowercase;
+}
+
+.spacing {
+     letter-spacing: 10px; /*자간을 설정합니다. */
+}
+
+.w_spaing {
+     word-spacing: 10px; /*단어 사이의 공간을 설정합니다. */
+}
+
+.shadow {
+      text-shadow: 10px 5px 5px #ff6904; /*단어에 그림자를 설정합니다 */
+}

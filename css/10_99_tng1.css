@@ -1,0 +1,50 @@
+.container{
+  float:left;
+  width:200px;
+  height:150px;
+  display:flex;          
+  flex-flow: row wrap;   
+  border:1px solid #222;
+  background-color:#eee;
+  margin:30px;
+}  
+.header {
+  float: left;
+  width: 180px;
+  height: 15vh;
+  box-sizing: border-box;
+  background-color: rgb(79, 192, 230);
+  border: 1px solid #000;
+}
+.article 
+{
+    float: left;
+    width: 180px;
+    height: 15vh;
+    box-sizing: border-box;
+    border:none;
+    background-color: none;
+}
+.opt1{
+  align-content: flex-start;
+}
+
+.opt2{
+  align-content: flex-end;
+}
+
+.opt3{
+  align-content: center;
+}
+
+.opt4{
+  align-content: space-between;
+}
+
+.opt5{
+  align-content: space-around;
+}
+
+.opt6{
+  align-content: stretch;
+}

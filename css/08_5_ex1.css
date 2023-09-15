@@ -1,0 +1,40 @@
+main, section, article {
+    padding: 20px;
+}
+main {
+    background-color: red;
+}
+section {
+    background-color: orange;
+}
+article {
+    background-color: yellow;
+}
+.div_static {
+    background-color: green;
+    position: static;
+}
+.div_relative {
+    background-color: blue;
+    position: relative;
+   height: 1000px;
+    
+   
+}
+.div_absolute {
+    background-color: darkblue;
+    position: absolute;
+   
+
+}
+.div_fixed {
+    background-color: purple;
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+}
+.div_sticky {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
