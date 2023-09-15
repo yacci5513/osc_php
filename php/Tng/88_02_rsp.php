@@ -86,22 +86,20 @@
 	// 		echo "잘못된 값을 입력하였습니다.\n";
 	// 	}
 
-
-
-
-	//숫자 맞추기 게임
+	// 숫자 맞추기 게임
 	$number=rand(0,100);
-	$i=0;
-	$number=6;
+	$i=1;
+	$count=5;
 	echo "*****숫자 맞추기 게임*****\n";
-	echo "1~100사이의 숫자를 입력해주세요 총 {$number}번의 기회가 있습니다."."\n";
+	echo "1~100사이의 숫자를 입력해주세요 총 {$count}번의 기회가 있습니다."."\n";
 	while(true){
 		echo "input : ";
-		$user =(int)trim(fgets(STDIN));
-		$i++;
-		$z=$number-$i;
-		if ($user > 100 || $user < 0){
-			echo "입력한 숫자가 0~100이 아닙니다. 남은횟수 : {$z}"."\n";
+		$user =trim(fgets(STDIN));
+		$z=$count-$i;
+		$z_1=$z+1;
+		if ($user > 100 || $user < 0 || (is_numeric($user) == False )){
+			$i--;
+			echo "입력한 숫자가 0~100이 아니거나 문자열입니다. 남은횟수 : ".$z_1."\n";
 		}
 		else if($user > $number){
 			echo "더 작음 남은횟수 : {$z}"."\n";
@@ -113,10 +111,10 @@
 			echo "정답!!";
 			break;
 		}
-		if($i===$number){
+		if($i===$count){
 			echo "실패!! 정답은 {$number} 입니다.";
 			break;
 		}
+		$i++;
 	}
-
 ?>
