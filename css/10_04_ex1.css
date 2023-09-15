@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ccc;
+	padding: 20px;	
+}
+
+#signup {
+	background:#fff;
+	border:1px solid #222;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;	
+	margin:30px auto;
+}
+		
+#signup fieldset {
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+		
+#signup legend {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left:5px;
+	padding-bottom: 10px;	
+}
+
+#signup ul li {
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+}
+			
+#signup button {	
+	border: 1px solid #222;
+	border-radius: 20px;
+	display: block;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+#signup label {
+	float: left;  
+	font-size: 13px;  
+	width: 110px;  
+}
+
+#signup input:not([type=radio]) {  
+	border: 1px solid #ccc;  
+	border-radius: 3px;  
+	font-size: 13px;  
+	padding: 5px;  
+	width: 200px;  
+}					
+
+#signup input[required] {  
+	border:1px red solid;
+}
+
+#signup input[readonly] {  
+	border:none;
+}
+
+
+* #signup button:hover {  
+  background-color:#222;  
+  color:#fff;  
+} *
+
+/*전체 초기화:
+
+
+마진과 패딩값을 0으로 둬서 모든 요소의 여백과 패딩을 초기화 해줍니다
+바디 스타일은 배경색을 회색을 넣어줬고 주변에 20px의 여백을 패딩으로 줬습니다.
+가입 양식을 감싸는 박스의 스타일은 배경색을 흰색으로 주었고 테두리를 어두운 회색으로
+설정했으며,테두리의 모서리를 둥글게 보더레디어스를 줬습니다.
+내부 공백인 패딩값을 20px로 설정하고 가로폭은 위드값 400px로 제한을 줬습니다.
+마진 30px 오토로 상하단에 여백을 줬습니다.
+
+로그인정보창과,개인정보창의 가장자리인 필드셋 스타일은
+얇은 회색 테두리를 추가하고 아래쪽 여백을 마진 바텀을 이용해 30px로 설정합니다.
+
+로그인 정보,개인정보 창의 폰트 스타일은 글꼴 크기는 16px로,볼드체를 사용하였고
+왼쪽 여백을 패딩 레프트를 사용하여 5픽셀,아랫쪽은 패딩 바텀을 사용하여 10px을 줬습니다.
+
+양식 요소들을 나열한 리스트 아이템의 스타일을 설정합니다.
+각 요소 사이의 여백과 패딩을 조절합니다.
+#signup button 스타일:
+
+버튼 요소의 스타일을 설정합니다.
+어두운 회색(#222) 테두리를 추가하고, 모서리를 둥글게 처리합니다.
+글꼴 크기를 16px로 설정하며, 마우스 호버 시 배경색과 글자색이 변경되도록 설정합니다.
+가운데 정렬된 형태로 표시되며, 패딩을 조절합니다.
+#signup label 스타일:
+
+라벨 요소의 스타일을 설정합니다.
+왼쪽으로 플로팅하여 텍스트와 입력 요소가 같은 줄에 위치하도록 합니다.
+글꼴 크기와 너비를 설정합니다.
+#signup input:not([type=radio]) 스타일:
+
+라디오 버튼이 아닌 입력 요소의 스타일을 설정합니다.
+얇은 회색 테두리와 둥근 모서리를 추가하며, 패딩과 너비를 조절합니다.
+#signup input[required] 스타일:
+
+필수 입력 요소에 대한 스타일을 설정합니다.
+빨간색 테두리를 추가하여 시각적으로 필수임을 강조합니다.
+#signup input[readonly] 스타일:
+
+읽기 전용 입력 요소의 스타일을 설정합니다.
+테두리를 없애어 수정 불가능한 상태를 시각적으로 표시합니다.
+#signup fieldset:last-of-type 스타일:
+
+마지막 필드셋에 대한 스타일을 설정합니다.
+밑에 테두리와 마진을 제거합니다. */

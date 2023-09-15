@@ -1,0 +1,25 @@
+.container {
+    background-color: gray;
+    margin: 10px;
+    width: 100vw;
+    height: 60vh;
+    align-content: space-around;
+}
+.item {
+
+    width: 150px;
+    height: 15vh;
+    box-sizing: border-box;
+    background-color: rgb(79, 192, 230);
+    border: 1px solid #000;
+    
+
+}
+
+.item2 {
+    width: 150px;
+    height: 15vh;
+    background-color: skyblue;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}

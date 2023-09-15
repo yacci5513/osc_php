@@ -1,0 +1,54 @@
+a {
+    color: silver;
+}
+
+a:link {
+    color: navy;    
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    background-color: rgb(250, 28, 12);
+}
+#input-1:active {
+    outline: none;
+    border: 2px solid red;
+}
+input:checked + label {
+    color: orange;
+}
+
+#target-1:target {
+    background-color: red;
+}
+
+.container :nth-child(4) {
+    color: blueviolet;
+
+}
+
+.container p:nth-of-type(2) {
+    color: palevioletred;
+
+}
+.container :not(p) {
+    color: yellow;
+}
+
+/* #label-2::before { 
+    content: '중요';
+    color: aqua; 
+   
+}*/
+.tt {
+    color: bisque;
+}
+
+.korea-1::first-letter {
+    background-color: black;
+}
+
+.korea-2::first-line {
+    background-color: blanchedalmond;
+}
