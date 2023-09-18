@@ -55,4 +55,30 @@
 	// function my_args_param() {
 	//  func_get_args() 사용
 	// }
+
+
+	// 레퍼런스 파라미터 : &
+	function test1( $str ) {
+		$str = "함수 test1";
+		return $str;
+	}
+	function test2( &$str ) {
+		$str = "함수 test2";
+		return $str;
+	}
+
+	$st = "???";
+	test1($st);
+	echo $st;
+
+	$st = "???";
+	$result = test2($st);
+	echo $st."\n";
+	echo $result;
+	//test2는 레퍼런스 파라미터 이기 때문에 $st에 "함수 test2"가 담긴다.
+
+	// $str = "???";
+	// $result = test1($str);
+	// echo $str;
+	// echo $result;
 ?>
