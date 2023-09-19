@@ -13,7 +13,7 @@ INSERT INTO salaries (emp_no, salary, FROM_date, to_date)
 -- 500000만번 사원의 소속 부서 데이터를 삽입해주세요
 INSERT INTO dept_emp (emp_no, dept_no, from_date, to_date)
 	VALUES (500000, 'd009', DATE_FORMAT(NOW(), '%Y-%m-%d'), 99990101);
-	
+
 -- 500000만번 사원의 직급 데이터를 삽입해주세요
 INSERT INTO titles (emp_no, title, from_date, to_date)
 	VALUES (500000, 'Engineer', DATE_FORMAT(NOW(), '%Y-%m-%d'), 99990101);
