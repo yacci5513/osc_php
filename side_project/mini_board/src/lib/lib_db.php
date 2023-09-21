@@ -7,12 +7,12 @@
     // ******************************
 
     // ------------------------
-    // 함수명 : my_db_conn
+    // 함수명 : db_conn
     // 기능 : DB connect
     // 파라미터 : PDO  &$conn
     // 리턴 : boolean
     // ------------------------
-	function my_db_conn( &$conn ) { //reference 파라미터 = (&) 변수 주소값을 넘겨 받는다.
+	function db_conn( &$conn ) { //reference 파라미터 = (&) 변수 주소값을 넘겨 받는다.
 		$db_host = "localhost"; // host
 		$db_user = "root"; //user
 		$db_pw = "php504"; // password
@@ -52,10 +52,11 @@
 	// ------------------------
     // 함수명 : db_select_boards_paging
     // 기능 : boards paging 조회
-    // 파라미터 : PDO  &$conn
+    // 파라미터 : PDO 	 &$conn
+	//			 Array	&$arr_param 쿼리 작성용 배열
     // 리턴 : Array / false
     // ------------------------
-	function db_select_boards_paging(&$conn) {
+	function db_select_boards_paging(&$conn, &$arr_param) {
 		try {
 			$sql = 
 				" SELECT "
@@ -66,15 +67,77 @@
 				." 		boards "
 				." ORDER BY "
 				."		b_id DESC "
+				." LIMIT :list_cnt OFFSET :offset "
 			;
 
-			$arr_ps = [];
+			$arr_ps = [
+				":list_cnt" => $arr_param["list_cnt"]
+				,":offset" => $arr_param["offset"]
+			];
 
 			$stmt = $conn->prepare($sql);
 			$stmt->execute($arr_ps);
 			$result = $stmt->fetchAll();
 			return $result;
 		} catch (exception $e) {
+			return false;
+		}
+	}
+
+	// ------------------------
+    // 함수명 : db_select_boards_cnt
+    // 기능 : boards count 조회
+    // 파라미터 : PDO  &$conn
+    // 리턴 : int / false
+    // ------------------------
+	function db_select_boards_cnt(&$conn) {
+		try {
+			$sql = 
+				" SELECT "
+				."		COUNT(b_id) as cnt "
+				." FROM "
+				." 		boards "
+			;
+
+			$arr_ps = [];
+
+			$stmt = $conn->query($sql);
+			$result = $stmt->fetchAll();
+			return (int)$result[0]["cnt"];
+		} catch (exception $e) {
+			return false;
+		}
+	}
+
+	// ------------------------
+    // 함수명 : db_insert_boards
+    // 기능 : boards 데이터 추가
+    // 파라미터 : PDO 	 &$conn
+	//			 Array	&$arr_param 쿼리 작성용 배열
+    // 리턴 : Boolean
+    // ------------------------
+	function db_insert_boards(&$conn, &$arr_param) {
+			$sql = 
+				" INSERT INTO boards( "
+				."		b_title "
+				."		,b_content "
+				."		) "
+				." VALUES( "
+				."		:b_title "
+				." 		,:b_content "
+				." ) "
+			;
+
+			$arr_ps = [
+				":b_title" => $arr_param["title"]
+				,":b_content" => $arr_param["content"]
+			];
+		try {
+			$stmt = $conn->prepare($sql);
+			$result = $stmt->execute($arr_ps);
+			return $result;
+		} catch (exception $e) {
+			echo $e->getMessage();
 			return false;
 		}
 	}

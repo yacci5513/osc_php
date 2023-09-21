@@ -9,7 +9,7 @@ body {
 
 header {
 	width: 100%;
-	background-image: url(/mini_board/src/img/header_img.jpg);
+	background-image: url(../../doc/1.jpg);
 	padding: 1.8rem;
 }
 
@@ -45,11 +45,8 @@ thead th {
 
 tbody tr {
 	border-bottom: 1px solid #ccc;
+	height: 100px;
 
-}
-
-tbody td {
-	height: 55px;
 }
 
 tbody td, section a {
@@ -68,11 +65,8 @@ section a {
 	height: 50px;
 	line-height: 40px;
 	font-size: 18px;
+
 	border: 1px solid #ccc;
 	background-color:#fff;
+	
 }
-
-.hovor_bgc a:hover {
-	background-color: #ccc;
-}
-/* 마우스 올리면 설정 */
