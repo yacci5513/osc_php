@@ -142,4 +142,38 @@
 		}
 	}
 
+	// ------------------------
+    // 함수명 : db_select_boards_id
+    // 기능 : id를 통한 제목, 내용 출력
+    // 파라미터 : PDO 	 &$conn
+	//			Array	&$arr_param
+    // 리턴 : Array / False
+    // ------------------------
+	function db_select_boards_id(&$conn, &$arr_param) {
+		try {
+			$sql = 
+				" SELECT "
+				."		b_id "
+				."		,b_title "
+				."		,b_content "
+				."		,b_create_at "
+				." FROM "
+				." 		boards "
+				." WHERE "
+				."		b_id = :b_id "
+			;
+
+			$arr_ps = [
+				":b_id" => $arr_param["b_id"]
+			];
+
+			$stmt = $conn->prepare($sql);
+			$stmt->execute($arr_ps);
+			$result = $stmt->fetchAll();
+			return $result;
+		} catch (Exception $e) {
+			echo $e->getMessage();
+			return false;
+		}
+	}
 ?>

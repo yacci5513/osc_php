@@ -7,72 +7,100 @@ body {
 	padding: 0;
 }
 
-header {
+.header_frame {
 	width: 100%;
 	background-image: url(/mini_board/src/img/header_img.jpg);
 	padding: 1.8rem;
 }
 
-header h2 {
+.header_frame h2 {
 	color: #000;
 	text-align: center;
 	font-size: 4rem;
 }
 
-table {
+.member {
 	border-collapse: collapse;
 	width: 800px;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 
-th, td {
+.member th,.member td {
 	text-align: center;
 }
 
-thead {
+.member_thead {
 	background-color: #f1f2fa;
 }
 
-thead tr {
+.member_thead tr {
 	height: 55px;
 	border-top: 3px solid #555;
 	border-bottom: 1px solid #000;
 }
 
-thead th {
+.member_thead th {
 	color: #000;
 }
 
-tbody tr {
+.member_tbody tr {
 	border-bottom: 1px solid #ccc;
 
 }
 
-tbody td {
+.member_tbody td {
 	height: 55px;
 }
 
-tbody td, section a {
+.member_tbody td a, .section_frame a {
 	color: #666;
+	text-decoration: none;
 }
 
-section {
+.section_frame {
+	width: 800px;
+	margin: 0 auto;
 	text-align: center;
     border-left: 0;
 }
 
-section a {
-	text-decoration: none;
+.section_frame a {
 	display: inline-block;
 	width: 50px;
 	height: 50px;
 	line-height: 40px;
 	font-size: 18px;
 	border: 1px solid #ccc;
-	background-color:#fff;
 }
 
-.hovor_bgc a:hover {
+.hovor_bgc:hover {
 	background-color: #ccc;
 }
 /* 마우스 올리면 설정 */
+
+.bgc_black {
+	background-color: #000;
+	color: #fff !important;
+}
+
+.writing {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.writing a:hover {
+	border: 2px solid #000;
+}
+
+.writing a {
+	float:right;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius:25px;
+    color: #000;
+}
