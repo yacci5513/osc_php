@@ -13,6 +13,7 @@
 			if (!db_conn($conn)) {
 				throw new Exception( "DB Error : PDO instance");
 			}
+			
 			//insert
 			if(!db_insert_boards($conn, $arr_post)) {
 				throw new Exception("DB Error : INSERT boards");
@@ -46,7 +47,8 @@
 	<?php
 		require_once(FILE_HEADER);
 	?>
-	<form action="/mini_board/src/insert.php" method="post">
+	<main>
+		<!-- <form action="/mini_board/src/insert.php" method="post">
 		<label for="title">제목</label>
 		<input type="text" name="title" id="title" required>
 		<br>
@@ -54,6 +56,44 @@
 		<textarea name="content" id="content" cols="30" rows="10" required placeholder="내용을 입력해주세요"></textarea>
 		<button type="submit">작성</button>
 		<a href="/mini_board/src/list.php">취소</a>
-	</form>
+		</form> -->
+		<table class="member_insert">
+			<colgroup>
+				<col width= "10%">
+				<col width= "80%">
+			</colgroup>
+			<tbody>
+				<form action="/mini_board/src/insert.php" method="post">
+					<tr height="40px">
+						<th class="bgc_f1f2fa border_black">
+							<label for="title">제목</label>
+						</th>
+						<td>
+							<input type="text" name="title" id="title">
+						</td>
+					</tr>
+					<tr height="2px">
+					</tr>
+					<tr height="300px">
+						<th class="bgc_f1f2fa border_black">
+							<label for="content">내용</label>
+						</th>
+						<td>
+							<textarea name="content" id="content" placeholder="내용을 입력해주세요"></textarea>
+						</td>
+					</tr>
+					<tr height="40px">
+						<td>
+						</td>
+						<td>
+							<button class="button_item" type="submit">작성</button>
+							<button class="button_item" onclick="location.href=/mini_board/src/list.php/?page=<?php echo 추가해야함 ?>">취소</button>
+						</td>
+					</tr>
+				</form>
+			</tbody>
+		</table>
+	</main>
+
 </body>
 </html>

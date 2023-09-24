@@ -109,26 +109,10 @@
 				</tbody>
 		</table>
 		<div class="writing">
-				<a href="/mini_board/src/insert.php">글 작성</a>
+				<a class="button_item" href="/mini_board/src/insert.php/?page=<?php echo $page_num;?>">글 작성</a>
 		</div>
 		<section class="section_frame">
 			<a class="hovor_bgc" href="/mini_board/src/list.php/?page=<?php echo $prev_page_num; ?>"><<</a>
-			<!-- <?php
-
-
-			for($i = 1; $i <= $max_page_num; $i++) {
-				if ($page_num === $i) {
-			?>
-				<a class="bgc_black" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
-			<?php
-				} else {
-			?>
-					<a class="hovor_bgc" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
-			<?php
-				}
-			}
-			?> -->
-
 			<?php
 			$block_num=(int)ceil($page_num/5); // 블럭 페이지
 			$block_first_num=(5*$block_num)-4; // 블럭당 첫번째 값
