@@ -1,0 +1,20 @@
+/* 기본 세팅 */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+/* header */
+.header {
+	width:100%;
+	background-image: url(/mini_test/src/img/header_img.jpg);
+}
