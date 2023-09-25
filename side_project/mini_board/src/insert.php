@@ -3,6 +3,8 @@
 	define("FILE_HEADER",ROOT."header.php");
 	require_once(ROOT."lib/lib_db.php");
 
+	$page_num=$_GET["page"];
+
 	//POST로 request가 왔을 때 처리
 	$http_method = $_SERVER["REQUEST_METHOD"];
 	if($http_method === "POST") {
@@ -20,7 +22,6 @@
 			}
 
 			$conn->commit();
-
 			//리스트 페이지로 이동 : header()
 			header("Location: list.php");
 			exit;
@@ -64,7 +65,7 @@
 			</colgroup>
 			<tbody>
 				<form action="/mini_board/src/insert.php" method="post">
-					<tr height="40px">
+					<tr height="10%">
 						<th class="bgc_f1f2fa border_black">
 							<label for="title">제목</label>
 						</th>
@@ -72,9 +73,7 @@
 							<input type="text" name="title" id="title">
 						</td>
 					</tr>
-					<tr height="2px">
-					</tr>
-					<tr height="300px">
+					<tr height="80%">
 						<th class="bgc_f1f2fa border_black">
 							<label for="content">내용</label>
 						</th>
@@ -82,12 +81,12 @@
 							<textarea name="content" id="content" placeholder="내용을 입력해주세요"></textarea>
 						</td>
 					</tr>
-					<tr height="40px">
+					<tr height="10%">
 						<td>
 						</td>
 						<td>
 							<button class="button_item" type="submit">작성</button>
-							<button class="button_item" onclick="location.href=/mini_board/src/list.php/?page=<?php echo 추가해야함 ?>">취소</button>
+							<a class="button_item none_txt_dec" href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">취소</a>
 						</td>
 					</tr>
 				</form>

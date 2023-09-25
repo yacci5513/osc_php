@@ -3,14 +3,15 @@
 	define("FILE_HEADER",ROOT."header.php");
 	require_once(ROOT."lib/lib_db.php");
 	
-	$input_id = "";
+	$b_id = "";
 	$conn=null;
 	$page_num=$_GET["page"];
 	try {
 		if (!isset($_GET["b_id"]) || $_GET["b_id"] === "") {
 			throw new Exception("Parameter ERROR : No id"); // 강제 예외 발생
 		}
-		$input_id = $_GET["b_id"]; // id 셋팅
+		$b_id = $_GET["b_id"]; // id 셋팅
+
 		// ---------
 		// DB 접속
 		// ---------
@@ -20,7 +21,7 @@
 
 		// 게시글 데이터 조회
 		$arr_param = [
-			"b_id" => $input_id
+			"b_id" => $b_id
 		];
 		$result = db_select_boards_id($conn, $arr_param);
 		
@@ -72,7 +73,7 @@
 			<td><?php echo $item['b_create_at']?></td>
 		</tr>
 	</table>
-	<a href="#">수정</a>
+	<a href="/mini_board/src/update.php/?b_id=<?php echo $b_id;?>&page=<?php echo $page_num; ?>">수정페이지로</a>
 	<a href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">뒤로 가기</a>
 	<a href="#">삭제</a>
 		

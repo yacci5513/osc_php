@@ -4,7 +4,7 @@
 	require_once(ROOT."lib/lib_db.php");
 
 	$conn = null; // DB connection 변수
-	$list_cnt = 5; //한 페이지에 최대 표시 수
+	$list_cnt = 10; //한 페이지에 최대 표시 수
 	$page_num = 1; // 페이지 번호 초기화
 
 	try{
@@ -117,7 +117,6 @@
 			$block_num=(int)ceil($page_num/5); // 블럭 페이지
 			$block_first_num=(5*$block_num)-4; // 블럭당 첫번째 값
 			$present_num=$block_first_num-1;
-
 			for($i = $block_first_num; $i <= $block_num*5; $i++) {
 				$present_num+=1;
 				
@@ -126,15 +125,10 @@
 				} //max page num 까지만 출력하는 if문
 				
 				// 현재 페이지에 hovor 주기위해서 다른 클래스 적용
-				if ($page_num === $present_num) {
+				$str = $page_num === $present_num ? "bgc_black" : "hovor_bgc";
 			?>
-				<a class="bgc_black" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+				<a class="<?php echo $str;?>" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
 			<?php
-				} else {
-			?>
-				<a class="hovor_bgc" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
-			<?php
-				}
 			}
 			?>
 			

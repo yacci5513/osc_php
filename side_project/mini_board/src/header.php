@@ -1,3 +1,3 @@
 <header class="header_frame">
-	<h2>mini Board</h2>
+	<a href="/mini_board/src/list.php"><h2>mini Board</h2></a>
 </header>

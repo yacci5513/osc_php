@@ -176,4 +176,37 @@
 			return false;
 		}
 	}
+
+	// ------------------------
+    // 함수명 : db_update_boards_id
+    // 기능 : boards 레코드 수정
+    // 파라미터 : PDO 	 &$conn
+	//			Array	&$arr_param
+    // 리턴 : Boolean
+    // ------------------------
+	function db_update_boards_id(&$conn, &$arr_param) {
+		try {
+			$sql = 
+			" UPDATE boards "
+			." SET "
+			."		b_title=:b_title "
+			."		,b_content=:b_content "
+			." WHERE "
+			."		b_id=:b_id "
+			;
+
+			$arr_ps = [
+				":b_id" => $arr_param["b_id"]
+				,":b_title" => $arr_param["b_title"]
+				,":b_content" => $arr_param["b_content"]
+			];
+			
+			$stmt = $conn->prepare($sql);
+			$result = $stmt->execute($arr_ps);
+			return $result;
+		} catch (Exception $e) {
+			echo $e->getMessage();
+			return false;
+		}
+	}
 ?>
