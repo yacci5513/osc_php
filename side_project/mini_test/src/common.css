@@ -1,13 +1,30 @@
-/* 기본 세팅 */
+/* DEFAULT */
+/* DEFAULT */
 * {
 	box-sizing: border-box;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+}
+
+img { border: none; }
+select { height: 20px; }
+input.radio { width: 12px; height: 12px; margin: 0; padding: 0; }
+input.checkbox { width: 12px; height: 12px; margin: 0; padding: 0; }
+figure, figcaption {display: block; }
+figure {margin:0; }
+figure.figImageBorder img {border:1px solid black; }
+figcaption {margin:3px 0 0; }
+ul, ol {list-style: none; }
+
+div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset {
+	float: left;
+	display: inline;
+	border: 0;
+	height: auto;
 }
 
 body, input, select, textarea, a, th, td, caption, h1, h2, h3, h4, h5, h6 {
-	font-family: gulim, 굴림, "Apple SD Gothic Neo", Helvetica;
-	font-size: 12px;
+	font-family: gulim, 굴림;
 	color: rgb(0, 0, 0);
 	font-weight: normal;
 	letter-spacing: 0px;
@@ -15,12 +32,45 @@ body, input, select, textarea, a, th, td, caption, h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 }
 
-ul, ol {
-    list-style: none;
-}
-
-
-/* ------- */
-.listheader {
+/* 헤더 */
+.listHeader {
 	width: 100%;
+	height: 60px;
+	background-color: #333949;
 }
+
+.listHeader .listLogo {
+	width: 150px;
+	height: 60px;
+}
+
+.listHeader .listLogo .title {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:40px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.listHeader .gnb {
+	margin-left: 70px;
+	height: 100%;
+}
+
+.listHeader .gnb li {
+	width:100px;
+	height: 60px;
+}
+
+.listHeader .gnb li a {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 60px;
+	color: #8f96ad;
+	text-align: center;
+}
+
+/* a 호버 액티브 , headerwrap div 넣어서 레이아웃 설정 */
