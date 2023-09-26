@@ -65,6 +65,8 @@
 				."		,b_create_at "
 				." FROM "
 				." 		boards "
+				." WHERE "
+				."		b_delete_flag = '0' "
 				." ORDER BY "
 				."		b_id DESC "
 				." LIMIT :list_cnt OFFSET :offset "
@@ -97,6 +99,8 @@
 				."		COUNT(b_id) as cnt "
 				." FROM "
 				." 		boards "
+				." WHERE "
+				." 		b_delete_flag = '0' "
 			;
 
 			$arr_ps = [];
@@ -161,6 +165,8 @@
 				." 		boards "
 				." WHERE "
 				."		b_id = :b_id "
+				." 		AND "
+				." 		b_delete_flag = '0' "
 			;
 
 			$arr_ps = [
@@ -207,6 +213,38 @@
 		} catch (Exception $e) {
 			echo $e->getMessage();
 			return false;
+		}
+	}
+
+	// ------------------------
+    // 함수명 : db_delete_boards_id
+    // 기능 : boards 레코드 수정
+    // 파라미터 : PDO 	 &$conn
+	//			Array	&$arr_param
+    // 리턴 : Boolean
+    // ------------------------
+	function db_delete_boards_id(&$conn, &$arr_param) {
+		try {
+			$sql = 
+			" UPDATE boards "
+			." SET "
+			."		b_delete_at = now() "
+			."		,b_delete_flag = '1' "
+			." WHERE "
+			."		b_id=:b_id "
+			;
+
+			$arr_ps = [
+				":b_id" => $arr_param["b_id"]
+			];
+			
+			// 2. Query 실행
+			$stmt = $conn->prepare($sql);
+			$result = $stmt->execute($arr_ps);
+			return $result; //정상 종료: true 리턴
+		} catch (Exception $e) {
+			echo $e->getMessage();
+			return false; // 예외발생 false리턴
 		}
 	}
 ?>

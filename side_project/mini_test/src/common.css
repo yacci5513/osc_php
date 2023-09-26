@@ -5,16 +5,22 @@
 	margin: 0;
 }
 
+body, input, select, textarea, a, th, td, caption, h1, h2, h3, h4, h5, h6 {
+	font-family: gulim, 굴림, "Apple SD Gothic Neo", Helvetica;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-weight: normal;
+	letter-spacing: 0px;
+	font-style: normal;
+	text-decoration: none;
+}
+
 ul, ol {
     list-style: none;
 }
 
-a {
-    text-decoration: none
-}
 
-/* header */
-.header {
-	width:100%;
-	background-image: url(/mini_test/src/img/header_img.jpg);
+/* ------- */
+.listheader {
+	width: 100%;
 }
