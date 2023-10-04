@@ -108,7 +108,7 @@
 					?>
 				</tbody>
 		</table>
-		<div class="writing">
+		<div class="button_layout">
 				<a class="button_item" href="/mini_board/src/insert.php/?page=<?php echo $page_num;?>">글 작성</a>
 		</div>
 		<section class="section_frame">
@@ -126,7 +126,7 @@
 				
 				// 현재 페이지에 hovor 주기위해서 다른 클래스 적용
 				$str = $page_num === $present_num ? "bgc_black" : "hovor_bgc";
-			?>
+			?>	
 				<a class="<?php echo $str;?>" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
 			<?php
 			}

@@ -128,7 +128,7 @@
 				<h3 class="MainTopText">자유 게시판</h3>
 			</div>
 			<div class="MainCategory">
-				메뉴
+				카테고리
 			</div>
 			<div class="MainTop">
 				<a class= "MainWrite" href="/mini_test/src/insert.php">

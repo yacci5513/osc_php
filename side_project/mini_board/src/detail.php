@@ -55,27 +55,34 @@
 	<?php
 		require_once(FILE_HEADER);
 	?>
-	<table>
-		<tr>
-			<th>번호</th>
-			<td><?php echo $item['b_id']?></td>
-		</tr>
-		<tr>
-			<th>제목</th>
-			<td><?php echo $item['b_title']?></td>
-		</tr>
-		<tr>
-			<th>내용</th>
-			<td><?php echo $item['b_content']?></td>
-		</tr>
-		<tr>
-			<th>작성일자</th>
-			<td><?php echo $item['b_create_at']?></td>
-		</tr>
+	<table class="member_layout">
+		<colgroup>
+			<col width= "20%">
+			<col width= "80%">
+		</colgroup>
+		<tbody class="detail_tbody">
+			<tr height="10%">
+				<th class="bgc_f1f2fa">번호</th>
+				<td><?php echo $item['b_id']?></td>
+			</tr>
+			<tr height="10%">
+				<th class="bgc_f1f2fa">제목</th>
+				<td><?php echo $item['b_title']?></td>
+			</tr>
+			<tr height="70%">
+				<th class="bgc_f1f2fa">내용</th>
+				<td ><?php echo $item['b_content']?></td>
+			</tr>
+			<tr height="10%">
+				<th class="bgc_f1f2fa">작성일자</th>
+				<td><?php echo $item['b_create_at']?></td>
+			</tr>
+		</tbody>
 	</table>
-	<a href="/mini_board/src/update.php/?b_id=<?php echo $b_id;?>&page=<?php echo $page_num; ?>">수정페이지로</a>
-	<a href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">뒤로 가기</a>
-	<a href="/mini_board/src/delete.php/?b_id=<?php echo $b_id;?>&page=<?php echo $page_num; ?>">삭제</a>
-		
+	<div class="button_layout">
+		<a class="button_item" href="/mini_board/src/update.php/?b_id=<?php echo $b_id;?>&page=<?php echo $page_num; ?>">수정페이지로</a>
+		<a class="button_item" href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">뒤로 가기</a>
+		<a class="button_item" href="/mini_board/src/delete.php/?b_id=<?php echo $b_id;?>&page=<?php echo $page_num; ?>">삭제</a>
+	</div>
 </body>
 </html>

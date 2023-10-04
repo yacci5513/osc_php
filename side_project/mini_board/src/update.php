@@ -77,24 +77,34 @@
 	<?php
 		require_once(FILE_HEADER);
 	?>
-	<table>
+	<table class="member_layout">
+		<colgroup>
+			<col width= "20%">
+			<col width= "80%">
+		</colgroup>
 		<form action="/mini_board/src/update.php" method="post">
-		<input type="hidden" name="b_id" value="<?php echo $b_id ?>">
-		<input type="hidden" name="page" value="<?php echo $page_num ?>">
-			<tr>
-				<th>번호</th>
-				<td><?php echo $item['b_id']?></td>
-			</tr>
-			<tr>
-			<th>제목</th>
-				<td><input type="text" name="b_title" value="<?php echo $item["b_title"] ?>"></td>
-			</tr>
-			<tr>
-				<th>내용</th>
-				<td><textarea name="b_content" id="b_content" cols="30" rows="10"><?php echo $item["b_content"] ?></textarea></td>
-			</tr>
-		<button type="submit">수정확인</button>
-		<a href="/mini_board/src/detail.php/?b_id=<?php echo $b_id; ?>&page=<?php echo $page_num; ?>">수정취소</a>
+			<input type="hidden" name="b_id" value="<?php echo $b_id ?>">
+			<input type="hidden" name="page" value="<?php echo $page_num ?>">
+			<tbody class="member_tbody">
+				<tr height="10%">
+					<th class="bgc_f1f2fa border_black">번호</th>
+					<td><?php echo $item['b_id']?></td>
+				</tr>
+				<tr height="10%">
+					<th class="bgc_f1f2fa border_black">제목</th>
+					<td><input type="text" name="b_title" value="<?php echo $item["b_title"] ?>"></td>
+				</tr>
+				<tr height="70%">
+					<th class="bgc_f1f2fa border_black">내용</th>
+					<td><textarea name="b_content" id="b_content" cols="30" rows="10"><?php echo $item["b_content"] ?></textarea></td>
+				</tr>
+				<tr class="border_none" height="10%">
+					<td class="border_none"></td>
+					<td class="border_none">
+						<button class="button_item" type="submit">수정확인</button>
+						<a class="button_item" href="/mini_board/src/detail.php/?b_id=<?php echo $b_id; ?>&page=<?php echo $page_num; ?>">수정취소</a>
+					</td>
+			</tbody>
 		</form>
 	</table>
 </body>

@@ -58,9 +58,9 @@
 		<button type="submit">작성</button>
 		<a href="/mini_board/src/list.php">취소</a>
 		</form> -->
-		<table class="member_insert">
+		<table class="member_layout">
 			<colgroup>
-				<col width= "10%">
+				<col width= "20%">
 				<col width= "80%">
 			</colgroup>
 			<tbody>
@@ -70,7 +70,7 @@
 							<label for="title">제목</label>
 						</th>
 						<td>
-							<input type="text" name="title" id="title">
+							<input type="text" name="title" id="title" required>
 						</td>
 					</tr>
 					<tr height="80%">
@@ -78,13 +78,12 @@
 							<label for="content">내용</label>
 						</th>
 						<td>
-							<textarea name="content" id="content" placeholder="내용을 입력해주세요"></textarea>
+							<textarea name="content" id="content" required></textarea>
 						</td>
 					</tr>
 					<tr height="10%">
-						<td>
-						</td>
-						<td>
+						<td class="border_none"></td>
+						<td class="border_none">
 							<button class="button_item" type="submit">작성</button>
 							<a class="button_item none_txt_dec" href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">취소</a>
 						</td>
