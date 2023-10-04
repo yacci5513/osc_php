@@ -1,64 +1,6 @@
 <?php
 	define("ROOT", $_SERVER["DOCUMENT_ROOT"]."/mini_test/src/");
-	require_once(ROOT."lib/lib_db.php");
-	
-	$conn = null; // DB connection 변수
-	$list_cnt = 10; //한 페이지에 최대 표시 수
-	$page_num = 1; // 페이지 번호 초기화
-
-	try{
-		// ---------
-		// DB 접속
-		// ---------
-		if (!db_conn($conn)) {
-			throw new Exception("DB Error : PDO instance");
-		}
-		// ---------
-		// 페이징 처리
-		// ---------
-		// 총 게시글 수 검색
-		$boards_cnt = db_select_boards_cnt($conn);
-		if ($boards_cnt === false){
-			throw new Exception("DB Error : select COUNT ERROR");
-		}
-
-		// 유저가 보내온 페이지 세팅
-		
-		$max_page_num = ceil(db_select_boards_cnt($conn) / $list_cnt); // 최대 페이지 수
-		if (isset($_GET["page"])) {
-			$page_num = (int)$_GET["page"];
-		};
-		$offset = ($page_num - 1) * $list_cnt; // 오프셋 계산
-
-		// 이전 버튼
-		$prev_page_num = $page_num - 1;
-		if ($prev_page_num === 0) {
-			$prev_page_num = 1;
-		}
-
-		// 다음 버튼
-		$next_page_num = $page_num + 1;
-		if ($next_page_num > $max_page_num) {
-			$next_page_num = $max_page_num;
-		}
-
-		// DB 조회시 사용할 데이터 배열
-		$arr_param = [
-			"list_cnt" => $list_cnt
-			,"offset" => $offset
-		];
-		
-		$result = db_select_boards_paging($conn, $arr_param);
-		if(!$result) {
-			throw new Exception("DB Error : SELECT boards");
-		}
-
-	} catch (Exception $e) {
-		echo $e->getMessage();
-		exit;
-	} finally {
-		db_destroy_conn($conn);
-	}
+	require_once(ROOT."lib_db.php");
 ?>
 
 <!DOCTYPE html>
@@ -66,49 +8,49 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./common.css">
+	<link rel="stylesheet" href=/mini_test/src/common.css>
 	<title>리스트 페이지</title>
 </head>
 <body class="listBody">
 	<div class="listHeader">
 		<div class="listHeaderLayout">
-		<h2 class="listLogo">
-			<a href="#" class="title">mini list</a>
-		</h2>
-		<ul class="gnb">
-			<li>
-				<a href="#" class="gnbMenu1">목록1</a>
-			</li>
-			<li>
-				<a href="#" class="gnbMenu2">목록2</a>
-			</li>
-			<li>
-				<a href="#" class="gnbMenu3">목록3</a>
-			</li>
-			<li>
-				<a href="#" class="gnbMenu4">목록4</a>
-			</li>
-			<li>
-				<a href="#" class="gnbMenu5">목록5</a>
-			</li>
-			<li>
-				<a href="#" class="gnbMenu6">목록6</a>
-			</li>
-		</ul>
-	</div>
+			<h2 class="listLogo">
+				<a href="/mini_test/src/list.php" class="title">mini list</a>
+			</h2>
+			<ul class="gnb">
+				<li>
+					<a href="#" class="gnbMenu1">목록1</a>
+				</li>
+				<li>
+					<a href="#" class="gnbMenu2">목록2</a>
+				</li>
+				<li>
+					<a href="#" class="gnbMenu3">목록3</a>
+				</li>
+				<li>
+					<a href="#" class="gnbMenu4">목록4</a>
+				</li>
+				<li>
+					<a href="#" class="gnbMenu5">목록5</a>
+				</li>
+				<li>
+					<a href="#" class="gnbMenu6">목록6</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 
 	<div class="listContainer">
 		<div class="listLeftMenu">
 			<div class="listBanner">
 				<a href="#">
-					<img src="/side_project/mini_test/ad.png">
+					<img src="/mini_test/src/ad.png">
 				</a>
 				<a href="#">
-					<img src="/side_project/mini_test/ad2.png">
+					<img src="/mini_test/src/ad2.png">
 				</a>
 				<a href="#">
-					<img src="/side_project/mini_test/ad3.png">
+					<img src="/mini_test/src/ad3.png">
 				</a>
 			</div>
 			<div class="menuGroup">
@@ -181,7 +123,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="listMain"></div>
+		<div class="listMain">
+			<div class="MainTitle">
+				<h3 class="MainTopText">자유 게시판</h3>
+			</div>
+			<div class="MainCategory">
+				메뉴
+			</div>
+			<div class="MainTop">
+				<a class= "MainWrite" href="/mini_test/src/insert.php">
+					<img src="/mini_test/src/write.gif">
+				</a>
+			</div>
+		</div>
+
+
 
 		<div class="listinfo"></div>
 	</div>
