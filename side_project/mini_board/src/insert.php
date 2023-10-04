@@ -49,48 +49,38 @@
 		require_once(FILE_HEADER);
 	?>
 	<main>
-		<!-- <form action="/mini_board/src/insert.php" method="post">
-		<label for="title">제목</label>
-		<input type="text" name="title" id="title" required>
-		<br>
-		<label for="content">내용</label>
-		<textarea name="content" id="content" cols="30" rows="10" required placeholder="내용을 입력해주세요"></textarea>
-		<button type="submit">작성</button>
-		<a href="/mini_board/src/list.php">취소</a>
-		</form> -->
-		<table class="member_layout">
-			<colgroup>
-				<col width= "20%">
-				<col width= "80%">
-			</colgroup>
-			<tbody>
-				<form action="/mini_board/src/insert.php" method="post">
-					<tr height="10%">
-						<th class="bgc_f1f2fa border_black">
-							<label for="title">제목</label>
-						</th>
-						<td>
-							<input type="text" name="title" id="title" required>
-						</td>
-					</tr>
-					<tr height="80%">
-						<th class="bgc_f1f2fa border_black">
-							<label for="content">내용</label>
-						</th>
-						<td>
-							<textarea name="content" id="content" required></textarea>
-						</td>
-					</tr>
-					<tr height="10%">
-						<td class="border_none"></td>
-						<td class="border_none">
-							<button class="button_item" type="submit">작성</button>
-							<a class="button_item none_txt_dec" href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">취소</a>
-						</td>
-					</tr>
-				</form>
-			</tbody>
-		</table>
+		<div class="item">
+			<form action="/mini_board/src/insert.php" method="post">
+				<table class="member_layout">
+					<colgroup>
+						<col width= "20%">
+						<col width= "80%">
+					</colgroup>
+					<tbody>
+							<tr height="10%">
+								<th class="bgc_f1f2fa">
+									<label for="title">제목</label>
+								</th>
+								<td>
+									<input type="text" name="title" id="title" required>
+								</td>
+							</tr>
+							<tr height="90%">
+								<th class="bgc_f1f2fa">
+									<label for="content">내용</label>
+								</th>
+								<td>
+									<textarea name="content" id="content" required></textarea>
+								</td>
+							</tr>
+					</tbody>
+				</table>
+				<div class="button_layout">
+					<button class="button_item" type="submit">작성</button>
+					<a class="button_item none_txt_dec" href="/mini_board/src/list.php/?page=<?php echo $page_num; ?>">취소</a>
+				</div>
+			</form>
+		</div>
 	</main>
 
 </body>

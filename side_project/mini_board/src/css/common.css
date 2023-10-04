@@ -13,9 +13,34 @@ body {
 	margin: 0;
 }
 
+
 /* ----------------
-header css
+배경 효과
 ----------------- */
+body{
+	background-image: url('/mini_board/src/img/timerbg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.item{
+position: absolute;
+width: 900px;
+margin:60px auto;
+padding:15px;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 30px;
+box-shadow: 0 6px 20px -15px #000;
+border-width: 1px 1px 0 0;
+border-color: #fff;
+border-style: solid;
+background-color: rgba(255,255,255,0.5);
+}
+
 .header_frame {
 	width: 100%;
 	background-image: url(/mini_board/src/img/header_img.jpg);
@@ -27,6 +52,7 @@ header css
 	text-align: center;
 	font-size: 4rem;
 }
+
 
 /* ----------------
 table css
@@ -62,11 +88,13 @@ table css
 
 .member_tbody td {
 	height: 55px;
+	background-color: rgba(255, 255, 255, 0.7)
 }
 
 .member_tbody td a, .section_frame a {
 	color: #000;
 }
+
 
 /* ----------------
 button css
@@ -94,6 +122,7 @@ button css
 	border: 2px solid #000;
 }
 
+
 /* ----------------
 section css
 ----------------- */
@@ -116,12 +145,12 @@ section css
 .hovor_bgc:hover {
 	background-color: #ccc;
 }
-/* 마우스 올리면 설정 */
 
 .bgc_black {
 	background-color: #000;
 	color: #fff !important;
 }
+
 
 /* ----------------
 insert 페이지 css
@@ -136,51 +165,49 @@ insert 페이지 css
 .member_layout input, .member_layout textarea {
 	width: 100%;
 	height: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
 }
+
+/* .member_layout textarea {
+	border:none;
+} */
 
 .member_layout textarea {
-	border:none;
-	margin-top:4px;
+	margin-top:5px;
 }
-
-.member_layout input {
+.member_layout textarea, .member_layout input {
 	border:none;
 }
 
-.border_none {
-	border:none !important;
+.member_layout th, .member_layout td {
+	border:1px solid #ccc;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .member_layout td {
-	border:1px solid #ccc;
 	padding-left: 3px;
 }
 
-
-
-.border_black {
-	border: 1px solid #555;
-}
-
 .bgc_f1f2fa {
-	background-color: #f1f2fa;
+	background-color: rgba(241, 242, 250);
 }
+
 
 /* ----------------
 detail 페이지 css
 ----------------- */
-
 .detail_tbody tr {
 	color: #555;
 }
 
-.detail_tbody tr th  {
-	border: 1px solid #555;
-}
 
 /* ----------------
 delete 페이지 css
 ----------------- */
 .delete_cap {
 	margin: 0 auto;
+}
+
+.select_hover:hover {
+	background-color: rgba(85, 85, 85, 0.5);
 }

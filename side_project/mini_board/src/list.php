@@ -76,64 +76,66 @@
 		require_once(FILE_HEADER);
 	?>
 	<main>
-		<table class="member">
-				<colgroup>
-					<col width= "20%">
-					<col width= "50%">
-					<col width= "30%">
-				</colgroup>
-				<thead class="member_thead">
-					<tr>
-						<th>번호</th>
-						<th>제목</th>
-						<th>작성일자</th>
-					</tr>
-				</thead>
-				<tbody class="member_tbody">
-					<?php
-						//리스트 생성
-						foreach ($result as $item) {
-					?>
-					<tr>
-						<td><?php echo $item["b_id"]; ?></td>
-						<td>
-							<a href="/mini_board/src/detail.php/?b_id=<?php echo $item["b_id"]; ?>&page=<?php echo $page_num;?>">
-								<?php echo $item["b_title"]; ?>
-							</a>
-						</td>
-						<td><?php echo $item["b_create_at"]; ?></td>
-					<tr>
-					<?php
-						}
-					?>
-				</tbody>
-		</table>
-		<div class="button_layout">
-				<a class="button_item" href="/mini_board/src/insert.php/?page=<?php echo $page_num;?>">글 작성</a>
-		</div>
-		<section class="section_frame">
-			<a class="hovor_bgc" href="/mini_board/src/list.php/?page=<?php echo $prev_page_num; ?>"><<</a>
-			<?php
-			$block_num=(int)ceil($page_num/5); // 블럭 페이지
-			$block_first_num=(5*$block_num)-4; // 블럭당 첫번째 값
-			$present_num=$block_first_num-1;
-			for($i = $block_first_num; $i <= $block_num*5; $i++) {
-				$present_num+=1;
+		<div class="item">
+			<table class="member">
+					<colgroup>
+						<col width= "20%">
+						<col width= "50%">
+						<col width= "30%">
+					</colgroup>
+					<thead class="member_thead">
+						<tr>
+							<th>번호</th>
+							<th>제목</th>
+							<th>작성일자</th>
+						</tr>
+					</thead>
+					<tbody class="member_tbody">
+						<?php
+							//리스트 생성
+							foreach ($result as $item) {
+						?>
+						<tr class="select_hover">
+							<td><?php echo $item["b_id"]; ?></td>
+							<td>
+								<a href="/mini_board/src/detail.php/?b_id=<?php echo $item["b_id"]; ?>&page=<?php echo $page_num;?>">
+									<?php echo $item["b_title"]; ?>
+								</a>
+							</td>
+							<td><?php echo $item["b_create_at"]; ?></td>
+						<tr>
+						<?php
+							}
+						?>
+					</tbody>
+			</table>
+			<div class="button_layout">
+					<a class="button_item" href="/mini_board/src/insert.php/?page=<?php echo $page_num;?>">글 작성</a>
+			</div>
+			<section class="section_frame">
+				<a class="hovor_bgc" href="/mini_board/src/list.php/?page=<?php echo $prev_page_num; ?>"><<</a>
+				<?php
+				$block_num=(int)ceil($page_num/5); // 블럭 페이지
+				$block_first_num=(5*$block_num)-4; // 블럭당 첫번째 값
+				$present_num=$block_first_num-1;
+				for($i = $block_first_num; $i <= $block_num*5; $i++) {
+					$present_num+=1;
+					
+					if ($i > $max_page_num) {
+						break;
+					} //max page num 까지만 출력하는 if문
+					
+					// 현재 페이지에 hovor 주기위해서 다른 클래스 적용
+					$str = $page_num === $present_num ? "bgc_black" : "hovor_bgc";
+				?>	
+					<a class="<?php echo $str;?>" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+				<?php
+				}
+				?>
 				
-				if ($i > $max_page_num) {
-					break;
-				} //max page num 까지만 출력하는 if문
-				
-				// 현재 페이지에 hovor 주기위해서 다른 클래스 적용
-				$str = $page_num === $present_num ? "bgc_black" : "hovor_bgc";
-			?>	
-				<a class="<?php echo $str;?>" href="/mini_board/src/list.php/?page=<?php echo $i; ?>"><?php echo $i; ?></a>
-			<?php
-			}
-			?>
-			
-			<a class="hovor_bgc"  href="/mini_board/src/list.php/?page=<?php echo $next_page_num; ?>">>></a>
-		</section>
-	</main>
+				<a class="hovor_bgc"  href="/mini_board/src/list.php/?page=<?php echo $next_page_num; ?>">>></a>
+			</section>
+		</main>
+	</div>
 </body>
 </html>
