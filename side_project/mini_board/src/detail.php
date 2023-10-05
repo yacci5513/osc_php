@@ -36,7 +36,8 @@
 		}
 		$item = $result[0];
 	} catch(Exception $e) {
-		echo $e -> getMessage();
+		// echo $e->getMessage(); 예외발생 메세지 출력 //v002del
+		header("Location: error.php/?err_msg={$e->getMessage()}");
 		exit;
 	} finally {
 		db_destroy_conn($conn);

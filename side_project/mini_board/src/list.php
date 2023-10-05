@@ -36,7 +36,7 @@
 		if ($prev_page_num === 0) {
 			$prev_page_num = 1;
 		}
-	
+
 		// 다음 버튼
 		$next_page_num = $page_num + 1;
 		if ($next_page_num > $max_page_num) {
@@ -51,11 +51,12 @@
 		
 		$result = db_select_boards_paging($conn, $arr_param);
 		if(!$result) {
-			throw new Exception("DB Error : SELECT boards");
+			throw new Exception("DB Error : SELECT boards paging ERROR");
 		}
 
 	} catch (Exception $e) {
-		echo $e->getMessage();
+		// echo $e->getMessage(); 예외발생 메세지 출력 //v002del
+		header("Location: error.php/?err_msg={$e->getMessage()}");
 		exit;
 	} finally {
 		db_destroy_conn($conn);
@@ -98,7 +99,7 @@
 						<tr class="select_hover">
 							<td><?php echo $item["b_id"]; ?></td>
 							<td>
-								<a href="/mini_board/src/detail.php/?b_id=<?php echo $item["b_id"]; ?>&page=<?php echo $page_num;?>">
+								<a class="bold_text" href="/mini_board/src/detail.php/?b_id=<?php echo $item["b_id"]; ?>&page=<?php echo $page_num;?>">
 									<?php echo $item["b_title"]; ?>
 								</a>
 							</td>
@@ -132,7 +133,6 @@
 				<?php
 				}
 				?>
-				
 				<a class="hovor_bgc"  href="/mini_board/src/list.php/?page=<?php echo $next_page_num; ?>">>></a>
 			</section>
 		</main>

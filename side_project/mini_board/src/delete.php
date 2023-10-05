@@ -79,7 +79,8 @@
 		if($http_method === "POST") {
 			$conn->rollBack();
 		}
-		echo $e -> getMessage();
+		// echo $e->getMessage(); 예외발생 메세지 출력 //v002del
+		header("Location: error.php/?err_msg={$e->getMessage()}");
 		exit;
 	} finally {
 		db_destroy_conn($conn);
@@ -112,20 +113,20 @@
 						<br><br>
 					</caption>
 					<tr height="10%">
-						<th class="bgc_f1f2fa border_black">게시글 번호</th>
+						<th class="bgc_f1f2fa border_black">번호</th>
 						<td><?php echo $item['b_id']?></td>
 					</tr>
-					<tr height="20%">
-						<th class="bgc_f1f2fa border_black">작성일</th>
-						<td><?php echo $item['b_create_at']?></td>
-					</tr>
-					<tr height="60%">
+					<tr height="10%">
 						<th class="bgc_f1f2fa border_black">제목</th>
 						<td><?php echo $item['b_title']?></td>
 					</tr>
-					<tr height="10%">
+					<tr height="70%">
 						<th class="bgc_f1f2fa border_black">내용</th>
 						<td><?php echo $item['b_content']?></td>
+					</tr>
+					<tr height="10%">
+						<th class="bgc_f1f2fa border_black">작성일자</th>
+						<td><?php echo $item['b_create_at']?></td>
 					</tr>
 				</table>
 		</main>

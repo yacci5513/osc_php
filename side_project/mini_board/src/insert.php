@@ -1,33 +1,52 @@
 <?php
 	define("ROOT", $_SERVER["DOCUMENT_ROOT"]."/mini_board/src/");
 	define("FILE_HEADER",ROOT."header.php");
+	define("ERROR_MSG_PARAM", "%s을 입력해주세요.");
 	require_once(ROOT."lib/lib_db.php");
 
-	$page_num=$_GET["page"];
-
+	$page_num = isset($_GET["page"]) ? $_GET["page"] : $_POST["page"];
+	$arr_err_msg=[];
+	$conn=null;
+	$title="";
+	$content="";
 	//POST로 request가 왔을 때 처리
 	$http_method = $_SERVER["REQUEST_METHOD"];
 	if($http_method === "POST") {
 		try {
-			$arr_post=$_POST;
-			$conn=null;
-			// DB접속
-			if (!db_conn($conn)) {
-				throw new Exception( "DB Error : PDO instance");
+			$title = isset($_POST["title"]) ? trim($_POST["title"]) : "";
+			$content = isset($_POST["content"]) ? trim($_POST["content"]) : "";
+
+			if($title === "") {
+				$arr_err_msg[] = sprintf(ERROR_MSG_PARAM, "제목");
 			}
-			
-			//insert
-			if(!db_insert_boards($conn, $arr_post)) {
-				throw new Exception("DB Error : INSERT boards");
+			if($content === "") {
+				$arr_err_msg[] = sprintf(ERROR_MSG_PARAM, "내용");
 			}
 
-			$conn->commit();
-			//리스트 페이지로 이동 : header()
-			header("Location: list.php");
-			exit;
+			if (count($arr_err_msg) ===0) {
+				if (!db_conn($conn)) {
+					throw new Exception( "DB Error : PDO instance");
+				}
+				$conn->beginTransaction();
+
+				$arr_post=$_POST;
+				//insert
+				if(!db_insert_boards($conn, $arr_post)) {
+					throw new Exception("DB Error : INSERT boards");
+				}
+
+				$conn->commit();
+				//리스트 페이지로 이동 : header()
+				header("Location: list.php");
+				exit;
+			}
+
 		} catch (Exception $e) {
-			echo $e->getMessage();
-			$conn->rollback();
+			// echo $e->getMessage(); 예외발생 메세지 출력 //v002del
+			if($conn !== NULL) {
+				$conn->rollBack();
+			}
+			header("Location: /mini_board/src/error.php/?err_msg={$e->getMessage()}");
 			exit;
 		} finally {
 			//DB파기
@@ -50,7 +69,15 @@
 	?>
 	<main>
 		<div class="item">
+			<?php
+				foreach($arr_err_msg as $val) {
+			?>
+					<p><?php echo $val ?></p>
+			<?php
+				}
+			?>
 			<form action="/mini_board/src/insert.php" method="post">
+				<input type="hidden" name="page" value="<?php echo $page_num ?>">
 				<table class="member_layout">
 					<colgroup>
 						<col width= "20%">
@@ -62,7 +89,7 @@
 									<label for="title">제목</label>
 								</th>
 								<td>
-									<input type="text" name="title" id="title" required>
+									<input type="text" name="title" id="title" value="<?php echo $title ?>">
 								</td>
 							</tr>
 							<tr height="90%">
@@ -70,7 +97,7 @@
 									<label for="content">내용</label>
 								</th>
 								<td>
-									<textarea name="content" id="content" required></textarea>
+									<textarea name="content" id="content"><?php echo $content ?></textarea>
 								</td>
 							</tr>
 					</tbody>

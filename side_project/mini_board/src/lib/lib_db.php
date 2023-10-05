@@ -82,6 +82,7 @@
 			$result = $stmt->fetchAll();
 			return $result;
 		} catch (exception $e) {
+			echo $e->getMessage();
 			return false;
 		}
 	}
@@ -109,6 +110,7 @@
 			$result = $stmt->fetchAll();
 			return (int)$result[0]["cnt"];
 		} catch (exception $e) {
+			echo $e->getMessage();
 			return false;
 		}
 	}
