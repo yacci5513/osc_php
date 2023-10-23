@@ -1,17 +1,50 @@
 .container {
-	width: 500px;
+	width: 400px;
 	height: 500px;
-	margin:0 auto;
+	margin:100px auto;
 	text-align: center;
 	border-collapse: collapse;
+	font-size: 30px;
 }
 
 .container tr {
 	width: 100%;
-	height: 20%;
+	height: 10%;
 }
 
 .container td {
 	border: 1px solid #000;
 	width: 25%;
+	height: 10%;
+
+}
+.container td, .container input {
+	/* 드래그 안되게 하기 */
+	-ms-user-select: none; 
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.container_hover td:hover {
+	background-color: #d6b2b2;
+}
+
+.container td:active {
+	color: #883333;
+}
+
+.container input {
+	border:none;
+	width: 90%;
+	height: 60%;
+	padding: 5px 10px;
+	text-align: end;
+	font-size:20px;
+	letter-spacing: 1px;
+}
+
+.container input:focus {
+	outline: none;
 }

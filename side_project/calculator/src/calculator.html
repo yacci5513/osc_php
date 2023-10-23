@@ -8,36 +8,46 @@
 </head>
 <body>
 	<table class="container">
-		<tr>
-			<td>%</td>
-			<td>CE</td>
-			<td>C</td>
-			<td>◀</td>
-		</tr>
-		<tr>
-			<td>7</td>
-			<td>8</td>
-			<td>9</td>
-			<td>÷</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-			<td>*</td>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>+</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=>0</td>
-			<td>.</td>
-			<td>=</td>
-		</tr>
+			<tr>
+				<td colspan="4">
+					<input type="text" id="display" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input type="text" id="result" disabled>
+				</td>
+			</tr>
+			<tr class="container_hover">
+				<td onclick="reset()"colspan="2">AC</td>
+				<td onclick="add('%')">%</td>
+				<td onclick="add('/')">/</td>
+			</tr>
+			<tr class="container_hover">
+				<td onclick="add(7)">7</td>
+				<td onclick="add(8)">8</td>
+				<td onclick="add(9)">9</td>
+				<td onclick="add('*')">*</td>
+			</tr>
+			<tr class="container_hover">
+				<td onclick="add(4)">4</td>
+				<td onclick="add(5)">5</td>
+				<td onclick="add(6)">6</td>
+				<td onclick="add('-')">-</td>
+			</tr>
+			<tr class="container_hover">
+				<td onclick="add(1)">1</td>
+				<td onclick="add(2)">2</td>
+				<td onclick="add(3)">3</td>
+				<td onclick="add('+')">+</td>
+			</tr>
+			<tr class="container_hover">
+				<td></td>
+				<td onclick="add(0)">0</td>
+				<td onclick="add('.')">.</td>
+				<td onclick="calculate()">=</td>
+			</tr>
 	</table>
+	<script src="./js/common.js"></script>
 </body>
 </html>
