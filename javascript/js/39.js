@@ -53,3 +53,49 @@ TITLE.classList.add('class1', 'bgc_1', 'class2');
 
 // 클래스로 스타일 삭제 방법
 TITLE.classList.remove('class1', 'bgc_1', 'class2');
+
+// 5. 새로운 요소 생성
+// 요소 만들기
+const UL = document.getElementById('ul'); // 삽입할 부모 요소
+
+// 요소를 마지막 위치에 삽입하는 방법 
+// 나는 반복문을 이용해 5개 만들었음.
+for(let i=0; i<=5; i++){
+	let LI = document.createElement('li'); //요소 만들기
+	UL.appendChild(LI).innerHTML = '나는야 퉁퉁이'; 
+}
+
+// 요소를 특정 위치에 삽입하는 방법
+const SPACE = document.querySelector('li:nth-child(3)'); // css 선택자 다 넣을수 있음
+let LI = document.createElement('li'); //요소 만들기
+LI.innerHTML = "나는야 비실이";
+UL.insertBefore(LI,SPACE);
+
+// 요소를 지우는 방법
+LI.remove();
+// 나는야 비실이만 삭제
+
+// --- 사과게임 위에 장기를 넣어주세요
+let ul1 = document.getElementById('ul'); // 삽입할 부모 요소
+const SPACE1 = document.querySelector('li:nth-child(3)'); // css 선택자 다 넣을수 있음
+LI = document.createElement('li'); //요소 만들기
+LI.innerHTML = '장기';
+ul1.insertBefore(LI,SPACE1);
+
+// ---어메이징에 베이지 배경색을 넣어주세요
+const BGCBEIGE = document.querySelector('li:nth-child(9)'); // nth쓸때 데이터 변경 가능성 조심!  
+BGCBEIGE.style.backgroundColor = 'beige';
+
+// ---리스트에서 짝수는 빨간색글씨 홀수는 파란색 글씨로 만들어주세요.
+const LISTEVENODD = document.getElementsByTagName('li');
+let cnt = LISTEVENODD.length;
+
+for(let i = 1; i <= cnt; i++){
+	if ( i % 2 === 1) {
+		LISTEVENODD[i-1].style.color = 'blue';
+	} else if ( i % 2 === 0) {
+		LISTEVENODD[i-1].style.color = 'red';
+	} else {
+		LISTEVENODD[i-1].style.color = 'black';
+	}
+}

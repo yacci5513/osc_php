@@ -19,7 +19,7 @@
 			</h2>
 			<ul class="gnb">
 				<li>
-					<a href="#" class="gnbMenu1">목록1</a>
+					<a href="#" class="gnbMenu1">글쓰기</a>
 				</li>
 				<li>
 					<a href="#" class="gnbMenu2">목록2</a>
@@ -128,7 +128,7 @@
 				<h3 class="MainTopText">자유 게시판</h3>
 			</div>
 			<div class="MainCategory">
-				카테고리
+				자유게시판만 구현!
 			</div>
 			<div class="MainTop">
 				<a class= "MainWrite" href="/mini_test/src/insert.php">
