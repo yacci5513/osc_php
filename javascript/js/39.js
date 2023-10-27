@@ -59,6 +59,7 @@ TITLE.classList.remove('class1', 'bgc_1', 'class2');
 const UL = document.getElementById('ul'); // 삽입할 부모 요소
 
 // 요소를 마지막 위치에 삽입하는 방법 
+UL.appendChild(LI); 
 // 나는 반복문을 이용해 5개 만들었음.
 for(let i=0; i<=5; i++){
 	let LI = document.createElement('li'); //요소 만들기
