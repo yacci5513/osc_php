@@ -23,6 +23,12 @@ a {
 	
 }
 
+button {
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
 .font_size_20 {
 	font-size: 20px;
 }
@@ -139,7 +145,12 @@ a {
 .list_container_middle_list_right {
 	border: 1px solid #b3b6c1;
 	border-radius: 10px;
-	color: rgb(128,133,214);
+	color: #8085d6;
+}
+
+.list_container_middle_list_right:hover {
+	background-color: #4044c9;
+	color:#ffffff;
 }
 
 .list_container_middle_list_center {
@@ -155,7 +166,7 @@ a {
 	font-size: 12px;
 }
 
-/*  */
+/* 하단 레이아웃 */
 .list_container_bottom {
 	width: 45px;
 	height: 45px;
@@ -169,4 +180,15 @@ a {
     left: 50%;
 	bottom: 10px;
     margin-left: -22.5px; /* width의 50% */
+}
+
+/* ------------------------------
+			삽입페이지
+   ------------------------------ */
+.insert_title {
+	
+}
+
+.insert_content {
+	
 }
