@@ -20,7 +20,7 @@
 			if($content === "") {
 				$arr_err_msg[] = sprintf(ERROR_MSG_PARAM, "내용");
 			}
-
+			$str_err_msg = implode('\n', $arr_err_msg);
 			if (count($arr_err_msg) ===0) {
 				if (!db_conn($conn)) {
 					throw new Exception( "DB Error : PDO instance");
@@ -35,16 +35,18 @@
 
 				$conn->commit();
 				//리스트 페이지로 이동 : header()
-				header("Location: list.php");
+				header("Location: 01_list.php");
 				exit;
+			} else {
+				echo "<script>alert('{$str_err_msg}')</script>";
 			}
 
 		} catch (Exception $e) {
 			// echo $e->getMessage(); 예외발생 메세지 출력 //v002del
+			echo $e->getMessage();
 			if($conn !== NULL) {
 				$conn->rollBack();
 			}
-			echo $e->getMessage();
 			exit;
 		} finally {
 			//DB파기
@@ -65,9 +67,9 @@
 	<form action="./02_insert.php" method="post">
 		<div class="list_container">
 				<div class="list_container_top">
-					<a href="#">전체</a>
+					<a href="./01_list.php">전체</a>
 					<p class="list_container_top_center">ToDoList</p>
-					<button type="submit">작성</button>
+					<button type="submit">확인</button>
 				</div>
 				<label for="title" class= "list_container_top3 font_size_20">제목</label>
 				<br>

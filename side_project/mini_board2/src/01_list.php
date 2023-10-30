@@ -43,7 +43,7 @@
 		<div class="list_container_top">
 			<a href="#">전체</a>
 			<p class="list_container_top_center">ToDoList</p>
-			<a href="#">삭제</a>
+			<a href="#">#</a>
 		</div>
 		<div class="list_container_top2">
 			<a class="list_container_top2_a" href="#">
