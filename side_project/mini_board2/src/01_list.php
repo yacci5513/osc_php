@@ -40,6 +40,7 @@
 </head>
 <body>
 	<div class="list_container">
+		<div class="list_container_header"></div>
 		<div class="list_container_top">
 			<a href="#">전체</a>
 			<p class="list_container_top_center">ToDoList</p>
@@ -59,7 +60,7 @@
 				<p class="list_inline list_container_top2_a_p">4<br><span class="list_container_top2_a_span">Apr</span></p>
 			</a>
 			<a class="list_container_top2_a" href="#">
-				<p class="list_inline list_container_top2_a_p">5<br><span class="list_container_top2_a_span">May</span></p>
+				<p class="list_inline list_container_top2_a_p">js<br><span class="list_container_top2_a_span">May</span></p>
 			</a>
 		</div>
 		<br><br>
@@ -73,8 +74,7 @@
 					<?php echo $item["id"]; ?>
 				</div>
 				<div class="list_container_middle_list_center float_left">
-					<?php echo $item["title"]; ?>
-					<br>
+					<p class="list_title"><?php echo $item["title"]; ?></p>
 					<span class="list_date"><?php echo $item["create_at"]; ?></span>
 				</div>
 				<a class="list_container_middle_list_right float_right font_size_20" href="">
@@ -87,5 +87,6 @@
 		</div>
 		<a class="list_container_bottom" href="./02_insert.php">+</a>
 	</div>
+	<script src="./js/01_list.js"></script>
 </body>
 </html>

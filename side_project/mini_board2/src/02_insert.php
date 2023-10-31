@@ -20,7 +20,6 @@
 			if($content === "") {
 				$arr_err_msg[] = sprintf(ERROR_MSG_PARAM, "내용");
 			}
-			$str_err_msg = implode('\n', $arr_err_msg);
 			if (count($arr_err_msg) ===0) {
 				if (!db_conn($conn)) {
 					throw new Exception( "DB Error : PDO instance");
@@ -32,13 +31,12 @@
 				if(!db_insert_boards($conn, $arr_post)) {
 					throw new Exception("DB Error : INSERT boards");
 				}
+				
 
 				$conn->commit();
 				//리스트 페이지로 이동 : header()
 				header("Location: 01_list.php");
 				exit;
-			} else {
-				echo "<script>alert('{$str_err_msg}')</script>";
 			}
 
 		} catch (Exception $e) {
@@ -66,19 +64,24 @@
 <body>
 	<form action="./02_insert.php" method="post">
 		<div class="list_container">
+			<div class="list_container_header"></div>
 				<div class="list_container_top">
 					<a href="./01_list.php">전체</a>
 					<p class="list_container_top_center">ToDoList</p>
-					<button type="submit">확인</button>
+					<button> 확인</button>
 				</div>
+				<p class="insert_error"><?php $str_err_msg = implode('<br>', $arr_err_msg); echo $str_err_msg; ?></p>
+				<br>
 				<label for="title" class= "list_container_top3 font_size_20">제목</label>
 				<br>
-				<input type="text" name="title" id="title" class="insert_title" value="<?php echo $title ?>">
-				<br>
+				<textarea name="title" id="title" class="insert_title" maxlength="80"><?php echo $title; ?></textarea>
+				<br><br>
 				<label for="content" class= "list_container_top3 font_size_20">내용</label>
 				<br>
-				<textarea name="content" id="content" class="insert_content"><?php echo $content ?></textarea>
+				<textarea name="content" id="content" class="insert_content" maxlength="600"><?php echo $content; ?></textarea>
 		</div>
 	</form>
+
+	<script src="./js/01_list.js"></script>
 </body>
 </html>

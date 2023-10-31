@@ -58,24 +58,40 @@ button {
 	border-radius: 30px;
 	margin:30px auto;
 	/* 나중에 제거 할 거! 아이폰 SE기준 픽셀로 연습 */
-	padding: 20px;
+	padding: 15px 25px;
 	position: relative;
+	box-shadow: 5px 5px 5px -2px gray;
 }
-
+.list_container_header {
+	width: 100%;
+	height: 2%;
+	margin: 0 auto;
+	text-align: center;
+}
 /* 상단 레이아웃 */
 .list_container_top {
 	width: 100%;
 	height: 5%;
+	text-align: center;
 	display: flex;
     align-items: center;
-	text-align: center;
 	justify-content: space-between;
 }
 
+
 .list_container_top a, .list_container_top button {
-	width: 30px;
+	width: 50px;
+	height: 80%;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px -2px gray;
+	line-height: 25px;
 }
 
+.list_container_top a:hover, .list_container_top button:hover {
+	background-color: #4044c9;
+	color:#ffffff;
+}
 .list_container_top_center {
 	font-size: 20px;
 	letter-spacing: 2px;
@@ -84,7 +100,7 @@ button {
 /* 상단2 레이아웃 */
 .list_container_top2 {
 	margin-top:25px;
-	width: 100%;
+	width: 200%;
 	height: 50px;
 }
 
@@ -98,6 +114,12 @@ button {
 	border-radius: 10px;
 	line-height:90%;
 	margin-left:10px;
+	box-shadow: 1px 3px 5px -2px gray;
+}
+
+.list_container_top2_a:hover {
+	background-color: #4044c9;
+	color:#ffffff;
 }
 
 .list_container_top2_a_p {
@@ -121,7 +143,7 @@ button {
 /* 중단 레이아웃 */
 .list_container_middle {
 	width: 100%;
-	height: 73%;
+	height: 72%; 
 	-ms-overflow-style: none; /* for Internet Explorer, Edge */
 	scrollbar-width: none; /* for Firefox */
 	overflow-y: scroll; 
@@ -133,11 +155,21 @@ button {
 
 .list_container_middle_list {
 	background-color: #f2f2f2;
-	width: 100%;
+	box-shadow: 1px 3px 5px -2px gray;
+	width: 99.5%;
 	height: 58px;
 	padding: 10px;
 	border-radius: 10px;
 	margin-top: 15px;
+}
+
+.list_title {
+	width: 100%;
+	height: 14px;
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .list_container_middle_list_left, .list_container_middle_list_right {
@@ -171,7 +203,8 @@ button {
 	color: #b3b6c1;
 	font-size: 12px;
 }
-
+  
+  /* 말줄임표 적용 */
 /* 하단 레이아웃 */
 .list_container_bottom {
 	width: 45px;
@@ -181,6 +214,7 @@ button {
 	line-height: 45px;
 	font-size: 25px;
 	background-color: #4044c9;
+	box-shadow: 0px 5px 5px -2px gray;
 	color: #ffffff;
 	position: absolute;
     left: 50%;
@@ -188,13 +222,38 @@ button {
     margin-left: -22.5px; /* width의 50% */
 }
 
+.list_container_bottom:hover{
+	background-color: rgba(64, 68, 201, 0.8);
+}
+
 /* ------------------------------
 			삽입페이지
    ------------------------------ */
 /* .insert_title {
-	
+}
+.insert_content {
+
+} */
+.insert_title, .insert_content {
+	outline:none;
+	background-color: #f2f2f2;
+	border: none;
+	box-shadow: 1px 3px 5px -2px gray;
+	border-radius: 5px;
+	resize: none;
+	width: 100%;
 }
 
-.insert_content {
-	
-} */
+.insert_title {
+	height: 10%
+}
+
+.insert_content  {
+	height: 65%;
+}
+
+.insert_error {
+	display: inline;
+	float: right;
+	margin:0;
+}
