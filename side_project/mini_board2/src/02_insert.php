@@ -70,7 +70,11 @@
 					<p class="list_container_top_center">ToDoList</p>
 					<button> 확인</button>
 				</div>
-				<p class="insert_error"><?php $str_err_msg = implode('<br>', $arr_err_msg); echo $str_err_msg; ?></p>
+				<p class="insert_error">
+					<?php $str_err_msg = implode('<br>', $arr_err_msg);
+						echo $str_err_msg;
+					?>
+				</p>
 				<br>
 				<label for="title" class= "list_container_top3 font_size_20">제목</label>
 				<br>

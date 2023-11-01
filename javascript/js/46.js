@@ -2,6 +2,8 @@
 // 비동기처리를 좀 더 가독성 좋고 편하게 쓰기위해 promise를 사용했는데
 // promise 또한 체이닝이 계속 될 경으 코드가 난잡해 질 수 있어 async & await가 도입되었습니다.
 // async & await는 promise를 기반으로 동작합니다.
+// 비동기처리 : 
+// 동기처리 : 
 
 function PRO3(str, ms) {
     return new Promise (function(resolve) {

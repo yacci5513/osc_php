@@ -50,14 +50,20 @@ function remove_children() {
 	}
   }
 
-// --------------------------------------
+// --------------------------------------fetch
 function my_fetch() {
-	const INPUT_URL = document.querySelector('#input_url');
+	const INPUT_URL = document.querySelector('#input-url');
 
 	fetch(INPUT_URL.value.trim())
-	.then( response => response.json() )
+	.then( response => {
+		if( response.status >= 200 && response.status < 300 ){
+			return response.json();
+		} else {
+			throw new Error('에러에러');
+		}
+	} )
 	.then( data => imgAll(data) )
-	.catch ( error => console.log(error) );
+	.catch( error => console.log(error) );
 }
 
 function imgAll(data) {
@@ -70,4 +76,19 @@ function imgAll(data) {
 		NEWIMG.style.height = '200px';
 		DIVIMG.appendChild(NEWIMG);
 	});
+}
+// -----------------------------------fetch 2번째 아규먼트 셋팅 방법
+function infinityLoop() {
+    let apiUrl = "http://112.222.157.156:6001/03_insert.php"
+    let init = {
+        method: "POST"
+        , body: {
+            title: "제목이야"
+            ,content: "내용이야"
+            ,em_id: "2"
+        }
+    };
+    fetch(apiUrl, init)
+    .then(response => console.log(response))
+    .catch(error => console.log(error));
 }
