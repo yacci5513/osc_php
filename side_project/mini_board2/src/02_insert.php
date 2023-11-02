@@ -28,7 +28,7 @@
 
 				$arr_post=$_POST;
 				//insert
-				if(!db_insert_boards($conn, $arr_post)) {
+				if(!db_insert_board2($conn, $arr_post)) {
 					throw new Exception("DB Error : INSERT boards");
 				}
 				
@@ -59,33 +59,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>삽입 페이지</title>
-	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="/mini_board2/src/css/common.css">
 </head>
 <body>
 	<form action="./02_insert.php" method="post">
 		<div class="list_container">
 			<div class="list_container_header"></div>
-				<div class="list_container_top">
-					<a href="./01_list.php">전체</a>
-					<p class="list_container_top_center">ToDoList</p>
-					<button> 확인</button>
-				</div>
-				<p class="insert_error">
-					<?php $str_err_msg = implode('<br>', $arr_err_msg);
-						echo $str_err_msg;
-					?>
-				</p>
-				<br>
-				<label for="title" class= "list_container_top3 font_size_20">제목</label>
-				<br>
-				<textarea name="title" id="title" class="insert_title" maxlength="80"><?php echo $title; ?></textarea>
-				<br><br>
-				<label for="content" class= "list_container_top3 font_size_20">내용</label>
-				<br>
-				<textarea name="content" id="content" class="insert_content" maxlength="600"><?php echo $content; ?></textarea>
+			<div class="list_container_top">
+				<a href="./01_list.php">전체</a>
+				<p class="list_container_top_center">ToDoList</p>
+				<button>확인</button>
+			</div>
+			<p class="insert_error">
+				<?php $str_err_msg = implode('<br>', $arr_err_msg);
+					echo $str_err_msg;
+				?>
+			</p>
+			<br>
+			<label for="title" class= "list_container_top3 font_size_20">제목</label>
+			<br>
+			<textarea name="title" id="title" class="insert_title" maxlength="80" placeholder="제목을 입력해주세요"><?php echo $title; ?></textarea>
+			<br><br>
+			<label for="content" class= "list_container_top3 font_size_20">내용</label>
+			<br>
+			<textarea name="content" id="content" class="insert_content" maxlength="600" placeholder="내용을 입력해주세요"><?php echo $content; ?></textarea>
 		</div>
 	</form>
 
-	<script src="./js/01_list.js"></script>
+	<script src="/mini_board2/src/js/01_list.js"></script>
 </body>
 </html>

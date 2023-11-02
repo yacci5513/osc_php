@@ -46,6 +46,14 @@ button {
 	float:right;
 }
 
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.pl-10 {
+	padding-left: 10px;
+}
+
 /* ------------------------------
 			리스트
    ------------------------------ */
@@ -203,7 +211,7 @@ button {
 	color: #b3b6c1;
 	font-size: 12px;
 }
-  
+
   /* 말줄임표 적용 */
 /* 하단 레이아웃 */
 .list_container_bottom {
@@ -256,4 +264,55 @@ button {
 	display: inline;
 	float: right;
 	margin:0;
+}
+
+/* ------------------------------
+			디테일페이지
+   ------------------------------ */
+.detail_text_p {
+	height: 30px;
+	line-height: 30px;
+	margin:0;
+}
+
+.detail_list {
+	background-color: #f2f2f2;
+	box-shadow: 1px 3px 5px -2px gray;
+	width: 99.5%;
+	height: 58px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.detail_list1 {
+	background-color: #f2f2f2;
+	box-shadow: 1px 3px 5px -2px gray;
+	width: 99.5%;
+	height: 260px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.detail_list_center {
+	width: 85%;
+	height: 40px;
+	line-height: 15px;
+}
+
+.detail_list_center_contents {
+	width: 85%;
+	height: 240px;
+	line-height: 15px;
+	word-break:break-word;
+}
+.flex_text {
+	display: flex;
+    align-items: center;
+}
+
+.detail_middle_list_left {
+	width: 40px;
+	height: 240px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
 }

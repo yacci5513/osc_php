@@ -36,7 +36,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>리스트 페이지</title>
-	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="/mini_board2/src/css/common.css">
 </head>
 <body>
 	<div class="list_container">
@@ -77,7 +77,7 @@
 					<p class="list_title"><?php echo $item["title"]; ?></p>
 					<span class="list_date"><?php echo $item["create_at"]; ?></span>
 				</div>
-				<a class="list_container_middle_list_right float_right font_size_20" href="">
+				<a class="list_container_middle_list_right float_right font_size_20" href="/mini_board2/src/03_detail.php/?id=<?php echo $item["id"]; ?>">
 					>
 				</a>
 			</div>
