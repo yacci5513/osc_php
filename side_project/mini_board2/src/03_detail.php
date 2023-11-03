@@ -7,27 +7,20 @@
 
 	try {
 		if (!isset($_GET["id"]) || $_GET["id"] === "") {
-			throw new Exception("Parameter ERROR : No id"); // 강제 예외 발생
+			throw new Exception("Parameter ERROR : No id");
 		}
-		$id = $_GET["id"]; // id 셋팅
+		$id = $_GET["id"]; 
 
-		// ---------
-		// DB 접속
-		// ---------
 		if(!db_conn($conn)) {
 			throw new Exception("DB Error : PDO instance");
 		}
 
-		// 게시글 데이터 조회
+		
 		$arr_param = [
 			"id" => $id
 		];
 		$result = db_select_board2_id($conn, $arr_param);
 		
-		// 게시글 조회 예외 처리
-		// if (!(count($result) === 1)) {
-		// 	throw new Exception("DB Error : PDO Select_id count,".count($result));
-		// }
 		if($result === FALSE) {
 			throw new Exception("DB Error : PDO Select_id");
 		} else if (!(count($result) === 1)) {
@@ -57,7 +50,7 @@
 		<div class="list_container_top mb-10">
 			<a href="/mini_board2/src/01_list.php">전체</a>
 			<p class="list_container_top_center">ToDoList</p>
-			<button>수정하기</button>
+			<a href="/mini_board2/src/04_update.php?id=<?php echo $id;?>">수정하기</a>
 		</div>
 			<p class= "detail_text_p font_size_20">상세</p>
 			<div class="detail_list mb-10">

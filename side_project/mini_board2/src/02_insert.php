@@ -34,13 +34,11 @@
 				
 
 				$conn->commit();
-				//리스트 페이지로 이동 : header()
 				header("Location: 01_list.php");
 				exit;
 			}
 
 		} catch (Exception $e) {
-			// echo $e->getMessage(); 예외발생 메세지 출력 //v002del
 			echo $e->getMessage();
 			if($conn !== NULL) {
 				$conn->rollBack();
