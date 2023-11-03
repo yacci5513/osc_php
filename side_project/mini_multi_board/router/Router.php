@@ -26,11 +26,13 @@ class Router {
 			if ($method === "GET") {
 				new UC("loginGet");
 			} else {
+				new UC("loginPost");
 				// 해당 컨트롤러 호출
 			}
 		} else if ($url === "user/logout") {
 			if ($method === "GET") {
 				// 해당 컨트롤러 호출
+				new UC("logoutGet");
 			}
 		} else if ($url === "user/regist")  {
 			if ($method === "GET") {
@@ -45,7 +47,6 @@ class Router {
 				// 해당 컨트롤러 호출
 			}
 		}
-		
 		
 		echo "이상한 URL :".$url;
 		exit();
