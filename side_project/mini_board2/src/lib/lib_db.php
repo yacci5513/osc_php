@@ -74,13 +74,13 @@
 		}
 	}
 	// ------------------------
-    // 함수명 : db_insert_boards
+    // 함수명 : db_insert_board2
     // 기능 : boards 데이터 추가
     // 파라미터 : PDO 	 &$conn
 	//			 Array	&$arr_param 쿼리 작성용 배열
     // 리턴 : Boolean
     // ------------------------
-	function db_insert_boards(&$conn, &$arr_param) {
+	function db_insert_board2(&$conn, &$arr_param) {
 		$sql = 
 			" INSERT INTO board2( "
 			."		title "
@@ -106,5 +106,42 @@
 		}
 	}
 
+	// ------------------------
+    // 함수명 : db_select_board2_id
+    // 기능 : id를 통한 제목, 내용 출력
+    // 파라미터 : PDO 	 &$conn
+	//			Array	&$arr_param
+    // 리턴 : Array / False
+    // ------------------------
+	function db_select_board2_id(&$conn, &$arr_param) {
+		try {
+			$sql = 
+				" SELECT "
+				."		id "
+				."		,title "
+				."		,content "
+				."		,create_at "
+				."		,update_at "
+				." FROM "
+				." 		board2 "
+				." WHERE "
+				."		id = :id "
+				." 		AND "
+				." 		delete_flag = '0' "
+			;
+
+			$arr_ps = [
+				":id" => $arr_param["id"]
+			];
+
+			$stmt = $conn->prepare($sql);
+			$stmt->execute($arr_ps);
+			$result = $stmt->fetchAll();
+			return $result;
+		} catch (Exception $e) {
+			echo $e->getMessage();
+			return false;
+		}
+	}
 ?>
 
