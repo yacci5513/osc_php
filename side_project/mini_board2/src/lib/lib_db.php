@@ -177,5 +177,37 @@
 			return false;
 		}
 	}
+
+	// ------------------------
+    // 함수명 : db_delete_board2_id
+    // 기능 : boards 레코드 수정
+    // 파라미터 : PDO 	 &$conn
+	//			Array	&$arr_param
+    // 리턴 : Boolean
+    // ------------------------
+	function db_delete_board2_id(&$conn, &$arr_param) {
+		try {
+			$sql = 
+			" UPDATE board2 "
+			." SET "
+			."		delete_at = now() "
+			."		,delete_flag = '1' "
+			." WHERE "
+			."		id=:id "
+			;
+
+			$arr_ps = [
+				":id" => $arr_param["id"]
+			];
+			
+			// 2. Query 실행
+			$stmt = $conn->prepare($sql);
+			$result = $stmt->execute($arr_ps);
+			return $result;
+		} catch (Exception $e) {
+			echo $e->getMessage();
+			return false;
+		}
+	}
 ?>
 

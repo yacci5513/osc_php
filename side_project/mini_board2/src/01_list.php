@@ -42,7 +42,7 @@
 	<div class="list_container">
 		<div class="list_container_header"></div>
 		<div class="list_container_top">
-			<a href="#">전체</a>
+			<a href="./01_list.php">전체</a>
 			<p class="list_container_top_center">ToDoList</p>
 			<a href="#">#</a>
 		</div>

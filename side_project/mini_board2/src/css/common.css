@@ -87,7 +87,7 @@ button {
 }
 
 
-.list_container_top a, .list_container_top button {
+.list_container_top a, .list_container_top button{
 	width: 50px;
 	height: 80%;
 	background-color: #f2f2f2;
@@ -96,7 +96,16 @@ button {
 	line-height: 25px;
 }
 
-.list_container_top a:hover, .list_container_top button:hover {
+.a_button_bg {
+	width: 50px;
+	height: 25px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px -2px gray;
+	line-height: 25px;
+	float: right;
+}
+.list_container_top a:hover, .list_container_top button:hover, .a_button_bg:hover {
 	background-color: #4044c9;
 	color:#ffffff;
 }
@@ -273,6 +282,7 @@ button {
 	height: 30px;
 	line-height: 30px;
 	margin:0;
+	display: inline-block;
 }
 
 .detail_list {

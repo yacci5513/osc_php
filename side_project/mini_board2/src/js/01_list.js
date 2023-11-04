@@ -16,3 +16,13 @@ function timeprint() {
 }
 timeprint();
 setInterval( timeprint, 1000 );
+
+
+function delete_list() {
+    if(confirm("삭제 할까요?")) {
+        alert("삭제 완료");
+        return true;
+    } else {
+        return false;
+    }
+}
