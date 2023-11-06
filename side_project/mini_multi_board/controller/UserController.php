@@ -32,8 +32,8 @@ class UserController extends ParentsController {
 		}
 
 		//세션에 u_id 정의
-		$_SESSION["u_id"] = $resultUserInfo[0]["u_id"];
-		return "Location: /board/list";
+		$_SESSION["u_pk"] = $resultUserInfo[0]["id"];
+		return "Location: /board/list?b_type=0";
 	}
 
 	protected function logoutGet() {
