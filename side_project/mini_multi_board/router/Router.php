@@ -33,11 +33,11 @@ class Router {
 			if ($method === "GET") {
 				new UC("logoutGet");
 			}
-		} else if ($url === "user/regist")  {
+		} else if ($url === "user/regist") {
 			if ($method === "GET") {
 				new UC("registGet");
 			} else {
-				// 해당 컨트롤러 호출
+				new UC("registPost");
 			}
 		} else if ($url === "board/list") {
 			if ($method === "GET") {
@@ -48,6 +48,10 @@ class Router {
 				// 처리 없음
 			} else {
 				new BC("addPost");
+			}
+		} else if ($url === "board/detail") {
+			if ($method === "GET") {
+				new BC("detailGet");
 			}
 		}
 		

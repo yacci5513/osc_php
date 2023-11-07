@@ -8,7 +8,6 @@ class BoardController extends ParentsController {
 	protected $arrBoardInfo;
 	protected $titleBoardName;
 	protected $boardType;
-	protected $arrlistInput;
 
 	// 게시판 리스트 페이지 이동
 	protected function listGet() {
@@ -30,7 +29,7 @@ class BoardController extends ParentsController {
 
 		//모델 인스턴스
 		$boardModel = new BoardModel();
-		$this ->arrBoardInfo = $boardModel->getBoardList($arrBoardInfo); 
+		$this ->arrBoardInfo = $boardModel->getBoardList($arrBoardInfo);
 		$boardModel->destroy();
 		return "view/list"._EXTENSION_PHP;
 	}
@@ -57,7 +56,7 @@ class BoardController extends ParentsController {
 		//모델 인스턴스
 		$boardModel = new BoardModel();
 		$boardModel->beginTransaction();
-		$this -> arrlistInput = $boardModel->insertBoardList($arrBoardInfo);
+		$result = $boardModel->insertBoardList($arrBoardInfo);
 		if($result !== true) {
 			$boardModel->rollBack();
 			//에러 메시지 표시해줘야함 원래
@@ -65,6 +64,32 @@ class BoardController extends ParentsController {
 			$boardModel->commit();
 		}
 		$boardModel->destroy();
-		return "Location: /board/list?b_type=$b_type";
+		return "Location: /board/list?b_type=".$b_type;
+	}
+
+	//상세 정보 api
+	protected function detailGet() {
+		$id = $_GET["id"];
+
+		$arrBoardDetailInfo = [
+			"id" => $id
+		];
+
+		$boardModel = new BoardModel();
+		$result = $boardModel->getBoardDetail($arrBoardDetailInfo);
+		//이미지 패스 재설정
+		$result[0]["b_img"] = "/"._PATH_USERIMG.$result[0]["b_img"];
+		//레스폰스 데이터 작성
+		$arrTmp = [
+			"errflg" => "0"
+			,"msg" => ""
+			,"data" => $result[0]
+		];
+		$response = json_encode($arrTmp);
+
+		//response 처리
+		header('Content-type: application/json');
+		echo $response;
+		exit();
 	}
 }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $this->$titleBoardName; ?></title>
+	<title><?php echo $this->titleBoardName; ?></title>
 	<link rel="stylesheet" href="/view/css/common.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -24,12 +24,13 @@
 			foreach($this->arrBoardInfo as $item) {
 		?>
 
-			<div class="card">
+			<div class="card" id="card<?php echo $item["id"];?>">
 				<img src="<?php echo isset($item["b_img"]) ? "/"._PATH_USERIMG.$item["b_img"] : ""; ?>" class="card-img-top" alt="이미지 없음">
 				<div class="card-body">
 				<h5 class="card-title"><?php echo $item['b_title']; ?></h5>
 				<p class="card-text"><?php echo mb_strlen($item["b_content"]) >= 10 ? mb_substr($item["b_content"], 0, 10)."...": $item["b_content"]; ?></p>
-				<button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldetail">상세</button>
+				<!-- <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldetail">상세</button> -->
+				<button class="btn btn-primary" onclick="openDetail(<?php echo $item['id'] ?>); return false;" >상세</button>
 				</div>
 			</div>
 		<?php
@@ -37,26 +38,28 @@
 		?>
 	</main>
 	
-	<!-- Modal -->
-	<div class="modal fade" id="modaldetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<!-- 상세 모달 -->
+	<div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-scrollable">
 			<div class="modal-content">
 				<div class="modal-header">
-				<h1 class="modal-title fs-5" id="exampleModalLabel">상세</h1>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					<h1 class="modal-title fs-5" id="b_title"></h1>
+					<button type="button" onclick="closeDetailModal(); return false;" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-				<p>dddddddddddddddddddddddddddddddd</p>
-				<img src="./img/imgfile.png">
+					<p id="create_at"></p>
+					<p id="update_at"></p>
+					<p id="b_content"></p>
+					<img id="b_img" src="">
 				</div>
 				<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+					<button type="button" onclick="closeDetailModal(); return false;" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- 작성 모달 -->
 	<div class="modal fade" id="modalinsert" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
