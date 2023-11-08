@@ -61,4 +61,28 @@ class UserModel extends ParentsModel {
 			exit();
 		}
 	}
+	
+	public function checkID(Array $arrcheckID) {
+		$sql =
+			" SELECT "
+			." 		count(u_id) as u_cnt "
+			." FROM user "
+			." WHERE "
+			." 		u_id = :u_id "
+			;
+
+		$prepare = [
+			":u_id" => $arrcheckID["u_id"]
+		];
+		
+		try {
+			$stmt = $this->conn->prepare($sql);
+			$stmt->execute($prepare);
+			$result = $stmt->fetchAll();
+			return $result[0];
+		} catch (Exception $e) {
+			echo "UserModel->checkID Error : ".$e->getMessage();
+			exit();
+		}
+	}
 }

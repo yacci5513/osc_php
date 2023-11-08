@@ -3,7 +3,7 @@
 namespace model;
 
 class BoardModel extends ParentsModel {
-	// 특정 유저를 조회하는 메소드
+	// 
 	public function getBoardList($arrBoardInfo) {
 		$sql =
 			" SELECT "

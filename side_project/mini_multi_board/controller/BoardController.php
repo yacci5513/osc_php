@@ -3,6 +3,7 @@
 namespace controller;
 
 use model\BoardModel;
+use lib\Validation;
 
 class BoardController extends ParentsController {
 	protected $arrBoardInfo;
@@ -86,7 +87,6 @@ class BoardController extends ParentsController {
 			,"data" => $result[0]
 		];
 		$response = json_encode($arrTmp);
-
 		//response 처리
 		header('Content-type: application/json');
 		echo $response;

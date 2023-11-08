@@ -10,7 +10,6 @@
 // 	const MODAL = document.querySelector('#modal');
 // 	MODAL.classList.add('displayNone');
 // });
-
 // 상세 모달 제어
 function openDetail(id) {
 	const URL = '/board/detail?id='+id;
@@ -35,13 +34,42 @@ function openDetail(id) {
 }
 
 function openModal() {
-	const MODAL = document.querySelector('#modalDetail')
+	const MODAL = document.querySelector('#modalDetail');
 	MODAL.classList.add('show');
 	MODAL.style = ('display: block; background-color: rgba(0, 0, 0, 0,7);');
 }
 
 function closeDetailModal() {
-	const MODAL = document.querySelector('#modalDetail')
+	const MODAL = document.querySelector('#modalDetail');
 	MODAL.classList.remove('show');
 	MODAL.style = ('display: none');
+}
+
+function checkID() {
+	const INPUTID = document.querySelector('#u_id');
+	const CHKBTN = document.querySelector('#chkbutton');
+	const UID = '/user/registidcheck?u_id='+INPUTID.value;
+	const ERRORMSG = document.querySelector('#errormsg');
+
+	fetch(UID)
+	.then(response => response.json())
+	.then(data => {
+			if(data.val !== "") {
+				ERRORMSG.innerHTML=data.val;
+				ERRORMSG.classList="text-danger";
+			} else {
+				if(data.data >= 1){
+					ERRORMSG.innerHTML="중복된 id입니다.";
+					ERRORMSG.classList="text-danger";
+				} else {
+					ERRORMSG.innerHTML="사용가능한 아이디입니다.";
+					ERRORMSG.classList="text-success";
+					INPUTID.readOnly = true;
+					CHKBTN.disabled = false;
+					
+				}
+			}
+		}
+	)
+	.catch(error => console.log(error) )
 }
