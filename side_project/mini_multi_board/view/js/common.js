@@ -11,26 +11,33 @@
 // 	MODAL.classList.add('displayNone');
 // });
 // 상세 모달 제어
+// php js 값 넘겨줄때
+// 1. (id)로 넣는방법
+// 2. input이나 span으로 값 넘겨 받아서 하는 방법
 function openDetail(id) {
 	const URL = '/board/detail?id='+id;
+	const TITLE = document.querySelector('#b_title');
+	const CONTENT = document.querySelector('#b_content');
+	const CREATEID = document.querySelector('#create_id');
+	const IMG = document.querySelector('#b_img');
+	const UPDATEAT = document.querySelector('#update_at');
+	const CREATEAT = document.querySelector('#create_at');
+	const DELETEBTN = document.querySelector('#delete_btn');
 	fetch(URL)
 	.then(response => response.json())
 	.then(data => {
-		const TITLE = document.querySelector('#b_title');
-		const CONTENT = document.querySelector('#b_content');
-		const IMG = document.querySelector('#b_img');
-		const UPDATEAT = document.querySelector('#update_at');
-		const CREATEAT = document.querySelector('#create_at');
-		const INPUTID = document.querySelector('#detail_input_id');
-		const DELETEBTN = document.querySelector('#delete_btn');
-		const DELETEBTN_ON = DELETEBTN.getAttribute("onclick");
+		DELETEBTN.setAttribute("onclick", "location.href='/board/delete?b_type="+data.data.b_type+"&id="+data.data.id+"\'");
 		TITLE.innerHTML=data.data.b_title;
 		CONTENT.innerHTML=data.data.b_content;
 		CREATEAT.innerHTML='작성일 : ' + data.data.create_at;
 		UPDATEAT.innerHTML='수정일 : ' + data.data.update_at;
-		DELETEBTN.setAttribute("onclick", DELETEBTN_ON+'&id='+id+'\'');
+		CREATEID.innerHTML='작성자 : ' + data.data.u_pk;
 		IMG.setAttribute("src", data.data.b_img);
-		
+		if(data.s_id !== data.data.u_pk) {
+			DELETEBTN.classList.add('d-none');
+		} else {
+			DELETEBTN.classList.remove('d-none');
+		} //작성버튼 같은 아이디일때만 넣어주기
 		openModal();
 	})
 	.catch(error => console.log(error) )
@@ -39,7 +46,7 @@ function openDetail(id) {
 function openModal() {
 	const MODAL = document.querySelector('#modalDetail');
 	MODAL.classList.add('show');
-	MODAL.style = ('display: block; background-color: rgba(0, 0, 0, 0,7);');
+	MODAL.style = ('display: block; background-color: rgba(0, 0, 0, 0.7);');
 }
 
 function closeDetailModal() {

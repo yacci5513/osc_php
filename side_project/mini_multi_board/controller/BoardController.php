@@ -71,20 +71,22 @@ class BoardController extends ParentsController {
 	//상세 정보 api
 	protected function detailGet() {
 		$id = $_GET["id"];
-
+		$s_id = $_SESSION["u_pk"];
+		
 		$arrBoardDetailInfo = [
 			"id" => $id
 		];
 
 		$boardModel = new BoardModel();
-		$result = $boardModel->getBoardDetail($arrBoardDetailInfo);
+		$resultDetail = $boardModel->getBoardDetail($arrBoardDetailInfo);
 		//이미지 패스 재설정
-		$result[0]["b_img"] = "/"._PATH_USERIMG.$result[0]["b_img"];
+		$resultDetail[0]["b_img"] = "/"._PATH_USERIMG.$resultDetail[0]["b_img"];
 		//레스폰스 데이터 작성
 		$arrTmp = [
 			"errflg" => "0"
 			,"msg" => ""
-			,"data" => $result[0]
+			,"s_id" => $s_id
+			,"data" => $resultDetail[0]
 		];
 		$response = json_encode($arrTmp);
 		//response 처리

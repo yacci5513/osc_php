@@ -47,6 +47,7 @@
 					<button type="button" onclick="closeDetailModal(); return false;" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
+					<p id="create_id"></p>
 					<p id="create_at"></p>
 					<p id="update_at"></p>
 					<p id="b_content"></p>
@@ -54,8 +55,9 @@
 				</div>
 				<div class="modal-footer">
 					<input type="hidden" id ="detail_input_id">
-					<button type="button" id ="delete_btn" class="btn btn-secondary me-auto p-2 bd-highligh" onclick="location.href='/board/delete?b_type=<?php echo $_GET['b_type'];?>" data-bs-dismiss="modal">삭제</button>
-                    <button type="button" class="btn btn-secondary p-2 bd-highlight" data-bs-dismiss="modal">수정</button>
+					<button type="button" id ="delete_btn" class="btn btn-secondary me-auto p-2 bd-highligh" onclick="" data-bs-dismiss="modal">삭제</button>
+					<!-- 삭제를 나는 get으로 다른 방법은 ajax통신으로 js에서 구현 -->
+					<button type="button" class="btn btn-secondary p-2 bd-highlight" data-bs-dismiss="modal">수정</button>
                     <button type="button" onclick="closeDetailModal(); return false;" class="btn btn-secondary p-2 bd-highlight" data-bs-dismiss="modal">닫기</button>
 				</div>
 			</div>

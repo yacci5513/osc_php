@@ -79,6 +79,7 @@ class BoardModel extends ParentsModel {
 		" SELECT "
 		." 		id "
 		." 		,u_pk "
+		." 		,b_type "
 		." 		,b_title "
 		." 		,b_content "
 		." 		,b_img "
