@@ -31,7 +31,7 @@ function openDetail(id) {
 		CONTENT.innerHTML=data.data.b_content;
 		CREATEAT.innerHTML='작성일 : ' + data.data.create_at;
 		UPDATEAT.innerHTML='수정일 : ' + data.data.update_at;
-		CREATEID.innerHTML='작성자 : ' + data.data.u_pk;
+		CREATEID.innerHTML='작성자 : ' + data.data.u_name;
 		IMG.setAttribute("src", data.data.b_img);
 		if(data.s_id !== data.data.u_pk) {
 			DELETEBTN.classList.add('d-none');

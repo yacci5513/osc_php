@@ -77,19 +77,22 @@ class BoardModel extends ParentsModel {
 	public function getBoardDetail($arrBoardDetailInfo) {
 		$sql =
 		" SELECT "
-		." 		id "
-		." 		,u_pk "
-		." 		,b_type "
-		." 		,b_title "
-		." 		,b_content "
-		." 		,b_img "
-		." 		,create_at "
-		." 		,update_at "
-		." FROM  board "
+		." 		u.u_name "
+		." 		,b.id "
+		." 		,b.u_pk "
+		." 		,b.b_type "
+		." 		,b.b_title "
+		." 		,b.b_content "
+		." 		,b.b_img "
+		." 		,b.create_at "
+		." 		,b.update_at "
+		." FROM  board as b "
+		." 		JOIN  user as u "
+		." 		ON b.u_pk = u.id "
 		." WHERE "
-		." 		id= :id "
+		." 		b.id= :id "
 		;
-	
+		
 		$prepare = [
 			":id" => $arrBoardDetailInfo["id"]
 		];

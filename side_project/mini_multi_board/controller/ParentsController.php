@@ -12,7 +12,7 @@ class ParentsController {
 	private $arrNeedAuth= [
 		"board/list"
 		,"board/add"
-		,"board/"
+		,"board/detail"
 	];
 
 	public function __construct($action) {
