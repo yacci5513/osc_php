@@ -13,7 +13,6 @@
 // 상세 모달 제어
 function openDetail(id) {
 	const URL = '/board/detail?id='+id;
-	console.log(URL);
 	fetch(URL)
 	.then(response => response.json())
 	.then(data => {
@@ -22,12 +21,16 @@ function openDetail(id) {
 		const IMG = document.querySelector('#b_img');
 		const UPDATEAT = document.querySelector('#update_at');
 		const CREATEAT = document.querySelector('#create_at');
+		const INPUTID = document.querySelector('#detail_input_id');
+		const DELETEBTN = document.querySelector('#delete_btn');
+		const DELETEBTN_ON = DELETEBTN.getAttribute("onclick");
 		TITLE.innerHTML=data.data.b_title;
 		CONTENT.innerHTML=data.data.b_content;
 		CREATEAT.innerHTML='작성일 : ' + data.data.create_at;
 		UPDATEAT.innerHTML='수정일 : ' + data.data.update_at;
+		DELETEBTN.setAttribute("onclick", DELETEBTN_ON+'&id='+id+'\'');
 		IMG.setAttribute("src", data.data.b_img);
-
+		
 		openModal();
 	})
 	.catch(error => console.log(error) )

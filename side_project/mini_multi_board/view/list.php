@@ -50,10 +50,13 @@
 					<p id="create_at"></p>
 					<p id="update_at"></p>
 					<p id="b_content"></p>
-					<img id="b_img" src="">
+					<img id="b_img" class="card-img-top" src="">
 				</div>
 				<div class="modal-footer">
-					<button type="button" onclick="closeDetailModal(); return false;" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+					<input type="hidden" id ="detail_input_id">
+					<button type="button" id ="delete_btn" class="btn btn-secondary me-auto p-2 bd-highligh" onclick="location.href='/board/delete?b_type=<?php echo $_GET['b_type'];?>" data-bs-dismiss="modal">삭제</button>
+                    <button type="button" class="btn btn-secondary p-2 bd-highlight" data-bs-dismiss="modal">수정</button>
+                    <button type="button" onclick="closeDetailModal(); return false;" class="btn btn-secondary p-2 bd-highlight" data-bs-dismiss="modal">닫기</button>
 				</div>
 			</div>
 		</div>

@@ -36,59 +36,59 @@ class BoardModel extends ParentsModel {
 	}
 
 
-		// 글 삽입
-		public function insertBoardList($arrBoardInfo) {
-			$sql =
-				" INSERT INTO board( "
-				." 		u_pk "
-				." 		,b_type "
-				." 		,b_title "
-				." 		,b_content "
-				." 		,b_img "
-				." 		) "
-				." VALUES( "
-				." 		:u_pk "
-				." 		,:b_type "
-				." 		,:b_title "
-				." 		,:b_content "
-				." 		,:b_img "
-				." 		) "
-				;
-
-			$prepare = [
-				":u_pk" => $arrBoardInfo["u_pk"]
-				,":b_type" => $arrBoardInfo["b_type"]
-				,":b_title" => $arrBoardInfo["b_title"]
-				,":b_content" => $arrBoardInfo["b_content"]
-				,":b_img" => $arrBoardInfo["b_img"]
-			];
-			
-			try {
-				$stmt = $this->conn->prepare($sql);
-				$result = $stmt->execute($prepare);
-				return $result;
-			} catch (Exception $e) {
-				echo "BoardModel->insertBoardList Error : ".$e->getMessage();
-				exit();
-			}
-		}
-
-		//디테일 조회
-		public function getBoardDetail($arrBoardDetailInfo) {
-			$sql =
-			" SELECT "
-			." 		id "
-			." 		,u_pk "
+	// 글 삽입
+	public function insertBoardList($arrBoardInfo) {
+		$sql =
+			" INSERT INTO board( "
+			." 		u_pk "
+			." 		,b_type "
 			." 		,b_title "
 			." 		,b_content "
 			." 		,b_img "
-			." 		,create_at "
-			." 		,update_at "
-			." FROM  board "
-			." WHERE "
-			." 		id= :id "
+			." 		) "
+			." VALUES( "
+			." 		:u_pk "
+			." 		,:b_type "
+			." 		,:b_title "
+			." 		,:b_content "
+			." 		,:b_img "
+			." 		) "
 			;
+
+		$prepare = [
+			":u_pk" => $arrBoardInfo["u_pk"]
+			,":b_type" => $arrBoardInfo["b_type"]
+			,":b_title" => $arrBoardInfo["b_title"]
+			,":b_content" => $arrBoardInfo["b_content"]
+			,":b_img" => $arrBoardInfo["b_img"]
+		];
 		
+		try {
+			$stmt = $this->conn->prepare($sql);
+			$result = $stmt->execute($prepare);
+			return $result;
+		} catch (Exception $e) {
+			echo "BoardModel->insertBoardList Error : ".$e->getMessage();
+			exit();
+		}
+	}
+
+	//디테일 조회
+	public function getBoardDetail($arrBoardDetailInfo) {
+		$sql =
+		" SELECT "
+		." 		id "
+		." 		,u_pk "
+		." 		,b_title "
+		." 		,b_content "
+		." 		,b_img "
+		." 		,create_at "
+		." 		,update_at "
+		." FROM  board "
+		." WHERE "
+		." 		id= :id "
+		;
+	
 		$prepare = [
 			":id" => $arrBoardDetailInfo["id"]
 		];
@@ -100,6 +100,33 @@ class BoardModel extends ParentsModel {
 			return $result;
 		} catch (Exception $e) {
 			echo "BoardModel->getBoardDetail Error : ".$e->getMessage();
+			exit();
+		}
+	}
+
+	//디테일 조회
+	public function DeleteBoardList($arrBoardDeleteInfo) {
+		$sql =
+		" UPDATE board "
+		."		SET "
+		." 		delete_at=NOW() "
+		." WHERE "
+		." 		id= :id "
+		." 		AND "
+		." 		u_pk= :u_pk "
+		;
+	
+		$prepare = [
+			":id" => $arrBoardDeleteInfo["id"]
+			,":u_pk" => $arrBoardDeleteInfo["u_pk"]
+		];
+		
+		try {
+			$stmt = $this->conn->prepare($sql);
+			$result = $stmt->execute($prepare);
+			return $result;
+		} catch (Exception $e) {
+			echo "BoardModel->DeleteBoardList Error : ".$e->getMessage();
 			exit();
 		}
 	}

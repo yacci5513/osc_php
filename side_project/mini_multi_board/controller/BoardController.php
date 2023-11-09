@@ -18,7 +18,7 @@ class BoardController extends ParentsController {
 		$arrBoardInfo = [
 			"b_type" => $b_type
 		];
-
+		
 		// 페이지의 제목,타입 셋팅
 		foreach($this->arrBoardNameInfo as $item) {
 			if($item["b_type"] === $b_type) {
@@ -27,7 +27,7 @@ class BoardController extends ParentsController {
 				break;
 			}
 		}
-
+		
 		//모델 인스턴스
 		$boardModel = new BoardModel();
 		$this ->arrBoardInfo = $boardModel->getBoardList($arrBoardInfo);
@@ -91,5 +91,30 @@ class BoardController extends ParentsController {
 		header('Content-type: application/json');
 		echo $response;
 		exit();
+	}
+
+	protected function deleteGet() {
+
+		$b_type = isset($_GET["b_type"]) ? $_GET["b_type"] : "0";
+		$id = isset($_GET["id"]) ? $_GET["id"] : "";
+		$u_pk = $_SESSION['u_pk'];
+		$arrBoardDeleteInfo = [
+			"id" => $id
+			,"u_pk" => $u_pk
+		];
+
+		//모델 인스턴스
+		$boardModel = new BoardModel();
+		$boardModel->beginTransaction();
+		$arrBoardInfo = $boardModel->DeleteBoardList($arrBoardDeleteInfo);
+		if($arrBoardInfo !== true) {
+			$boardModel->rollBack();
+			//에러 메시지 표시해줘야함 원래
+		} else {
+			$boardModel->commit();
+		}
+		$boardModel->destroy();
+
+		return "Location: /board/list?b_type=".$b_type;
 	}
 }
