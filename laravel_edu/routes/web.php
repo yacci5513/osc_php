@@ -123,3 +123,22 @@ Route::resource('/task', TaskController::class);
 //PUT|PATCH       task/{task} ............. task.update › TaskController@update  
 //DELETE          task/{task} ............. task.destroy › TaskController@destroy  
 //GET|HEAD        task/{task}/edit ........ task.edit › TaskController@edit
+
+// {task} = 세그먼트 파라미터
+
+Route::get('/child1', function () {
+    $arr = [
+        'name' => '홍길동'
+        ,'age' => 130
+        ,'gender' => 'F'
+    ];
+    $arr2 = [];
+    return view('child1')
+            ->with('gender', '1')
+            ->with('data', $arr)
+            ->with('data2', $arr2);
+});
+
+Route::get('/child2', function () {
+    return view('child2');
+});
