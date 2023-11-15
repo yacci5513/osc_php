@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\BoardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,8 +25,7 @@ Route::post('/user/login', [UserController::class, 'loginpost'])->name('user.log
 Route::get('/user/registration', [UserController::class, 'registrationget'])->name('user.registration.get'); //회원가입 화면 이동
 Route::post('/user/registration', [UserController::class, 'registrationpost'])->name('user.registration.post'); //회원가입 처리
 
-
-
+Route::get('/user/logout', [UserController::class, 'logoutget'])->name('user.logout.get');
 //   GET|HEAD        user ................................... user.index › UserController@index 로그인 화면 이동
 //   GET|HEAD        user/{user}/edit ......................... user.edit › UserController@edit 로그인 처리
 
@@ -37,3 +37,4 @@ Route::post('/user/registration', [UserController::class, 'registrationpost'])->
 
 //   DELETE          user/{user} ........................ user.destroy › UserController@destroy  회원 탈퇴 처리
 
+Route::resource('/board', BoardController::Class);
