@@ -6,6 +6,7 @@
 <main>
     <form class="mt-5 mb-5" method="POST" action="{{ route('board.store')}}">
         @csrf
+        @include('layout.errorlayout')
         <div class="mb-3">
             <label for="b_title" class="form-label">제목</label>
             <input type="text" class="form-control" id="b_title" placeholder="제목을 입력하세요" name="b_title">

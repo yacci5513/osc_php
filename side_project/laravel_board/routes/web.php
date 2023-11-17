@@ -27,7 +27,7 @@ Route::middleware('my.user.validation')->post('/user/registration', [UserControl
 
 Route::get('/user/logout', [UserController::class, 'logoutget'])->name('user.logout.get');
 //   GET|HEAD        user ................................... user.index › UserController@index 로그인 화면 이동
-//   GET|HEAD        user/{user}/edit ......................... user.edit › UserController@edit 로그인 처리
+//   GET|HEAD        user/{user}/edit ......................... user.edit › UserController@edit 
 
 //   GET|HEAD        user/create .......................... user.create › UserController@create  회원 가입 화면 이동
 //   POST            user ................................... user.store › UserController@store  회원가입 처리

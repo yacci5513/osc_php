@@ -44,10 +44,12 @@
             </div>
         </div>
         <div class="card-footer">
-            <form class="mt-5 mb-5" method="POST" action="{{ route('board.destroy', ['board' => $data->b_id]) }}">
+            <form method="POST" action="{{ route('board.destroy', ['board' => $data->b_id]) }}">
                 @csrf
                 @method('DELETE')
                 <button class="btn btn-danger" type="submit">삭제</button>
+                <a class="btn btn-secondary" href="{{ route('board.edit', ['board' => $data->b_id]) }}">수정</a>
+                <a class="btn btn-secondary" href="{{ route('board.index') }}">뒤로</a>
             </form>
         </div>
     </div>

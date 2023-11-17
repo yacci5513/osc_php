@@ -12,6 +12,8 @@ class BoardController extends Controller
 {
     /**
      * Display a listing of the resource.
+     * 
+     * 
      *
      * @return \Illuminate\Http\Response
      */
@@ -95,7 +97,11 @@ class BoardController extends Controller
      */
     public function edit($id)
     {
-        //
+        //수정 페이지로
+        $result = Board::find($id);
+
+        return view('update')->with('data', $result);
+        // TODO: 리다이렉트?
     }
 
     /**
@@ -107,7 +113,18 @@ class BoardController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // TODO: 유효성 체크-> 미들웨어로
+        $result = Board::find($id);
+        $result->b_title = $request->b_title;
+        $result->b_content = $request->b_content;
+        $result->save();
+        
+        // 방법2
+        // $result = Board::find($id);
+        // $data = $request->only('b_title', 'b_content');
+        // $result->update($data);
+        
+        return redirect()->route('board.show', ['board' => $id]);
     }
 
     /**
