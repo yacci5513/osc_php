@@ -2,29 +2,33 @@
   <img alt="Vue logo" src="./assets/logo.png">
   
   <!-- 헤더 -->
-  <div class="nav">
-    <!-- <a href="#">홈</a>
-    <a href="#">상품</a>
-    <a href="#">기타</a> -->
+  <Header :data="navList" :data1="sty_color_red"></Header>
 
-    <!-- 반복문 -->
-    <a v-for="(item, i) in navList" :key="i">{{ i + ':' + item }}</a>
-  </div>
+  <!-- 할인 배너 -->
+  <Discount></Discount>
+  <!-- 컴포넌트로 이관
+  <div class="discount">
+    <p>지금 당장 구매하시면 99%할인</p>
+  </div> -->
+
+
   <!-- 모달 -->
   <Transition name="modalAni">
-    <div class="bg_black" v-if="modalFlg">
-      <div class="bg_white">
-          <button @click="modalFlg = false">닫기</button>
-          <img :src="modalProduct.img" alt="이미지">
-          <h4>{{modalProduct.name}}</h4>
-          <p>{{modalProduct.content}}</p>
-          <p>{{modalProduct.price}} 원</p>
-          <p>신고수 : {{modalProduct.reportCnt}}</p>
-      </div>
-    </div>
-</transition>
+    <Modal
+      v-if="modalFlg"
+      :data="modalProduct"
+      @closeModal="modalClose"
+      ></Modal>
+  </transition>
+
+
     <!-- 상품 리스트-->
-    <div>
+    <ProductList
+      :data="products"
+      @openModal="modalOpen"
+      @plusOne="plusOne"
+    ></ProductList>
+    <!-- <div>
       <div v-for="(item, i) in products" :key="i">
         <br>
         <p @click="modalOpen(item)">{{ item.name }}</p>
@@ -32,7 +36,9 @@
         <button @click="$event => plusOne(i)">허위 매물 신고</button>
         <span>신고수 : {{ item.reportCnt }}</span>
       </div>
-    </div>
+    </div> -->
+
+
   <!-- <div>
     <div>
       <h4 :style="sty_color_red">{{products[0]}}</h4>
@@ -47,11 +53,15 @@
       <p>{{prices[2]}} 원</p>
     </div>
   </div> -->
+
 </template>
 
 <script>
 import data from './assets/js/data.js';
-
+import Discount from './components/Discount.vue';
+import Header from './components/Header.vue';
+import Modal from './components/Modal.vue';
+import ProductList from './components/ProductList.vue';
 export default {
   name: 'App',
 
@@ -79,6 +89,17 @@ export default {
       this.modalFlg = true;
       this.modalProduct = item;
     },
+    modalClose() {
+      this.modalFlg = false;
+    },
+  },
+  
+  // components : 컴포넌트를 등록하는 영역
+  components: {
+    Discount,
+    Header,
+    Modal,
+    ProductList,
   },
 }
 </script>
