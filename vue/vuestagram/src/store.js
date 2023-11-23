@@ -11,6 +11,7 @@ const store = createStore({
             imgURL: '', // 작성탭 표시용 이미지 URL 저장용
             postFileData: null, // 글 작성 파일 데이터 저장용
             lastBoardId: 0, // 가장 마지막 로드 된 게시글 번호 저장용
+            flgBtnMoreView: true, // 더보기 버튼 활성 버튼 플래그
         }
     },
 
@@ -20,9 +21,12 @@ const store = createStore({
             state.boardData = data;
             state.lastBoardId = data[data.length - 1].id;
         },
+        // TODO meerkat git 참고해서 lastBoardId 원래 어떤 방식으로 하는건지
+        // 확인 하기 컨텍스트 커밋부분 수정해줘야 함
         setFlgTapUI(state, num) {
             state.flgTapUI = num;
         },
+
         setImgURL(state, url) {
             state.imgURL = url;
         },
@@ -48,6 +52,11 @@ const store = createStore({
             state.boardData.push(data);
             state.lastBoardId = data.id;
         },
+        
+        // 더보기 버튼 활성화
+        setFlgBtnMoreView(state, boo) {
+            state.flgBtnMoreView = boo;
+        }
 
     },
     // actions : ajax로 서버에 데이터를 요청할 때나 시간 함수등 비동기 처리는 actions에 정의
@@ -99,21 +108,25 @@ const store = createStore({
             })
         },
         actionGetBoardShow(context) {
-            let LASTNUM = context.state.lastBoardId;
+            const LASTNUM = context.state.lastBoardId;
             const url = 'http://112.222.157.156:6006/api/boards/' + LASTNUM;
             const header = {
                 headers: {
                     'Authorization': 'Bearer meerkat',
-                    'Content-Type': 'multipart/form-data'
                 }
             };
             axios.get(url, header)
             .then(res => {
-                // 작성글 데이터 저장
-                context.commit('setPushBoard', res.data);
+                if(res.data) {
+                    // 데이터 있을 경우
+                    context.commit('setPushBoard', res.data);
+                } else {
+                    //데이터 없을 경우
+                    context.commit('setFlgBtnMoreView', false);
+                }
             })
             .catch(err => {
-                console.log(err);
+                console.log(err.response.data);
             })
         },
     }
