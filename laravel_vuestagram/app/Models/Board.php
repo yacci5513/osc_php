@@ -11,10 +11,10 @@ class Board extends Model
     use HasFactory;
 
     // 테이블 정의 (정의하지 않을 경우에는 클래스 명의 복수형을 암묵적으로 인식)
-    protected $table = 'boards';
+    // protected $table = 'boards';
 
     // PK 정의 (정의하지 않을 경우에는 'id'컬럼을 pk로 인식)
-    protected $primaryKey = 'id';
+    // protected $primaryKey = 'id';
 
     // 대량 할당을 이용한 취약성 대책
     // 1. 화이트 리스트 방식 : 수정할 수 있는 컬럼을 설정
@@ -31,7 +31,8 @@ class Board extends Model
     }
 
     protected $hidden = [
-        'updated_at'
+        'updated_at',
+        'deleted_at'
     ];
 
 }

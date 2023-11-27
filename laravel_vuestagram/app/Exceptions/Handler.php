@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
+use Illuminate\Support\Facades\Log;
 
 class Handler extends ExceptionHandler
 {
@@ -37,5 +38,24 @@ class Handler extends ExceptionHandler
         $this->reportable(function (Throwable $e) {
             //
         });
+    }
+
+    /**
+     * 커스텀
+     */
+    public function render($request, Throwable $exception){
+        $errCode = ['E01', 'E02'];
+
+        Log::debug($request->ip()." : ".$exception->getMessage());
+
+        $code = $exception->getMessage();
+
+        if(!in_array($code, $errCode)) {
+            $code = 'E99';
+        }
+
+        return response()->json([
+            'message' =>  $code
+        ], 500);
     }
 }

@@ -20,9 +20,9 @@ class BoardSeeder extends Seeder
     {
         //
         $data = [
-            ['name' => '고양이', 'img' => '/img/cat.jpg', 'likes' => 0, 'content' => '고양고양', 'created_at' => date('ymdhis'), 'updated_at' => date('ymdhis')]
-            ,['name' => '말', 'img' => '/img/horse.jpg', 'likes' => 0, 'content' => '말말말말', 'created_at' => date('ymdhis'), 'updated_at' => date('ymdhis')]
-            ,['name' => '미어캣', 'img' => '/img/meerkat.jpg', 'likes' => 0, 'content' => '미어미어', 'created_at' => date('ymdhis'), 'updated_at' => date('ymdhis')]
+            ['name' => '고양이', 'img' => '/img/cat.jpg', 'likes' => 0, 'content' => '고양고양', 'created_at' => date('ymdhis'), 'updated_at' => date('ymdhis'),'deleted_at'=> NULL]
+            ,['name' => '말', 'img' => '/img/horse.jpg', 'likes' => 0, 'content' => '말말말말', 'created_at' => date('ymdhis'), 'updated_at' => date('ymdhis'),'deleted_at'=> NULL]
+            ,['name' => '미어캣', 'img' => '/img/meerkat.jpg', 'likes' => 0, 'content' => '미어미어', 'created_at' => date('ymdhis'), 'updated_at' => date('ymdhis'),'deleted_at'=> NULL]
         ];
         Board::insert($data);
     }
