@@ -63,11 +63,10 @@ const store = createStore({
     actions: {
         // 초기 게시글 데이터 획득 ajax 처리
         actionGetBoardList(context) {
-            const url = 'http://112.222.157.156:6006/api/boards';
+            const url = '/api/boards';
             const header = {
                 headers: {
-                    'Authorization': 'Bearer meerkat',
-                    'Content-Type': 'multipart/form-data',
+                    'Authorization': 'Bearer seongchan',
                 }
             };
             axios.get(url, header)
@@ -82,20 +81,27 @@ const store = createStore({
 
         //글 작성 처리
         actionPostBoardAdd(context) {
-            const url = 'http://112.222.157.156:6006/api/boards';
+            const url = '/api/boards';
             const header = {
                 headers: {
-                    'Authorization': 'Bearer meerkat',
-                    'Content-Type': 'multipart/form-data'
+                    'Authorization': 'Bearer seongchan',
+                    'Content-Type': 'multipart/form-data',
                 }
             };
-            const data = {
-                name: '오성찬',
-                img: context.state.postFileData,
-                content: document.getElementById('content').value,
-            };
+            //통신할때 form-data이기 때문에 data가 아니라 form-data를 넘겨줘야 한다.
+            const formData = new FormData();
+            formData.append('name', '오성찬');
+            formData.append('img', context.state.postFileData);
+            formData.append('content', document.getElementById('content').value);
 
-            axios.post(url, data, header)
+            // const data = {
+            //     name: '오성찬',
+            //     img: context.state.postFileData,
+            //     content: document.getElementById('content').value,
+            // };
+
+
+            axios.post(url, formData, header)
             .then(res => {
                 // 작성글 데이터 저장
                 context.commit('setUnshiftBoard', res.data);
@@ -109,10 +115,10 @@ const store = createStore({
         },
         actionGetBoardShow(context) {
             const LASTNUM = context.state.lastBoardId;
-            const url = 'http://112.222.157.156:6006/api/boards/' + LASTNUM;
+            const url = '/api/boards/' + LASTNUM;
             const header = {
                 headers: {
-                    'Authorization': 'Bearer meerkat',
+                    'Authorization': 'Bearer seongchan',
                 }
             };
             axios.get(url, header)

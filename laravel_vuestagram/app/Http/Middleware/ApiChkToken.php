@@ -20,7 +20,7 @@ class ApiChkToken
         $arr = $request->all();
         $arr['Token'] = $request->bearerToken();
         Log::debug($request->ip(), $arr);
-        if(!($request->bearerToken() === env('APP_AUTHORIZATION_KEY'))) {
+        if(!($request->bearerToken() === env('APP_AUTHORIZATION_KEY', '214afasfkjavasjiv123ssjiv1'))) {
             return response()->json([
                 'code' => 'E02'
             ], 401);
