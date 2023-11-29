@@ -33,7 +33,7 @@
 <script>
 import ContainerComponent from './ContainerComponent.vue';
 export default {
-  name: 'App',
+  name: 'AppComponent',
   created() {
     // store의 action 호출
     this.$store.dispatch('actionGetBoardList');

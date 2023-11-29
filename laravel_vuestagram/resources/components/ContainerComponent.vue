@@ -4,7 +4,7 @@
     </div>
 
     <!-- 글작성 -->
-    <div  v-if="$store.state.flgTapUI === 1">
+    <div v-if="$store.state.flgTapUI === 1">
         <div
             class="upload-img"
             :style="{backgroundImage : `url('${$store.state.imgURL}')`}"></div>

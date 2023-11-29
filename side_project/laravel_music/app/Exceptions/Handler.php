@@ -38,4 +38,23 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+        /**
+     * 커스텀
+     */
+    public function render($request, Throwable $exception){
+        $errCode = ['E01', 'E02'];
+
+        Log::debug($request->ip()." : ".$exception->getMessage());
+
+        $code = $exception->getMessage();
+
+        if(!in_array($code, $errCode)) {
+            $code = 'E99';
+        }
+
+        return response()->json([
+            'message' =>  $code
+        ], 500);
+    }
 }

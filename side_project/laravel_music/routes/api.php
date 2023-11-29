@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BoardsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+
+//middleware('apiChkToken')->
+Route::prefix('boards')->group(function () {
+    Route::get('/', [BoardsController::class, 'index']);
+    Route::get('/{board}', [BoardsController::class, 'show']);
+    Route::post('/', [BoardsController::class, 'store']);
+});
+
+
+// 일치하는거 없을 때
+Route::fallback(function(){
+    return response()->json([
+        'code' => 'E03'
+    ], 404);
 });

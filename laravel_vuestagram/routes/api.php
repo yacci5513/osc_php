@@ -17,8 +17,6 @@ use App\Http\Controllers\BoardsController;
 
 Route::middleware('apiChkToken')->prefix('boards')->group(function () {
     Route::get('/', [BoardsController::class, 'index']);
-    Route::get('/{board}', [BoardsController::class, 'show']);
-    Route::post('/', [BoardsController::class, 'store']);
 });
 
 
