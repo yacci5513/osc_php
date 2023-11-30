@@ -19335,8 +19335,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _FooterComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FooterComponent.vue */ "./resources/components/FooterComponent.vue");
+/* harmony import */ var _NavComponent_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavComponent.vue */ "./resources/components/NavComponent.vue");
+/* harmony import */ var _SideComponent_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SideComponent.vue */ "./resources/components/SideComponent.vue");
+
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'AppComponent',
+  props: {},
+  components: {
+    FooterComponent: _FooterComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    NavComponent: _NavComponent_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    SideComponent: _SideComponent_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  data: function data() {
+    return {
+      setting: ''
+    };
+  },
+  mounted: function mounted() {},
+  methods: {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/FooterComponent.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/FooterComponent.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'FooterComponent',
   props: {},
   components: {},
   data: function data() {
@@ -19344,11 +19380,85 @@ __webpack_require__.r(__webpack_exports__);
       setting: ''
     };
   },
-  created: function created() {
-    this.$store.dispatch('actionGetBoardList');
-  },
+  created: function created() {},
   mounted: function mounted() {},
   methods: {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/MusixMatchComponent.vue?vue&type=script&lang=js":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/MusixMatchComponent.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'MusixMatchComponent',
+  created: function created() {
+    this.$store.dispatch('actionGetMusixMatchDataList');
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/NavComponent.vue?vue&type=script&lang=js":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/NavComponent.vue?vue&type=script&lang=js ***!
+  \***************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'NavComponent',
+  created: function created() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/SideComponent.vue?vue&type=script&lang=js":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/SideComponent.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'SideComponent',
+  created: function created() {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/VibeComponent.vue?vue&type=script&lang=js":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/VibeComponent.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'VibeComponent',
+  created: function created() {
+    this.$store.dispatch('actionGetVibeDataList');
+  }
 });
 
 /***/ }),
@@ -19366,64 +19476,235 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", {
-  "class": "sb-topnav navbar navbar-expand navbar-dark bg-dark"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar Brand"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  "class": "navbar-brand ps-3",
-  href: "index.html"
-}, "VIBE")], -1 /* HOISTED */);
-var _hoisted_2 = {
+var _hoisted_1 = {
   id: "layoutSidenav"
 };
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"layoutSidenav_nav\"><nav class=\"sb-sidenav accordion sb-sidenav-dark\" id=\"sidenavAccordion\"><div class=\"sb-sidenav-menu\"><div class=\"nav\"><a class=\"nav-link\" href=\"charts.html\"><div class=\"sb-nav-link-icon\"><i class=\"fas fa-chart-area\"></i></div> Charts </a><a class=\"nav-link\" href=\"tables.html\"><div class=\"sb-nav-link-icon\"><i class=\"fas fa-table\"></i></div> Tables </a></div></div><div class=\"sb-sidenav-footer\"><div class=\"small\">로그인</div> Admin </div></nav></div>", 1);
-var _hoisted_4 = {
+var _hoisted_2 = {
   id: "layoutSidenav_content"
 };
-var _hoisted_5 = {
-  "class": "container-fluid px-4"
-};
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "mt-4"
-}, "메인", -1 /* HOISTED */);
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ol", {
-  "class": "breadcrumb mb-4"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  "class": "breadcrumb-item active"
-}, "main")], -1 /* HOISTED */);
-var _hoisted_8 = {
-  "class": "card mb-4"
-};
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "card-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-  "class": "fas fa-table me-1"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" 음악 순위 ")], -1 /* HOISTED */);
-var _hoisted_10 = {
-  "class": "card-body"
-};
-var _hoisted_11 = {
-  "class": "table"
-};
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "이름"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "랭킹"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "id"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "4"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "5"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "6")])], -1 /* HOISTED */);
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, "4", -1 /* HOISTED */);
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, "5", -1 /* HOISTED */);
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, "6", -1 /* HOISTED */);
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_NavComponent = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("NavComponent");
+  var _component_SideComponent = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("SideComponent");
+  var _component_router_view = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-view");
+  var _component_FooterComponent = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("FooterComponent");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SideComponent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_view), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_FooterComponent)])])], 64 /* STABLE_FRAGMENT */);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/FooterComponent.vue?vue&type=template&id=62bb55c1":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/FooterComponent.vue?vue&type=template&id=62bb55c1 ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
   "class": "py-4 bg-light mt-auto"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "container-fluid px-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "d-flex align-items-center justify-content-between small"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "text-muted"
-}, "Copyright © Your Website 2023")])])], -1 /* HOISTED */);
+}, "Copyright © Your Website 2023")])], -1 /* HOISTED */);
+var _hoisted_3 = [_hoisted_2];
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, [].concat(_hoisted_3));
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/MusixMatchComponent.vue?vue&type=template&id=16230b9e":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/MusixMatchComponent.vue?vue&type=template&id=16230b9e ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "container-fluid px-4"
+};
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "mt-4"
+}, "메인", -1 /* HOISTED */);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ol", {
+  "class": "breadcrumb mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  "class": "breadcrumb-item active"
+}, "main")], -1 /* HOISTED */);
+var _hoisted_4 = {
+  "class": "card mb-4"
+};
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "card-header"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fas fa-table me-1"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" 미국에서 인기있는 Top 10 ")], -1 /* HOISTED */);
+var _hoisted_6 = {
+  "class": "card-body"
+};
+var _hoisted_7 = {
+  "class": "table"
+};
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "이름"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "아티스트 랭킹")])], -1 /* HOISTED */);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" main 영역 "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("table", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tbody", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.$store.state.boardData.message.body.artist_list, function (item) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [_hoisted_2, _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("table", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tbody", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.$store.state.MusixMatchData.message.body.artist_list, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", {
       key: item
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_rating), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_id), 1 /* TEXT */), _hoisted_13, _hoisted_14, _hoisted_15]);
-  }), 128 /* KEYED_FRAGMENT */))])])])])])]), _hoisted_16])])], 64 /* STABLE_FRAGMENT */);
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_rating), 1 /* TEXT */)]);
+  }), 128 /* KEYED_FRAGMENT */))])])])])])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/NavComponent.vue?vue&type=template&id=6e86078b":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/NavComponent.vue?vue&type=template&id=6e86078b ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "sb-topnav navbar navbar-expand navbar-dark bg-dark"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar Brand"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    "class": "navbar-brand ps-3",
+    to: "/Vibe"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Music Rank ")];
+    }),
+    _: 1 /* STABLE */
+  })]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/SideComponent.vue?vue&type=template&id=4f2f9545":
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/SideComponent.vue?vue&type=template&id=4f2f9545 ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  id: "layoutSidenav_nav"
+};
+var _hoisted_2 = {
+  "class": "sb-sidenav accordion sb-sidenav-dark",
+  id: "sidenavAccordion"
+};
+var _hoisted_3 = {
+  "class": "sb-sidenav-menu"
+};
+var _hoisted_4 = {
+  "class": "nav"
+};
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br", null, null, -1 /* HOISTED */);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "sb-sidenav-footer"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "small"
+}, "로그인"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ohseongchan ")], -1 /* HOISTED */);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    "class": "nav-link",
+    to: "/Vibe"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Vibe Chart ")];
+    }),
+    _: 1 /* STABLE */
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+    "class": "nav-link",
+    to: "/MusixMatch"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" MusixMatch Chart ")];
+    }),
+    _: 1 /* STABLE */
+  })])]), _hoisted_6])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/VibeComponent.vue?vue&type=template&id=e5134a74":
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/VibeComponent.vue?vue&type=template&id=e5134a74 ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "container-fluid px-4"
+};
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "mt-4"
+}, "메인", -1 /* HOISTED */);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ol", {
+  "class": "breadcrumb mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  "class": "breadcrumb-item active"
+}, "main")], -1 /* HOISTED */);
+var _hoisted_4 = {
+  "class": "card mb-4"
+};
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "card-header"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fas fa-table me-1"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" 미국에서 인기있는 Top 10 ")], -1 /* HOISTED */);
+var _hoisted_6 = {
+  "class": "card-body"
+};
+var _hoisted_7 = {
+  "class": "table"
+};
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "이름"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", null, "아티스트 랭킹")])], -1 /* HOISTED */);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [_hoisted_2, _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("table", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tbody", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.$store.state.MusixMatchData.message.body.artist_list, function (item) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", {
+      key: item
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_name), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.artist.artist_rating), 1 /* TEXT */)]);
+  }), 128 /* KEYED_FRAGMENT */))])])])])])]);
 }
 
 /***/ }),
@@ -19438,8 +19719,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _components_AppComponent_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AppComponent.vue */ "./resources/components/AppComponent.vue");
-/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./store.js */ "./resources/js/store.js");
+/* harmony import */ var _router_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./router.js */ "./resources/js/router.js");
+/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./store.js */ "./resources/js/store.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 
 
 
@@ -19447,7 +19730,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
   components: {
     AppComponent: _components_AppComponent_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
-}).use(_store_js__WEBPACK_IMPORTED_MODULE_2__["default"]).mount('#app');
+}).use(_router_js__WEBPACK_IMPORTED_MODULE_2__["default"]).use(_store_js__WEBPACK_IMPORTED_MODULE_3__["default"]).mount('#app');
 
 /***/ }),
 
@@ -19487,6 +19770,41 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/js/router.js":
+/*!********************************!*\
+  !*** ./resources/js/router.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.mjs");
+/* harmony import */ var _components_VibeComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/VibeComponent.vue */ "./resources/components/VibeComponent.vue");
+/* harmony import */ var _components_MusixMatchComponent_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MusixMatchComponent.vue */ "./resources/components/MusixMatchComponent.vue");
+
+
+
+var routes = [{
+  path: "/",
+  redirect: '/Vibe'
+}, {
+  path: "/Vibe",
+  component: _components_VibeComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+}, {
+  path: "/MusixMatch",
+  component: _components_MusixMatchComponent_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+}];
+var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_2__.createRouter)({
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_2__.createWebHistory)(),
+  routes: routes
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);
+
+/***/ }),
+
 /***/ "./resources/js/store.js":
 /*!*******************************!*\
   !*** ./resources/js/store.js ***!
@@ -19507,23 +19825,34 @@ var store = (0,vuex__WEBPACK_IMPORTED_MODULE_1__.createStore)({
   // state() : data를 저장하는 영역
   state: function state() {
     return {
-      boardData: [] // 게시글 저장용
+      MusixMatchData: [],
+      VibeData: []
     };
   },
-
   // mutations : 데이터 수정용 함수 저장 영역
   mutations: {
-    setBoardList: function setBoardList(state, data) {
-      state.boardData = data;
+    setMusixMatchDataList: function setMusixMatchDataList(state, data) {
+      state.MusixMatchData = data;
+    },
+    setVibeDataList: function setVibeDataList(state, data) {
+      state.VibeData = data;
     }
   },
   // actions : ajax로 서버에 데이터를 요청할 때나 시간 함수등 비동기 처리는 actions에 정의
   actions: {
-    actionGetBoardList: function actionGetBoardList(context) {
-      var url = '/api/boards';
+    actionGetMusixMatchDataList: function actionGetMusixMatchDataList(context) {
+      var url = '/api/chart/musixmatchchart';
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get(url).then(function (res) {
+        context.commit('setMusixMatchDataList', res.data);
+      })["catch"](function (err) {
+        console.log(err);
+      });
+    },
+    actionGetVibeDataList: function actionGetVibeDataList(context) {
+      var url = '/api/chart/vibechart';
       axios__WEBPACK_IMPORTED_MODULE_0___default().get(url).then(function (res) {
         console.log(res.data);
-        context.commit('setBoardList', res.data);
+        context.commit('setVibeDataList', res.data);
       })["catch"](function (err) {
         console.log(err);
       });
@@ -19578,7 +19907,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\r\n/*!\r\n* Start Bootstrap - SB Admin v7.0.7 (https://startbootstrap.com/template/sb-admin)\r\n* Copyright 2013-2023 Start Bootstrap\r\n* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)\r\n*/\r\n/*!\r\n * Bootstrap  v5.2.3 (https://getbootstrap.com/)\r\n * Copyright 2011-2022 The Bootstrap Authors\r\n * Copyright 2011-2022 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)\r\n */\r\n:root {\r\n  --bs-blue: #0d6efd;\r\n  --bs-indigo: #6610f2;\r\n  --bs-purple: #6f42c1;\r\n  --bs-pink: #d63384;\r\n  --bs-red: #dc3545;\r\n  --bs-orange: #fd7e14;\r\n  --bs-yellow: #ffc107;\r\n  --bs-green: #198754;\r\n  --bs-teal: #20c997;\r\n  --bs-cyan: #0dcaf0;\r\n  --bs-black: #000;\r\n  --bs-white: #fff;\r\n  --bs-gray: #6c757d;\r\n  --bs-gray-dark: #343a40;\r\n  --bs-gray-100: #f8f9fa;\r\n  --bs-gray-200: #e9ecef;\r\n  --bs-gray-300: #dee2e6;\r\n  --bs-gray-400: #ced4da;\r\n  --bs-gray-500: #adb5bd;\r\n  --bs-gray-600: #6c757d;\r\n  --bs-gray-700: #495057;\r\n  --bs-gray-800: #343a40;\r\n  --bs-gray-900: #212529;\r\n  --bs-primary: #0d6efd;\r\n  --bs-secondary: #6c757d;\r\n  --bs-success: #198754;\r\n  --bs-info: #0dcaf0;\r\n  --bs-warning: #ffc107;\r\n  --bs-danger: #dc3545;\r\n  --bs-light: #f8f9fa;\r\n  --bs-dark: #212529;\r\n  --bs-primary-rgb: 13, 110, 253;\r\n  --bs-secondary-rgb: 108, 117, 125;\r\n  --bs-success-rgb: 25, 135, 84;\r\n  --bs-info-rgb: 13, 202, 240;\r\n  --bs-warning-rgb: 255, 193, 7;\r\n  --bs-danger-rgb: 220, 53, 69;\r\n  --bs-light-rgb: 248, 249, 250;\r\n  --bs-dark-rgb: 33, 37, 41;\r\n  --bs-white-rgb: 255, 255, 255;\r\n  --bs-black-rgb: 0, 0, 0;\r\n  --bs-body-color-rgb: 33, 37, 41;\r\n  --bs-body-bg-rgb: 255, 255, 255;\r\n  --bs-font-sans-serif: system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\r\n  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\r\n  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));\r\n  --bs-body-font-family: var(--bs-font-sans-serif);\r\n  --bs-body-font-size: 1rem;\r\n  --bs-body-font-weight: 400;\r\n  --bs-body-line-height: 1.5;\r\n  --bs-body-color: #212529;\r\n  --bs-body-bg: #fff;\r\n  --bs-border-width: 1px;\r\n  --bs-border-style: solid;\r\n  --bs-border-color: #dee2e6;\r\n  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);\r\n  --bs-border-radius: 0.375rem;\r\n  --bs-border-radius-sm: 0.25rem;\r\n  --bs-border-radius-lg: 0.5rem;\r\n  --bs-border-radius-xl: 1rem;\r\n  --bs-border-radius-2xl: 2rem;\r\n  --bs-border-radius-pill: 50rem;\r\n  --bs-link-color: #0d6efd;\r\n  --bs-link-hover-color: #0a58ca;\r\n  --bs-code-color: #d63384;\r\n  --bs-highlight-bg: #fff3cd;\r\n}\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@media (prefers-reduced-motion: no-preference) {\r\n  :root {\r\n    scroll-behavior: smooth;\r\n  }\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  font-family: var(--bs-body-font-family);\r\n  font-size: var(--bs-body-font-size);\r\n  font-weight: var(--bs-body-font-weight);\r\n  line-height: var(--bs-body-line-height);\r\n  color: var(--bs-body-color);\r\n  text-align: var(--bs-body-text-align);\r\n  background-color: var(--bs-body-bg);\r\n  -webkit-text-size-adjust: 100%;\r\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\r\n}\r\n\r\nhr {\r\n  margin: 1rem 0;\r\n  color: inherit;\r\n  border: 0;\r\n  border-top: 1px solid;\r\n  opacity: 0.25;\r\n}\r\n\r\nh6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {\r\n  margin-top: 0;\r\n  margin-bottom: 0.5rem;\r\n  font-weight: 500;\r\n  line-height: 1.2;\r\n}\r\n\r\nh1, .h1 {\r\n  font-size: calc(1.375rem + 1.5vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h1, .h1 {\r\n    font-size: 2.5rem;\r\n  }\r\n}\r\n\r\nh2, .h2 {\r\n  font-size: calc(1.325rem + 0.9vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h2, .h2 {\r\n    font-size: 2rem;\r\n  }\r\n}\r\n\r\nh3, .h3 {\r\n  font-size: calc(1.3rem + 0.6vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h3, .h3 {\r\n    font-size: 1.75rem;\r\n  }\r\n}\r\n\r\nh4, .h4 {\r\n  font-size: calc(1.275rem + 0.3vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h4, .h4 {\r\n    font-size: 1.5rem;\r\n  }\r\n}\r\n\r\nh5, .h5 {\r\n  font-size: 1.25rem;\r\n}\r\n\r\nh6, .h6 {\r\n  font-size: 1rem;\r\n}\r\n\r\np {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nabbr[title] {\r\n  -webkit-text-decoration: underline dotted;\r\n          text-decoration: underline dotted;\r\n  cursor: help;\r\n  -webkit-text-decoration-skip-ink: none;\r\n          text-decoration-skip-ink: none;\r\n}\r\n\r\naddress {\r\n  margin-bottom: 1rem;\r\n  font-style: normal;\r\n  line-height: inherit;\r\n}\r\n\r\nol,\r\nul {\r\n  padding-left: 2rem;\r\n}\r\n\r\nol,\r\nul,\r\ndl {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nol ol,\r\nul ul,\r\nol ul,\r\nul ol {\r\n  margin-bottom: 0;\r\n}\r\n\r\ndt {\r\n  font-weight: 700;\r\n}\r\n\r\ndd {\r\n  margin-bottom: 0.5rem;\r\n  margin-left: 0;\r\n}\r\n\r\nblockquote {\r\n  margin: 0 0 1rem;\r\n}\r\n\r\nb,\r\nstrong {\r\n  font-weight: bolder;\r\n}\r\n\r\nsmall, .small {\r\n  font-size: 0.875em;\r\n}\r\n\r\nmark, .mark {\r\n  padding: 0.1875em;\r\n  background-color: var(--bs-highlight-bg);\r\n}\r\n\r\nsub,\r\nsup {\r\n  position: relative;\r\n  font-size: 0.75em;\r\n  line-height: 0;\r\n  vertical-align: baseline;\r\n}\r\n\r\nsub {\r\n  bottom: -0.25em;\r\n}\r\n\r\nsup {\r\n  top: -0.5em;\r\n}\r\n\r\na {\r\n  color: var(--bs-link-color);\r\n  text-decoration: underline;\r\n}\r\na:hover {\r\n  color: var(--bs-link-hover-color);\r\n}\r\n\r\na:not([href]):not([class]), a:not([href]):not([class]):hover {\r\n  color: inherit;\r\n  text-decoration: none;\r\n}\r\n\r\npre,\r\ncode,\r\nkbd,\r\nsamp {\r\n  font-family: var(--bs-font-monospace);\r\n  font-size: 1em;\r\n}\r\n\r\npre {\r\n  display: block;\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n  overflow: auto;\r\n  font-size: 0.875em;\r\n}\r\npre code {\r\n  font-size: inherit;\r\n  color: inherit;\r\n  word-break: normal;\r\n}\r\n\r\ncode {\r\n  font-size: 0.875em;\r\n  color: var(--bs-code-color);\r\n  word-wrap: break-word;\r\n}\r\na > code {\r\n  color: inherit;\r\n}\r\n\r\nkbd {\r\n  padding: 0.1875rem 0.375rem;\r\n  font-size: 0.875em;\r\n  color: var(--bs-body-bg);\r\n  background-color: var(--bs-body-color);\r\n  border-radius: 0.25rem;\r\n}\r\nkbd kbd {\r\n  padding: 0;\r\n  font-size: 1em;\r\n}\r\n\r\nfigure {\r\n  margin: 0 0 1rem;\r\n}\r\n\r\nimg,\r\nsvg {\r\n  vertical-align: middle;\r\n}\r\n\r\ntable {\r\n  caption-side: bottom;\r\n  border-collapse: collapse;\r\n}\r\n\r\ncaption {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  color: #6c757d;\r\n  text-align: left;\r\n}\r\n\r\nth {\r\n  text-align: inherit;\r\n  text-align: -webkit-match-parent;\r\n}\r\n\r\nthead,\r\ntbody,\r\ntfoot,\r\ntr,\r\ntd,\r\nth {\r\n  border-color: inherit;\r\n  border-style: solid;\r\n  border-width: 0;\r\n}\r\n\r\nlabel {\r\n  display: inline-block;\r\n}\r\n\r\nbutton {\r\n  border-radius: 0;\r\n}\r\n\r\nbutton:focus:not(:focus-visible) {\r\n  outline: 0;\r\n}\r\n\r\ninput,\r\nbutton,\r\nselect,\r\noptgroup,\r\ntextarea {\r\n  margin: 0;\r\n  font-family: inherit;\r\n  font-size: inherit;\r\n  line-height: inherit;\r\n}\r\n\r\nbutton,\r\nselect {\r\n  text-transform: none;\r\n}\r\n\r\n[role=button] {\r\n  cursor: pointer;\r\n}\r\n\r\nselect {\r\n  word-wrap: normal;\r\n}\r\nselect:disabled {\r\n  opacity: 1;\r\n}\r\n\r\n[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {\r\n  display: none !important;\r\n}\r\n\r\nbutton,\r\n[type=button],\r\n[type=reset],\r\n[type=submit] {\r\n  -webkit-appearance: button;\r\n}\r\nbutton:not(:disabled),\r\n[type=button]:not(:disabled),\r\n[type=reset]:not(:disabled),\r\n[type=submit]:not(:disabled) {\r\n  cursor: pointer;\r\n}\r\n\r\n::-moz-focus-inner {\r\n  padding: 0;\r\n  border-style: none;\r\n}\r\n\r\ntextarea {\r\n  resize: vertical;\r\n}\r\n\r\nfieldset {\r\n  min-width: 0;\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\nlegend {\r\n  float: left;\r\n  width: 100%;\r\n  padding: 0;\r\n  margin-bottom: 0.5rem;\r\n  font-size: calc(1.275rem + 0.3vw);\r\n  line-height: inherit;\r\n}\r\n@media (min-width: 1200px) {\r\n  legend {\r\n    font-size: 1.5rem;\r\n  }\r\n}\r\nlegend + * {\r\n  clear: left;\r\n}\r\n\r\n::-webkit-datetime-edit-fields-wrapper,\r\n::-webkit-datetime-edit-text,\r\n::-webkit-datetime-edit-minute,\r\n::-webkit-datetime-edit-hour-field,\r\n::-webkit-datetime-edit-day-field,\r\n::-webkit-datetime-edit-month-field,\r\n::-webkit-datetime-edit-year-field {\r\n  padding: 0;\r\n}\r\n\r\n::-webkit-inner-spin-button {\r\n  height: auto;\r\n}\r\n\r\n[type=search] {\r\n  outline-offset: -2px;\r\n  -webkit-appearance: textfield;\r\n}\r\n\r\n/* rtl:raw:\r\n[type=\"tel\"],\r\n[type=\"url\"],\r\n[type=\"email\"],\r\n[type=\"number\"] {\r\n  direction: ltr;\r\n}\r\n*/\r\n::-webkit-search-decoration {\r\n  -webkit-appearance: none;\r\n}\r\n\r\n::-webkit-color-swatch-wrapper {\r\n  padding: 0;\r\n}\r\n\r\n::file-selector-button {\r\n  font: inherit;\r\n  -webkit-appearance: button;\r\n}\r\n\r\noutput {\r\n  display: inline-block;\r\n}\r\n\r\niframe {\r\n  border: 0;\r\n}\r\n\r\nsummary {\r\n  display: list-item;\r\n  cursor: pointer;\r\n}\r\n\r\nprogress {\r\n  vertical-align: baseline;\r\n}\r\n\r\n[hidden] {\r\n  display: none !important;\r\n}\r\n\r\n.lead {\r\n  font-size: 1.25rem;\r\n  font-weight: 300;\r\n}\r\n\r\n.display-1 {\r\n  font-size: calc(1.625rem + 4.5vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-1 {\r\n    font-size: 5rem;\r\n  }\r\n}\r\n\r\n.display-2 {\r\n  font-size: calc(1.575rem + 3.9vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-2 {\r\n    font-size: 4.5rem;\r\n  }\r\n}\r\n\r\n.display-3 {\r\n  font-size: calc(1.525rem + 3.3vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-3 {\r\n    font-size: 4rem;\r\n  }\r\n}\r\n\r\n.display-4 {\r\n  font-size: calc(1.475rem + 2.7vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-4 {\r\n    font-size: 3.5rem;\r\n  }\r\n}\r\n\r\n.display-5 {\r\n  font-size: calc(1.425rem + 2.1vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-5 {\r\n    font-size: 3rem;\r\n  }\r\n}\r\n\r\n.display-6 {\r\n  font-size: calc(1.375rem + 1.5vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-6 {\r\n    font-size: 2.5rem;\r\n  }\r\n}\r\n\r\n.list-unstyled {\r\n  padding-left: 0;\r\n  list-style: none;\r\n}\r\n\r\n.list-inline {\r\n  padding-left: 0;\r\n  list-style: none;\r\n}\r\n\r\n.list-inline-item {\r\n  display: inline-block;\r\n}\r\n.list-inline-item:not(:last-child) {\r\n  margin-right: 0.5rem;\r\n}\r\n\r\n.initialism {\r\n  font-size: 0.875em;\r\n  text-transform: uppercase;\r\n}\r\n\r\n.blockquote {\r\n  margin-bottom: 1rem;\r\n  font-size: 1.25rem;\r\n}\r\n.blockquote > :last-child {\r\n  margin-bottom: 0;\r\n}\r\n\r\n.blockquote-footer {\r\n  margin-top: -1rem;\r\n  margin-bottom: 1rem;\r\n  font-size: 0.875em;\r\n  color: #6c757d;\r\n}\r\n.blockquote-footer::before {\r\n  content: \"— \";\r\n}\r\n\r\n.img-fluid {\r\n  max-width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.img-thumbnail {\r\n  padding: 0.25rem;\r\n  background-color: #fff;\r\n  border: 1px solid var(--bs-border-color);\r\n  border-radius: 0.375rem;\r\n  max-width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.figure {\r\n  display: inline-block;\r\n}\r\n\r\n.figure-img {\r\n  margin-bottom: 0.5rem;\r\n  line-height: 1;\r\n}\r\n\r\n.figure-caption {\r\n  font-size: 0.875em;\r\n  color: #6c757d;\r\n}\r\n\r\n.container,\r\n.container-fluid,\r\n.container-xxl,\r\n.container-xl,\r\n.container-lg,\r\n.container-md,\r\n.container-sm {\r\n  --bs-gutter-x: 1.5rem;\r\n  --bs-gutter-y: 0;\r\n  width: 100%;\r\n  padding-right: calc(var(--bs-gutter-x) * 0.5);\r\n  padding-left: calc(var(--bs-gutter-x) * 0.5);\r\n  margin-right: auto;\r\n  margin-left: auto;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .container-sm, .container {\r\n    max-width: 540px;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .container-md, .container-sm, .container {\r\n    max-width: 720px;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .container-lg, .container-md, .container-sm, .container {\r\n    max-width: 960px;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .container-xl, .container-lg, .container-md, .container-sm, .container {\r\n    max-width: 1140px;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {\r\n    max-width: 1320px;\r\n  }\r\n}\r\n.row {\r\n  --bs-gutter-x: 1.5rem;\r\n  --bs-gutter-y: 0;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-top: calc(-1 * var(--bs-gutter-y));\r\n  margin-right: calc(-0.5 * var(--bs-gutter-x));\r\n  margin-left: calc(-0.5 * var(--bs-gutter-x));\r\n}\r\n.row > * {\r\n  flex-shrink: 0;\r\n  width: 100%;\r\n  max-width: 100%;\r\n  padding-right: calc(var(--bs-gutter-x) * 0.5);\r\n  padding-left: calc(var(--bs-gutter-x) * 0.5);\r\n  margin-top: var(--bs-gutter-y);\r\n}\r\n\r\n.col {\r\n  flex: 1 0 0%;\r\n}\r\n\r\n.row-cols-auto > * {\r\n  flex: 0 0 auto;\r\n  width: auto;\r\n}\r\n\r\n.row-cols-1 > * {\r\n  flex: 0 0 auto;\r\n  width: 100%;\r\n}\r\n\r\n.row-cols-2 > * {\r\n  flex: 0 0 auto;\r\n  width: 50%;\r\n}\r\n\r\n.row-cols-3 > * {\r\n  flex: 0 0 auto;\r\n  width: 33.3333333333%;\r\n}\r\n\r\n.row-cols-4 > * {\r\n  flex: 0 0 auto;\r\n  width: 25%;\r\n}\r\n\r\n.row-cols-5 > * {\r\n  flex: 0 0 auto;\r\n  width: 20%;\r\n}\r\n\r\n.row-cols-6 > * {\r\n  flex: 0 0 auto;\r\n  width: 16.6666666667%;\r\n}\r\n\r\n.col-auto {\r\n  flex: 0 0 auto;\r\n  width: auto;\r\n}\r\n\r\n.col-1 {\r\n  flex: 0 0 auto;\r\n  width: 8.33333333%;\r\n}\r\n\r\n.col-2 {\r\n  flex: 0 0 auto;\r\n  width: 16.66666667%;\r\n}\r\n\r\n.col-3 {\r\n  flex: 0 0 auto;\r\n  width: 25%;\r\n}\r\n\r\n.col-4 {\r\n  flex: 0 0 auto;\r\n  width: 33.33333333%;\r\n}\r\n\r\n.col-5 {\r\n  flex: 0 0 auto;\r\n  width: 41.66666667%;\r\n}\r\n\r\n.col-6 {\r\n  flex: 0 0 auto;\r\n  width: 50%;\r\n}\r\n\r\n.col-7 {\r\n  flex: 0 0 auto;\r\n  width: 58.33333333%;\r\n}\r\n\r\n.col-8 {\r\n  flex: 0 0 auto;\r\n  width: 66.66666667%;\r\n}\r\n\r\n.col-9 {\r\n  flex: 0 0 auto;\r\n  width: 75%;\r\n}\r\n\r\n.col-10 {\r\n  flex: 0 0 auto;\r\n  width: 83.33333333%;\r\n}\r\n\r\n.col-11 {\r\n  flex: 0 0 auto;\r\n  width: 91.66666667%;\r\n}\r\n\r\n.col-12 {\r\n  flex: 0 0 auto;\r\n  width: 100%;\r\n}\r\n\r\n.offset-1 {\r\n  margin-left: 8.33333333%;\r\n}\r\n\r\n.offset-2 {\r\n  margin-left: 16.66666667%;\r\n}\r\n\r\n.offset-3 {\r\n  margin-left: 25%;\r\n}\r\n\r\n.offset-4 {\r\n  margin-left: 33.33333333%;\r\n}\r\n\r\n.offset-5 {\r\n  margin-left: 41.66666667%;\r\n}\r\n\r\n.offset-6 {\r\n  margin-left: 50%;\r\n}\r\n\r\n.offset-7 {\r\n  margin-left: 58.33333333%;\r\n}\r\n\r\n.offset-8 {\r\n  margin-left: 66.66666667%;\r\n}\r\n\r\n.offset-9 {\r\n  margin-left: 75%;\r\n}\r\n\r\n.offset-10 {\r\n  margin-left: 83.33333333%;\r\n}\r\n\r\n.offset-11 {\r\n  margin-left: 91.66666667%;\r\n}\r\n\r\n.g-0,\r\n.gx-0 {\r\n  --bs-gutter-x: 0;\r\n}\r\n\r\n.g-0,\r\n.gy-0 {\r\n  --bs-gutter-y: 0;\r\n}\r\n\r\n.g-1,\r\n.gx-1 {\r\n  --bs-gutter-x: 0.25rem;\r\n}\r\n\r\n.g-1,\r\n.gy-1 {\r\n  --bs-gutter-y: 0.25rem;\r\n}\r\n\r\n.g-2,\r\n.gx-2 {\r\n  --bs-gutter-x: 0.5rem;\r\n}\r\n\r\n.g-2,\r\n.gy-2 {\r\n  --bs-gutter-y: 0.5rem;\r\n}\r\n\r\n.g-3,\r\n.gx-3 {\r\n  --bs-gutter-x: 1rem;\r\n}\r\n\r\n.g-3,\r\n.gy-3 {\r\n  --bs-gutter-y: 1rem;\r\n}\r\n\r\n.g-4,\r\n.gx-4 {\r\n  --bs-gutter-x: 1.5rem;\r\n}\r\n\r\n.g-4,\r\n.gy-4 {\r\n  --bs-gutter-y: 1.5rem;\r\n}\r\n\r\n.g-5,\r\n.gx-5 {\r\n  --bs-gutter-x: 3rem;\r\n}\r\n\r\n.g-5,\r\n.gy-5 {\r\n  --bs-gutter-y: 3rem;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .col-sm {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-sm-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-sm-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-sm-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-sm-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-sm-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-sm-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-sm-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-sm-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-sm-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-sm-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-sm-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-sm-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-sm-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-sm-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-sm-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-sm-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-sm-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-sm-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-sm-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-sm-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-sm-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-sm-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-sm-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-sm-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-sm-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-sm-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-sm-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-sm-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-sm-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-sm-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-sm-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-sm-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-sm-0,\r\n  .gx-sm-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-sm-0,\r\n  .gy-sm-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-sm-1,\r\n  .gx-sm-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-sm-1,\r\n  .gy-sm-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-sm-2,\r\n  .gx-sm-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-sm-2,\r\n  .gy-sm-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-sm-3,\r\n  .gx-sm-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-sm-3,\r\n  .gy-sm-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-sm-4,\r\n  .gx-sm-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-sm-4,\r\n  .gy-sm-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-sm-5,\r\n  .gx-sm-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-sm-5,\r\n  .gy-sm-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .col-md {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-md-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-md-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-md-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-md-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-md-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-md-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-md-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-md-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-md-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-md-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-md-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-md-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-md-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-md-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-md-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-md-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-md-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-md-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-md-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-md-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-md-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-md-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-md-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-md-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-md-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-md-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-md-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-md-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-md-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-md-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-md-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-md-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-md-0,\r\n  .gx-md-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-md-0,\r\n  .gy-md-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-md-1,\r\n  .gx-md-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-md-1,\r\n  .gy-md-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-md-2,\r\n  .gx-md-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-md-2,\r\n  .gy-md-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-md-3,\r\n  .gx-md-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-md-3,\r\n  .gy-md-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-md-4,\r\n  .gx-md-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-md-4,\r\n  .gy-md-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-md-5,\r\n  .gx-md-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-md-5,\r\n  .gy-md-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .col-lg {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-lg-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-lg-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-lg-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-lg-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-lg-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-lg-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-lg-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-lg-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-lg-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-lg-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-lg-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-lg-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-lg-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-lg-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-lg-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-lg-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-lg-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-lg-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-lg-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-lg-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-lg-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-lg-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-lg-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-lg-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-lg-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-lg-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-lg-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-lg-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-lg-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-lg-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-lg-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-lg-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-lg-0,\r\n  .gx-lg-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-lg-0,\r\n  .gy-lg-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-lg-1,\r\n  .gx-lg-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-lg-1,\r\n  .gy-lg-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-lg-2,\r\n  .gx-lg-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-lg-2,\r\n  .gy-lg-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-lg-3,\r\n  .gx-lg-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-lg-3,\r\n  .gy-lg-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-lg-4,\r\n  .gx-lg-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-lg-4,\r\n  .gy-lg-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-lg-5,\r\n  .gx-lg-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-lg-5,\r\n  .gy-lg-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .col-xl {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-xl-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-xl-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-xl-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-xl-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-xl-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-xl-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-xl-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-xl-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-xl-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-xl-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-xl-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-xl-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-xl-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-xl-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-xl-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-xl-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-xl-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-xl-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-xl-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-xl-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-xl-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-xl-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-xl-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-xl-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-xl-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-xl-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-xl-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-xl-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-xl-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-xl-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-xl-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-xl-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-xl-0,\r\n  .gx-xl-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-xl-0,\r\n  .gy-xl-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-xl-1,\r\n  .gx-xl-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-xl-1,\r\n  .gy-xl-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-xl-2,\r\n  .gx-xl-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-xl-2,\r\n  .gy-xl-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-xl-3,\r\n  .gx-xl-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-xl-3,\r\n  .gy-xl-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-xl-4,\r\n  .gx-xl-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-xl-4,\r\n  .gy-xl-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-xl-5,\r\n  .gx-xl-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-xl-5,\r\n  .gy-xl-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .col-xxl {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-xxl-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-xxl-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-xxl-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-xxl-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-xxl-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-xxl-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-xxl-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-xxl-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-xxl-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-xxl-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-xxl-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-xxl-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-xxl-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-xxl-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-xxl-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-xxl-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-xxl-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-xxl-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-xxl-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-xxl-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-xxl-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-xxl-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-xxl-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-xxl-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-xxl-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-xxl-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-xxl-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-xxl-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-xxl-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-xxl-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-xxl-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-xxl-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-xxl-0,\r\n  .gx-xxl-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-xxl-0,\r\n  .gy-xxl-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-xxl-1,\r\n  .gx-xxl-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-xxl-1,\r\n  .gy-xxl-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-xxl-2,\r\n  .gx-xxl-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-xxl-2,\r\n  .gy-xxl-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-xxl-3,\r\n  .gx-xxl-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-xxl-3,\r\n  .gy-xxl-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-xxl-4,\r\n  .gx-xxl-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-xxl-4,\r\n  .gy-xxl-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-xxl-5,\r\n  .gx-xxl-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-xxl-5,\r\n  .gy-xxl-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n.table, .datatable-table {\r\n  --bs-table-color: var(--bs-body-color);\r\n  --bs-table-bg: transparent;\r\n  --bs-table-border-color: var(--bs-border-color);\r\n  --bs-table-accent-bg: transparent;\r\n  --bs-table-striped-color: var(--bs-body-color);\r\n  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);\r\n  --bs-table-active-color: var(--bs-body-color);\r\n  --bs-table-active-bg: rgba(0, 0, 0, 0.1);\r\n  --bs-table-hover-color: var(--bs-body-color);\r\n  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);\r\n  width: 100%;\r\n  margin-bottom: 1rem;\r\n  color: var(--bs-table-color);\r\n  vertical-align: top;\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n.table > :not(caption) > * > *, .datatable-table > :not(caption) > * > * {\r\n  padding: 0.5rem 0.5rem;\r\n  background-color: var(--bs-table-bg);\r\n  border-bottom-width: 1px;\r\n  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);\r\n}\r\n.table > tbody, .datatable-table > tbody {\r\n  vertical-align: inherit;\r\n}\r\n.table > thead, .datatable-table > thead {\r\n  vertical-align: bottom;\r\n}\r\n\r\n.table-group-divider {\r\n  border-top: 2px solid currentcolor;\r\n}\r\n\r\n.caption-top {\r\n  caption-side: top;\r\n}\r\n\r\n.table-sm > :not(caption) > * > * {\r\n  padding: 0.25rem 0.25rem;\r\n}\r\n\r\n.table-bordered > :not(caption) > *, .datatable-table > :not(caption) > * {\r\n  border-width: 1px 0;\r\n}\r\n.table-bordered > :not(caption) > * > *, .datatable-table > :not(caption) > * > * {\r\n  border-width: 0 1px;\r\n}\r\n\r\n.table-borderless > :not(caption) > * > * {\r\n  border-bottom-width: 0;\r\n}\r\n.table-borderless > :not(:first-child) {\r\n  border-top-width: 0;\r\n}\r\n\r\n.table-striped > tbody > tr:nth-of-type(odd) > * {\r\n  --bs-table-accent-bg: var(--bs-table-striped-bg);\r\n  color: var(--bs-table-striped-color);\r\n}\r\n\r\n.table-striped-columns > :not(caption) > tr > :nth-child(even) {\r\n  --bs-table-accent-bg: var(--bs-table-striped-bg);\r\n  color: var(--bs-table-striped-color);\r\n}\r\n\r\n.table-active {\r\n  --bs-table-accent-bg: var(--bs-table-active-bg);\r\n  color: var(--bs-table-active-color);\r\n}\r\n\r\n.table-hover > tbody > tr:hover > *, .datatable-table > tbody > tr:hover > * {\r\n  --bs-table-accent-bg: var(--bs-table-hover-bg);\r\n  color: var(--bs-table-hover-color);\r\n}\r\n\r\n.table-primary {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #cfe2ff;\r\n  --bs-table-border-color: #bacbe6;\r\n  --bs-table-striped-bg: #c5d7f2;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #bacbe6;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #bfd1ec;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-secondary {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #e2e3e5;\r\n  --bs-table-border-color: #cbccce;\r\n  --bs-table-striped-bg: #d7d8da;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #cbccce;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #d1d2d4;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-success {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #d1e7dd;\r\n  --bs-table-border-color: #bcd0c7;\r\n  --bs-table-striped-bg: #c7dbd2;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #bcd0c7;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #c1d6cc;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-info {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #cff4fc;\r\n  --bs-table-border-color: #badce3;\r\n  --bs-table-striped-bg: #c5e8ef;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #badce3;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #bfe2e9;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-warning {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #fff3cd;\r\n  --bs-table-border-color: #e6dbb9;\r\n  --bs-table-striped-bg: #f2e7c3;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #e6dbb9;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #ece1be;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-danger {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #f8d7da;\r\n  --bs-table-border-color: #dfc2c4;\r\n  --bs-table-striped-bg: #eccccf;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #dfc2c4;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #e5c7ca;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-light {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #f8f9fa;\r\n  --bs-table-border-color: #dfe0e1;\r\n  --bs-table-striped-bg: #ecedee;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #dfe0e1;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #e5e6e7;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-dark {\r\n  --bs-table-color: #fff;\r\n  --bs-table-bg: #212529;\r\n  --bs-table-border-color: #373b3e;\r\n  --bs-table-striped-bg: #2c3034;\r\n  --bs-table-striped-color: #fff;\r\n  --bs-table-active-bg: #373b3e;\r\n  --bs-table-active-color: #fff;\r\n  --bs-table-hover-bg: #323539;\r\n  --bs-table-hover-color: #fff;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-responsive, .datatable-wrapper .datatable-container {\r\n  overflow-x: auto;\r\n  -webkit-overflow-scrolling: touch;\r\n}\r\n\r\n@media (max-width: 575.98px) {\r\n  .table-responsive-sm {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .table-responsive-md {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .table-responsive-lg {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .table-responsive-xl {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .table-responsive-xxl {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n.form-label {\r\n  margin-bottom: 0.5rem;\r\n}\r\n\r\n.col-form-label {\r\n  padding-top: calc(0.375rem + 1px);\r\n  padding-bottom: calc(0.375rem + 1px);\r\n  margin-bottom: 0;\r\n  font-size: inherit;\r\n  line-height: 1.5;\r\n}\r\n\r\n.col-form-label-lg {\r\n  padding-top: calc(0.5rem + 1px);\r\n  padding-bottom: calc(0.5rem + 1px);\r\n  font-size: 1.25rem;\r\n}\r\n\r\n.col-form-label-sm {\r\n  padding-top: calc(0.25rem + 1px);\r\n  padding-bottom: calc(0.25rem + 1px);\r\n  font-size: 0.875rem;\r\n}\r\n\r\n.form-text {\r\n  margin-top: 0.25rem;\r\n  font-size: 0.875em;\r\n  color: #6c757d;\r\n}\r\n\r\n.form-control, .datatable-input {\r\n  display: block;\r\n  width: 100%;\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  background-color: #fff;\r\n  background-clip: padding-box;\r\n  border: 1px solid #ced4da;\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n  border-radius: 0.375rem;\r\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-control, .datatable-input {\r\n    transition: none;\r\n  }\r\n}\r\n.form-control[type=file], [type=file].datatable-input {\r\n  overflow: hidden;\r\n}\r\n.form-control[type=file]:not(:disabled):not([readonly]), [type=file].datatable-input:not(:disabled):not([readonly]) {\r\n  cursor: pointer;\r\n}\r\n.form-control:focus, .datatable-input:focus {\r\n  color: #212529;\r\n  background-color: #fff;\r\n  border-color: #86b7fe;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-control::-webkit-date-and-time-value, .datatable-input::-webkit-date-and-time-value {\r\n  height: 1.5em;\r\n}\r\n.form-control::-moz-placeholder, .datatable-input::-moz-placeholder {\r\n  color: #6c757d;\r\n  opacity: 1;\r\n}\r\n.form-control::placeholder, .datatable-input::placeholder {\r\n  color: #6c757d;\r\n  opacity: 1;\r\n}\r\n.form-control:disabled, .datatable-input:disabled {\r\n  background-color: #e9ecef;\r\n  opacity: 1;\r\n}\r\n.form-control::file-selector-button, .datatable-input::file-selector-button {\r\n  padding: 0.375rem 0.75rem;\r\n  margin: -0.375rem -0.75rem;\r\n  -webkit-margin-end: 0.75rem;\r\n          margin-inline-end: 0.75rem;\r\n  color: #212529;\r\n  background-color: #e9ecef;\r\n  pointer-events: none;\r\n  border-color: inherit;\r\n  border-style: solid;\r\n  border-width: 0;\r\n  border-inline-end-width: 1px;\r\n  border-radius: 0;\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-control::file-selector-button, .datatable-input::file-selector-button {\r\n    transition: none;\r\n  }\r\n}\r\n.form-control:hover:not(:disabled):not([readonly])::file-selector-button, .datatable-input:hover:not(:disabled):not([readonly])::file-selector-button {\r\n  background-color: #dde0e3;\r\n}\r\n\r\n.form-control-plaintext {\r\n  display: block;\r\n  width: 100%;\r\n  padding: 0.375rem 0;\r\n  margin-bottom: 0;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  background-color: transparent;\r\n  border: solid transparent;\r\n  border-width: 1px 0;\r\n}\r\n.form-control-plaintext:focus {\r\n  outline: 0;\r\n}\r\n.form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {\r\n  padding-right: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n.form-control-sm {\r\n  min-height: calc(1.5em + 0.5rem + 2px);\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 0.875rem;\r\n  border-radius: 0.25rem;\r\n}\r\n.form-control-sm::file-selector-button {\r\n  padding: 0.25rem 0.5rem;\r\n  margin: -0.25rem -0.5rem;\r\n  -webkit-margin-end: 0.5rem;\r\n          margin-inline-end: 0.5rem;\r\n}\r\n\r\n.form-control-lg {\r\n  min-height: calc(1.5em + 1rem + 2px);\r\n  padding: 0.5rem 1rem;\r\n  font-size: 1.25rem;\r\n  border-radius: 0.5rem;\r\n}\r\n.form-control-lg::file-selector-button {\r\n  padding: 0.5rem 1rem;\r\n  margin: -0.5rem -1rem;\r\n  -webkit-margin-end: 1rem;\r\n          margin-inline-end: 1rem;\r\n}\r\n\r\ntextarea.form-control, textarea.datatable-input {\r\n  min-height: calc(1.5em + 0.75rem + 2px);\r\n}\r\ntextarea.form-control-sm {\r\n  min-height: calc(1.5em + 0.5rem + 2px);\r\n}\r\ntextarea.form-control-lg {\r\n  min-height: calc(1.5em + 1rem + 2px);\r\n}\r\n\r\n.form-control-color {\r\n  width: 3rem;\r\n  height: calc(1.5em + 0.75rem + 2px);\r\n  padding: 0.375rem;\r\n}\r\n.form-control-color:not(:disabled):not([readonly]) {\r\n  cursor: pointer;\r\n}\r\n.form-control-color::-moz-color-swatch {\r\n  border: 0 !important;\r\n  border-radius: 0.375rem;\r\n}\r\n.form-control-color::-webkit-color-swatch {\r\n  border-radius: 0.375rem;\r\n}\r\n.form-control-color.form-control-sm {\r\n  height: calc(1.5em + 0.5rem + 2px);\r\n}\r\n.form-control-color.form-control-lg {\r\n  height: calc(1.5em + 1rem + 2px);\r\n}\r\n\r\n.form-select, .datatable-selector {\r\n  display: block;\r\n  width: 100%;\r\n  padding: 0.375rem 2.25rem 0.375rem 0.75rem;\r\n  -moz-padding-start: calc(0.75rem - 3px);\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  background-color: #fff;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e\");\r\n  background-repeat: no-repeat;\r\n  background-position: right 0.75rem center;\r\n  background-size: 16px 12px;\r\n  border: 1px solid #ced4da;\r\n  border-radius: 0.375rem;\r\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-select, .datatable-selector {\r\n    transition: none;\r\n  }\r\n}\r\n.form-select:focus, .datatable-selector:focus {\r\n  border-color: #86b7fe;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-select[multiple], [multiple].datatable-selector, .form-select[size]:not([size=\"1\"]), [size].datatable-selector:not([size=\"1\"]) {\r\n  padding-right: 0.75rem;\r\n  background-image: none;\r\n}\r\n.form-select:disabled, .datatable-selector:disabled {\r\n  background-color: #e9ecef;\r\n}\r\n.form-select:-moz-focusring, .datatable-selector:-moz-focusring {\r\n  color: transparent;\r\n  text-shadow: 0 0 0 #212529;\r\n}\r\n\r\n.form-select-sm {\r\n  padding-top: 0.25rem;\r\n  padding-bottom: 0.25rem;\r\n  padding-left: 0.5rem;\r\n  font-size: 0.875rem;\r\n  border-radius: 0.25rem;\r\n}\r\n\r\n.form-select-lg {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  padding-left: 1rem;\r\n  font-size: 1.25rem;\r\n  border-radius: 0.5rem;\r\n}\r\n\r\n.form-check {\r\n  display: block;\r\n  min-height: 1.5rem;\r\n  padding-left: 1.5em;\r\n  margin-bottom: 0.125rem;\r\n}\r\n.form-check .form-check-input {\r\n  float: left;\r\n  margin-left: -1.5em;\r\n}\r\n\r\n.form-check-reverse {\r\n  padding-right: 1.5em;\r\n  padding-left: 0;\r\n  text-align: right;\r\n}\r\n.form-check-reverse .form-check-input {\r\n  float: right;\r\n  margin-right: -1.5em;\r\n  margin-left: 0;\r\n}\r\n\r\n.form-check-input {\r\n  width: 1em;\r\n  height: 1em;\r\n  margin-top: 0.25em;\r\n  vertical-align: top;\r\n  background-color: #fff;\r\n  background-repeat: no-repeat;\r\n  background-position: center;\r\n  background-size: contain;\r\n  border: 1px solid rgba(0, 0, 0, 0.25);\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n  -webkit-print-color-adjust: exact;\r\n          print-color-adjust: exact;\r\n}\r\n.form-check-input[type=checkbox] {\r\n  border-radius: 0.25em;\r\n}\r\n.form-check-input[type=radio] {\r\n  border-radius: 50%;\r\n}\r\n.form-check-input:active {\r\n  filter: brightness(90%);\r\n}\r\n.form-check-input:focus {\r\n  border-color: #86b7fe;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-check-input:checked {\r\n  background-color: #0d6efd;\r\n  border-color: #0d6efd;\r\n}\r\n.form-check-input:checked[type=checkbox] {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e\");\r\n}\r\n.form-check-input:checked[type=radio] {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e\");\r\n}\r\n.form-check-input[type=checkbox]:indeterminate {\r\n  background-color: #0d6efd;\r\n  border-color: #0d6efd;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e\");\r\n}\r\n.form-check-input:disabled {\r\n  pointer-events: none;\r\n  filter: none;\r\n  opacity: 0.5;\r\n}\r\n.form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {\r\n  cursor: default;\r\n  opacity: 0.5;\r\n}\r\n\r\n.form-switch {\r\n  padding-left: 2.5em;\r\n}\r\n.form-switch .form-check-input {\r\n  width: 2em;\r\n  margin-left: -2.5em;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e\");\r\n  background-position: left center;\r\n  border-radius: 2em;\r\n  transition: background-position 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-switch .form-check-input {\r\n    transition: none;\r\n  }\r\n}\r\n.form-switch .form-check-input:focus {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e\");\r\n}\r\n.form-switch .form-check-input:checked {\r\n  background-position: right center;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e\");\r\n}\r\n.form-switch.form-check-reverse {\r\n  padding-right: 2.5em;\r\n  padding-left: 0;\r\n}\r\n.form-switch.form-check-reverse .form-check-input {\r\n  margin-right: -2.5em;\r\n  margin-left: 0;\r\n}\r\n\r\n.form-check-inline {\r\n  display: inline-block;\r\n  margin-right: 1rem;\r\n}\r\n\r\n.btn-check {\r\n  position: absolute;\r\n  clip: rect(0, 0, 0, 0);\r\n  pointer-events: none;\r\n}\r\n.btn-check[disabled] + .btn, .btn-check:disabled + .btn {\r\n  pointer-events: none;\r\n  filter: none;\r\n  opacity: 0.65;\r\n}\r\n\r\n.form-range {\r\n  width: 100%;\r\n  height: 1.5rem;\r\n  padding: 0;\r\n  background-color: transparent;\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n}\r\n.form-range:focus {\r\n  outline: 0;\r\n}\r\n.form-range:focus::-webkit-slider-thumb {\r\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-range:focus::-moz-range-thumb {\r\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-range::-moz-focus-outer {\r\n  border: 0;\r\n}\r\n.form-range::-webkit-slider-thumb {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  margin-top: -0.25rem;\r\n  background-color: #0d6efd;\r\n  border: 0;\r\n  border-radius: 1rem;\r\n  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  -webkit-appearance: none;\r\n          appearance: none;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-range::-webkit-slider-thumb {\r\n    -webkit-transition: none;\r\n    transition: none;\r\n  }\r\n}\r\n.form-range::-webkit-slider-thumb:active {\r\n  background-color: #b6d4fe;\r\n}\r\n.form-range::-webkit-slider-runnable-track {\r\n  width: 100%;\r\n  height: 0.5rem;\r\n  color: transparent;\r\n  cursor: pointer;\r\n  background-color: #dee2e6;\r\n  border-color: transparent;\r\n  border-radius: 1rem;\r\n}\r\n.form-range::-moz-range-thumb {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  background-color: #0d6efd;\r\n  border: 0;\r\n  border-radius: 1rem;\r\n  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  -moz-appearance: none;\r\n       appearance: none;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-range::-moz-range-thumb {\r\n    -moz-transition: none;\r\n    transition: none;\r\n  }\r\n}\r\n.form-range::-moz-range-thumb:active {\r\n  background-color: #b6d4fe;\r\n}\r\n.form-range::-moz-range-track {\r\n  width: 100%;\r\n  height: 0.5rem;\r\n  color: transparent;\r\n  cursor: pointer;\r\n  background-color: #dee2e6;\r\n  border-color: transparent;\r\n  border-radius: 1rem;\r\n}\r\n.form-range:disabled {\r\n  pointer-events: none;\r\n}\r\n.form-range:disabled::-webkit-slider-thumb {\r\n  background-color: #adb5bd;\r\n}\r\n.form-range:disabled::-moz-range-thumb {\r\n  background-color: #adb5bd;\r\n}\r\n\r\n.form-floating {\r\n  position: relative;\r\n}\r\n.form-floating > .form-control, .form-floating > .datatable-input,\r\n.form-floating > .form-control-plaintext,\r\n.form-floating > .form-select,\r\n.form-floating > .datatable-selector {\r\n  height: calc(3.5rem + 2px);\r\n  line-height: 1.25;\r\n}\r\n.form-floating > label {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  padding: 1rem 0.75rem;\r\n  overflow: hidden;\r\n  text-align: start;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n  pointer-events: none;\r\n  border: 1px solid transparent;\r\n  transform-origin: 0 0;\r\n  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-floating > label {\r\n    transition: none;\r\n  }\r\n}\r\n.form-floating > .form-control, .form-floating > .datatable-input,\r\n.form-floating > .form-control-plaintext {\r\n  padding: 1rem 0.75rem;\r\n}\r\n.form-floating > .form-control::-moz-placeholder, .form-floating > .datatable-input::-moz-placeholder, .form-floating > .form-control-plaintext::-moz-placeholder {\r\n  color: transparent;\r\n}\r\n.form-floating > .form-control::placeholder, .form-floating > .datatable-input::placeholder,\r\n.form-floating > .form-control-plaintext::placeholder {\r\n  color: transparent;\r\n}\r\n.form-floating > .form-control:not(:-moz-placeholder-shown), .form-floating > .datatable-input:not(:-moz-placeholder-shown), .form-floating > .form-control-plaintext:not(:-moz-placeholder-shown) {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-control:focus, .form-floating > .datatable-input:focus, .form-floating > .form-control:not(:placeholder-shown), .form-floating > .datatable-input:not(:placeholder-shown),\r\n.form-floating > .form-control-plaintext:focus,\r\n.form-floating > .form-control-plaintext:not(:placeholder-shown) {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-control:-webkit-autofill, .form-floating > .datatable-input:-webkit-autofill,\r\n.form-floating > .form-control-plaintext:-webkit-autofill {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-select, .form-floating > .datatable-selector {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label, .form-floating > .datatable-input:not(:-moz-placeholder-shown) ~ label {\r\n  opacity: 0.65;\r\n  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);\r\n}\r\n.form-floating > .form-control:focus ~ label, .form-floating > .datatable-input:focus ~ label,\r\n.form-floating > .form-control:not(:placeholder-shown) ~ label,\r\n.form-floating > .datatable-input:not(:placeholder-shown) ~ label,\r\n.form-floating > .form-control-plaintext ~ label,\r\n.form-floating > .form-select ~ label,\r\n.form-floating > .datatable-selector ~ label {\r\n  opacity: 0.65;\r\n  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);\r\n}\r\n.form-floating > .form-control:-webkit-autofill ~ label, .form-floating > .datatable-input:-webkit-autofill ~ label {\r\n  opacity: 0.65;\r\n  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);\r\n}\r\n.form-floating > .form-control-plaintext ~ label {\r\n  border-width: 1px 0;\r\n}\r\n\r\n.input-group {\r\n  position: relative;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: stretch;\r\n  width: 100%;\r\n}\r\n.input-group > .form-control, .input-group > .datatable-input,\r\n.input-group > .form-select,\r\n.input-group > .datatable-selector,\r\n.input-group > .form-floating {\r\n  position: relative;\r\n  flex: 1 1 auto;\r\n  width: 1%;\r\n  min-width: 0;\r\n}\r\n.input-group > .form-control:focus, .input-group > .datatable-input:focus,\r\n.input-group > .form-select:focus,\r\n.input-group > .datatable-selector:focus,\r\n.input-group > .form-floating:focus-within {\r\n  z-index: 5;\r\n}\r\n.input-group .btn {\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n.input-group .btn:focus {\r\n  z-index: 5;\r\n}\r\n\r\n.input-group-text {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  background-color: #e9ecef;\r\n  border: 1px solid #ced4da;\r\n  border-radius: 0.375rem;\r\n}\r\n\r\n.input-group-lg > .form-control, .input-group-lg > .datatable-input,\r\n.input-group-lg > .form-select,\r\n.input-group-lg > .datatable-selector,\r\n.input-group-lg > .input-group-text,\r\n.input-group-lg > .btn {\r\n  padding: 0.5rem 1rem;\r\n  font-size: 1.25rem;\r\n  border-radius: 0.5rem;\r\n}\r\n\r\n.input-group-sm > .form-control, .input-group-sm > .datatable-input,\r\n.input-group-sm > .form-select,\r\n.input-group-sm > .datatable-selector,\r\n.input-group-sm > .input-group-text,\r\n.input-group-sm > .btn {\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 0.875rem;\r\n  border-radius: 0.25rem;\r\n}\r\n\r\n.input-group-lg > .form-select, .input-group-lg > .datatable-selector,\r\n.input-group-sm > .form-select,\r\n.input-group-sm > .datatable-selector {\r\n  padding-right: 3rem;\r\n}\r\n\r\n.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),\r\n.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3),\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control,\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .datatable-input,\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select,\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .datatable-selector {\r\n  border-top-right-radius: 0;\r\n  border-bottom-right-radius: 0;\r\n}\r\n.input-group.has-validation > :nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),\r\n.input-group.has-validation > .dropdown-toggle:nth-last-child(n+4),\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-control,\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .datatable-input,\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-select,\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .datatable-selector {\r\n  border-top-right-radius: 0;\r\n  border-bottom-right-radius: 0;\r\n}\r\n.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {\r\n  margin-left: -1px;\r\n  border-top-left-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n.input-group > .form-floating:not(:first-child) > .form-control, .input-group > .form-floating:not(:first-child) > .datatable-input,\r\n.input-group > .form-floating:not(:first-child) > .form-select,\r\n.input-group > .form-floating:not(:first-child) > .datatable-selector {\r\n  border-top-left-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n\r\n.valid-feedback {\r\n  display: none;\r\n  width: 100%;\r\n  margin-top: 0.25rem;\r\n  font-size: 0.875em;\r\n  color: #198754;\r\n}\r\n\r\n.valid-tooltip {\r\n  position: absolute;\r\n  top: 100%;\r\n  z-index: 5;\r\n  display: none;\r\n  max-width: 100%;\r\n  padding: 0.25rem 0.5rem;\r\n  margin-top: 0.1rem;\r\n  font-size: 0.875rem;\r\n  color: #fff;\r\n  background-color: rgba(25, 135, 84, 0.9);\r\n  border-radius: 0.375rem;\r\n}\r\n\r\n.was-validated :valid ~ .valid-feedback,\r\n.was-validated :valid ~ .valid-tooltip,\r\n.is-valid ~ .valid-feedback,\r\n.is-valid ~ .valid-tooltip {\r\n  display: block;\r\n}\r\n\r\n.was-validated .form-control:valid, .was-validated .datatable-input:valid, .form-control.is-valid, .is-valid.datatable-input {\r\n  border-color: #198754;\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e\");\r\n  background-repeat: no-repeat;\r\n  background-position: right calc(0.375em + 0.1875rem) center;\r\n  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-control:valid:focus, .was-validated .datatable-input:valid:focus, .form-control.is-valid:focus, .is-valid.datatable-input:focus {\r\n  border-color: #198754;\r\n  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);\r\n}\r\n\r\n.was-validated textarea.form-control:valid, .was-validated textarea.datatable-input:valid, textarea.form-control.is-valid, textarea.is-valid.datatable-input {\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);\r\n}\r\n\r\n.was-validated .form-select:valid, .was-validated .datatable-selector:valid, .form-select.is-valid, .is-valid.datatable-selector {\r\n  border-color: #198754;\r\n}\r\n.was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .datatable-selector:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size=\"1\"], .was-validated .datatable-selector:valid:not([multiple])[size=\"1\"], .form-select.is-valid:not([multiple]):not([size]), .is-valid.datatable-selector:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size=\"1\"], .is-valid.datatable-selector:not([multiple])[size=\"1\"] {\r\n  padding-right: 4.125rem;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e\"), url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e\");\r\n  background-position: right 0.75rem center, center right 2.25rem;\r\n  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-select:valid:focus, .was-validated .datatable-selector:valid:focus, .form-select.is-valid:focus, .is-valid.datatable-selector:focus {\r\n  border-color: #198754;\r\n  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);\r\n}\r\n\r\n.was-validated .form-control-color:valid, .form-control-color.is-valid {\r\n  width: calc(3rem + calc(1.5em + 0.75rem));\r\n}\r\n\r\n.was-validated .form-check-input:valid, .form-check-input.is-valid {\r\n  border-color: #198754;\r\n}\r\n.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {\r\n  background-color: #198754;\r\n}\r\n.was-validated .form-check-input:valid:focus, .form-check-input.is-valid:focus {\r\n  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);\r\n}\r\n.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {\r\n  color: #198754;\r\n}\r\n\r\n.form-check-inline .form-check-input ~ .valid-feedback {\r\n  margin-left: 0.5em;\r\n}\r\n\r\n.was-validated .input-group > .form-control:not(:focus):valid, .was-validated .input-group > .datatable-input:not(:focus):valid, .input-group > .form-control:not(:focus).is-valid, .input-group > .datatable-input:not(:focus).is-valid,\r\n.was-validated .input-group > .form-select:not(:focus):valid,\r\n.was-validated .input-group > .datatable-selector:not(:focus):valid,\r\n.input-group > .form-select:not(:focus).is-valid,\r\n.input-group > .datatable-selector:not(:focus).is-valid,\r\n.was-validated .input-group > .form-floating:not(:focus-within):valid,\r\n.input-group > .form-floating:not(:focus-within).is-valid {\r\n  z-index: 3;\r\n}\r\n\r\n.invalid-feedback {\r\n  display: none;\r\n  width: 100%;\r\n  margin-top: 0.25rem;\r\n  font-size: 0.875em;\r\n  color: #dc3545;\r\n}\r\n\r\n.invalid-tooltip {\r\n  position: absolute;\r\n  top: 100%;\r\n  z-index: 5;\r\n  display: none;\r\n  max-width: 100%;\r\n  padding: 0.25rem 0.5rem;\r\n  margin-top: 0.1rem;\r\n  font-size: 0.875rem;\r\n  color: #fff;\r\n  background-color: rgba(220, 53, 69, 0.9);\r\n  border-radius: 0.375rem;\r\n}\r\n\r\n.was-validated :invalid ~ .invalid-feedback,\r\n.was-validated :invalid ~ .invalid-tooltip,\r\n.is-invalid ~ .invalid-feedback,\r\n.is-invalid ~ .invalid-tooltip {\r\n  display: block;\r\n}\r\n\r\n.was-validated .form-control:invalid, .was-validated .datatable-input:invalid, .form-control.is-invalid, .is-invalid.datatable-input {\r\n  border-color: #dc3545;\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e\");\r\n  background-repeat: no-repeat;\r\n  background-position: right calc(0.375em + 0.1875rem) center;\r\n  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-control:invalid:focus, .was-validated .datatable-input:invalid:focus, .form-control.is-invalid:focus, .is-invalid.datatable-input:focus {\r\n  border-color: #dc3545;\r\n  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);\r\n}\r\n\r\n.was-validated textarea.form-control:invalid, .was-validated textarea.datatable-input:invalid, textarea.form-control.is-invalid, textarea.is-invalid.datatable-input {\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);\r\n}\r\n\r\n.was-validated .form-select:invalid, .was-validated .datatable-selector:invalid, .form-select.is-invalid, .is-invalid.datatable-selector {\r\n  border-color: #dc3545;\r\n}\r\n.was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .datatable-selector:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size=\"1\"], .was-validated .datatable-selector:invalid:not([multiple])[size=\"1\"], .form-select.is-invalid:not([multiple]):not([size]), .is-invalid.datatable-selector:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size=\"1\"], .is-invalid.datatable-selector:not([multiple])[size=\"1\"] {\r\n  padding-right: 4.125rem;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e\"), url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e\");\r\n  background-position: right 0.75rem center, center right 2.25rem;\r\n  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-select:invalid:focus, .was-validated .datatable-selector:invalid:focus, .form-select.is-invalid:focus, .is-invalid.datatable-selector:focus {\r\n  border-color: #dc3545;\r\n  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);\r\n}\r\n\r\n.was-validated .form-control-color:invalid, .form-control-color.is-invalid {\r\n  width: calc(3rem + calc(1.5em + 0.75rem));\r\n}\r\n\r\n.was-validated .form-check-input:invalid, .form-check-input.is-invalid {\r\n  border-color: #dc3545;\r\n}\r\n.was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {\r\n  background-color: #dc3545;\r\n}\r\n.was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {\r\n  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);\r\n}\r\n.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {\r\n  color: #dc3545;\r\n}\r\n\r\n.form-check-inline .form-check-input ~ .invalid-feedback {\r\n  margin-left: 0.5em;\r\n}\r\n\r\n.was-validated .input-group > .form-control:not(:focus):invalid, .was-validated .input-group > .datatable-input:not(:focus):invalid, .input-group > .form-control:not(:focus).is-invalid, .input-group > .datatable-input:not(:focus).is-invalid,\r\n.was-validated .input-group > .form-select:not(:focus):invalid,\r\n.was-validated .input-group > .datatable-selector:not(:focus):invalid,\r\n.input-group > .form-select:not(:focus).is-invalid,\r\n.input-group > .datatable-selector:not(:focus).is-invalid,\r\n.was-validated .input-group > .form-floating:not(:focus-within):invalid,\r\n.input-group > .form-floating:not(:focus-within).is-invalid {\r\n  z-index: 4;\r\n}\r\n\r\n.btn {\r\n  --bs-btn-padding-x: 0.75rem;\r\n  --bs-btn-padding-y: 0.375rem;\r\n  --bs-btn-font-family: ;\r\n  --bs-btn-font-size: 1rem;\r\n  --bs-btn-font-weight: 400;\r\n  --bs-btn-line-height: 1.5;\r\n  --bs-btn-color: #212529;\r\n  --bs-btn-bg: transparent;\r\n  --bs-btn-border-width: 1px;\r\n  --bs-btn-border-color: transparent;\r\n  --bs-btn-border-radius: 0.375rem;\r\n  --bs-btn-hover-border-color: transparent;\r\n  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  --bs-btn-disabled-opacity: 0.65;\r\n  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);\r\n  display: inline-block;\r\n  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);\r\n  font-family: var(--bs-btn-font-family);\r\n  font-size: var(--bs-btn-font-size);\r\n  font-weight: var(--bs-btn-font-weight);\r\n  line-height: var(--bs-btn-line-height);\r\n  color: var(--bs-btn-color);\r\n  text-align: center;\r\n  text-decoration: none;\r\n  vertical-align: middle;\r\n  cursor: pointer;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n          user-select: none;\r\n  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);\r\n  border-radius: var(--bs-btn-border-radius);\r\n  background-color: var(--bs-btn-bg);\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .btn {\r\n    transition: none;\r\n  }\r\n}\r\n.btn:hover {\r\n  color: var(--bs-btn-hover-color);\r\n  background-color: var(--bs-btn-hover-bg);\r\n  border-color: var(--bs-btn-hover-border-color);\r\n}\r\n.btn-check + .btn:hover {\r\n  color: var(--bs-btn-color);\r\n  background-color: var(--bs-btn-bg);\r\n  border-color: var(--bs-btn-border-color);\r\n}\r\n.btn:focus-visible {\r\n  color: var(--bs-btn-hover-color);\r\n  background-color: var(--bs-btn-hover-bg);\r\n  border-color: var(--bs-btn-hover-border-color);\r\n  outline: 0;\r\n  box-shadow: var(--bs-btn-focus-box-shadow);\r\n}\r\n.btn-check:focus-visible + .btn {\r\n  border-color: var(--bs-btn-hover-border-color);\r\n  outline: 0;\r\n  box-shadow: var(--bs-btn-focus-box-shadow);\r\n}\r\n.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {\r\n  color: var(--bs-btn-active-color);\r\n  background-color: var(--bs-btn-active-bg);\r\n  border-color: var(--bs-btn-active-border-color);\r\n}\r\n.btn-check:checked + .btn:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .btn:first-child:active:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible {\r\n  box-shadow: var(--bs-btn-focus-box-shadow);\r\n}\r\n.btn:disabled, .btn.disabled, fieldset:disabled .btn {\r\n  color: var(--bs-btn-disabled-color);\r\n  pointer-events: none;\r\n  background-color: var(--bs-btn-disabled-bg);\r\n  border-color: var(--bs-btn-disabled-border-color);\r\n  opacity: var(--bs-btn-disabled-opacity);\r\n}\r\n\r\n.btn-primary {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #0d6efd;\r\n  --bs-btn-border-color: #0d6efd;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #0b5ed7;\r\n  --bs-btn-hover-border-color: #0a58ca;\r\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #0a58ca;\r\n  --bs-btn-active-border-color: #0a53be;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #0d6efd;\r\n  --bs-btn-disabled-border-color: #0d6efd;\r\n}\r\n\r\n.btn-secondary {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #6c757d;\r\n  --bs-btn-border-color: #6c757d;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #5c636a;\r\n  --bs-btn-hover-border-color: #565e64;\r\n  --bs-btn-focus-shadow-rgb: 130, 138, 145;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #565e64;\r\n  --bs-btn-active-border-color: #51585e;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #6c757d;\r\n  --bs-btn-disabled-border-color: #6c757d;\r\n}\r\n\r\n.btn-success {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #198754;\r\n  --bs-btn-border-color: #198754;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #157347;\r\n  --bs-btn-hover-border-color: #146c43;\r\n  --bs-btn-focus-shadow-rgb: 60, 153, 110;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #146c43;\r\n  --bs-btn-active-border-color: #13653f;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #198754;\r\n  --bs-btn-disabled-border-color: #198754;\r\n}\r\n\r\n.btn-info {\r\n  --bs-btn-color: #000;\r\n  --bs-btn-bg: #0dcaf0;\r\n  --bs-btn-border-color: #0dcaf0;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #31d2f2;\r\n  --bs-btn-hover-border-color: #25cff2;\r\n  --bs-btn-focus-shadow-rgb: 11, 172, 204;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #3dd5f3;\r\n  --bs-btn-active-border-color: #25cff2;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #000;\r\n  --bs-btn-disabled-bg: #0dcaf0;\r\n  --bs-btn-disabled-border-color: #0dcaf0;\r\n}\r\n\r\n.btn-warning {\r\n  --bs-btn-color: #000;\r\n  --bs-btn-bg: #ffc107;\r\n  --bs-btn-border-color: #ffc107;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #ffca2c;\r\n  --bs-btn-hover-border-color: #ffc720;\r\n  --bs-btn-focus-shadow-rgb: 217, 164, 6;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #ffcd39;\r\n  --bs-btn-active-border-color: #ffc720;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #000;\r\n  --bs-btn-disabled-bg: #ffc107;\r\n  --bs-btn-disabled-border-color: #ffc107;\r\n}\r\n\r\n.btn-danger {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #dc3545;\r\n  --bs-btn-border-color: #dc3545;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #bb2d3b;\r\n  --bs-btn-hover-border-color: #b02a37;\r\n  --bs-btn-focus-shadow-rgb: 225, 83, 97;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #b02a37;\r\n  --bs-btn-active-border-color: #a52834;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #dc3545;\r\n  --bs-btn-disabled-border-color: #dc3545;\r\n}\r\n\r\n.btn-light {\r\n  --bs-btn-color: #000;\r\n  --bs-btn-bg: #f8f9fa;\r\n  --bs-btn-border-color: #f8f9fa;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #d3d4d5;\r\n  --bs-btn-hover-border-color: #c6c7c8;\r\n  --bs-btn-focus-shadow-rgb: 211, 212, 213;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #c6c7c8;\r\n  --bs-btn-active-border-color: #babbbc;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #000;\r\n  --bs-btn-disabled-bg: #f8f9fa;\r\n  --bs-btn-disabled-border-color: #f8f9fa;\r\n}\r\n\r\n.btn-dark {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #212529;\r\n  --bs-btn-border-color: #212529;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #424649;\r\n  --bs-btn-hover-border-color: #373b3e;\r\n  --bs-btn-focus-shadow-rgb: 66, 70, 73;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #4d5154;\r\n  --bs-btn-active-border-color: #373b3e;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #212529;\r\n  --bs-btn-disabled-border-color: #212529;\r\n}\r\n\r\n.btn-outline-primary {\r\n  --bs-btn-color: #0d6efd;\r\n  --bs-btn-border-color: #0d6efd;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #0d6efd;\r\n  --bs-btn-hover-border-color: #0d6efd;\r\n  --bs-btn-focus-shadow-rgb: 13, 110, 253;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #0d6efd;\r\n  --bs-btn-active-border-color: #0d6efd;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #0d6efd;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #0d6efd;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-secondary {\r\n  --bs-btn-color: #6c757d;\r\n  --bs-btn-border-color: #6c757d;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #6c757d;\r\n  --bs-btn-hover-border-color: #6c757d;\r\n  --bs-btn-focus-shadow-rgb: 108, 117, 125;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #6c757d;\r\n  --bs-btn-active-border-color: #6c757d;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #6c757d;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #6c757d;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-success {\r\n  --bs-btn-color: #198754;\r\n  --bs-btn-border-color: #198754;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #198754;\r\n  --bs-btn-hover-border-color: #198754;\r\n  --bs-btn-focus-shadow-rgb: 25, 135, 84;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #198754;\r\n  --bs-btn-active-border-color: #198754;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #198754;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #198754;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-info {\r\n  --bs-btn-color: #0dcaf0;\r\n  --bs-btn-border-color: #0dcaf0;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #0dcaf0;\r\n  --bs-btn-hover-border-color: #0dcaf0;\r\n  --bs-btn-focus-shadow-rgb: 13, 202, 240;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #0dcaf0;\r\n  --bs-btn-active-border-color: #0dcaf0;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #0dcaf0;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #0dcaf0;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-warning {\r\n  --bs-btn-color: #ffc107;\r\n  --bs-btn-border-color: #ffc107;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #ffc107;\r\n  --bs-btn-hover-border-color: #ffc107;\r\n  --bs-btn-focus-shadow-rgb: 255, 193, 7;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #ffc107;\r\n  --bs-btn-active-border-color: #ffc107;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #ffc107;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #ffc107;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-danger {\r\n  --bs-btn-color: #dc3545;\r\n  --bs-btn-border-color: #dc3545;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #dc3545;\r\n  --bs-btn-hover-border-color: #dc3545;\r\n  --bs-btn-focus-shadow-rgb: 220, 53, 69;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #dc3545;\r\n  --bs-btn-active-border-color: #dc3545;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #dc3545;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #dc3545;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-light {\r\n  --bs-btn-color: #f8f9fa;\r\n  --bs-btn-border-color: #f8f9fa;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #f8f9fa;\r\n  --bs-btn-hover-border-color: #f8f9fa;\r\n  --bs-btn-focus-shadow-rgb: 248, 249, 250;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #f8f9fa;\r\n  --bs-btn-active-border-color: #f8f9fa;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #f8f9fa;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #f8f9fa;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-dark {\r\n  --bs-btn-color: #212529;\r\n  --bs-btn-border-color: #212529;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #212529;\r\n  --bs-btn-hover-border-color: #212529;\r\n  --bs-btn-focus-shadow-rgb: 33, 37, 41;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #212529;\r\n  --bs-btn-active-border-color: #212529;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #212529;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #212529;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-link {\r\n  --bs-btn-font-weight: 400;\r\n  --bs-btn-color: var(--bs-link-color);\r\n  --bs-btn-bg: transparent;\r\n  --bs-btn-border-color: transparent;\r\n  --bs-btn-hover-color: var(--bs-link-hover-color);\r\n  --bs-btn-hover-border-color: transparent;\r\n  --bs-btn-active-color: var(--bs-link-hover-color);\r\n  --bs-btn-active-border-color: transparent;\r\n  --bs-btn-disabled-color: #6c757d;\r\n  --bs-btn-disabled-border-color: transparent;\r\n  --bs-btn-box-shadow: none;\r\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\r\n  text-decoration: underline;\r\n}\r\n.btn-link:focus-visible {\r\n  color: var(--bs-btn-color);\r\n}\r\n.btn-link:hover {\r\n  color: var(--bs-btn-hover-color);\r\n}\r\n\r\n.btn-lg, .btn-group-lg > .btn {\r\n  --bs-btn-padding-y: 0.5rem;\r\n  --bs-btn-padding-x: 1rem;\r\n  --bs-btn-font-size: 1.25rem;\r\n  --bs-btn-border-radius: 0.5rem;\r\n}\r\n\r\n.btn-sm, .btn-group-sm > .btn {\r\n  --bs-btn-padding-y: 0.25rem;\r\n  --bs-btn-padding-x: 0.5rem;\r\n  --bs-btn-font-size: 0.875rem;\r\n  --bs-btn-border-radius: 0.25rem;\r\n}\r\n\r\n.fade {\r\n  transition: opacity 0.15s linear;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .fade {\r\n    transition: none;\r\n  }\r\n}\r\n.fade:not(.show) {\r\n  opacity: 0;\r\n}\r\n\r\n.collapse:not(.show) {\r\n  display: none;\r\n}\r\n\r\n.collapsing {\r\n  height: 0;\r\n  overflow: hidden;\r\n  transition: height 0.35s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .collapsing {\r\n    transition: none;\r\n  }\r\n}\r\n.collapsing.collapse-horizontal {\r\n  width: 0;\r\n  height: auto;\r\n  transition: width 0.35s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .collapsing.collapse-horizontal {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.dropup,\r\n.dropend,\r\n.dropdown,\r\n.dropstart,\r\n.dropup-center,\r\n.dropdown-center {\r\n  position: relative;\r\n}\r\n\r\n.dropdown-toggle {\r\n  white-space: nowrap;\r\n}\r\n.dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0.3em solid;\r\n  border-right: 0.3em solid transparent;\r\n  border-bottom: 0;\r\n  border-left: 0.3em solid transparent;\r\n}\r\n.dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n\r\n.dropdown-menu {\r\n  --bs-dropdown-zindex: 1000;\r\n  --bs-dropdown-min-width: 10rem;\r\n  --bs-dropdown-padding-x: 0;\r\n  --bs-dropdown-padding-y: 0.5rem;\r\n  --bs-dropdown-spacer: 0.125rem;\r\n  --bs-dropdown-font-size: 1rem;\r\n  --bs-dropdown-color: #212529;\r\n  --bs-dropdown-bg: #fff;\r\n  --bs-dropdown-border-color: var(--bs-border-color-translucent);\r\n  --bs-dropdown-border-radius: 0.375rem;\r\n  --bs-dropdown-border-width: 1px;\r\n  --bs-dropdown-inner-border-radius: calc(0.375rem - 1px);\r\n  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);\r\n  --bs-dropdown-divider-margin-y: 0.5rem;\r\n  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  --bs-dropdown-link-color: #212529;\r\n  --bs-dropdown-link-hover-color: #1e2125;\r\n  --bs-dropdown-link-hover-bg: #e9ecef;\r\n  --bs-dropdown-link-active-color: #fff;\r\n  --bs-dropdown-link-active-bg: #0d6efd;\r\n  --bs-dropdown-link-disabled-color: #adb5bd;\r\n  --bs-dropdown-item-padding-x: 1rem;\r\n  --bs-dropdown-item-padding-y: 0.25rem;\r\n  --bs-dropdown-header-color: #6c757d;\r\n  --bs-dropdown-header-padding-x: 1rem;\r\n  --bs-dropdown-header-padding-y: 0.5rem;\r\n  position: absolute;\r\n  z-index: var(--bs-dropdown-zindex);\r\n  display: none;\r\n  min-width: var(--bs-dropdown-min-width);\r\n  padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);\r\n  margin: 0;\r\n  font-size: var(--bs-dropdown-font-size);\r\n  color: var(--bs-dropdown-color);\r\n  text-align: left;\r\n  list-style: none;\r\n  background-color: var(--bs-dropdown-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);\r\n  border-radius: var(--bs-dropdown-border-radius);\r\n}\r\n.dropdown-menu[data-bs-popper] {\r\n  top: 100%;\r\n  left: 0;\r\n  margin-top: var(--bs-dropdown-spacer);\r\n}\r\n\r\n.dropdown-menu-start {\r\n  --bs-position: start;\r\n}\r\n.dropdown-menu-start[data-bs-popper] {\r\n  right: auto;\r\n  left: 0;\r\n}\r\n\r\n.dropdown-menu-end {\r\n  --bs-position: end;\r\n}\r\n.dropdown-menu-end[data-bs-popper] {\r\n  right: 0;\r\n  left: auto;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .dropdown-menu-sm-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-sm-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-sm-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-sm-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .dropdown-menu-md-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-md-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-md-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-md-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .dropdown-menu-lg-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-lg-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-lg-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-lg-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .dropdown-menu-xl-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-xl-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-xl-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-xl-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .dropdown-menu-xxl-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-xxl-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-xxl-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-xxl-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n.dropup .dropdown-menu[data-bs-popper] {\r\n  top: auto;\r\n  bottom: 100%;\r\n  margin-top: 0;\r\n  margin-bottom: var(--bs-dropdown-spacer);\r\n}\r\n.dropup .dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0;\r\n  border-right: 0.3em solid transparent;\r\n  border-bottom: 0.3em solid;\r\n  border-left: 0.3em solid transparent;\r\n}\r\n.dropup .dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n\r\n.dropend .dropdown-menu[data-bs-popper] {\r\n  top: 0;\r\n  right: auto;\r\n  left: 100%;\r\n  margin-top: 0;\r\n  margin-left: var(--bs-dropdown-spacer);\r\n}\r\n.dropend .dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0.3em solid transparent;\r\n  border-right: 0;\r\n  border-bottom: 0.3em solid transparent;\r\n  border-left: 0.3em solid;\r\n}\r\n.dropend .dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n.dropend .dropdown-toggle::after {\r\n  vertical-align: 0;\r\n}\r\n\r\n.dropstart .dropdown-menu[data-bs-popper] {\r\n  top: 0;\r\n  right: 100%;\r\n  left: auto;\r\n  margin-top: 0;\r\n  margin-right: var(--bs-dropdown-spacer);\r\n}\r\n.dropstart .dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n}\r\n.dropstart .dropdown-toggle::after {\r\n  display: none;\r\n}\r\n.dropstart .dropdown-toggle::before {\r\n  display: inline-block;\r\n  margin-right: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0.3em solid transparent;\r\n  border-right: 0.3em solid;\r\n  border-bottom: 0.3em solid transparent;\r\n}\r\n.dropstart .dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n.dropstart .dropdown-toggle::before {\r\n  vertical-align: 0;\r\n}\r\n\r\n.dropdown-divider {\r\n  height: 0;\r\n  margin: var(--bs-dropdown-divider-margin-y) 0;\r\n  overflow: hidden;\r\n  border-top: 1px solid var(--bs-dropdown-divider-bg);\r\n  opacity: 1;\r\n}\r\n\r\n.dropdown-item {\r\n  display: block;\r\n  width: 100%;\r\n  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);\r\n  clear: both;\r\n  font-weight: 400;\r\n  color: var(--bs-dropdown-link-color);\r\n  text-align: inherit;\r\n  text-decoration: none;\r\n  white-space: nowrap;\r\n  background-color: transparent;\r\n  border: 0;\r\n}\r\n.dropdown-item:hover, .dropdown-item:focus {\r\n  color: var(--bs-dropdown-link-hover-color);\r\n  background-color: var(--bs-dropdown-link-hover-bg);\r\n}\r\n.dropdown-item.active, .dropdown-item:active {\r\n  color: var(--bs-dropdown-link-active-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-dropdown-link-active-bg);\r\n}\r\n.dropdown-item.disabled, .dropdown-item:disabled {\r\n  color: var(--bs-dropdown-link-disabled-color);\r\n  pointer-events: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.dropdown-menu.show {\r\n  display: block;\r\n}\r\n\r\n.dropdown-header {\r\n  display: block;\r\n  padding: var(--bs-dropdown-header-padding-y) var(--bs-dropdown-header-padding-x);\r\n  margin-bottom: 0;\r\n  font-size: 0.875rem;\r\n  color: var(--bs-dropdown-header-color);\r\n  white-space: nowrap;\r\n}\r\n\r\n.dropdown-item-text {\r\n  display: block;\r\n  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);\r\n  color: var(--bs-dropdown-link-color);\r\n}\r\n\r\n.dropdown-menu-dark {\r\n  --bs-dropdown-color: #dee2e6;\r\n  --bs-dropdown-bg: #343a40;\r\n  --bs-dropdown-border-color: var(--bs-border-color-translucent);\r\n  --bs-dropdown-box-shadow: ;\r\n  --bs-dropdown-link-color: #dee2e6;\r\n  --bs-dropdown-link-hover-color: #fff;\r\n  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);\r\n  --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);\r\n  --bs-dropdown-link-active-color: #fff;\r\n  --bs-dropdown-link-active-bg: #0d6efd;\r\n  --bs-dropdown-link-disabled-color: #adb5bd;\r\n  --bs-dropdown-header-color: #adb5bd;\r\n}\r\n\r\n.btn-group,\r\n.btn-group-vertical {\r\n  position: relative;\r\n  display: inline-flex;\r\n  vertical-align: middle;\r\n}\r\n.btn-group > .btn,\r\n.btn-group-vertical > .btn {\r\n  position: relative;\r\n  flex: 1 1 auto;\r\n}\r\n.btn-group > .btn-check:checked + .btn,\r\n.btn-group > .btn-check:focus + .btn,\r\n.btn-group > .btn:hover,\r\n.btn-group > .btn:focus,\r\n.btn-group > .btn:active,\r\n.btn-group > .btn.active,\r\n.btn-group-vertical > .btn-check:checked + .btn,\r\n.btn-group-vertical > .btn-check:focus + .btn,\r\n.btn-group-vertical > .btn:hover,\r\n.btn-group-vertical > .btn:focus,\r\n.btn-group-vertical > .btn:active,\r\n.btn-group-vertical > .btn.active {\r\n  z-index: 1;\r\n}\r\n\r\n.btn-toolbar {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: flex-start;\r\n}\r\n.btn-toolbar .input-group {\r\n  width: auto;\r\n}\r\n\r\n.btn-group {\r\n  border-radius: 0.375rem;\r\n}\r\n.btn-group > :not(.btn-check:first-child) + .btn,\r\n.btn-group > .btn-group:not(:first-child) {\r\n  margin-left: -1px;\r\n}\r\n.btn-group > .btn:not(:last-child):not(.dropdown-toggle),\r\n.btn-group > .btn.dropdown-toggle-split:first-child,\r\n.btn-group > .btn-group:not(:last-child) > .btn {\r\n  border-top-right-radius: 0;\r\n  border-bottom-right-radius: 0;\r\n}\r\n.btn-group > .btn:nth-child(n+3),\r\n.btn-group > :not(.btn-check) + .btn,\r\n.btn-group > .btn-group:not(:first-child) > .btn {\r\n  border-top-left-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n\r\n.dropdown-toggle-split {\r\n  padding-right: 0.5625rem;\r\n  padding-left: 0.5625rem;\r\n}\r\n.dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {\r\n  margin-left: 0;\r\n}\r\n.dropstart .dropdown-toggle-split::before {\r\n  margin-right: 0;\r\n}\r\n\r\n.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {\r\n  padding-right: 0.375rem;\r\n  padding-left: 0.375rem;\r\n}\r\n\r\n.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {\r\n  padding-right: 0.75rem;\r\n  padding-left: 0.75rem;\r\n}\r\n\r\n.btn-group-vertical {\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  justify-content: center;\r\n}\r\n.btn-group-vertical > .btn,\r\n.btn-group-vertical > .btn-group {\r\n  width: 100%;\r\n}\r\n.btn-group-vertical > .btn:not(:first-child),\r\n.btn-group-vertical > .btn-group:not(:first-child) {\r\n  margin-top: -1px;\r\n}\r\n.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),\r\n.btn-group-vertical > .btn-group:not(:last-child) > .btn {\r\n  border-bottom-right-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n.btn-group-vertical > .btn ~ .btn,\r\n.btn-group-vertical > .btn-group:not(:first-child) > .btn {\r\n  border-top-left-radius: 0;\r\n  border-top-right-radius: 0;\r\n}\r\n\r\n.nav {\r\n  --bs-nav-link-padding-x: 1rem;\r\n  --bs-nav-link-padding-y: 0.5rem;\r\n  --bs-nav-link-font-weight: ;\r\n  --bs-nav-link-color: var(--bs-link-color);\r\n  --bs-nav-link-hover-color: var(--bs-link-hover-color);\r\n  --bs-nav-link-disabled-color: #6c757d;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding-left: 0;\r\n  margin-bottom: 0;\r\n  list-style: none;\r\n}\r\n\r\n.nav-link {\r\n  display: block;\r\n  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);\r\n  font-size: var(--bs-nav-link-font-size);\r\n  font-weight: var(--bs-nav-link-font-weight);\r\n  color: var(--bs-nav-link-color);\r\n  text-decoration: none;\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .nav-link {\r\n    transition: none;\r\n  }\r\n}\r\n.nav-link:hover, .nav-link:focus {\r\n  color: var(--bs-nav-link-hover-color);\r\n}\r\n.nav-link.disabled {\r\n  color: var(--bs-nav-link-disabled-color);\r\n  pointer-events: none;\r\n  cursor: default;\r\n}\r\n\r\n.nav-tabs {\r\n  --bs-nav-tabs-border-width: 1px;\r\n  --bs-nav-tabs-border-color: #dee2e6;\r\n  --bs-nav-tabs-border-radius: 0.375rem;\r\n  --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;\r\n  --bs-nav-tabs-link-active-color: #495057;\r\n  --bs-nav-tabs-link-active-bg: #fff;\r\n  --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;\r\n  border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);\r\n}\r\n.nav-tabs .nav-link {\r\n  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));\r\n  background: none;\r\n  border: var(--bs-nav-tabs-border-width) solid transparent;\r\n  border-top-left-radius: var(--bs-nav-tabs-border-radius);\r\n  border-top-right-radius: var(--bs-nav-tabs-border-radius);\r\n}\r\n.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {\r\n  isolation: isolate;\r\n  border-color: var(--bs-nav-tabs-link-hover-border-color);\r\n}\r\n.nav-tabs .nav-link.disabled, .nav-tabs .nav-link:disabled {\r\n  color: var(--bs-nav-link-disabled-color);\r\n  background-color: transparent;\r\n  border-color: transparent;\r\n}\r\n.nav-tabs .nav-link.active,\r\n.nav-tabs .nav-item.show .nav-link {\r\n  color: var(--bs-nav-tabs-link-active-color);\r\n  background-color: var(--bs-nav-tabs-link-active-bg);\r\n  border-color: var(--bs-nav-tabs-link-active-border-color);\r\n}\r\n.nav-tabs .dropdown-menu {\r\n  margin-top: calc(-1 * var(--bs-nav-tabs-border-width));\r\n  border-top-left-radius: 0;\r\n  border-top-right-radius: 0;\r\n}\r\n\r\n.nav-pills {\r\n  --bs-nav-pills-border-radius: 0.375rem;\r\n  --bs-nav-pills-link-active-color: #fff;\r\n  --bs-nav-pills-link-active-bg: #0d6efd;\r\n}\r\n.nav-pills .nav-link {\r\n  background: none;\r\n  border: 0;\r\n  border-radius: var(--bs-nav-pills-border-radius);\r\n}\r\n.nav-pills .nav-link:disabled {\r\n  color: var(--bs-nav-link-disabled-color);\r\n  background-color: transparent;\r\n  border-color: transparent;\r\n}\r\n.nav-pills .nav-link.active,\r\n.nav-pills .show > .nav-link {\r\n  color: var(--bs-nav-pills-link-active-color);\r\n  background-color: var(--bs-nav-pills-link-active-bg);\r\n}\r\n\r\n.nav-fill > .nav-link,\r\n.nav-fill .nav-item {\r\n  flex: 1 1 auto;\r\n  text-align: center;\r\n}\r\n\r\n.nav-justified > .nav-link,\r\n.nav-justified .nav-item {\r\n  flex-basis: 0;\r\n  flex-grow: 1;\r\n  text-align: center;\r\n}\r\n\r\n.nav-fill .nav-item .nav-link,\r\n.nav-justified .nav-item .nav-link {\r\n  width: 100%;\r\n}\r\n\r\n.tab-content > .tab-pane {\r\n  display: none;\r\n}\r\n.tab-content > .active {\r\n  display: block;\r\n}\r\n\r\n.navbar {\r\n  --bs-navbar-padding-x: 0;\r\n  --bs-navbar-padding-y: 0.5rem;\r\n  --bs-navbar-color: rgba(0, 0, 0, 0.55);\r\n  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);\r\n  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);\r\n  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);\r\n  --bs-navbar-brand-padding-y: 0.3125rem;\r\n  --bs-navbar-brand-margin-end: 1rem;\r\n  --bs-navbar-brand-font-size: 1.25rem;\r\n  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);\r\n  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);\r\n  --bs-navbar-nav-link-padding-x: 0.5rem;\r\n  --bs-navbar-toggler-padding-y: 0.25rem;\r\n  --bs-navbar-toggler-padding-x: 0.75rem;\r\n  --bs-navbar-toggler-font-size: 1.25rem;\r\n  --bs-navbar-toggler-icon-bg: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\");\r\n  --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);\r\n  --bs-navbar-toggler-border-radius: 0.375rem;\r\n  --bs-navbar-toggler-focus-width: 0.25rem;\r\n  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;\r\n  position: relative;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);\r\n}\r\n.navbar > .container,\r\n.navbar > .container-fluid,\r\n.navbar > .container-sm,\r\n.navbar > .container-md,\r\n.navbar > .container-lg,\r\n.navbar > .container-xl,\r\n.navbar > .container-xxl {\r\n  display: flex;\r\n  flex-wrap: inherit;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n.navbar-brand {\r\n  padding-top: var(--bs-navbar-brand-padding-y);\r\n  padding-bottom: var(--bs-navbar-brand-padding-y);\r\n  margin-right: var(--bs-navbar-brand-margin-end);\r\n  font-size: var(--bs-navbar-brand-font-size);\r\n  color: var(--bs-navbar-brand-color);\r\n  text-decoration: none;\r\n  white-space: nowrap;\r\n}\r\n.navbar-brand:hover, .navbar-brand:focus {\r\n  color: var(--bs-navbar-brand-hover-color);\r\n}\r\n\r\n.navbar-nav {\r\n  --bs-nav-link-padding-x: 0;\r\n  --bs-nav-link-padding-y: 0.5rem;\r\n  --bs-nav-link-font-weight: ;\r\n  --bs-nav-link-color: var(--bs-navbar-color);\r\n  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);\r\n  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding-left: 0;\r\n  margin-bottom: 0;\r\n  list-style: none;\r\n}\r\n.navbar-nav .show > .nav-link,\r\n.navbar-nav .nav-link.active {\r\n  color: var(--bs-navbar-active-color);\r\n}\r\n.navbar-nav .dropdown-menu {\r\n  position: static;\r\n}\r\n\r\n.navbar-text {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  color: var(--bs-navbar-color);\r\n}\r\n.navbar-text a,\r\n.navbar-text a:hover,\r\n.navbar-text a:focus {\r\n  color: var(--bs-navbar-active-color);\r\n}\r\n\r\n.navbar-collapse {\r\n  flex-basis: 100%;\r\n  flex-grow: 1;\r\n  align-items: center;\r\n}\r\n\r\n.navbar-toggler {\r\n  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);\r\n  font-size: var(--bs-navbar-toggler-font-size);\r\n  line-height: 1;\r\n  color: var(--bs-navbar-color);\r\n  background-color: transparent;\r\n  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);\r\n  border-radius: var(--bs-navbar-toggler-border-radius);\r\n  transition: var(--bs-navbar-toggler-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .navbar-toggler {\r\n    transition: none;\r\n  }\r\n}\r\n.navbar-toggler:hover {\r\n  text-decoration: none;\r\n}\r\n.navbar-toggler:focus {\r\n  text-decoration: none;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);\r\n}\r\n\r\n.navbar-toggler-icon {\r\n  display: inline-block;\r\n  width: 1.5em;\r\n  height: 1.5em;\r\n  vertical-align: middle;\r\n  background-image: var(--bs-navbar-toggler-icon-bg);\r\n  background-repeat: no-repeat;\r\n  background-position: center;\r\n  background-size: 100%;\r\n}\r\n\r\n.navbar-nav-scroll {\r\n  max-height: var(--bs-scroll-height, 75vh);\r\n  overflow-y: auto;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .navbar-expand-sm {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-sm .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-sm .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-sm .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-sm .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-sm .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-sm .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-sm .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-sm .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-sm .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .navbar-expand-md {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-md .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-md .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-md .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-md .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-md .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-md .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-md .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-md .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-md .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .navbar-expand-lg {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-lg .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-lg .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-lg .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-lg .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-lg .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-lg .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-lg .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-lg .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-lg .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .navbar-expand-xl {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-xl .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-xl .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-xl .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-xl .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-xl .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-xl .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xl .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-xl .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xl .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .navbar-expand-xxl {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-xxl .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-xxl .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-xxl .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-xxl .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-xxl .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-xxl .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xxl .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-xxl .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xxl .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n.navbar-expand {\r\n  flex-wrap: nowrap;\r\n  justify-content: flex-start;\r\n}\r\n.navbar-expand .navbar-nav {\r\n  flex-direction: row;\r\n}\r\n.navbar-expand .navbar-nav .dropdown-menu {\r\n  position: absolute;\r\n}\r\n.navbar-expand .navbar-nav .nav-link {\r\n  padding-right: var(--bs-navbar-nav-link-padding-x);\r\n  padding-left: var(--bs-navbar-nav-link-padding-x);\r\n}\r\n.navbar-expand .navbar-nav-scroll {\r\n  overflow: visible;\r\n}\r\n.navbar-expand .navbar-collapse {\r\n  display: flex !important;\r\n  flex-basis: auto;\r\n}\r\n.navbar-expand .navbar-toggler {\r\n  display: none;\r\n}\r\n.navbar-expand .offcanvas {\r\n  position: static;\r\n  z-index: auto;\r\n  flex-grow: 1;\r\n  width: auto !important;\r\n  height: auto !important;\r\n  visibility: visible !important;\r\n  background-color: transparent !important;\r\n  border: 0 !important;\r\n  transform: none !important;\r\n  transition: none;\r\n}\r\n.navbar-expand .offcanvas .offcanvas-header {\r\n  display: none;\r\n}\r\n.navbar-expand .offcanvas .offcanvas-body {\r\n  display: flex;\r\n  flex-grow: 0;\r\n  padding: 0;\r\n  overflow-y: visible;\r\n}\r\n\r\n.navbar-dark {\r\n  --bs-navbar-color: rgba(255, 255, 255, 0.55);\r\n  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);\r\n  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);\r\n  --bs-navbar-active-color: #fff;\r\n  --bs-navbar-brand-color: #fff;\r\n  --bs-navbar-brand-hover-color: #fff;\r\n  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);\r\n  --bs-navbar-toggler-icon-bg: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\");\r\n}\r\n\r\n.card {\r\n  --bs-card-spacer-y: 1rem;\r\n  --bs-card-spacer-x: 1rem;\r\n  --bs-card-title-spacer-y: 0.5rem;\r\n  --bs-card-border-width: 1px;\r\n  --bs-card-border-color: var(--bs-border-color-translucent);\r\n  --bs-card-border-radius: 0.375rem;\r\n  --bs-card-box-shadow: ;\r\n  --bs-card-inner-border-radius: calc(0.375rem - 1px);\r\n  --bs-card-cap-padding-y: 0.5rem;\r\n  --bs-card-cap-padding-x: 1rem;\r\n  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);\r\n  --bs-card-cap-color: ;\r\n  --bs-card-height: ;\r\n  --bs-card-color: ;\r\n  --bs-card-bg: #fff;\r\n  --bs-card-img-overlay-padding: 1rem;\r\n  --bs-card-group-margin: 0.75rem;\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 0;\r\n  height: var(--bs-card-height);\r\n  word-wrap: break-word;\r\n  background-color: var(--bs-card-bg);\r\n  background-clip: border-box;\r\n  border: var(--bs-card-border-width) solid var(--bs-card-border-color);\r\n  border-radius: var(--bs-card-border-radius);\r\n}\r\n.card > hr {\r\n  margin-right: 0;\r\n  margin-left: 0;\r\n}\r\n.card > .list-group {\r\n  border-top: inherit;\r\n  border-bottom: inherit;\r\n}\r\n.card > .list-group:first-child {\r\n  border-top-width: 0;\r\n  border-top-left-radius: var(--bs-card-inner-border-radius);\r\n  border-top-right-radius: var(--bs-card-inner-border-radius);\r\n}\r\n.card > .list-group:last-child {\r\n  border-bottom-width: 0;\r\n  border-bottom-right-radius: var(--bs-card-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-card-inner-border-radius);\r\n}\r\n.card > .card-header + .list-group,\r\n.card > .list-group + .card-footer {\r\n  border-top: 0;\r\n}\r\n\r\n.card-body {\r\n  flex: 1 1 auto;\r\n  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);\r\n  color: var(--bs-card-color);\r\n}\r\n\r\n.card-title {\r\n  margin-bottom: var(--bs-card-title-spacer-y);\r\n}\r\n\r\n.card-subtitle {\r\n  margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));\r\n  margin-bottom: 0;\r\n}\r\n\r\n.card-text:last-child {\r\n  margin-bottom: 0;\r\n}\r\n\r\n.card-link + .card-link {\r\n  margin-left: var(--bs-card-spacer-x);\r\n}\r\n\r\n.card-header {\r\n  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);\r\n  margin-bottom: 0;\r\n  color: var(--bs-card-cap-color);\r\n  background-color: var(--bs-card-cap-bg);\r\n  border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);\r\n}\r\n.card-header:first-child {\r\n  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;\r\n}\r\n\r\n.card-footer {\r\n  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);\r\n  color: var(--bs-card-cap-color);\r\n  background-color: var(--bs-card-cap-bg);\r\n  border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);\r\n}\r\n.card-footer:last-child {\r\n  border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-header-tabs {\r\n  margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n  margin-bottom: calc(-1 * var(--bs-card-cap-padding-y));\r\n  margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n  border-bottom: 0;\r\n}\r\n.card-header-tabs .nav-link.active {\r\n  background-color: var(--bs-card-bg);\r\n  border-bottom-color: var(--bs-card-bg);\r\n}\r\n\r\n.card-header-pills {\r\n  margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n  margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n}\r\n\r\n.card-img-overlay {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  padding: var(--bs-card-img-overlay-padding);\r\n  border-radius: var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-img,\r\n.card-img-top,\r\n.card-img-bottom {\r\n  width: 100%;\r\n}\r\n\r\n.card-img,\r\n.card-img-top {\r\n  border-top-left-radius: var(--bs-card-inner-border-radius);\r\n  border-top-right-radius: var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-img,\r\n.card-img-bottom {\r\n  border-bottom-right-radius: var(--bs-card-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-group > .card {\r\n  margin-bottom: var(--bs-card-group-margin);\r\n}\r\n@media (min-width: 576px) {\r\n  .card-group {\r\n    display: flex;\r\n    flex-flow: row wrap;\r\n  }\r\n  .card-group > .card {\r\n    flex: 1 0 0%;\r\n    margin-bottom: 0;\r\n  }\r\n  .card-group > .card + .card {\r\n    margin-left: 0;\r\n    border-left: 0;\r\n  }\r\n  .card-group > .card:not(:last-child) {\r\n    border-top-right-radius: 0;\r\n    border-bottom-right-radius: 0;\r\n  }\r\n  .card-group > .card:not(:last-child) .card-img-top,\r\n  .card-group > .card:not(:last-child) .card-header {\r\n    border-top-right-radius: 0;\r\n  }\r\n  .card-group > .card:not(:last-child) .card-img-bottom,\r\n  .card-group > .card:not(:last-child) .card-footer {\r\n    border-bottom-right-radius: 0;\r\n  }\r\n  .card-group > .card:not(:first-child) {\r\n    border-top-left-radius: 0;\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .card-group > .card:not(:first-child) .card-img-top,\r\n  .card-group > .card:not(:first-child) .card-header {\r\n    border-top-left-radius: 0;\r\n  }\r\n  .card-group > .card:not(:first-child) .card-img-bottom,\r\n  .card-group > .card:not(:first-child) .card-footer {\r\n    border-bottom-left-radius: 0;\r\n  }\r\n}\r\n\r\n.accordion {\r\n  --bs-accordion-color: #212529;\r\n  --bs-accordion-bg: #fff;\r\n  --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;\r\n  --bs-accordion-border-color: var(--bs-border-color);\r\n  --bs-accordion-border-width: 1px;\r\n  --bs-accordion-border-radius: 0.375rem;\r\n  --bs-accordion-inner-border-radius: calc(0.375rem - 1px);\r\n  --bs-accordion-btn-padding-x: 1.25rem;\r\n  --bs-accordion-btn-padding-y: 1rem;\r\n  --bs-accordion-btn-color: #212529;\r\n  --bs-accordion-btn-bg: var(--bs-accordion-bg);\r\n  --bs-accordion-btn-icon: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e\");\r\n  --bs-accordion-btn-icon-width: 1.25rem;\r\n  --bs-accordion-btn-icon-transform: rotate(-180deg);\r\n  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;\r\n  --bs-accordion-btn-active-icon: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e\");\r\n  --bs-accordion-btn-focus-border-color: #86b7fe;\r\n  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n  --bs-accordion-body-padding-x: 1.25rem;\r\n  --bs-accordion-body-padding-y: 1rem;\r\n  --bs-accordion-active-color: #0c63e4;\r\n  --bs-accordion-active-bg: #e7f1ff;\r\n}\r\n\r\n.accordion-button {\r\n  position: relative;\r\n  display: flex;\r\n  align-items: center;\r\n  width: 100%;\r\n  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);\r\n  font-size: 1rem;\r\n  color: var(--bs-accordion-btn-color);\r\n  text-align: left;\r\n  background-color: var(--bs-accordion-btn-bg);\r\n  border: 0;\r\n  border-radius: 0;\r\n  overflow-anchor: none;\r\n  transition: var(--bs-accordion-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .accordion-button {\r\n    transition: none;\r\n  }\r\n}\r\n.accordion-button:not(.collapsed) {\r\n  color: var(--bs-accordion-active-color);\r\n  background-color: var(--bs-accordion-active-bg);\r\n  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);\r\n}\r\n.accordion-button:not(.collapsed)::after {\r\n  background-image: var(--bs-accordion-btn-active-icon);\r\n  transform: var(--bs-accordion-btn-icon-transform);\r\n}\r\n.accordion-button::after {\r\n  flex-shrink: 0;\r\n  width: var(--bs-accordion-btn-icon-width);\r\n  height: var(--bs-accordion-btn-icon-width);\r\n  margin-left: auto;\r\n  content: \"\";\r\n  background-image: var(--bs-accordion-btn-icon);\r\n  background-repeat: no-repeat;\r\n  background-size: var(--bs-accordion-btn-icon-width);\r\n  transition: var(--bs-accordion-btn-icon-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .accordion-button::after {\r\n    transition: none;\r\n  }\r\n}\r\n.accordion-button:hover {\r\n  z-index: 2;\r\n}\r\n.accordion-button:focus {\r\n  z-index: 3;\r\n  border-color: var(--bs-accordion-btn-focus-border-color);\r\n  outline: 0;\r\n  box-shadow: var(--bs-accordion-btn-focus-box-shadow);\r\n}\r\n\r\n.accordion-header {\r\n  margin-bottom: 0;\r\n}\r\n\r\n.accordion-item {\r\n  color: var(--bs-accordion-color);\r\n  background-color: var(--bs-accordion-bg);\r\n  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);\r\n}\r\n.accordion-item:first-of-type {\r\n  border-top-left-radius: var(--bs-accordion-border-radius);\r\n  border-top-right-radius: var(--bs-accordion-border-radius);\r\n}\r\n.accordion-item:first-of-type .accordion-button {\r\n  border-top-left-radius: var(--bs-accordion-inner-border-radius);\r\n  border-top-right-radius: var(--bs-accordion-inner-border-radius);\r\n}\r\n.accordion-item:not(:first-of-type) {\r\n  border-top: 0;\r\n}\r\n.accordion-item:last-of-type {\r\n  border-bottom-right-radius: var(--bs-accordion-border-radius);\r\n  border-bottom-left-radius: var(--bs-accordion-border-radius);\r\n}\r\n.accordion-item:last-of-type .accordion-button.collapsed {\r\n  border-bottom-right-radius: var(--bs-accordion-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-accordion-inner-border-radius);\r\n}\r\n.accordion-item:last-of-type .accordion-collapse {\r\n  border-bottom-right-radius: var(--bs-accordion-border-radius);\r\n  border-bottom-left-radius: var(--bs-accordion-border-radius);\r\n}\r\n\r\n.accordion-body {\r\n  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);\r\n}\r\n\r\n.accordion-flush .accordion-collapse {\r\n  border-width: 0;\r\n}\r\n.accordion-flush .accordion-item {\r\n  border-right: 0;\r\n  border-left: 0;\r\n  border-radius: 0;\r\n}\r\n.accordion-flush .accordion-item:first-child {\r\n  border-top: 0;\r\n}\r\n.accordion-flush .accordion-item:last-child {\r\n  border-bottom: 0;\r\n}\r\n.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {\r\n  border-radius: 0;\r\n}\r\n\r\n.breadcrumb {\r\n  --bs-breadcrumb-padding-x: 0;\r\n  --bs-breadcrumb-padding-y: 0;\r\n  --bs-breadcrumb-margin-bottom: 1rem;\r\n  --bs-breadcrumb-bg: ;\r\n  --bs-breadcrumb-border-radius: ;\r\n  --bs-breadcrumb-divider-color: #6c757d;\r\n  --bs-breadcrumb-item-padding-x: 0.5rem;\r\n  --bs-breadcrumb-item-active-color: #6c757d;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);\r\n  margin-bottom: var(--bs-breadcrumb-margin-bottom);\r\n  font-size: var(--bs-breadcrumb-font-size);\r\n  list-style: none;\r\n  background-color: var(--bs-breadcrumb-bg);\r\n  border-radius: var(--bs-breadcrumb-border-radius);\r\n}\r\n\r\n.breadcrumb-item + .breadcrumb-item {\r\n  padding-left: var(--bs-breadcrumb-item-padding-x);\r\n}\r\n.breadcrumb-item + .breadcrumb-item::before {\r\n  float: left;\r\n  padding-right: var(--bs-breadcrumb-item-padding-x);\r\n  color: var(--bs-breadcrumb-divider-color);\r\n  content: var(--bs-breadcrumb-divider, \"/\") /* rtl: var(--bs-breadcrumb-divider, \"/\") */;\r\n}\r\n.breadcrumb-item.active {\r\n  color: var(--bs-breadcrumb-item-active-color);\r\n}\r\n\r\n.pagination, .datatable-pagination ul {\r\n  --bs-pagination-padding-x: 0.75rem;\r\n  --bs-pagination-padding-y: 0.375rem;\r\n  --bs-pagination-font-size: 1rem;\r\n  --bs-pagination-color: var(--bs-link-color);\r\n  --bs-pagination-bg: #fff;\r\n  --bs-pagination-border-width: 1px;\r\n  --bs-pagination-border-color: #dee2e6;\r\n  --bs-pagination-border-radius: 0.375rem;\r\n  --bs-pagination-hover-color: var(--bs-link-hover-color);\r\n  --bs-pagination-hover-bg: #e9ecef;\r\n  --bs-pagination-hover-border-color: #dee2e6;\r\n  --bs-pagination-focus-color: var(--bs-link-hover-color);\r\n  --bs-pagination-focus-bg: #e9ecef;\r\n  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n  --bs-pagination-active-color: #fff;\r\n  --bs-pagination-active-bg: #0d6efd;\r\n  --bs-pagination-active-border-color: #0d6efd;\r\n  --bs-pagination-disabled-color: #6c757d;\r\n  --bs-pagination-disabled-bg: #fff;\r\n  --bs-pagination-disabled-border-color: #dee2e6;\r\n  display: flex;\r\n  padding-left: 0;\r\n  list-style: none;\r\n}\r\n\r\n.page-link, .datatable-pagination a {\r\n  position: relative;\r\n  display: block;\r\n  padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);\r\n  font-size: var(--bs-pagination-font-size);\r\n  color: var(--bs-pagination-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-pagination-bg);\r\n  border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .page-link, .datatable-pagination a {\r\n    transition: none;\r\n  }\r\n}\r\n.page-link:hover, .datatable-pagination a:hover {\r\n  z-index: 2;\r\n  color: var(--bs-pagination-hover-color);\r\n  background-color: var(--bs-pagination-hover-bg);\r\n  border-color: var(--bs-pagination-hover-border-color);\r\n}\r\n.page-link:focus, .datatable-pagination a:focus {\r\n  z-index: 3;\r\n  color: var(--bs-pagination-focus-color);\r\n  background-color: var(--bs-pagination-focus-bg);\r\n  outline: 0;\r\n  box-shadow: var(--bs-pagination-focus-box-shadow);\r\n}\r\n.page-link.active, .datatable-pagination a.active, .active > .page-link, .datatable-pagination .active > a {\r\n  z-index: 3;\r\n  color: var(--bs-pagination-active-color);\r\n  background-color: var(--bs-pagination-active-bg);\r\n  border-color: var(--bs-pagination-active-border-color);\r\n}\r\n.page-link.disabled, .datatable-pagination a.disabled, .disabled > .page-link, .datatable-pagination .disabled > a {\r\n  color: var(--bs-pagination-disabled-color);\r\n  pointer-events: none;\r\n  background-color: var(--bs-pagination-disabled-bg);\r\n  border-color: var(--bs-pagination-disabled-border-color);\r\n}\r\n\r\n.page-item:not(:first-child) .page-link, .page-item:not(:first-child) .datatable-pagination a, .datatable-pagination .page-item:not(:first-child) a, .datatable-pagination li:not(:first-child) .page-link, .datatable-pagination li:not(:first-child) a {\r\n  margin-left: -1px;\r\n}\r\n.page-item:first-child .page-link, .page-item:first-child .datatable-pagination a, .datatable-pagination .page-item:first-child a, .datatable-pagination li:first-child .page-link, .datatable-pagination li:first-child a {\r\n  border-top-left-radius: var(--bs-pagination-border-radius);\r\n  border-bottom-left-radius: var(--bs-pagination-border-radius);\r\n}\r\n.page-item:last-child .page-link, .page-item:last-child .datatable-pagination a, .datatable-pagination .page-item:last-child a, .datatable-pagination li:last-child .page-link, .datatable-pagination li:last-child a {\r\n  border-top-right-radius: var(--bs-pagination-border-radius);\r\n  border-bottom-right-radius: var(--bs-pagination-border-radius);\r\n}\r\n\r\n.pagination-lg {\r\n  --bs-pagination-padding-x: 1.5rem;\r\n  --bs-pagination-padding-y: 0.75rem;\r\n  --bs-pagination-font-size: 1.25rem;\r\n  --bs-pagination-border-radius: 0.5rem;\r\n}\r\n\r\n.pagination-sm {\r\n  --bs-pagination-padding-x: 0.5rem;\r\n  --bs-pagination-padding-y: 0.25rem;\r\n  --bs-pagination-font-size: 0.875rem;\r\n  --bs-pagination-border-radius: 0.25rem;\r\n}\r\n\r\n.badge {\r\n  --bs-badge-padding-x: 0.65em;\r\n  --bs-badge-padding-y: 0.35em;\r\n  --bs-badge-font-size: 0.75em;\r\n  --bs-badge-font-weight: 700;\r\n  --bs-badge-color: #fff;\r\n  --bs-badge-border-radius: 0.375rem;\r\n  display: inline-block;\r\n  padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);\r\n  font-size: var(--bs-badge-font-size);\r\n  font-weight: var(--bs-badge-font-weight);\r\n  line-height: 1;\r\n  color: var(--bs-badge-color);\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  vertical-align: baseline;\r\n  border-radius: var(--bs-badge-border-radius);\r\n}\r\n.badge:empty {\r\n  display: none;\r\n}\r\n\r\n.btn .badge {\r\n  position: relative;\r\n  top: -1px;\r\n}\r\n\r\n.alert {\r\n  --bs-alert-bg: transparent;\r\n  --bs-alert-padding-x: 1rem;\r\n  --bs-alert-padding-y: 1rem;\r\n  --bs-alert-margin-bottom: 1rem;\r\n  --bs-alert-color: inherit;\r\n  --bs-alert-border-color: transparent;\r\n  --bs-alert-border: 1px solid var(--bs-alert-border-color);\r\n  --bs-alert-border-radius: 0.375rem;\r\n  position: relative;\r\n  padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);\r\n  margin-bottom: var(--bs-alert-margin-bottom);\r\n  color: var(--bs-alert-color);\r\n  background-color: var(--bs-alert-bg);\r\n  border: var(--bs-alert-border);\r\n  border-radius: var(--bs-alert-border-radius);\r\n}\r\n\r\n.alert-heading {\r\n  color: inherit;\r\n}\r\n\r\n.alert-link {\r\n  font-weight: 700;\r\n}\r\n\r\n.alert-dismissible {\r\n  padding-right: 3rem;\r\n}\r\n.alert-dismissible .btn-close {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  z-index: 2;\r\n  padding: 1.25rem 1rem;\r\n}\r\n\r\n.alert-primary {\r\n  --bs-alert-color: #084298;\r\n  --bs-alert-bg: #cfe2ff;\r\n  --bs-alert-border-color: #b6d4fe;\r\n}\r\n.alert-primary .alert-link {\r\n  color: #06357a;\r\n}\r\n\r\n.alert-secondary {\r\n  --bs-alert-color: #41464b;\r\n  --bs-alert-bg: #e2e3e5;\r\n  --bs-alert-border-color: #d3d6d8;\r\n}\r\n.alert-secondary .alert-link {\r\n  color: #34383c;\r\n}\r\n\r\n.alert-success {\r\n  --bs-alert-color: #0f5132;\r\n  --bs-alert-bg: #d1e7dd;\r\n  --bs-alert-border-color: #badbcc;\r\n}\r\n.alert-success .alert-link {\r\n  color: #0c4128;\r\n}\r\n\r\n.alert-info {\r\n  --bs-alert-color: #055160;\r\n  --bs-alert-bg: #cff4fc;\r\n  --bs-alert-border-color: #b6effb;\r\n}\r\n.alert-info .alert-link {\r\n  color: #04414d;\r\n}\r\n\r\n.alert-warning {\r\n  --bs-alert-color: #664d03;\r\n  --bs-alert-bg: #fff3cd;\r\n  --bs-alert-border-color: #ffecb5;\r\n}\r\n.alert-warning .alert-link {\r\n  color: #523e02;\r\n}\r\n\r\n.alert-danger {\r\n  --bs-alert-color: #842029;\r\n  --bs-alert-bg: #f8d7da;\r\n  --bs-alert-border-color: #f5c2c7;\r\n}\r\n.alert-danger .alert-link {\r\n  color: #6a1a21;\r\n}\r\n\r\n.alert-light {\r\n  --bs-alert-color: #636464;\r\n  --bs-alert-bg: #fefefe;\r\n  --bs-alert-border-color: #fdfdfe;\r\n}\r\n.alert-light .alert-link {\r\n  color: #4f5050;\r\n}\r\n\r\n.alert-dark {\r\n  --bs-alert-color: #141619;\r\n  --bs-alert-bg: #d3d3d4;\r\n  --bs-alert-border-color: #bcbebf;\r\n}\r\n.alert-dark .alert-link {\r\n  color: #101214;\r\n}\r\n\r\n@keyframes progress-bar-stripes {\r\n  0% {\r\n    background-position-x: 1rem;\r\n  }\r\n}\r\n.progress {\r\n  --bs-progress-height: 1rem;\r\n  --bs-progress-font-size: 0.75rem;\r\n  --bs-progress-bg: #e9ecef;\r\n  --bs-progress-border-radius: 0.375rem;\r\n  --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);\r\n  --bs-progress-bar-color: #fff;\r\n  --bs-progress-bar-bg: #0d6efd;\r\n  --bs-progress-bar-transition: width 0.6s ease;\r\n  display: flex;\r\n  height: var(--bs-progress-height);\r\n  overflow: hidden;\r\n  font-size: var(--bs-progress-font-size);\r\n  background-color: var(--bs-progress-bg);\r\n  border-radius: var(--bs-progress-border-radius);\r\n}\r\n\r\n.progress-bar {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  overflow: hidden;\r\n  color: var(--bs-progress-bar-color);\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  background-color: var(--bs-progress-bar-bg);\r\n  transition: var(--bs-progress-bar-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .progress-bar {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.progress-bar-striped {\r\n  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\r\n  background-size: var(--bs-progress-height) var(--bs-progress-height);\r\n}\r\n\r\n.progress-bar-animated {\r\n  animation: 1s linear infinite progress-bar-stripes;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .progress-bar-animated {\r\n    animation: none;\r\n  }\r\n}\r\n\r\n.list-group {\r\n  --bs-list-group-color: #212529;\r\n  --bs-list-group-bg: #fff;\r\n  --bs-list-group-border-color: rgba(0, 0, 0, 0.125);\r\n  --bs-list-group-border-width: 1px;\r\n  --bs-list-group-border-radius: 0.375rem;\r\n  --bs-list-group-item-padding-x: 1rem;\r\n  --bs-list-group-item-padding-y: 0.5rem;\r\n  --bs-list-group-action-color: #495057;\r\n  --bs-list-group-action-hover-color: #495057;\r\n  --bs-list-group-action-hover-bg: #f8f9fa;\r\n  --bs-list-group-action-active-color: #212529;\r\n  --bs-list-group-action-active-bg: #e9ecef;\r\n  --bs-list-group-disabled-color: #6c757d;\r\n  --bs-list-group-disabled-bg: #fff;\r\n  --bs-list-group-active-color: #fff;\r\n  --bs-list-group-active-bg: #0d6efd;\r\n  --bs-list-group-active-border-color: #0d6efd;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding-left: 0;\r\n  margin-bottom: 0;\r\n  border-radius: var(--bs-list-group-border-radius);\r\n}\r\n\r\n.list-group-numbered {\r\n  list-style-type: none;\r\n  counter-reset: section;\r\n}\r\n.list-group-numbered > .list-group-item::before {\r\n  content: counters(section, \".\") \". \";\r\n  counter-increment: section;\r\n}\r\n\r\n.list-group-item-action {\r\n  width: 100%;\r\n  color: var(--bs-list-group-action-color);\r\n  text-align: inherit;\r\n}\r\n.list-group-item-action:hover, .list-group-item-action:focus {\r\n  z-index: 1;\r\n  color: var(--bs-list-group-action-hover-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-list-group-action-hover-bg);\r\n}\r\n.list-group-item-action:active {\r\n  color: var(--bs-list-group-action-active-color);\r\n  background-color: var(--bs-list-group-action-active-bg);\r\n}\r\n\r\n.list-group-item {\r\n  position: relative;\r\n  display: block;\r\n  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);\r\n  color: var(--bs-list-group-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-list-group-bg);\r\n  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);\r\n}\r\n.list-group-item:first-child {\r\n  border-top-left-radius: inherit;\r\n  border-top-right-radius: inherit;\r\n}\r\n.list-group-item:last-child {\r\n  border-bottom-right-radius: inherit;\r\n  border-bottom-left-radius: inherit;\r\n}\r\n.list-group-item.disabled, .list-group-item:disabled {\r\n  color: var(--bs-list-group-disabled-color);\r\n  pointer-events: none;\r\n  background-color: var(--bs-list-group-disabled-bg);\r\n}\r\n.list-group-item.active {\r\n  z-index: 2;\r\n  color: var(--bs-list-group-active-color);\r\n  background-color: var(--bs-list-group-active-bg);\r\n  border-color: var(--bs-list-group-active-border-color);\r\n}\r\n.list-group-item + .list-group-item {\r\n  border-top-width: 0;\r\n}\r\n.list-group-item + .list-group-item.active {\r\n  margin-top: calc(-1 * var(--bs-list-group-border-width));\r\n  border-top-width: var(--bs-list-group-border-width);\r\n}\r\n\r\n.list-group-horizontal {\r\n  flex-direction: row;\r\n}\r\n.list-group-horizontal > .list-group-item:first-child:not(:last-child) {\r\n  border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n  border-top-right-radius: 0;\r\n}\r\n.list-group-horizontal > .list-group-item:last-child:not(:first-child) {\r\n  border-top-right-radius: var(--bs-list-group-border-radius);\r\n  border-bottom-left-radius: 0;\r\n}\r\n.list-group-horizontal > .list-group-item.active {\r\n  margin-top: 0;\r\n}\r\n.list-group-horizontal > .list-group-item + .list-group-item {\r\n  border-top-width: var(--bs-list-group-border-width);\r\n  border-left-width: 0;\r\n}\r\n.list-group-horizontal > .list-group-item + .list-group-item.active {\r\n  margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n  border-left-width: var(--bs-list-group-border-width);\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .list-group-horizontal-sm {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .list-group-horizontal-md {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .list-group-horizontal-lg {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .list-group-horizontal-xl {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .list-group-horizontal-xxl {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n.list-group-flush {\r\n  border-radius: 0;\r\n}\r\n.list-group-flush > .list-group-item {\r\n  border-width: 0 0 var(--bs-list-group-border-width);\r\n}\r\n.list-group-flush > .list-group-item:last-child {\r\n  border-bottom-width: 0;\r\n}\r\n\r\n.list-group-item-primary {\r\n  color: #084298;\r\n  background-color: #cfe2ff;\r\n}\r\n.list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {\r\n  color: #084298;\r\n  background-color: #bacbe6;\r\n}\r\n.list-group-item-primary.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #084298;\r\n  border-color: #084298;\r\n}\r\n\r\n.list-group-item-secondary {\r\n  color: #41464b;\r\n  background-color: #e2e3e5;\r\n}\r\n.list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {\r\n  color: #41464b;\r\n  background-color: #cbccce;\r\n}\r\n.list-group-item-secondary.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #41464b;\r\n  border-color: #41464b;\r\n}\r\n\r\n.list-group-item-success {\r\n  color: #0f5132;\r\n  background-color: #d1e7dd;\r\n}\r\n.list-group-item-success.list-group-item-action:hover, .list-group-item-success.list-group-item-action:focus {\r\n  color: #0f5132;\r\n  background-color: #bcd0c7;\r\n}\r\n.list-group-item-success.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #0f5132;\r\n  border-color: #0f5132;\r\n}\r\n\r\n.list-group-item-info {\r\n  color: #055160;\r\n  background-color: #cff4fc;\r\n}\r\n.list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {\r\n  color: #055160;\r\n  background-color: #badce3;\r\n}\r\n.list-group-item-info.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #055160;\r\n  border-color: #055160;\r\n}\r\n\r\n.list-group-item-warning {\r\n  color: #664d03;\r\n  background-color: #fff3cd;\r\n}\r\n.list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {\r\n  color: #664d03;\r\n  background-color: #e6dbb9;\r\n}\r\n.list-group-item-warning.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #664d03;\r\n  border-color: #664d03;\r\n}\r\n\r\n.list-group-item-danger {\r\n  color: #842029;\r\n  background-color: #f8d7da;\r\n}\r\n.list-group-item-danger.list-group-item-action:hover, .list-group-item-danger.list-group-item-action:focus {\r\n  color: #842029;\r\n  background-color: #dfc2c4;\r\n}\r\n.list-group-item-danger.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #842029;\r\n  border-color: #842029;\r\n}\r\n\r\n.list-group-item-light {\r\n  color: #636464;\r\n  background-color: #fefefe;\r\n}\r\n.list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {\r\n  color: #636464;\r\n  background-color: #e5e5e5;\r\n}\r\n.list-group-item-light.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #636464;\r\n  border-color: #636464;\r\n}\r\n\r\n.list-group-item-dark {\r\n  color: #141619;\r\n  background-color: #d3d3d4;\r\n}\r\n.list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {\r\n  color: #141619;\r\n  background-color: #bebebf;\r\n}\r\n.list-group-item-dark.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #141619;\r\n  border-color: #141619;\r\n}\r\n\r\n.btn-close {\r\n  box-sizing: content-box;\r\n  width: 1em;\r\n  height: 1em;\r\n  padding: 0.25em 0.25em;\r\n  color: #000;\r\n  background: transparent url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e\") center/1em auto no-repeat;\r\n  border: 0;\r\n  border-radius: 0.375rem;\r\n  opacity: 0.5;\r\n}\r\n.btn-close:hover {\r\n  color: #000;\r\n  text-decoration: none;\r\n  opacity: 0.75;\r\n}\r\n.btn-close:focus {\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n  opacity: 1;\r\n}\r\n.btn-close:disabled, .btn-close.disabled {\r\n  pointer-events: none;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n          user-select: none;\r\n  opacity: 0.25;\r\n}\r\n\r\n.btn-close-white {\r\n  filter: invert(1) grayscale(100%) brightness(200%);\r\n}\r\n\r\n.toast {\r\n  --bs-toast-zindex: 1090;\r\n  --bs-toast-padding-x: 0.75rem;\r\n  --bs-toast-padding-y: 0.5rem;\r\n  --bs-toast-spacing: 1.5rem;\r\n  --bs-toast-max-width: 350px;\r\n  --bs-toast-font-size: 0.875rem;\r\n  --bs-toast-color: ;\r\n  --bs-toast-bg: rgba(255, 255, 255, 0.85);\r\n  --bs-toast-border-width: 1px;\r\n  --bs-toast-border-color: var(--bs-border-color-translucent);\r\n  --bs-toast-border-radius: 0.375rem;\r\n  --bs-toast-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  --bs-toast-header-color: #6c757d;\r\n  --bs-toast-header-bg: rgba(255, 255, 255, 0.85);\r\n  --bs-toast-header-border-color: rgba(0, 0, 0, 0.05);\r\n  width: var(--bs-toast-max-width);\r\n  max-width: 100%;\r\n  font-size: var(--bs-toast-font-size);\r\n  color: var(--bs-toast-color);\r\n  pointer-events: auto;\r\n  background-color: var(--bs-toast-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-toast-border-width) solid var(--bs-toast-border-color);\r\n  box-shadow: var(--bs-toast-box-shadow);\r\n  border-radius: var(--bs-toast-border-radius);\r\n}\r\n.toast.showing {\r\n  opacity: 0;\r\n}\r\n.toast:not(.show) {\r\n  display: none;\r\n}\r\n\r\n.toast-container {\r\n  --bs-toast-zindex: 1090;\r\n  position: absolute;\r\n  z-index: var(--bs-toast-zindex);\r\n  width: -moz-max-content;\r\n  width: max-content;\r\n  max-width: 100%;\r\n  pointer-events: none;\r\n}\r\n.toast-container > :not(:last-child) {\r\n  margin-bottom: var(--bs-toast-spacing);\r\n}\r\n\r\n.toast-header {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: var(--bs-toast-padding-y) var(--bs-toast-padding-x);\r\n  color: var(--bs-toast-header-color);\r\n  background-color: var(--bs-toast-header-bg);\r\n  background-clip: padding-box;\r\n  border-bottom: var(--bs-toast-border-width) solid var(--bs-toast-header-border-color);\r\n  border-top-left-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));\r\n  border-top-right-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));\r\n}\r\n.toast-header .btn-close {\r\n  margin-right: calc(-0.5 * var(--bs-toast-padding-x));\r\n  margin-left: var(--bs-toast-padding-x);\r\n}\r\n\r\n.toast-body {\r\n  padding: var(--bs-toast-padding-x);\r\n  word-wrap: break-word;\r\n}\r\n\r\n.modal {\r\n  --bs-modal-zindex: 1055;\r\n  --bs-modal-width: 500px;\r\n  --bs-modal-padding: 1rem;\r\n  --bs-modal-margin: 0.5rem;\r\n  --bs-modal-color: ;\r\n  --bs-modal-bg: #fff;\r\n  --bs-modal-border-color: var(--bs-border-color-translucent);\r\n  --bs-modal-border-width: 1px;\r\n  --bs-modal-border-radius: 0.5rem;\r\n  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);\r\n  --bs-modal-inner-border-radius: calc(0.5rem - 1px);\r\n  --bs-modal-header-padding-x: 1rem;\r\n  --bs-modal-header-padding-y: 1rem;\r\n  --bs-modal-header-padding: 1rem 1rem;\r\n  --bs-modal-header-border-color: var(--bs-border-color);\r\n  --bs-modal-header-border-width: 1px;\r\n  --bs-modal-title-line-height: 1.5;\r\n  --bs-modal-footer-gap: 0.5rem;\r\n  --bs-modal-footer-bg: ;\r\n  --bs-modal-footer-border-color: var(--bs-border-color);\r\n  --bs-modal-footer-border-width: 1px;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: var(--bs-modal-zindex);\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow-x: hidden;\r\n  overflow-y: auto;\r\n  outline: 0;\r\n}\r\n\r\n.modal-dialog {\r\n  position: relative;\r\n  width: auto;\r\n  margin: var(--bs-modal-margin);\r\n  pointer-events: none;\r\n}\r\n.modal.fade .modal-dialog {\r\n  transition: transform 0.3s ease-out;\r\n  transform: translate(0, -50px);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .modal.fade .modal-dialog {\r\n    transition: none;\r\n  }\r\n}\r\n.modal.show .modal-dialog {\r\n  transform: none;\r\n}\r\n.modal.modal-static .modal-dialog {\r\n  transform: scale(1.02);\r\n}\r\n\r\n.modal-dialog-scrollable {\r\n  height: calc(100% - var(--bs-modal-margin) * 2);\r\n}\r\n.modal-dialog-scrollable .modal-content {\r\n  max-height: 100%;\r\n  overflow: hidden;\r\n}\r\n.modal-dialog-scrollable .modal-body {\r\n  overflow-y: auto;\r\n}\r\n\r\n.modal-dialog-centered {\r\n  display: flex;\r\n  align-items: center;\r\n  min-height: calc(100% - var(--bs-modal-margin) * 2);\r\n}\r\n\r\n.modal-content {\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 100%;\r\n  color: var(--bs-modal-color);\r\n  pointer-events: auto;\r\n  background-color: var(--bs-modal-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);\r\n  border-radius: var(--bs-modal-border-radius);\r\n  outline: 0;\r\n}\r\n\r\n.modal-backdrop {\r\n  --bs-backdrop-zindex: 1050;\r\n  --bs-backdrop-bg: #000;\r\n  --bs-backdrop-opacity: 0.5;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: var(--bs-backdrop-zindex);\r\n  width: 100vw;\r\n  height: 100vh;\r\n  background-color: var(--bs-backdrop-bg);\r\n}\r\n.modal-backdrop.fade {\r\n  opacity: 0;\r\n}\r\n.modal-backdrop.show {\r\n  opacity: var(--bs-backdrop-opacity);\r\n}\r\n\r\n.modal-header {\r\n  display: flex;\r\n  flex-shrink: 0;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: var(--bs-modal-header-padding);\r\n  border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);\r\n  border-top-left-radius: var(--bs-modal-inner-border-radius);\r\n  border-top-right-radius: var(--bs-modal-inner-border-radius);\r\n}\r\n.modal-header .btn-close {\r\n  padding: calc(var(--bs-modal-header-padding-y) * 0.5) calc(var(--bs-modal-header-padding-x) * 0.5);\r\n  margin: calc(-0.5 * var(--bs-modal-header-padding-y)) calc(-0.5 * var(--bs-modal-header-padding-x)) calc(-0.5 * var(--bs-modal-header-padding-y)) auto;\r\n}\r\n\r\n.modal-title {\r\n  margin-bottom: 0;\r\n  line-height: var(--bs-modal-title-line-height);\r\n}\r\n\r\n.modal-body {\r\n  position: relative;\r\n  flex: 1 1 auto;\r\n  padding: var(--bs-modal-padding);\r\n}\r\n\r\n.modal-footer {\r\n  display: flex;\r\n  flex-shrink: 0;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  justify-content: flex-end;\r\n  padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);\r\n  background-color: var(--bs-modal-footer-bg);\r\n  border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);\r\n  border-bottom-right-radius: var(--bs-modal-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-modal-inner-border-radius);\r\n}\r\n.modal-footer > * {\r\n  margin: calc(var(--bs-modal-footer-gap) * 0.5);\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .modal {\r\n    --bs-modal-margin: 1.75rem;\r\n    --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  }\r\n  .modal-dialog {\r\n    max-width: var(--bs-modal-width);\r\n    margin-right: auto;\r\n    margin-left: auto;\r\n  }\r\n  .modal-sm {\r\n    --bs-modal-width: 300px;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .modal-lg,\r\n  .modal-xl {\r\n    --bs-modal-width: 800px;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .modal-xl {\r\n    --bs-modal-width: 1140px;\r\n  }\r\n}\r\n.modal-fullscreen {\r\n  width: 100vw;\r\n  max-width: none;\r\n  height: 100%;\r\n  margin: 0;\r\n}\r\n.modal-fullscreen .modal-content {\r\n  height: 100%;\r\n  border: 0;\r\n  border-radius: 0;\r\n}\r\n.modal-fullscreen .modal-header,\r\n.modal-fullscreen .modal-footer {\r\n  border-radius: 0;\r\n}\r\n.modal-fullscreen .modal-body {\r\n  overflow-y: auto;\r\n}\r\n\r\n@media (max-width: 575.98px) {\r\n  .modal-fullscreen-sm-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-sm-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-sm-down .modal-header,\r\n  .modal-fullscreen-sm-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-sm-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .modal-fullscreen-md-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-md-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-md-down .modal-header,\r\n  .modal-fullscreen-md-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-md-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .modal-fullscreen-lg-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-lg-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-lg-down .modal-header,\r\n  .modal-fullscreen-lg-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-lg-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .modal-fullscreen-xl-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-xl-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xl-down .modal-header,\r\n  .modal-fullscreen-xl-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xl-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .modal-fullscreen-xxl-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-xxl-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xxl-down .modal-header,\r\n  .modal-fullscreen-xxl-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xxl-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n.tooltip {\r\n  --bs-tooltip-zindex: 1080;\r\n  --bs-tooltip-max-width: 200px;\r\n  --bs-tooltip-padding-x: 0.5rem;\r\n  --bs-tooltip-padding-y: 0.25rem;\r\n  --bs-tooltip-margin: ;\r\n  --bs-tooltip-font-size: 0.875rem;\r\n  --bs-tooltip-color: #fff;\r\n  --bs-tooltip-bg: #000;\r\n  --bs-tooltip-border-radius: 0.375rem;\r\n  --bs-tooltip-opacity: 0.9;\r\n  --bs-tooltip-arrow-width: 0.8rem;\r\n  --bs-tooltip-arrow-height: 0.4rem;\r\n  z-index: var(--bs-tooltip-zindex);\r\n  display: block;\r\n  padding: var(--bs-tooltip-arrow-height);\r\n  margin: var(--bs-tooltip-margin);\r\n  font-family: var(--bs-font-sans-serif);\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  text-align: left;\r\n  text-align: start;\r\n  text-decoration: none;\r\n  text-shadow: none;\r\n  text-transform: none;\r\n  letter-spacing: normal;\r\n  word-break: normal;\r\n  white-space: normal;\r\n  word-spacing: normal;\r\n  line-break: auto;\r\n  font-size: var(--bs-tooltip-font-size);\r\n  word-wrap: break-word;\r\n  opacity: 0;\r\n}\r\n.tooltip.show {\r\n  opacity: var(--bs-tooltip-opacity);\r\n}\r\n.tooltip .tooltip-arrow {\r\n  display: block;\r\n  width: var(--bs-tooltip-arrow-width);\r\n  height: var(--bs-tooltip-arrow-height);\r\n}\r\n.tooltip .tooltip-arrow::before {\r\n  position: absolute;\r\n  content: \"\";\r\n  border-color: transparent;\r\n  border-style: solid;\r\n}\r\n\r\n.bs-tooltip-top .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow {\r\n  bottom: 0;\r\n}\r\n.bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {\r\n  top: -1px;\r\n  border-width: var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * 0.5) 0;\r\n  border-top-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-tooltip-end .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow {\r\n  left: 0;\r\n  width: var(--bs-tooltip-arrow-height);\r\n  height: var(--bs-tooltip-arrow-width);\r\n}\r\n.bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {\r\n  right: -1px;\r\n  border-width: calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * 0.5) 0;\r\n  border-right-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.bs-tooltip-bottom .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow {\r\n  top: 0;\r\n}\r\n.bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {\r\n  bottom: -1px;\r\n  border-width: 0 calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height);\r\n  border-bottom-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-tooltip-start .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow {\r\n  right: 0;\r\n  width: var(--bs-tooltip-arrow-height);\r\n  height: var(--bs-tooltip-arrow-width);\r\n}\r\n.bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {\r\n  left: -1px;\r\n  border-width: calc(var(--bs-tooltip-arrow-width) * 0.5) 0 calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height);\r\n  border-left-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.tooltip-inner {\r\n  max-width: var(--bs-tooltip-max-width);\r\n  padding: var(--bs-tooltip-padding-y) var(--bs-tooltip-padding-x);\r\n  color: var(--bs-tooltip-color);\r\n  text-align: center;\r\n  background-color: var(--bs-tooltip-bg);\r\n  border-radius: var(--bs-tooltip-border-radius);\r\n}\r\n\r\n.popover {\r\n  --bs-popover-zindex: 1070;\r\n  --bs-popover-max-width: 276px;\r\n  --bs-popover-font-size: 0.875rem;\r\n  --bs-popover-bg: #fff;\r\n  --bs-popover-border-width: 1px;\r\n  --bs-popover-border-color: var(--bs-border-color-translucent);\r\n  --bs-popover-border-radius: 0.5rem;\r\n  --bs-popover-inner-border-radius: calc(0.5rem - 1px);\r\n  --bs-popover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  --bs-popover-header-padding-x: 1rem;\r\n  --bs-popover-header-padding-y: 0.5rem;\r\n  --bs-popover-header-font-size: 1rem;\r\n  --bs-popover-header-color: ;\r\n  --bs-popover-header-bg: #f0f0f0;\r\n  --bs-popover-body-padding-x: 1rem;\r\n  --bs-popover-body-padding-y: 1rem;\r\n  --bs-popover-body-color: #212529;\r\n  --bs-popover-arrow-width: 1rem;\r\n  --bs-popover-arrow-height: 0.5rem;\r\n  --bs-popover-arrow-border: var(--bs-popover-border-color);\r\n  z-index: var(--bs-popover-zindex);\r\n  display: block;\r\n  max-width: var(--bs-popover-max-width);\r\n  font-family: var(--bs-font-sans-serif);\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  text-align: left;\r\n  text-align: start;\r\n  text-decoration: none;\r\n  text-shadow: none;\r\n  text-transform: none;\r\n  letter-spacing: normal;\r\n  word-break: normal;\r\n  white-space: normal;\r\n  word-spacing: normal;\r\n  line-break: auto;\r\n  font-size: var(--bs-popover-font-size);\r\n  word-wrap: break-word;\r\n  background-color: var(--bs-popover-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-popover-border-width) solid var(--bs-popover-border-color);\r\n  border-radius: var(--bs-popover-border-radius);\r\n}\r\n.popover .popover-arrow {\r\n  display: block;\r\n  width: var(--bs-popover-arrow-width);\r\n  height: var(--bs-popover-arrow-height);\r\n}\r\n.popover .popover-arrow::before, .popover .popover-arrow::after {\r\n  position: absolute;\r\n  display: block;\r\n  content: \"\";\r\n  border-color: transparent;\r\n  border-style: solid;\r\n  border-width: 0;\r\n}\r\n\r\n.bs-popover-top > .popover-arrow, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow {\r\n  bottom: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n}\r\n.bs-popover-top > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::before, .bs-popover-top > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::after {\r\n  border-width: var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * 0.5) 0;\r\n}\r\n.bs-popover-top > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::before {\r\n  bottom: 0;\r\n  border-top-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-top > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::after {\r\n  bottom: var(--bs-popover-border-width);\r\n  border-top-color: var(--bs-popover-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-popover-end > .popover-arrow, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow {\r\n  left: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n  width: var(--bs-popover-arrow-height);\r\n  height: var(--bs-popover-arrow-width);\r\n}\r\n.bs-popover-end > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::before, .bs-popover-end > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::after {\r\n  border-width: calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * 0.5) 0;\r\n}\r\n.bs-popover-end > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::before {\r\n  left: 0;\r\n  border-right-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-end > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::after {\r\n  left: var(--bs-popover-border-width);\r\n  border-right-color: var(--bs-popover-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.bs-popover-bottom > .popover-arrow, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow {\r\n  top: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n}\r\n.bs-popover-bottom > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before, .bs-popover-bottom > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after {\r\n  border-width: 0 calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height);\r\n}\r\n.bs-popover-bottom > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before {\r\n  top: 0;\r\n  border-bottom-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-bottom > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after {\r\n  top: var(--bs-popover-border-width);\r\n  border-bottom-color: var(--bs-popover-bg);\r\n}\r\n.bs-popover-bottom .popover-header::before, .bs-popover-auto[data-popper-placement^=bottom] .popover-header::before {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 50%;\r\n  display: block;\r\n  width: var(--bs-popover-arrow-width);\r\n  margin-left: calc(-0.5 * var(--bs-popover-arrow-width));\r\n  content: \"\";\r\n  border-bottom: var(--bs-popover-border-width) solid var(--bs-popover-header-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-popover-start > .popover-arrow, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow {\r\n  right: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n  width: var(--bs-popover-arrow-height);\r\n  height: var(--bs-popover-arrow-width);\r\n}\r\n.bs-popover-start > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::before, .bs-popover-start > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::after {\r\n  border-width: calc(var(--bs-popover-arrow-width) * 0.5) 0 calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height);\r\n}\r\n.bs-popover-start > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::before {\r\n  right: 0;\r\n  border-left-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-start > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::after {\r\n  right: var(--bs-popover-border-width);\r\n  border-left-color: var(--bs-popover-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.popover-header {\r\n  padding: var(--bs-popover-header-padding-y) var(--bs-popover-header-padding-x);\r\n  margin-bottom: 0;\r\n  font-size: var(--bs-popover-header-font-size);\r\n  color: var(--bs-popover-header-color);\r\n  background-color: var(--bs-popover-header-bg);\r\n  border-bottom: var(--bs-popover-border-width) solid var(--bs-popover-border-color);\r\n  border-top-left-radius: var(--bs-popover-inner-border-radius);\r\n  border-top-right-radius: var(--bs-popover-inner-border-radius);\r\n}\r\n.popover-header:empty {\r\n  display: none;\r\n}\r\n\r\n.popover-body {\r\n  padding: var(--bs-popover-body-padding-y) var(--bs-popover-body-padding-x);\r\n  color: var(--bs-popover-body-color);\r\n}\r\n\r\n.carousel {\r\n  position: relative;\r\n}\r\n\r\n.carousel.pointer-event {\r\n  touch-action: pan-y;\r\n}\r\n\r\n.carousel-inner {\r\n  position: relative;\r\n  width: 100%;\r\n  overflow: hidden;\r\n}\r\n.carousel-inner::after {\r\n  display: block;\r\n  clear: both;\r\n  content: \"\";\r\n}\r\n\r\n.carousel-item {\r\n  position: relative;\r\n  display: none;\r\n  float: left;\r\n  width: 100%;\r\n  margin-right: -100%;\r\n  -webkit-backface-visibility: hidden;\r\n          backface-visibility: hidden;\r\n  transition: transform 0.6s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-item {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.carousel-item.active,\r\n.carousel-item-next,\r\n.carousel-item-prev {\r\n  display: block;\r\n}\r\n\r\n.carousel-item-next:not(.carousel-item-start),\r\n.active.carousel-item-end {\r\n  transform: translateX(100%);\r\n}\r\n\r\n.carousel-item-prev:not(.carousel-item-end),\r\n.active.carousel-item-start {\r\n  transform: translateX(-100%);\r\n}\r\n\r\n.carousel-fade .carousel-item {\r\n  opacity: 0;\r\n  transition-property: opacity;\r\n  transform: none;\r\n}\r\n.carousel-fade .carousel-item.active,\r\n.carousel-fade .carousel-item-next.carousel-item-start,\r\n.carousel-fade .carousel-item-prev.carousel-item-end {\r\n  z-index: 1;\r\n  opacity: 1;\r\n}\r\n.carousel-fade .active.carousel-item-start,\r\n.carousel-fade .active.carousel-item-end {\r\n  z-index: 0;\r\n  opacity: 0;\r\n  transition: opacity 0s 0.6s;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-fade .active.carousel-item-start,\r\n  .carousel-fade .active.carousel-item-end {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.carousel-control-prev,\r\n.carousel-control-next {\r\n  position: absolute;\r\n  top: 0;\r\n  bottom: 0;\r\n  z-index: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 15%;\r\n  padding: 0;\r\n  color: #fff;\r\n  text-align: center;\r\n  background: none;\r\n  border: 0;\r\n  opacity: 0.5;\r\n  transition: opacity 0.15s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-control-prev,\r\n  .carousel-control-next {\r\n    transition: none;\r\n  }\r\n}\r\n.carousel-control-prev:hover, .carousel-control-prev:focus,\r\n.carousel-control-next:hover,\r\n.carousel-control-next:focus {\r\n  color: #fff;\r\n  text-decoration: none;\r\n  outline: 0;\r\n  opacity: 0.9;\r\n}\r\n\r\n.carousel-control-prev {\r\n  left: 0;\r\n}\r\n\r\n.carousel-control-next {\r\n  right: 0;\r\n}\r\n\r\n.carousel-control-prev-icon,\r\n.carousel-control-next-icon {\r\n  display: inline-block;\r\n  width: 2rem;\r\n  height: 2rem;\r\n  background-repeat: no-repeat;\r\n  background-position: 50%;\r\n  background-size: 100% 100%;\r\n}\r\n\r\n/* rtl:options: {\r\n  \"autoRename\": true,\r\n  \"stringMap\":[ {\r\n    \"name\"    : \"prev-next\",\r\n    \"search\"  : \"prev\",\r\n    \"replace\" : \"next\"\r\n  } ]\r\n} */\r\n.carousel-control-prev-icon {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e\");\r\n}\r\n\r\n.carousel-control-next-icon {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e\");\r\n}\r\n\r\n.carousel-indicators {\r\n  position: absolute;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: 2;\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 0;\r\n  margin-right: 15%;\r\n  margin-bottom: 1rem;\r\n  margin-left: 15%;\r\n  list-style: none;\r\n}\r\n.carousel-indicators [data-bs-target] {\r\n  box-sizing: content-box;\r\n  flex: 0 1 auto;\r\n  width: 30px;\r\n  height: 3px;\r\n  padding: 0;\r\n  margin-right: 3px;\r\n  margin-left: 3px;\r\n  text-indent: -999px;\r\n  cursor: pointer;\r\n  background-color: #fff;\r\n  background-clip: padding-box;\r\n  border: 0;\r\n  border-top: 10px solid transparent;\r\n  border-bottom: 10px solid transparent;\r\n  opacity: 0.5;\r\n  transition: opacity 0.6s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-indicators [data-bs-target] {\r\n    transition: none;\r\n  }\r\n}\r\n.carousel-indicators .active {\r\n  opacity: 1;\r\n}\r\n\r\n.carousel-caption {\r\n  position: absolute;\r\n  right: 15%;\r\n  bottom: 1.25rem;\r\n  left: 15%;\r\n  padding-top: 1.25rem;\r\n  padding-bottom: 1.25rem;\r\n  color: #fff;\r\n  text-align: center;\r\n}\r\n\r\n.carousel-dark .carousel-control-prev-icon,\r\n.carousel-dark .carousel-control-next-icon {\r\n  filter: invert(1) grayscale(100);\r\n}\r\n.carousel-dark .carousel-indicators [data-bs-target] {\r\n  background-color: #000;\r\n}\r\n.carousel-dark .carousel-caption {\r\n  color: #000;\r\n}\r\n\r\n.spinner-grow,\r\n.spinner-border {\r\n  display: inline-block;\r\n  width: var(--bs-spinner-width);\r\n  height: var(--bs-spinner-height);\r\n  vertical-align: var(--bs-spinner-vertical-align);\r\n  border-radius: 50%;\r\n  animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);\r\n}\r\n\r\n@keyframes spinner-border {\r\n  to {\r\n    transform: rotate(360deg) /* rtl:ignore */;\r\n  }\r\n}\r\n.spinner-border {\r\n  --bs-spinner-width: 2rem;\r\n  --bs-spinner-height: 2rem;\r\n  --bs-spinner-vertical-align: -0.125em;\r\n  --bs-spinner-border-width: 0.25em;\r\n  --bs-spinner-animation-speed: 0.75s;\r\n  --bs-spinner-animation-name: spinner-border;\r\n  border: var(--bs-spinner-border-width) solid currentcolor;\r\n  border-right-color: transparent;\r\n}\r\n\r\n.spinner-border-sm {\r\n  --bs-spinner-width: 1rem;\r\n  --bs-spinner-height: 1rem;\r\n  --bs-spinner-border-width: 0.2em;\r\n}\r\n\r\n@keyframes spinner-grow {\r\n  0% {\r\n    transform: scale(0);\r\n  }\r\n  50% {\r\n    opacity: 1;\r\n    transform: none;\r\n  }\r\n}\r\n.spinner-grow {\r\n  --bs-spinner-width: 2rem;\r\n  --bs-spinner-height: 2rem;\r\n  --bs-spinner-vertical-align: -0.125em;\r\n  --bs-spinner-animation-speed: 0.75s;\r\n  --bs-spinner-animation-name: spinner-grow;\r\n  background-color: currentcolor;\r\n  opacity: 0;\r\n}\r\n\r\n.spinner-grow-sm {\r\n  --bs-spinner-width: 1rem;\r\n  --bs-spinner-height: 1rem;\r\n}\r\n\r\n@media (prefers-reduced-motion: reduce) {\r\n  .spinner-border,\r\n  .spinner-grow {\r\n    --bs-spinner-animation-speed: 1.5s;\r\n  }\r\n}\r\n.offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {\r\n  --bs-offcanvas-zindex: 1045;\r\n  --bs-offcanvas-width: 400px;\r\n  --bs-offcanvas-height: 30vh;\r\n  --bs-offcanvas-padding-x: 1rem;\r\n  --bs-offcanvas-padding-y: 1rem;\r\n  --bs-offcanvas-color: ;\r\n  --bs-offcanvas-bg: #fff;\r\n  --bs-offcanvas-border-width: 1px;\r\n  --bs-offcanvas-border-color: var(--bs-border-color-translucent);\r\n  --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);\r\n}\r\n\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-sm {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.showing, .offcanvas-sm.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.showing, .offcanvas-sm.hiding, .offcanvas-sm.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 576px) {\r\n  .offcanvas-sm {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-sm .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-sm .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-md {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.showing, .offcanvas-md.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.showing, .offcanvas-md.hiding, .offcanvas-md.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .offcanvas-md {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-md .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-md .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-lg {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.showing, .offcanvas-lg.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.showing, .offcanvas-lg.hiding, .offcanvas-lg.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .offcanvas-lg {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-lg .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-lg .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-xl {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.showing, .offcanvas-xl.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.showing, .offcanvas-xl.hiding, .offcanvas-xl.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .offcanvas-xl {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-xl .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-xl .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-xxl {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.showing, .offcanvas-xxl.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.showing, .offcanvas-xxl.hiding, .offcanvas-xxl.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .offcanvas-xxl {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-xxl .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-xxl .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n.offcanvas {\r\n  position: fixed;\r\n  bottom: 0;\r\n  z-index: var(--bs-offcanvas-zindex);\r\n  display: flex;\r\n  flex-direction: column;\r\n  max-width: 100%;\r\n  color: var(--bs-offcanvas-color);\r\n  visibility: hidden;\r\n  background-color: var(--bs-offcanvas-bg);\r\n  background-clip: padding-box;\r\n  outline: 0;\r\n  transition: transform 0.3s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .offcanvas {\r\n    transition: none;\r\n  }\r\n}\r\n.offcanvas.offcanvas-start {\r\n  top: 0;\r\n  left: 0;\r\n  width: var(--bs-offcanvas-width);\r\n  border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateX(-100%);\r\n}\r\n.offcanvas.offcanvas-end {\r\n  top: 0;\r\n  right: 0;\r\n  width: var(--bs-offcanvas-width);\r\n  border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateX(100%);\r\n}\r\n.offcanvas.offcanvas-top {\r\n  top: 0;\r\n  right: 0;\r\n  left: 0;\r\n  height: var(--bs-offcanvas-height);\r\n  max-height: 100%;\r\n  border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateY(-100%);\r\n}\r\n.offcanvas.offcanvas-bottom {\r\n  right: 0;\r\n  left: 0;\r\n  height: var(--bs-offcanvas-height);\r\n  max-height: 100%;\r\n  border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateY(100%);\r\n}\r\n.offcanvas.showing, .offcanvas.show:not(.hiding) {\r\n  transform: none;\r\n}\r\n.offcanvas.showing, .offcanvas.hiding, .offcanvas.show {\r\n  visibility: visible;\r\n}\r\n\r\n.offcanvas-backdrop {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 1040;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  background-color: #000;\r\n}\r\n.offcanvas-backdrop.fade {\r\n  opacity: 0;\r\n}\r\n.offcanvas-backdrop.show {\r\n  opacity: 0.5;\r\n}\r\n\r\n.offcanvas-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);\r\n}\r\n.offcanvas-header .btn-close {\r\n  padding: calc(var(--bs-offcanvas-padding-y) * 0.5) calc(var(--bs-offcanvas-padding-x) * 0.5);\r\n  margin-top: calc(-0.5 * var(--bs-offcanvas-padding-y));\r\n  margin-right: calc(-0.5 * var(--bs-offcanvas-padding-x));\r\n  margin-bottom: calc(-0.5 * var(--bs-offcanvas-padding-y));\r\n}\r\n\r\n.offcanvas-title {\r\n  margin-bottom: 0;\r\n  line-height: 1.5;\r\n}\r\n\r\n.offcanvas-body {\r\n  flex-grow: 1;\r\n  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);\r\n  overflow-y: auto;\r\n}\r\n\r\n.placeholder {\r\n  display: inline-block;\r\n  min-height: 1em;\r\n  vertical-align: middle;\r\n  cursor: wait;\r\n  background-color: currentcolor;\r\n  opacity: 0.5;\r\n}\r\n.placeholder.btn::before {\r\n  display: inline-block;\r\n  content: \"\";\r\n}\r\n\r\n.placeholder-xs {\r\n  min-height: 0.6em;\r\n}\r\n\r\n.placeholder-sm {\r\n  min-height: 0.8em;\r\n}\r\n\r\n.placeholder-lg {\r\n  min-height: 1.2em;\r\n}\r\n\r\n.placeholder-glow .placeholder {\r\n  animation: placeholder-glow 2s ease-in-out infinite;\r\n}\r\n\r\n@keyframes placeholder-glow {\r\n  50% {\r\n    opacity: 0.2;\r\n  }\r\n}\r\n.placeholder-wave {\r\n  -webkit-mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);\r\n          mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);\r\n  -webkit-mask-size: 200% 100%;\r\n          mask-size: 200% 100%;\r\n  animation: placeholder-wave 2s linear infinite;\r\n}\r\n\r\n@keyframes placeholder-wave {\r\n  100% {\r\n    -webkit-mask-position: -200% 0%;\r\n            mask-position: -200% 0%;\r\n  }\r\n}\r\n.clearfix::after {\r\n  display: block;\r\n  clear: both;\r\n  content: \"\";\r\n}\r\n\r\n.text-bg-primary {\r\n  color: #fff !important;\r\n  background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-secondary {\r\n  color: #fff !important;\r\n  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-success {\r\n  color: #fff !important;\r\n  background-color: RGBA(25, 135, 84, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-info {\r\n  color: #000 !important;\r\n  background-color: RGBA(13, 202, 240, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-warning {\r\n  color: #000 !important;\r\n  background-color: RGBA(255, 193, 7, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-danger {\r\n  color: #fff !important;\r\n  background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-light {\r\n  color: #000 !important;\r\n  background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-dark {\r\n  color: #fff !important;\r\n  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.link-primary {\r\n  color: #0d6efd !important;\r\n}\r\n.link-primary:hover, .link-primary:focus {\r\n  color: #0a58ca !important;\r\n}\r\n\r\n.link-secondary {\r\n  color: #6c757d !important;\r\n}\r\n.link-secondary:hover, .link-secondary:focus {\r\n  color: #565e64 !important;\r\n}\r\n\r\n.link-success {\r\n  color: #198754 !important;\r\n}\r\n.link-success:hover, .link-success:focus {\r\n  color: #146c43 !important;\r\n}\r\n\r\n.link-info {\r\n  color: #0dcaf0 !important;\r\n}\r\n.link-info:hover, .link-info:focus {\r\n  color: #3dd5f3 !important;\r\n}\r\n\r\n.link-warning {\r\n  color: #ffc107 !important;\r\n}\r\n.link-warning:hover, .link-warning:focus {\r\n  color: #ffcd39 !important;\r\n}\r\n\r\n.link-danger {\r\n  color: #dc3545 !important;\r\n}\r\n.link-danger:hover, .link-danger:focus {\r\n  color: #b02a37 !important;\r\n}\r\n\r\n.link-light {\r\n  color: #f8f9fa !important;\r\n}\r\n.link-light:hover, .link-light:focus {\r\n  color: #f9fafb !important;\r\n}\r\n\r\n.link-dark {\r\n  color: #212529 !important;\r\n}\r\n.link-dark:hover, .link-dark:focus {\r\n  color: #1a1e21 !important;\r\n}\r\n\r\n.ratio {\r\n  position: relative;\r\n  width: 100%;\r\n}\r\n.ratio::before {\r\n  display: block;\r\n  padding-top: var(--bs-aspect-ratio);\r\n  content: \"\";\r\n}\r\n.ratio > * {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.ratio-1x1 {\r\n  --bs-aspect-ratio: 100%;\r\n}\r\n\r\n.ratio-4x3 {\r\n  --bs-aspect-ratio: 75%;\r\n}\r\n\r\n.ratio-16x9 {\r\n  --bs-aspect-ratio: 56.25%;\r\n}\r\n\r\n.ratio-21x9 {\r\n  --bs-aspect-ratio: 42.8571428571%;\r\n}\r\n\r\n.fixed-top, .sb-nav-fixed #layoutSidenav #layoutSidenav_nav, .sb-nav-fixed .sb-topnav {\r\n  position: fixed;\r\n  top: 0;\r\n  right: 0;\r\n  left: 0;\r\n  z-index: 1030;\r\n}\r\n\r\n.fixed-bottom {\r\n  position: fixed;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: 1030;\r\n}\r\n\r\n.sticky-top {\r\n  position: sticky;\r\n  top: 0;\r\n  z-index: 1020;\r\n}\r\n\r\n.sticky-bottom {\r\n  position: sticky;\r\n  bottom: 0;\r\n  z-index: 1020;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .sticky-sm-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-sm-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .sticky-md-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-md-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .sticky-lg-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-lg-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .sticky-xl-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-xl-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .sticky-xxl-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-xxl-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n.hstack {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  align-self: stretch;\r\n}\r\n\r\n.vstack {\r\n  display: flex;\r\n  flex: 1 1 auto;\r\n  flex-direction: column;\r\n  align-self: stretch;\r\n}\r\n\r\n.visually-hidden,\r\n.visually-hidden-focusable:not(:focus):not(:focus-within) {\r\n  position: absolute !important;\r\n  width: 1px !important;\r\n  height: 1px !important;\r\n  padding: 0 !important;\r\n  margin: -1px !important;\r\n  overflow: hidden !important;\r\n  clip: rect(0, 0, 0, 0) !important;\r\n  white-space: nowrap !important;\r\n  border: 0 !important;\r\n}\r\n\r\n.stretched-link::after {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: 1;\r\n  content: \"\";\r\n}\r\n\r\n.text-truncate {\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n}\r\n\r\n.vr {\r\n  display: inline-block;\r\n  align-self: stretch;\r\n  width: 1px;\r\n  min-height: 1em;\r\n  background-color: currentcolor;\r\n  opacity: 0.25;\r\n}\r\n\r\n.align-baseline {\r\n  vertical-align: baseline !important;\r\n}\r\n\r\n.align-top {\r\n  vertical-align: top !important;\r\n}\r\n\r\n.align-middle {\r\n  vertical-align: middle !important;\r\n}\r\n\r\n.align-bottom {\r\n  vertical-align: bottom !important;\r\n}\r\n\r\n.align-text-bottom {\r\n  vertical-align: text-bottom !important;\r\n}\r\n\r\n.align-text-top {\r\n  vertical-align: text-top !important;\r\n}\r\n\r\n.float-start {\r\n  float: left !important;\r\n}\r\n\r\n.float-end {\r\n  float: right !important;\r\n}\r\n\r\n.float-none {\r\n  float: none !important;\r\n}\r\n\r\n.opacity-0 {\r\n  opacity: 0 !important;\r\n}\r\n\r\n.opacity-25 {\r\n  opacity: 0.25 !important;\r\n}\r\n\r\n.opacity-50 {\r\n  opacity: 0.5 !important;\r\n}\r\n\r\n.opacity-75 {\r\n  opacity: 0.75 !important;\r\n}\r\n\r\n.opacity-100 {\r\n  opacity: 1 !important;\r\n}\r\n\r\n.overflow-auto {\r\n  overflow: auto !important;\r\n}\r\n\r\n.overflow-hidden {\r\n  overflow: hidden !important;\r\n}\r\n\r\n.overflow-visible {\r\n  overflow: visible !important;\r\n}\r\n\r\n.overflow-scroll {\r\n  overflow: scroll !important;\r\n}\r\n\r\n.d-inline {\r\n  display: inline !important;\r\n}\r\n\r\n.d-inline-block {\r\n  display: inline-block !important;\r\n}\r\n\r\n.d-block {\r\n  display: block !important;\r\n}\r\n\r\n.d-grid {\r\n  display: grid !important;\r\n}\r\n\r\n.d-table {\r\n  display: table !important;\r\n}\r\n\r\n.d-table-row {\r\n  display: table-row !important;\r\n}\r\n\r\n.d-table-cell {\r\n  display: table-cell !important;\r\n}\r\n\r\n.d-flex {\r\n  display: flex !important;\r\n}\r\n\r\n.d-inline-flex {\r\n  display: inline-flex !important;\r\n}\r\n\r\n.d-none {\r\n  display: none !important;\r\n}\r\n\r\n.shadow {\r\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;\r\n}\r\n\r\n.shadow-sm {\r\n  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;\r\n}\r\n\r\n.shadow-lg {\r\n  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;\r\n}\r\n\r\n.shadow-none {\r\n  box-shadow: none !important;\r\n}\r\n\r\n.position-static {\r\n  position: static !important;\r\n}\r\n\r\n.position-relative {\r\n  position: relative !important;\r\n}\r\n\r\n.position-absolute {\r\n  position: absolute !important;\r\n}\r\n\r\n.position-fixed {\r\n  position: fixed !important;\r\n}\r\n\r\n.position-sticky {\r\n  position: sticky !important;\r\n}\r\n\r\n.top-0 {\r\n  top: 0 !important;\r\n}\r\n\r\n.top-50 {\r\n  top: 50% !important;\r\n}\r\n\r\n.top-100 {\r\n  top: 100% !important;\r\n}\r\n\r\n.bottom-0 {\r\n  bottom: 0 !important;\r\n}\r\n\r\n.bottom-50 {\r\n  bottom: 50% !important;\r\n}\r\n\r\n.bottom-100 {\r\n  bottom: 100% !important;\r\n}\r\n\r\n.start-0 {\r\n  left: 0 !important;\r\n}\r\n\r\n.start-50 {\r\n  left: 50% !important;\r\n}\r\n\r\n.start-100 {\r\n  left: 100% !important;\r\n}\r\n\r\n.end-0 {\r\n  right: 0 !important;\r\n}\r\n\r\n.end-50 {\r\n  right: 50% !important;\r\n}\r\n\r\n.end-100 {\r\n  right: 100% !important;\r\n}\r\n\r\n.translate-middle {\r\n  transform: translate(-50%, -50%) !important;\r\n}\r\n\r\n.translate-middle-x {\r\n  transform: translateX(-50%) !important;\r\n}\r\n\r\n.translate-middle-y {\r\n  transform: translateY(-50%) !important;\r\n}\r\n\r\n.border {\r\n  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-0 {\r\n  border: 0 !important;\r\n}\r\n\r\n.border-top {\r\n  border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-top-0 {\r\n  border-top: 0 !important;\r\n}\r\n\r\n.border-end {\r\n  border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-end-0 {\r\n  border-right: 0 !important;\r\n}\r\n\r\n.border-bottom {\r\n  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-bottom-0 {\r\n  border-bottom: 0 !important;\r\n}\r\n\r\n.border-start {\r\n  border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-start-0 {\r\n  border-left: 0 !important;\r\n}\r\n\r\n.border-primary {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-secondary {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-success {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-info {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-info-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-warning {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-danger {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-light {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-light-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-dark {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-white {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-white-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-1 {\r\n  --bs-border-width: 1px;\r\n}\r\n\r\n.border-2 {\r\n  --bs-border-width: 2px;\r\n}\r\n\r\n.border-3 {\r\n  --bs-border-width: 3px;\r\n}\r\n\r\n.border-4 {\r\n  --bs-border-width: 4px;\r\n}\r\n\r\n.border-5 {\r\n  --bs-border-width: 5px;\r\n}\r\n\r\n.border-opacity-10 {\r\n  --bs-border-opacity: 0.1;\r\n}\r\n\r\n.border-opacity-25 {\r\n  --bs-border-opacity: 0.25;\r\n}\r\n\r\n.border-opacity-50 {\r\n  --bs-border-opacity: 0.5;\r\n}\r\n\r\n.border-opacity-75 {\r\n  --bs-border-opacity: 0.75;\r\n}\r\n\r\n.border-opacity-100 {\r\n  --bs-border-opacity: 1;\r\n}\r\n\r\n.w-25 {\r\n  width: 25% !important;\r\n}\r\n\r\n.w-50 {\r\n  width: 50% !important;\r\n}\r\n\r\n.w-75 {\r\n  width: 75% !important;\r\n}\r\n\r\n.w-100 {\r\n  width: 100% !important;\r\n}\r\n\r\n.w-auto {\r\n  width: auto !important;\r\n}\r\n\r\n.mw-100 {\r\n  max-width: 100% !important;\r\n}\r\n\r\n.vw-100 {\r\n  width: 100vw !important;\r\n}\r\n\r\n.min-vw-100 {\r\n  min-width: 100vw !important;\r\n}\r\n\r\n.h-25 {\r\n  height: 25% !important;\r\n}\r\n\r\n.h-50 {\r\n  height: 50% !important;\r\n}\r\n\r\n.h-75 {\r\n  height: 75% !important;\r\n}\r\n\r\n.h-100 {\r\n  height: 100% !important;\r\n}\r\n\r\n.h-auto {\r\n  height: auto !important;\r\n}\r\n\r\n.mh-100 {\r\n  max-height: 100% !important;\r\n}\r\n\r\n.vh-100 {\r\n  height: 100vh !important;\r\n}\r\n\r\n.min-vh-100 {\r\n  min-height: 100vh !important;\r\n}\r\n\r\n.flex-fill {\r\n  flex: 1 1 auto !important;\r\n}\r\n\r\n.flex-row {\r\n  flex-direction: row !important;\r\n}\r\n\r\n.flex-column {\r\n  flex-direction: column !important;\r\n}\r\n\r\n.flex-row-reverse {\r\n  flex-direction: row-reverse !important;\r\n}\r\n\r\n.flex-column-reverse {\r\n  flex-direction: column-reverse !important;\r\n}\r\n\r\n.flex-grow-0 {\r\n  flex-grow: 0 !important;\r\n}\r\n\r\n.flex-grow-1 {\r\n  flex-grow: 1 !important;\r\n}\r\n\r\n.flex-shrink-0 {\r\n  flex-shrink: 0 !important;\r\n}\r\n\r\n.flex-shrink-1 {\r\n  flex-shrink: 1 !important;\r\n}\r\n\r\n.flex-wrap {\r\n  flex-wrap: wrap !important;\r\n}\r\n\r\n.flex-nowrap {\r\n  flex-wrap: nowrap !important;\r\n}\r\n\r\n.flex-wrap-reverse {\r\n  flex-wrap: wrap-reverse !important;\r\n}\r\n\r\n.justify-content-start {\r\n  justify-content: flex-start !important;\r\n}\r\n\r\n.justify-content-end {\r\n  justify-content: flex-end !important;\r\n}\r\n\r\n.justify-content-center {\r\n  justify-content: center !important;\r\n}\r\n\r\n.justify-content-between {\r\n  justify-content: space-between !important;\r\n}\r\n\r\n.justify-content-around {\r\n  justify-content: space-around !important;\r\n}\r\n\r\n.justify-content-evenly {\r\n  justify-content: space-evenly !important;\r\n}\r\n\r\n.align-items-start {\r\n  align-items: flex-start !important;\r\n}\r\n\r\n.align-items-end {\r\n  align-items: flex-end !important;\r\n}\r\n\r\n.align-items-center {\r\n  align-items: center !important;\r\n}\r\n\r\n.align-items-baseline {\r\n  align-items: baseline !important;\r\n}\r\n\r\n.align-items-stretch {\r\n  align-items: stretch !important;\r\n}\r\n\r\n.align-content-start {\r\n  align-content: flex-start !important;\r\n}\r\n\r\n.align-content-end {\r\n  align-content: flex-end !important;\r\n}\r\n\r\n.align-content-center {\r\n  align-content: center !important;\r\n}\r\n\r\n.align-content-between {\r\n  align-content: space-between !important;\r\n}\r\n\r\n.align-content-around {\r\n  align-content: space-around !important;\r\n}\r\n\r\n.align-content-stretch {\r\n  align-content: stretch !important;\r\n}\r\n\r\n.align-self-auto {\r\n  align-self: auto !important;\r\n}\r\n\r\n.align-self-start {\r\n  align-self: flex-start !important;\r\n}\r\n\r\n.align-self-end {\r\n  align-self: flex-end !important;\r\n}\r\n\r\n.align-self-center {\r\n  align-self: center !important;\r\n}\r\n\r\n.align-self-baseline {\r\n  align-self: baseline !important;\r\n}\r\n\r\n.align-self-stretch {\r\n  align-self: stretch !important;\r\n}\r\n\r\n.order-first {\r\n  order: -1 !important;\r\n}\r\n\r\n.order-0 {\r\n  order: 0 !important;\r\n}\r\n\r\n.order-1 {\r\n  order: 1 !important;\r\n}\r\n\r\n.order-2 {\r\n  order: 2 !important;\r\n}\r\n\r\n.order-3 {\r\n  order: 3 !important;\r\n}\r\n\r\n.order-4 {\r\n  order: 4 !important;\r\n}\r\n\r\n.order-5 {\r\n  order: 5 !important;\r\n}\r\n\r\n.order-last {\r\n  order: 6 !important;\r\n}\r\n\r\n.m-0 {\r\n  margin: 0 !important;\r\n}\r\n\r\n.m-1 {\r\n  margin: 0.25rem !important;\r\n}\r\n\r\n.m-2 {\r\n  margin: 0.5rem !important;\r\n}\r\n\r\n.m-3 {\r\n  margin: 1rem !important;\r\n}\r\n\r\n.m-4 {\r\n  margin: 1.5rem !important;\r\n}\r\n\r\n.m-5 {\r\n  margin: 3rem !important;\r\n}\r\n\r\n.m-auto {\r\n  margin: auto !important;\r\n}\r\n\r\n.mx-0 {\r\n  margin-right: 0 !important;\r\n  margin-left: 0 !important;\r\n}\r\n\r\n.mx-1 {\r\n  margin-right: 0.25rem !important;\r\n  margin-left: 0.25rem !important;\r\n}\r\n\r\n.mx-2 {\r\n  margin-right: 0.5rem !important;\r\n  margin-left: 0.5rem !important;\r\n}\r\n\r\n.mx-3 {\r\n  margin-right: 1rem !important;\r\n  margin-left: 1rem !important;\r\n}\r\n\r\n.mx-4 {\r\n  margin-right: 1.5rem !important;\r\n  margin-left: 1.5rem !important;\r\n}\r\n\r\n.mx-5 {\r\n  margin-right: 3rem !important;\r\n  margin-left: 3rem !important;\r\n}\r\n\r\n.mx-auto {\r\n  margin-right: auto !important;\r\n  margin-left: auto !important;\r\n}\r\n\r\n.my-0 {\r\n  margin-top: 0 !important;\r\n  margin-bottom: 0 !important;\r\n}\r\n\r\n.my-1 {\r\n  margin-top: 0.25rem !important;\r\n  margin-bottom: 0.25rem !important;\r\n}\r\n\r\n.my-2 {\r\n  margin-top: 0.5rem !important;\r\n  margin-bottom: 0.5rem !important;\r\n}\r\n\r\n.my-3 {\r\n  margin-top: 1rem !important;\r\n  margin-bottom: 1rem !important;\r\n}\r\n\r\n.my-4 {\r\n  margin-top: 1.5rem !important;\r\n  margin-bottom: 1.5rem !important;\r\n}\r\n\r\n.my-5 {\r\n  margin-top: 3rem !important;\r\n  margin-bottom: 3rem !important;\r\n}\r\n\r\n.my-auto {\r\n  margin-top: auto !important;\r\n  margin-bottom: auto !important;\r\n}\r\n\r\n.mt-0 {\r\n  margin-top: 0 !important;\r\n}\r\n\r\n.mt-1 {\r\n  margin-top: 0.25rem !important;\r\n}\r\n\r\n.mt-2 {\r\n  margin-top: 0.5rem !important;\r\n}\r\n\r\n.mt-3 {\r\n  margin-top: 1rem !important;\r\n}\r\n\r\n.mt-4 {\r\n  margin-top: 1.5rem !important;\r\n}\r\n\r\n.mt-5 {\r\n  margin-top: 3rem !important;\r\n}\r\n\r\n.mt-auto {\r\n  margin-top: auto !important;\r\n}\r\n\r\n.me-0 {\r\n  margin-right: 0 !important;\r\n}\r\n\r\n.me-1 {\r\n  margin-right: 0.25rem !important;\r\n}\r\n\r\n.me-2 {\r\n  margin-right: 0.5rem !important;\r\n}\r\n\r\n.me-3 {\r\n  margin-right: 1rem !important;\r\n}\r\n\r\n.me-4 {\r\n  margin-right: 1.5rem !important;\r\n}\r\n\r\n.me-5 {\r\n  margin-right: 3rem !important;\r\n}\r\n\r\n.me-auto {\r\n  margin-right: auto !important;\r\n}\r\n\r\n.mb-0 {\r\n  margin-bottom: 0 !important;\r\n}\r\n\r\n.mb-1 {\r\n  margin-bottom: 0.25rem !important;\r\n}\r\n\r\n.mb-2 {\r\n  margin-bottom: 0.5rem !important;\r\n}\r\n\r\n.mb-3 {\r\n  margin-bottom: 1rem !important;\r\n}\r\n\r\n.mb-4 {\r\n  margin-bottom: 1.5rem !important;\r\n}\r\n\r\n.mb-5 {\r\n  margin-bottom: 3rem !important;\r\n}\r\n\r\n.mb-auto {\r\n  margin-bottom: auto !important;\r\n}\r\n\r\n.ms-0 {\r\n  margin-left: 0 !important;\r\n}\r\n\r\n.ms-1 {\r\n  margin-left: 0.25rem !important;\r\n}\r\n\r\n.ms-2 {\r\n  margin-left: 0.5rem !important;\r\n}\r\n\r\n.ms-3 {\r\n  margin-left: 1rem !important;\r\n}\r\n\r\n.ms-4 {\r\n  margin-left: 1.5rem !important;\r\n}\r\n\r\n.ms-5 {\r\n  margin-left: 3rem !important;\r\n}\r\n\r\n.ms-auto {\r\n  margin-left: auto !important;\r\n}\r\n\r\n.p-0 {\r\n  padding: 0 !important;\r\n}\r\n\r\n.p-1 {\r\n  padding: 0.25rem !important;\r\n}\r\n\r\n.p-2 {\r\n  padding: 0.5rem !important;\r\n}\r\n\r\n.p-3 {\r\n  padding: 1rem !important;\r\n}\r\n\r\n.p-4 {\r\n  padding: 1.5rem !important;\r\n}\r\n\r\n.p-5 {\r\n  padding: 3rem !important;\r\n}\r\n\r\n.px-0 {\r\n  padding-right: 0 !important;\r\n  padding-left: 0 !important;\r\n}\r\n\r\n.px-1 {\r\n  padding-right: 0.25rem !important;\r\n  padding-left: 0.25rem !important;\r\n}\r\n\r\n.px-2 {\r\n  padding-right: 0.5rem !important;\r\n  padding-left: 0.5rem !important;\r\n}\r\n\r\n.px-3 {\r\n  padding-right: 1rem !important;\r\n  padding-left: 1rem !important;\r\n}\r\n\r\n.px-4 {\r\n  padding-right: 1.5rem !important;\r\n  padding-left: 1.5rem !important;\r\n}\r\n\r\n.px-5 {\r\n  padding-right: 3rem !important;\r\n  padding-left: 3rem !important;\r\n}\r\n\r\n.py-0 {\r\n  padding-top: 0 !important;\r\n  padding-bottom: 0 !important;\r\n}\r\n\r\n.py-1 {\r\n  padding-top: 0.25rem !important;\r\n  padding-bottom: 0.25rem !important;\r\n}\r\n\r\n.py-2 {\r\n  padding-top: 0.5rem !important;\r\n  padding-bottom: 0.5rem !important;\r\n}\r\n\r\n.py-3 {\r\n  padding-top: 1rem !important;\r\n  padding-bottom: 1rem !important;\r\n}\r\n\r\n.py-4 {\r\n  padding-top: 1.5rem !important;\r\n  padding-bottom: 1.5rem !important;\r\n}\r\n\r\n.py-5 {\r\n  padding-top: 3rem !important;\r\n  padding-bottom: 3rem !important;\r\n}\r\n\r\n.pt-0 {\r\n  padding-top: 0 !important;\r\n}\r\n\r\n.pt-1 {\r\n  padding-top: 0.25rem !important;\r\n}\r\n\r\n.pt-2 {\r\n  padding-top: 0.5rem !important;\r\n}\r\n\r\n.pt-3 {\r\n  padding-top: 1rem !important;\r\n}\r\n\r\n.pt-4 {\r\n  padding-top: 1.5rem !important;\r\n}\r\n\r\n.pt-5 {\r\n  padding-top: 3rem !important;\r\n}\r\n\r\n.pe-0 {\r\n  padding-right: 0 !important;\r\n}\r\n\r\n.pe-1 {\r\n  padding-right: 0.25rem !important;\r\n}\r\n\r\n.pe-2 {\r\n  padding-right: 0.5rem !important;\r\n}\r\n\r\n.pe-3 {\r\n  padding-right: 1rem !important;\r\n}\r\n\r\n.pe-4 {\r\n  padding-right: 1.5rem !important;\r\n}\r\n\r\n.pe-5 {\r\n  padding-right: 3rem !important;\r\n}\r\n\r\n.pb-0 {\r\n  padding-bottom: 0 !important;\r\n}\r\n\r\n.pb-1 {\r\n  padding-bottom: 0.25rem !important;\r\n}\r\n\r\n.pb-2 {\r\n  padding-bottom: 0.5rem !important;\r\n}\r\n\r\n.pb-3 {\r\n  padding-bottom: 1rem !important;\r\n}\r\n\r\n.pb-4 {\r\n  padding-bottom: 1.5rem !important;\r\n}\r\n\r\n.pb-5 {\r\n  padding-bottom: 3rem !important;\r\n}\r\n\r\n.ps-0 {\r\n  padding-left: 0 !important;\r\n}\r\n\r\n.ps-1 {\r\n  padding-left: 0.25rem !important;\r\n}\r\n\r\n.ps-2 {\r\n  padding-left: 0.5rem !important;\r\n}\r\n\r\n.ps-3 {\r\n  padding-left: 1rem !important;\r\n}\r\n\r\n.ps-4 {\r\n  padding-left: 1.5rem !important;\r\n}\r\n\r\n.ps-5 {\r\n  padding-left: 3rem !important;\r\n}\r\n\r\n.gap-0 {\r\n  gap: 0 !important;\r\n}\r\n\r\n.gap-1 {\r\n  gap: 0.25rem !important;\r\n}\r\n\r\n.gap-2 {\r\n  gap: 0.5rem !important;\r\n}\r\n\r\n.gap-3 {\r\n  gap: 1rem !important;\r\n}\r\n\r\n.gap-4 {\r\n  gap: 1.5rem !important;\r\n}\r\n\r\n.gap-5 {\r\n  gap: 3rem !important;\r\n}\r\n\r\n.font-monospace {\r\n  font-family: var(--bs-font-monospace) !important;\r\n}\r\n\r\n.fs-1 {\r\n  font-size: calc(1.375rem + 1.5vw) !important;\r\n}\r\n\r\n.fs-2 {\r\n  font-size: calc(1.325rem + 0.9vw) !important;\r\n}\r\n\r\n.fs-3 {\r\n  font-size: calc(1.3rem + 0.6vw) !important;\r\n}\r\n\r\n.fs-4 {\r\n  font-size: calc(1.275rem + 0.3vw) !important;\r\n}\r\n\r\n.fs-5 {\r\n  font-size: 1.25rem !important;\r\n}\r\n\r\n.fs-6 {\r\n  font-size: 1rem !important;\r\n}\r\n\r\n.fst-italic {\r\n  font-style: italic !important;\r\n}\r\n\r\n.fst-normal {\r\n  font-style: normal !important;\r\n}\r\n\r\n.fw-light {\r\n  font-weight: 300 !important;\r\n}\r\n\r\n.fw-lighter {\r\n  font-weight: lighter !important;\r\n}\r\n\r\n.fw-normal {\r\n  font-weight: 400 !important;\r\n}\r\n\r\n.fw-bold {\r\n  font-weight: 700 !important;\r\n}\r\n\r\n.fw-semibold {\r\n  font-weight: 600 !important;\r\n}\r\n\r\n.fw-bolder {\r\n  font-weight: bolder !important;\r\n}\r\n\r\n.lh-1 {\r\n  line-height: 1 !important;\r\n}\r\n\r\n.lh-sm {\r\n  line-height: 1.25 !important;\r\n}\r\n\r\n.lh-base {\r\n  line-height: 1.5 !important;\r\n}\r\n\r\n.lh-lg {\r\n  line-height: 2 !important;\r\n}\r\n\r\n.text-start {\r\n  text-align: left !important;\r\n}\r\n\r\n.text-end {\r\n  text-align: right !important;\r\n}\r\n\r\n.text-center {\r\n  text-align: center !important;\r\n}\r\n\r\n.text-decoration-none {\r\n  text-decoration: none !important;\r\n}\r\n\r\n.text-decoration-underline {\r\n  text-decoration: underline !important;\r\n}\r\n\r\n.text-decoration-line-through {\r\n  text-decoration: line-through !important;\r\n}\r\n\r\n.text-lowercase {\r\n  text-transform: lowercase !important;\r\n}\r\n\r\n.text-uppercase {\r\n  text-transform: uppercase !important;\r\n}\r\n\r\n.text-capitalize {\r\n  text-transform: capitalize !important;\r\n}\r\n\r\n.text-wrap {\r\n  white-space: normal !important;\r\n}\r\n\r\n.text-nowrap {\r\n  white-space: nowrap !important;\r\n}\r\n\r\n/* rtl:begin:remove */\r\n.text-break {\r\n  word-wrap: break-word !important;\r\n  word-break: break-word !important;\r\n}\r\n\r\n/* rtl:end:remove */\r\n.text-primary {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-secondary {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-success {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-info {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-warning {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-danger {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-light {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-dark {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-black {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-white {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-body {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-muted {\r\n  --bs-text-opacity: 1;\r\n  color: #6c757d !important;\r\n}\r\n\r\n.text-black-50 {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.text-white-50 {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(255, 255, 255, 0.5) !important;\r\n}\r\n\r\n.text-reset {\r\n  --bs-text-opacity: 1;\r\n  color: inherit !important;\r\n}\r\n\r\n.text-opacity-25 {\r\n  --bs-text-opacity: 0.25;\r\n}\r\n\r\n.text-opacity-50 {\r\n  --bs-text-opacity: 0.5;\r\n}\r\n\r\n.text-opacity-75 {\r\n  --bs-text-opacity: 0.75;\r\n}\r\n\r\n.text-opacity-100 {\r\n  --bs-text-opacity: 1;\r\n}\r\n\r\n.bg-primary {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-secondary {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-success {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-info {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-warning {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-danger {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-light {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-dark {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-black {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-white {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-body {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-transparent {\r\n  --bs-bg-opacity: 1;\r\n  background-color: transparent !important;\r\n}\r\n\r\n.bg-opacity-10 {\r\n  --bs-bg-opacity: 0.1;\r\n}\r\n\r\n.bg-opacity-25 {\r\n  --bs-bg-opacity: 0.25;\r\n}\r\n\r\n.bg-opacity-50 {\r\n  --bs-bg-opacity: 0.5;\r\n}\r\n\r\n.bg-opacity-75 {\r\n  --bs-bg-opacity: 0.75;\r\n}\r\n\r\n.bg-opacity-100 {\r\n  --bs-bg-opacity: 1;\r\n}\r\n\r\n.bg-gradient {\r\n  background-image: var(--bs-gradient) !important;\r\n}\r\n\r\n.user-select-all {\r\n  -webkit-user-select: all !important;\r\n     -moz-user-select: all !important;\r\n          user-select: all !important;\r\n}\r\n\r\n.user-select-auto {\r\n  -webkit-user-select: auto !important;\r\n     -moz-user-select: auto !important;\r\n          user-select: auto !important;\r\n}\r\n\r\n.user-select-none {\r\n  -webkit-user-select: none !important;\r\n     -moz-user-select: none !important;\r\n          user-select: none !important;\r\n}\r\n\r\n.pe-none {\r\n  pointer-events: none !important;\r\n}\r\n\r\n.pe-auto {\r\n  pointer-events: auto !important;\r\n}\r\n\r\n.rounded {\r\n  border-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-0 {\r\n  border-radius: 0 !important;\r\n}\r\n\r\n.rounded-1 {\r\n  border-radius: var(--bs-border-radius-sm) !important;\r\n}\r\n\r\n.rounded-2 {\r\n  border-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-3 {\r\n  border-radius: var(--bs-border-radius-lg) !important;\r\n}\r\n\r\n.rounded-4 {\r\n  border-radius: var(--bs-border-radius-xl) !important;\r\n}\r\n\r\n.rounded-5 {\r\n  border-radius: var(--bs-border-radius-2xl) !important;\r\n}\r\n\r\n.rounded-circle {\r\n  border-radius: 50% !important;\r\n}\r\n\r\n.rounded-pill {\r\n  border-radius: var(--bs-border-radius-pill) !important;\r\n}\r\n\r\n.rounded-top {\r\n  border-top-left-radius: var(--bs-border-radius) !important;\r\n  border-top-right-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-end {\r\n  border-top-right-radius: var(--bs-border-radius) !important;\r\n  border-bottom-right-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-bottom {\r\n  border-bottom-right-radius: var(--bs-border-radius) !important;\r\n  border-bottom-left-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-start {\r\n  border-bottom-left-radius: var(--bs-border-radius) !important;\r\n  border-top-left-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.visible {\r\n  visibility: visible !important;\r\n}\r\n\r\n.invisible {\r\n  visibility: hidden !important;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .float-sm-start {\r\n    float: left !important;\r\n  }\r\n  .float-sm-end {\r\n    float: right !important;\r\n  }\r\n  .float-sm-none {\r\n    float: none !important;\r\n  }\r\n  .d-sm-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-sm-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-sm-block {\r\n    display: block !important;\r\n  }\r\n  .d-sm-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-sm-table {\r\n    display: table !important;\r\n  }\r\n  .d-sm-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-sm-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-sm-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-sm-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-sm-none {\r\n    display: none !important;\r\n  }\r\n  .flex-sm-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-sm-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-sm-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-sm-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-sm-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-sm-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-sm-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-sm-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-sm-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-sm-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-sm-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-sm-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-sm-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-sm-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-sm-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-sm-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-sm-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-sm-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-sm-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-sm-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-sm-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-sm-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-sm-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-sm-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-sm-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-sm-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-sm-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-sm-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-sm-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-sm-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-sm-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-sm-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-sm-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-sm-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-sm-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-sm-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-sm-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-sm-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-sm-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-sm-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-sm-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-sm-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-sm-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-sm-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-sm-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-sm-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-sm-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-sm-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-sm-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-sm-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-sm-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-sm-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-sm-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-sm-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-sm-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-sm-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-sm-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-sm-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-sm-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-sm-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-sm-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-sm-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-sm-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-sm-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-sm-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-sm-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-sm-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-sm-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-sm-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-sm-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-sm-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-sm-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-sm-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-sm-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-sm-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-sm-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-sm-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-sm-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-sm-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-sm-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-sm-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-sm-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-sm-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-sm-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-sm-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-sm-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-sm-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-sm-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-sm-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-sm-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-sm-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-sm-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-sm-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-sm-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-sm-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-sm-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-sm-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-sm-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-sm-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-sm-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-sm-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-sm-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-sm-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-sm-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-sm-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-sm-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-sm-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-sm-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-sm-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-sm-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-sm-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-sm-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-sm-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-sm-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-sm-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-sm-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-sm-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-sm-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-sm-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-sm-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-sm-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-sm-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-sm-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-sm-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-sm-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-sm-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-sm-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-sm-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-sm-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-sm-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-sm-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-sm-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-sm-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-sm-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-sm-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-sm-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-sm-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-sm-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-sm-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-sm-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-sm-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-sm-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-sm-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .float-md-start {\r\n    float: left !important;\r\n  }\r\n  .float-md-end {\r\n    float: right !important;\r\n  }\r\n  .float-md-none {\r\n    float: none !important;\r\n  }\r\n  .d-md-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-md-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-md-block {\r\n    display: block !important;\r\n  }\r\n  .d-md-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-md-table {\r\n    display: table !important;\r\n  }\r\n  .d-md-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-md-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-md-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-md-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-md-none {\r\n    display: none !important;\r\n  }\r\n  .flex-md-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-md-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-md-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-md-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-md-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-md-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-md-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-md-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-md-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-md-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-md-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-md-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-md-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-md-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-md-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-md-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-md-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-md-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-md-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-md-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-md-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-md-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-md-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-md-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-md-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-md-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-md-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-md-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-md-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-md-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-md-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-md-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-md-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-md-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-md-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-md-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-md-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-md-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-md-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-md-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-md-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-md-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-md-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-md-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-md-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-md-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-md-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-md-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-md-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-md-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-md-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-md-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-md-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-md-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-md-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-md-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-md-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-md-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-md-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-md-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-md-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-md-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-md-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-md-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-md-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-md-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-md-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-md-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-md-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-md-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-md-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-md-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-md-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-md-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-md-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-md-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-md-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-md-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-md-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-md-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-md-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-md-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-md-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-md-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-md-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-md-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-md-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-md-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-md-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-md-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-md-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-md-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-md-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-md-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-md-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-md-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-md-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-md-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-md-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-md-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-md-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-md-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-md-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-md-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-md-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-md-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-md-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-md-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-md-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-md-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-md-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-md-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-md-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-md-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-md-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-md-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-md-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-md-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-md-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-md-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-md-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-md-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-md-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-md-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-md-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-md-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-md-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-md-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-md-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-md-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-md-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-md-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-md-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-md-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-md-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-md-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-md-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-md-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-md-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-md-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-md-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-md-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-md-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .float-lg-start {\r\n    float: left !important;\r\n  }\r\n  .float-lg-end {\r\n    float: right !important;\r\n  }\r\n  .float-lg-none {\r\n    float: none !important;\r\n  }\r\n  .d-lg-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-lg-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-lg-block {\r\n    display: block !important;\r\n  }\r\n  .d-lg-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-lg-table {\r\n    display: table !important;\r\n  }\r\n  .d-lg-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-lg-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-lg-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-lg-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-lg-none {\r\n    display: none !important;\r\n  }\r\n  .flex-lg-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-lg-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-lg-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-lg-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-lg-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-lg-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-lg-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-lg-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-lg-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-lg-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-lg-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-lg-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-lg-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-lg-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-lg-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-lg-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-lg-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-lg-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-lg-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-lg-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-lg-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-lg-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-lg-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-lg-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-lg-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-lg-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-lg-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-lg-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-lg-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-lg-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-lg-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-lg-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-lg-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-lg-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-lg-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-lg-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-lg-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-lg-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-lg-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-lg-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-lg-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-lg-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-lg-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-lg-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-lg-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-lg-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-lg-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-lg-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-lg-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-lg-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-lg-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-lg-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-lg-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-lg-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-lg-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-lg-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-lg-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-lg-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-lg-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-lg-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-lg-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-lg-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-lg-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-lg-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-lg-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-lg-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-lg-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-lg-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-lg-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-lg-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-lg-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-lg-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-lg-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-lg-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-lg-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-lg-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-lg-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-lg-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-lg-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-lg-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-lg-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-lg-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-lg-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-lg-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-lg-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-lg-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-lg-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-lg-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-lg-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-lg-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-lg-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-lg-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-lg-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-lg-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-lg-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-lg-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-lg-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-lg-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-lg-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-lg-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-lg-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-lg-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-lg-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-lg-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-lg-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-lg-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-lg-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-lg-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-lg-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-lg-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-lg-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-lg-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-lg-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-lg-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-lg-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-lg-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-lg-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-lg-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-lg-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-lg-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-lg-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-lg-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-lg-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-lg-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-lg-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-lg-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-lg-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-lg-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-lg-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-lg-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-lg-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-lg-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-lg-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-lg-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-lg-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-lg-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-lg-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-lg-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-lg-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-lg-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-lg-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-lg-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-lg-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .float-xl-start {\r\n    float: left !important;\r\n  }\r\n  .float-xl-end {\r\n    float: right !important;\r\n  }\r\n  .float-xl-none {\r\n    float: none !important;\r\n  }\r\n  .d-xl-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-xl-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-xl-block {\r\n    display: block !important;\r\n  }\r\n  .d-xl-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-xl-table {\r\n    display: table !important;\r\n  }\r\n  .d-xl-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-xl-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-xl-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-xl-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-xl-none {\r\n    display: none !important;\r\n  }\r\n  .flex-xl-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-xl-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-xl-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-xl-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-xl-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-xl-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-xl-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-xl-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-xl-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-xl-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-xl-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-xl-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-xl-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-xl-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-xl-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-xl-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-xl-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-xl-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-xl-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-xl-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-xl-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-xl-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-xl-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-xl-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-xl-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-xl-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-xl-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-xl-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-xl-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-xl-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-xl-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-xl-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-xl-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-xl-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-xl-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-xl-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-xl-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-xl-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-xl-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-xl-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-xl-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-xl-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-xl-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-xl-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-xl-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-xl-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-xl-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-xl-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-xl-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-xl-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-xl-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-xl-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-xl-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-xl-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-xl-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-xl-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-xl-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-xl-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-xl-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-xl-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-xl-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-xl-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-xl-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-xl-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-xl-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-xl-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-xl-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-xl-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-xl-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-xl-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-xl-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-xl-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-xl-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-xl-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-xl-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-xl-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-xl-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-xl-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-xl-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-xl-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-xl-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-xl-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-xl-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-xl-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-xl-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-xl-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-xl-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-xl-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-xl-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-xl-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-xl-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-xl-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-xl-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-xl-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-xl-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-xl-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-xl-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-xl-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-xl-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-xl-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-xl-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-xl-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-xl-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-xl-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-xl-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-xl-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-xl-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-xl-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-xl-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-xl-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-xl-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-xl-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-xl-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-xl-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-xl-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-xl-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-xl-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-xl-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-xl-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-xl-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-xl-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-xl-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-xl-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-xl-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-xl-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-xl-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-xl-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-xl-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-xl-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-xl-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-xl-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-xl-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-xl-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-xl-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-xl-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-xl-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-xl-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-xl-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-xl-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-xl-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-xl-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-xl-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-xl-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .float-xxl-start {\r\n    float: left !important;\r\n  }\r\n  .float-xxl-end {\r\n    float: right !important;\r\n  }\r\n  .float-xxl-none {\r\n    float: none !important;\r\n  }\r\n  .d-xxl-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-xxl-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-xxl-block {\r\n    display: block !important;\r\n  }\r\n  .d-xxl-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-xxl-table {\r\n    display: table !important;\r\n  }\r\n  .d-xxl-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-xxl-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-xxl-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-xxl-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-xxl-none {\r\n    display: none !important;\r\n  }\r\n  .flex-xxl-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-xxl-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-xxl-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-xxl-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-xxl-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-xxl-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-xxl-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-xxl-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-xxl-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-xxl-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-xxl-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-xxl-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-xxl-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-xxl-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-xxl-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-xxl-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-xxl-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-xxl-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-xxl-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-xxl-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-xxl-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-xxl-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-xxl-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-xxl-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-xxl-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-xxl-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-xxl-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-xxl-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-xxl-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-xxl-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-xxl-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-xxl-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-xxl-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-xxl-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-xxl-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-xxl-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-xxl-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-xxl-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-xxl-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-xxl-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-xxl-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-xxl-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-xxl-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-xxl-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-xxl-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-xxl-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-xxl-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-xxl-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-xxl-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-xxl-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-xxl-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-xxl-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-xxl-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-xxl-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-xxl-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-xxl-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-xxl-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-xxl-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-xxl-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-xxl-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-xxl-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-xxl-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-xxl-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-xxl-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-xxl-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-xxl-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-xxl-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-xxl-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-xxl-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-xxl-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-xxl-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-xxl-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-xxl-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-xxl-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-xxl-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-xxl-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-xxl-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-xxl-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-xxl-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-xxl-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-xxl-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-xxl-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-xxl-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-xxl-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-xxl-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-xxl-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-xxl-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-xxl-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-xxl-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-xxl-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-xxl-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-xxl-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-xxl-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-xxl-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-xxl-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-xxl-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-xxl-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-xxl-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-xxl-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-xxl-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-xxl-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-xxl-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-xxl-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-xxl-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-xxl-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-xxl-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-xxl-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-xxl-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-xxl-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-xxl-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-xxl-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-xxl-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-xxl-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-xxl-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-xxl-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-xxl-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-xxl-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-xxl-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-xxl-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-xxl-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-xxl-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-xxl-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-xxl-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-xxl-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-xxl-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-xxl-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-xxl-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-xxl-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-xxl-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-xxl-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-xxl-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-xxl-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-xxl-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-xxl-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-xxl-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-xxl-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-xxl-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-xxl-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-xxl-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-xxl-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-xxl-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-xxl-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-xxl-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .fs-1 {\r\n    font-size: 2.5rem !important;\r\n  }\r\n  .fs-2 {\r\n    font-size: 2rem !important;\r\n  }\r\n  .fs-3 {\r\n    font-size: 1.75rem !important;\r\n  }\r\n  .fs-4 {\r\n    font-size: 1.5rem !important;\r\n  }\r\n}\r\n@media print {\r\n  .d-print-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-print-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-print-block {\r\n    display: block !important;\r\n  }\r\n  .d-print-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-print-table {\r\n    display: table !important;\r\n  }\r\n  .d-print-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-print-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-print-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-print-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-print-none {\r\n    display: none !important;\r\n  }\r\n}\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n}\r\n\r\n#layoutAuthentication {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-height: 100vh;\r\n}\r\n#layoutAuthentication #layoutAuthentication_content {\r\n  min-width: 0;\r\n  flex-grow: 1;\r\n}\r\n#layoutAuthentication #layoutAuthentication_footer {\r\n  min-width: 0;\r\n}\r\n\r\n#layoutSidenav {\r\n  display: flex;\r\n}\r\n#layoutSidenav #layoutSidenav_nav {\r\n  flex-basis: 225px;\r\n  flex-shrink: 0;\r\n  transition: transform 0.15s ease-in-out;\r\n  z-index: 1038;\r\n  transform: translateX(-225px);\r\n}\r\n#layoutSidenav #layoutSidenav_content {\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  min-width: 0;\r\n  flex-grow: 1;\r\n  min-height: calc(100vh - 56px);\r\n  margin-left: -225px;\r\n}\r\n\r\n.sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {\r\n  transform: translateX(0);\r\n}\r\n.sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {\r\n  content: \"\";\r\n  display: block;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #000;\r\n  z-index: 1037;\r\n  opacity: 0.5;\r\n  transition: opacity 0.3s ease-in-out;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n  #layoutSidenav #layoutSidenav_nav {\r\n    transform: translateX(0);\r\n  }\r\n  #layoutSidenav #layoutSidenav_content {\r\n    margin-left: 0;\r\n    transition: margin 0.15s ease-in-out;\r\n  }\r\n  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {\r\n    transform: translateX(-225px);\r\n  }\r\n  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content {\r\n    margin-left: -225px;\r\n  }\r\n  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {\r\n    display: none;\r\n  }\r\n}\r\n.sb-nav-fixed .sb-topnav {\r\n  z-index: 1039;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_nav {\r\n  width: 225px;\r\n  height: 100vh;\r\n  z-index: 1038;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav {\r\n  padding-top: 56px;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {\r\n  overflow-y: auto;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_content {\r\n  padding-left: 225px;\r\n  top: 56px;\r\n}\r\n\r\n#layoutError {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-height: 100vh;\r\n}\r\n#layoutError #layoutError_content {\r\n  min-width: 0;\r\n  flex-grow: 1;\r\n}\r\n#layoutError #layoutError_footer {\r\n  min-width: 0;\r\n}\r\n\r\n.img-error {\r\n  max-width: 20rem;\r\n}\r\n\r\n.nav .nav-link .sb-nav-link-icon,\r\n.sb-sidenav-menu .nav-link .sb-nav-link-icon {\r\n  margin-right: 0.5rem;\r\n}\r\n\r\n.sb-topnav {\r\n  padding-left: 0;\r\n  height: 56px;\r\n  z-index: 1039;\r\n}\r\n.sb-topnav .navbar-brand {\r\n  width: 225px;\r\n  margin: 0;\r\n}\r\n.sb-topnav.navbar-dark #sidebarToggle {\r\n  color: rgba(255, 255, 255, 0.5);\r\n}\r\n.sb-topnav.navbar-light #sidebarToggle {\r\n  color: #212529;\r\n}\r\n\r\n.sb-sidenav {\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 100%;\r\n  flex-wrap: nowrap;\r\n}\r\n.sb-sidenav .sb-sidenav-menu {\r\n  flex-grow: 1;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav {\r\n  flex-direction: column;\r\n  flex-wrap: nowrap;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {\r\n  padding: 1.75rem 1rem 0.75rem;\r\n  font-size: 0.75rem;\r\n  font-weight: bold;\r\n  text-transform: uppercase;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link {\r\n  display: flex;\r\n  align-items: center;\r\n  padding-top: 0.75rem;\r\n  padding-bottom: 0.75rem;\r\n  position: relative;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {\r\n  font-size: 0.9rem;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-sidenav-collapse-arrow {\r\n  display: inline-block;\r\n  margin-left: auto;\r\n  transition: transform 0.15s ease;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link.collapsed .sb-sidenav-collapse-arrow {\r\n  transform: rotate(-90deg);\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-nested {\r\n  margin-left: 1.5rem;\r\n  flex-direction: column;\r\n}\r\n.sb-sidenav .sb-sidenav-footer {\r\n  padding: 0.75rem;\r\n  flex-shrink: 0;\r\n}\r\n\r\n.sb-sidenav-dark {\r\n  background-color: #212529;\r\n  color: rgba(255, 255, 255, 0.5);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {\r\n  color: rgba(255, 255, 255, 0.25);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link {\r\n  color: rgba(255, 255, 255, 0.5);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {\r\n  color: rgba(255, 255, 255, 0.25);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {\r\n  color: rgba(255, 255, 255, 0.25);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {\r\n  color: #fff;\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {\r\n  color: #fff;\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {\r\n  color: #fff;\r\n}\r\n.sb-sidenav-dark .sb-sidenav-footer {\r\n  background-color: #343a40;\r\n}\r\n\r\n.sb-sidenav-light {\r\n  background-color: #f8f9fa;\r\n  color: #212529;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .sb-sidenav-menu-heading {\r\n  color: #adb5bd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link {\r\n  color: #212529;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-nav-link-icon {\r\n  color: #adb5bd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {\r\n  color: #adb5bd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link:hover {\r\n  color: #0d6efd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link.active {\r\n  color: #0d6efd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {\r\n  color: #0d6efd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-footer {\r\n  background-color: #e9ecef;\r\n}\r\n\r\n.datatable-wrapper .datatable-container {\r\n  font-size: 0.875rem;\r\n}\r\n\r\n.datatable-wrapper.no-header .datatable-container {\r\n  border-top: none;\r\n}\r\n\r\n.datatable-wrapper.no-footer .datatable-container {\r\n  border-bottom: none;\r\n}\r\n\r\n.datatable-top {\r\n  padding: 0 0 1rem;\r\n}\r\n\r\n.datatable-bottom {\r\n  padding: 0;\r\n}\r\n\r\n.datatable-top > nav:first-child,\r\n.datatable-top > div:first-child,\r\n.datatable-bottom > nav:first-child,\r\n.datatable-bottom > div:first-child {\r\n  float: left;\r\n}\r\n\r\n.datatable-top > nav:last-child,\r\n.datatable-top > div:last-child,\r\n.datatable-bottom > nav:last-child,\r\n.datatable-bottom > div:last-child {\r\n  float: right;\r\n}\r\n\r\n.datatable-selector {\r\n  width: auto;\r\n  display: inline-block;\r\n  padding-left: 1.125rem;\r\n  padding-right: 2.125rem;\r\n  margin-right: 0.25rem;\r\n}\r\n\r\n.datatable-info {\r\n  margin: 7px 0;\r\n}\r\n\r\n/* PAGER */\r\n.datatable-pagination a:hover {\r\n  background-color: #e9ecef;\r\n}\r\n\r\n.datatable-pagination .active a,\r\n.datatable-pagination .active a:focus,\r\n.datatable-pagination .active a:hover {\r\n  background-color: #0d6efd;\r\n}\r\n\r\n.datatable-pagination .ellipsis a,\r\n.datatable-pagination .disabled a,\r\n.datatable-pagination .disabled a:focus,\r\n.datatable-pagination .disabled a:hover {\r\n  cursor: not-allowed;\r\n}\r\n\r\n.datatable-pagination .disabled a,\r\n.datatable-pagination .disabled a:focus,\r\n.datatable-pagination .disabled a:hover {\r\n  cursor: not-allowed;\r\n  opacity: 0.4;\r\n}\r\n\r\n.datatable-pagination .pager a {\r\n  font-weight: bold;\r\n}\r\n\r\n/* TABLE */\r\n.datatable-table {\r\n  border-collapse: collapse;\r\n}\r\n\r\n.datatable-table > tbody > tr > td,\r\n.datatable-table > tbody > tr > th,\r\n.datatable-table > tfoot > tr > td,\r\n.datatable-table > tfoot > tr > th,\r\n.datatable-table > thead > tr > td,\r\n.datatable-table > thead > tr > th {\r\n  vertical-align: top;\r\n  padding: 0.5rem 0.5rem;\r\n}\r\n\r\n.datatable-table > thead > tr > th {\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n  border-bottom: none;\r\n}\r\n\r\n.datatable-table > tfoot > tr > th {\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n\r\n.datatable-table th {\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n\r\n.datatable-table th a {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.datatable-sorter {\r\n  display: inline-block;\r\n  height: 100%;\r\n  position: relative;\r\n  width: 100%;\r\n  padding-right: 1rem;\r\n}\r\n\r\n.datatable-sorter::before,\r\n.datatable-sorter::after {\r\n  content: \"\";\r\n  height: 0;\r\n  width: 0;\r\n  position: absolute;\r\n  right: 4px;\r\n  border-left: 4px solid transparent;\r\n  border-right: 4px solid transparent;\r\n  opacity: 0.2;\r\n}\r\n\r\n.datatable-sorter::before {\r\n  bottom: 4px;\r\n}\r\n\r\n.datatable-sorter::after {\r\n  top: 0px;\r\n}\r\n\r\n.asc .datatable-sorter::after,\r\n.desc .datatable-sorter::before {\r\n  opacity: 0.6;\r\n}\r\n\r\n.datatables-empty {\r\n  text-align: center;\r\n}\r\n\r\n.datatable-top::after,\r\n.datatable-bottom::after {\r\n  clear: both;\r\n  content: \" \";\r\n  display: table;\r\n}\r\n\r\n.datatable-pagination li.datatable-hidden {\r\n  visibility: visible;\r\n}\r\n\r\n.btn-datatable {\r\n  height: 20px !important;\r\n  width: 20px !important;\r\n  font-size: 0.75rem;\r\n  border-radius: 0.375rem !important;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\r\n/*!\r\n* Start Bootstrap - SB Admin v7.0.7 (https://startbootstrap.com/template/sb-admin)\r\n* Copyright 2013-2023 Start Bootstrap\r\n* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)\r\n*/\r\n/*!\r\n * Bootstrap  v5.2.3 (https://getbootstrap.com/)\r\n * Copyright 2011-2022 The Bootstrap Authors\r\n * Copyright 2011-2022 Twitter, Inc.\r\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)\r\n */\r\n:root {\r\n  --bs-blue: #0d6efd;\r\n  --bs-indigo: #6610f2;\r\n  --bs-purple: #6f42c1;\r\n  --bs-pink: #d63384;\r\n  --bs-red: #dc3545;\r\n  --bs-orange: #fd7e14;\r\n  --bs-yellow: #ffc107;\r\n  --bs-green: #198754;\r\n  --bs-teal: #20c997;\r\n  --bs-cyan: #0dcaf0;\r\n  --bs-black: #000;\r\n  --bs-white: #fff;\r\n  --bs-gray: #6c757d;\r\n  --bs-gray-dark: #343a40;\r\n  --bs-gray-100: #f8f9fa;\r\n  --bs-gray-200: #e9ecef;\r\n  --bs-gray-300: #dee2e6;\r\n  --bs-gray-400: #ced4da;\r\n  --bs-gray-500: #adb5bd;\r\n  --bs-gray-600: #6c757d;\r\n  --bs-gray-700: #495057;\r\n  --bs-gray-800: #343a40;\r\n  --bs-gray-900: #212529;\r\n  --bs-primary: #0d6efd;\r\n  --bs-secondary: #6c757d;\r\n  --bs-success: #198754;\r\n  --bs-info: #0dcaf0;\r\n  --bs-warning: #ffc107;\r\n  --bs-danger: #dc3545;\r\n  --bs-light: #f8f9fa;\r\n  --bs-dark: #212529;\r\n  --bs-primary-rgb: 13, 110, 253;\r\n  --bs-secondary-rgb: 108, 117, 125;\r\n  --bs-success-rgb: 25, 135, 84;\r\n  --bs-info-rgb: 13, 202, 240;\r\n  --bs-warning-rgb: 255, 193, 7;\r\n  --bs-danger-rgb: 220, 53, 69;\r\n  --bs-light-rgb: 248, 249, 250;\r\n  --bs-dark-rgb: 33, 37, 41;\r\n  --bs-white-rgb: 255, 255, 255;\r\n  --bs-black-rgb: 0, 0, 0;\r\n  --bs-body-color-rgb: 33, 37, 41;\r\n  --bs-body-bg-rgb: 255, 255, 255;\r\n  --bs-font-sans-serif: system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\r\n  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\r\n  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));\r\n  --bs-body-font-family: var(--bs-font-sans-serif);\r\n  --bs-body-font-size: 1rem;\r\n  --bs-body-font-weight: 400;\r\n  --bs-body-line-height: 1.5;\r\n  --bs-body-color: #212529;\r\n  --bs-body-bg: #fff;\r\n  --bs-border-width: 1px;\r\n  --bs-border-style: solid;\r\n  --bs-border-color: #dee2e6;\r\n  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);\r\n  --bs-border-radius: 0.375rem;\r\n  --bs-border-radius-sm: 0.25rem;\r\n  --bs-border-radius-lg: 0.5rem;\r\n  --bs-border-radius-xl: 1rem;\r\n  --bs-border-radius-2xl: 2rem;\r\n  --bs-border-radius-pill: 50rem;\r\n  --bs-link-color: #0d6efd;\r\n  --bs-link-hover-color: #0a58ca;\r\n  --bs-code-color: #d63384;\r\n  --bs-highlight-bg: #fff3cd;\r\n}\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@media (prefers-reduced-motion: no-preference) {\r\n  :root {\r\n    scroll-behavior: smooth;\r\n  }\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  font-family: var(--bs-body-font-family);\r\n  font-size: var(--bs-body-font-size);\r\n  font-weight: var(--bs-body-font-weight);\r\n  line-height: var(--bs-body-line-height);\r\n  color: var(--bs-body-color);\r\n  text-align: var(--bs-body-text-align);\r\n  background-color: var(--bs-body-bg);\r\n  -webkit-text-size-adjust: 100%;\r\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\r\n}\r\n\r\nhr {\r\n  margin: 1rem 0;\r\n  color: inherit;\r\n  border: 0;\r\n  border-top: 1px solid;\r\n  opacity: 0.25;\r\n}\r\n\r\nh6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {\r\n  margin-top: 0;\r\n  margin-bottom: 0.5rem;\r\n  font-weight: 500;\r\n  line-height: 1.2;\r\n}\r\n\r\nh1, .h1 {\r\n  font-size: calc(1.375rem + 1.5vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h1, .h1 {\r\n    font-size: 2.5rem;\r\n  }\r\n}\r\n\r\nh2, .h2 {\r\n  font-size: calc(1.325rem + 0.9vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h2, .h2 {\r\n    font-size: 2rem;\r\n  }\r\n}\r\n\r\nh3, .h3 {\r\n  font-size: calc(1.3rem + 0.6vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h3, .h3 {\r\n    font-size: 1.75rem;\r\n  }\r\n}\r\n\r\nh4, .h4 {\r\n  font-size: calc(1.275rem + 0.3vw);\r\n}\r\n@media (min-width: 1200px) {\r\n  h4, .h4 {\r\n    font-size: 1.5rem;\r\n  }\r\n}\r\n\r\nh5, .h5 {\r\n  font-size: 1.25rem;\r\n}\r\n\r\nh6, .h6 {\r\n  font-size: 1rem;\r\n}\r\n\r\np {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nabbr[title] {\r\n  -webkit-text-decoration: underline dotted;\r\n          text-decoration: underline dotted;\r\n  cursor: help;\r\n  -webkit-text-decoration-skip-ink: none;\r\n          text-decoration-skip-ink: none;\r\n}\r\n\r\naddress {\r\n  margin-bottom: 1rem;\r\n  font-style: normal;\r\n  line-height: inherit;\r\n}\r\n\r\nol,\r\nul {\r\n  padding-left: 2rem;\r\n}\r\n\r\nol,\r\nul,\r\ndl {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\nol ol,\r\nul ul,\r\nol ul,\r\nul ol {\r\n  margin-bottom: 0;\r\n}\r\n\r\ndt {\r\n  font-weight: 700;\r\n}\r\n\r\ndd {\r\n  margin-bottom: 0.5rem;\r\n  margin-left: 0;\r\n}\r\n\r\nblockquote {\r\n  margin: 0 0 1rem;\r\n}\r\n\r\nb,\r\nstrong {\r\n  font-weight: bolder;\r\n}\r\n\r\nsmall, .small {\r\n  font-size: 0.875em;\r\n}\r\n\r\nmark, .mark {\r\n  padding: 0.1875em;\r\n  background-color: var(--bs-highlight-bg);\r\n}\r\n\r\nsub,\r\nsup {\r\n  position: relative;\r\n  font-size: 0.75em;\r\n  line-height: 0;\r\n  vertical-align: baseline;\r\n}\r\n\r\nsub {\r\n  bottom: -0.25em;\r\n}\r\n\r\nsup {\r\n  top: -0.5em;\r\n}\r\n\r\na {\r\n  color: var(--bs-link-color);\r\n  text-decoration: underline;\r\n}\r\na:hover {\r\n  color: var(--bs-link-hover-color);\r\n}\r\n\r\na:not([href]):not([class]), a:not([href]):not([class]):hover {\r\n  color: inherit;\r\n  text-decoration: none;\r\n}\r\n\r\npre,\r\ncode,\r\nkbd,\r\nsamp {\r\n  font-family: var(--bs-font-monospace);\r\n  font-size: 1em;\r\n}\r\n\r\npre {\r\n  display: block;\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n  overflow: auto;\r\n  font-size: 0.875em;\r\n}\r\npre code {\r\n  font-size: inherit;\r\n  color: inherit;\r\n  word-break: normal;\r\n}\r\n\r\ncode {\r\n  font-size: 0.875em;\r\n  color: var(--bs-code-color);\r\n  word-wrap: break-word;\r\n}\r\na > code {\r\n  color: inherit;\r\n}\r\n\r\nkbd {\r\n  padding: 0.1875rem 0.375rem;\r\n  font-size: 0.875em;\r\n  color: var(--bs-body-bg);\r\n  background-color: var(--bs-body-color);\r\n  border-radius: 0.25rem;\r\n}\r\nkbd kbd {\r\n  padding: 0;\r\n  font-size: 1em;\r\n}\r\n\r\nfigure {\r\n  margin: 0 0 1rem;\r\n}\r\n\r\nimg,\r\nsvg {\r\n  vertical-align: middle;\r\n}\r\n\r\ntable {\r\n  caption-side: bottom;\r\n  border-collapse: collapse;\r\n}\r\n\r\ncaption {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  color: #6c757d;\r\n  text-align: left;\r\n}\r\n\r\nth {\r\n  text-align: inherit;\r\n  text-align: -webkit-match-parent;\r\n}\r\n\r\nthead,\r\ntbody,\r\ntfoot,\r\ntr,\r\ntd,\r\nth {\r\n  border-color: inherit;\r\n  border-style: solid;\r\n  border-width: 0;\r\n}\r\n\r\nlabel {\r\n  display: inline-block;\r\n}\r\n\r\nbutton {\r\n  border-radius: 0;\r\n}\r\n\r\nbutton:focus:not(:focus-visible) {\r\n  outline: 0;\r\n}\r\n\r\ninput,\r\nbutton,\r\nselect,\r\noptgroup,\r\ntextarea {\r\n  margin: 0;\r\n  font-family: inherit;\r\n  font-size: inherit;\r\n  line-height: inherit;\r\n}\r\n\r\nbutton,\r\nselect {\r\n  text-transform: none;\r\n}\r\n\r\n[role=button] {\r\n  cursor: pointer;\r\n}\r\n\r\nselect {\r\n  word-wrap: normal;\r\n}\r\nselect:disabled {\r\n  opacity: 1;\r\n}\r\n\r\n[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {\r\n  display: none !important;\r\n}\r\n\r\nbutton,\r\n[type=button],\r\n[type=reset],\r\n[type=submit] {\r\n  -webkit-appearance: button;\r\n}\r\nbutton:not(:disabled),\r\n[type=button]:not(:disabled),\r\n[type=reset]:not(:disabled),\r\n[type=submit]:not(:disabled) {\r\n  cursor: pointer;\r\n}\r\n\r\n::-moz-focus-inner {\r\n  padding: 0;\r\n  border-style: none;\r\n}\r\n\r\ntextarea {\r\n  resize: vertical;\r\n}\r\n\r\nfieldset {\r\n  min-width: 0;\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\nlegend {\r\n  float: left;\r\n  width: 100%;\r\n  padding: 0;\r\n  margin-bottom: 0.5rem;\r\n  font-size: calc(1.275rem + 0.3vw);\r\n  line-height: inherit;\r\n}\r\n@media (min-width: 1200px) {\r\n  legend {\r\n    font-size: 1.5rem;\r\n  }\r\n}\r\nlegend + * {\r\n  clear: left;\r\n}\r\n\r\n::-webkit-datetime-edit-fields-wrapper,\r\n::-webkit-datetime-edit-text,\r\n::-webkit-datetime-edit-minute,\r\n::-webkit-datetime-edit-hour-field,\r\n::-webkit-datetime-edit-day-field,\r\n::-webkit-datetime-edit-month-field,\r\n::-webkit-datetime-edit-year-field {\r\n  padding: 0;\r\n}\r\n\r\n::-webkit-inner-spin-button {\r\n  height: auto;\r\n}\r\n\r\n[type=search] {\r\n  outline-offset: -2px;\r\n  -webkit-appearance: textfield;\r\n}\r\n\r\n/* rtl:raw:\r\n[type=\"tel\"],\r\n[type=\"url\"],\r\n[type=\"email\"],\r\n[type=\"number\"] {\r\n  direction: ltr;\r\n}\r\n*/\r\n::-webkit-search-decoration {\r\n  -webkit-appearance: none;\r\n}\r\n\r\n::-webkit-color-swatch-wrapper {\r\n  padding: 0;\r\n}\r\n\r\n::file-selector-button {\r\n  font: inherit;\r\n  -webkit-appearance: button;\r\n}\r\n\r\noutput {\r\n  display: inline-block;\r\n}\r\n\r\niframe {\r\n  border: 0;\r\n}\r\n\r\nsummary {\r\n  display: list-item;\r\n  cursor: pointer;\r\n}\r\n\r\nprogress {\r\n  vertical-align: baseline;\r\n}\r\n\r\n[hidden] {\r\n  display: none !important;\r\n}\r\n\r\n.lead {\r\n  font-size: 1.25rem;\r\n  font-weight: 300;\r\n}\r\n\r\n.display-1 {\r\n  font-size: calc(1.625rem + 4.5vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-1 {\r\n    font-size: 5rem;\r\n  }\r\n}\r\n\r\n.display-2 {\r\n  font-size: calc(1.575rem + 3.9vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-2 {\r\n    font-size: 4.5rem;\r\n  }\r\n}\r\n\r\n.display-3 {\r\n  font-size: calc(1.525rem + 3.3vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-3 {\r\n    font-size: 4rem;\r\n  }\r\n}\r\n\r\n.display-4 {\r\n  font-size: calc(1.475rem + 2.7vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-4 {\r\n    font-size: 3.5rem;\r\n  }\r\n}\r\n\r\n.display-5 {\r\n  font-size: calc(1.425rem + 2.1vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-5 {\r\n    font-size: 3rem;\r\n  }\r\n}\r\n\r\n.display-6 {\r\n  font-size: calc(1.375rem + 1.5vw);\r\n  font-weight: 300;\r\n  line-height: 1.2;\r\n}\r\n@media (min-width: 1200px) {\r\n  .display-6 {\r\n    font-size: 2.5rem;\r\n  }\r\n}\r\n\r\n.list-unstyled {\r\n  padding-left: 0;\r\n  list-style: none;\r\n}\r\n\r\n.list-inline {\r\n  padding-left: 0;\r\n  list-style: none;\r\n}\r\n\r\n.list-inline-item {\r\n  display: inline-block;\r\n}\r\n.list-inline-item:not(:last-child) {\r\n  margin-right: 0.5rem;\r\n}\r\n\r\n.initialism {\r\n  font-size: 0.875em;\r\n  text-transform: uppercase;\r\n}\r\n\r\n.blockquote {\r\n  margin-bottom: 1rem;\r\n  font-size: 1.25rem;\r\n}\r\n.blockquote > :last-child {\r\n  margin-bottom: 0;\r\n}\r\n\r\n.blockquote-footer {\r\n  margin-top: -1rem;\r\n  margin-bottom: 1rem;\r\n  font-size: 0.875em;\r\n  color: #6c757d;\r\n}\r\n.blockquote-footer::before {\r\n  content: \"— \";\r\n}\r\n\r\n.img-fluid {\r\n  max-width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.img-thumbnail {\r\n  padding: 0.25rem;\r\n  background-color: #fff;\r\n  border: 1px solid var(--bs-border-color);\r\n  border-radius: 0.375rem;\r\n  max-width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.figure {\r\n  display: inline-block;\r\n}\r\n\r\n.figure-img {\r\n  margin-bottom: 0.5rem;\r\n  line-height: 1;\r\n}\r\n\r\n.figure-caption {\r\n  font-size: 0.875em;\r\n  color: #6c757d;\r\n}\r\n\r\n.container,\r\n.container-fluid,\r\n.container-xxl,\r\n.container-xl,\r\n.container-lg,\r\n.container-md,\r\n.container-sm {\r\n  --bs-gutter-x: 1.5rem;\r\n  --bs-gutter-y: 0;\r\n  width: 100%;\r\n  padding-right: calc(var(--bs-gutter-x) * 0.5);\r\n  padding-left: calc(var(--bs-gutter-x) * 0.5);\r\n  margin-right: auto;\r\n  margin-left: auto;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .container-sm, .container {\r\n    max-width: 540px;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .container-md, .container-sm, .container {\r\n    max-width: 720px;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .container-lg, .container-md, .container-sm, .container {\r\n    max-width: 960px;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .container-xl, .container-lg, .container-md, .container-sm, .container {\r\n    max-width: 1140px;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {\r\n    max-width: 1320px;\r\n  }\r\n}\r\n.row {\r\n  --bs-gutter-x: 1.5rem;\r\n  --bs-gutter-y: 0;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-top: calc(-1 * var(--bs-gutter-y));\r\n  margin-right: calc(-0.5 * var(--bs-gutter-x));\r\n  margin-left: calc(-0.5 * var(--bs-gutter-x));\r\n}\r\n.row > * {\r\n  flex-shrink: 0;\r\n  width: 100%;\r\n  max-width: 100%;\r\n  padding-right: calc(var(--bs-gutter-x) * 0.5);\r\n  padding-left: calc(var(--bs-gutter-x) * 0.5);\r\n  margin-top: var(--bs-gutter-y);\r\n}\r\n\r\n.col {\r\n  flex: 1 0 0%;\r\n}\r\n\r\n.row-cols-auto > * {\r\n  flex: 0 0 auto;\r\n  width: auto;\r\n}\r\n\r\n.row-cols-1 > * {\r\n  flex: 0 0 auto;\r\n  width: 100%;\r\n}\r\n\r\n.row-cols-2 > * {\r\n  flex: 0 0 auto;\r\n  width: 50%;\r\n}\r\n\r\n.row-cols-3 > * {\r\n  flex: 0 0 auto;\r\n  width: 33.3333333333%;\r\n}\r\n\r\n.row-cols-4 > * {\r\n  flex: 0 0 auto;\r\n  width: 25%;\r\n}\r\n\r\n.row-cols-5 > * {\r\n  flex: 0 0 auto;\r\n  width: 20%;\r\n}\r\n\r\n.row-cols-6 > * {\r\n  flex: 0 0 auto;\r\n  width: 16.6666666667%;\r\n}\r\n\r\n.col-auto {\r\n  flex: 0 0 auto;\r\n  width: auto;\r\n}\r\n\r\n.col-1 {\r\n  flex: 0 0 auto;\r\n  width: 8.33333333%;\r\n}\r\n\r\n.col-2 {\r\n  flex: 0 0 auto;\r\n  width: 16.66666667%;\r\n}\r\n\r\n.col-3 {\r\n  flex: 0 0 auto;\r\n  width: 25%;\r\n}\r\n\r\n.col-4 {\r\n  flex: 0 0 auto;\r\n  width: 33.33333333%;\r\n}\r\n\r\n.col-5 {\r\n  flex: 0 0 auto;\r\n  width: 41.66666667%;\r\n}\r\n\r\n.col-6 {\r\n  flex: 0 0 auto;\r\n  width: 50%;\r\n}\r\n\r\n.col-7 {\r\n  flex: 0 0 auto;\r\n  width: 58.33333333%;\r\n}\r\n\r\n.col-8 {\r\n  flex: 0 0 auto;\r\n  width: 66.66666667%;\r\n}\r\n\r\n.col-9 {\r\n  flex: 0 0 auto;\r\n  width: 75%;\r\n}\r\n\r\n.col-10 {\r\n  flex: 0 0 auto;\r\n  width: 83.33333333%;\r\n}\r\n\r\n.col-11 {\r\n  flex: 0 0 auto;\r\n  width: 91.66666667%;\r\n}\r\n\r\n.col-12 {\r\n  flex: 0 0 auto;\r\n  width: 100%;\r\n}\r\n\r\n.offset-1 {\r\n  margin-left: 8.33333333%;\r\n}\r\n\r\n.offset-2 {\r\n  margin-left: 16.66666667%;\r\n}\r\n\r\n.offset-3 {\r\n  margin-left: 25%;\r\n}\r\n\r\n.offset-4 {\r\n  margin-left: 33.33333333%;\r\n}\r\n\r\n.offset-5 {\r\n  margin-left: 41.66666667%;\r\n}\r\n\r\n.offset-6 {\r\n  margin-left: 50%;\r\n}\r\n\r\n.offset-7 {\r\n  margin-left: 58.33333333%;\r\n}\r\n\r\n.offset-8 {\r\n  margin-left: 66.66666667%;\r\n}\r\n\r\n.offset-9 {\r\n  margin-left: 75%;\r\n}\r\n\r\n.offset-10 {\r\n  margin-left: 83.33333333%;\r\n}\r\n\r\n.offset-11 {\r\n  margin-left: 91.66666667%;\r\n}\r\n\r\n.g-0,\r\n.gx-0 {\r\n  --bs-gutter-x: 0;\r\n}\r\n\r\n.g-0,\r\n.gy-0 {\r\n  --bs-gutter-y: 0;\r\n}\r\n\r\n.g-1,\r\n.gx-1 {\r\n  --bs-gutter-x: 0.25rem;\r\n}\r\n\r\n.g-1,\r\n.gy-1 {\r\n  --bs-gutter-y: 0.25rem;\r\n}\r\n\r\n.g-2,\r\n.gx-2 {\r\n  --bs-gutter-x: 0.5rem;\r\n}\r\n\r\n.g-2,\r\n.gy-2 {\r\n  --bs-gutter-y: 0.5rem;\r\n}\r\n\r\n.g-3,\r\n.gx-3 {\r\n  --bs-gutter-x: 1rem;\r\n}\r\n\r\n.g-3,\r\n.gy-3 {\r\n  --bs-gutter-y: 1rem;\r\n}\r\n\r\n.g-4,\r\n.gx-4 {\r\n  --bs-gutter-x: 1.5rem;\r\n}\r\n\r\n.g-4,\r\n.gy-4 {\r\n  --bs-gutter-y: 1.5rem;\r\n}\r\n\r\n.g-5,\r\n.gx-5 {\r\n  --bs-gutter-x: 3rem;\r\n}\r\n\r\n.g-5,\r\n.gy-5 {\r\n  --bs-gutter-y: 3rem;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .col-sm {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-sm-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-sm-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-sm-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-sm-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-sm-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-sm-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-sm-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-sm-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-sm-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-sm-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-sm-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-sm-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-sm-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-sm-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-sm-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-sm-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-sm-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-sm-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-sm-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-sm-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-sm-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-sm-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-sm-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-sm-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-sm-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-sm-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-sm-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-sm-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-sm-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-sm-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-sm-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-sm-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-sm-0,\r\n  .gx-sm-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-sm-0,\r\n  .gy-sm-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-sm-1,\r\n  .gx-sm-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-sm-1,\r\n  .gy-sm-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-sm-2,\r\n  .gx-sm-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-sm-2,\r\n  .gy-sm-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-sm-3,\r\n  .gx-sm-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-sm-3,\r\n  .gy-sm-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-sm-4,\r\n  .gx-sm-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-sm-4,\r\n  .gy-sm-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-sm-5,\r\n  .gx-sm-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-sm-5,\r\n  .gy-sm-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .col-md {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-md-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-md-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-md-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-md-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-md-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-md-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-md-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-md-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-md-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-md-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-md-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-md-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-md-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-md-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-md-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-md-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-md-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-md-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-md-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-md-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-md-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-md-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-md-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-md-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-md-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-md-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-md-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-md-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-md-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-md-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-md-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-md-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-md-0,\r\n  .gx-md-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-md-0,\r\n  .gy-md-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-md-1,\r\n  .gx-md-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-md-1,\r\n  .gy-md-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-md-2,\r\n  .gx-md-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-md-2,\r\n  .gy-md-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-md-3,\r\n  .gx-md-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-md-3,\r\n  .gy-md-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-md-4,\r\n  .gx-md-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-md-4,\r\n  .gy-md-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-md-5,\r\n  .gx-md-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-md-5,\r\n  .gy-md-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .col-lg {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-lg-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-lg-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-lg-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-lg-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-lg-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-lg-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-lg-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-lg-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-lg-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-lg-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-lg-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-lg-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-lg-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-lg-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-lg-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-lg-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-lg-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-lg-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-lg-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-lg-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-lg-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-lg-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-lg-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-lg-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-lg-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-lg-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-lg-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-lg-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-lg-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-lg-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-lg-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-lg-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-lg-0,\r\n  .gx-lg-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-lg-0,\r\n  .gy-lg-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-lg-1,\r\n  .gx-lg-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-lg-1,\r\n  .gy-lg-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-lg-2,\r\n  .gx-lg-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-lg-2,\r\n  .gy-lg-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-lg-3,\r\n  .gx-lg-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-lg-3,\r\n  .gy-lg-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-lg-4,\r\n  .gx-lg-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-lg-4,\r\n  .gy-lg-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-lg-5,\r\n  .gx-lg-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-lg-5,\r\n  .gy-lg-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .col-xl {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-xl-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-xl-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-xl-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-xl-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-xl-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-xl-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-xl-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-xl-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-xl-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-xl-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-xl-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-xl-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-xl-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-xl-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-xl-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-xl-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-xl-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-xl-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-xl-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-xl-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-xl-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-xl-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-xl-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-xl-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-xl-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-xl-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-xl-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-xl-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-xl-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-xl-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-xl-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-xl-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-xl-0,\r\n  .gx-xl-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-xl-0,\r\n  .gy-xl-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-xl-1,\r\n  .gx-xl-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-xl-1,\r\n  .gy-xl-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-xl-2,\r\n  .gx-xl-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-xl-2,\r\n  .gy-xl-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-xl-3,\r\n  .gx-xl-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-xl-3,\r\n  .gy-xl-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-xl-4,\r\n  .gx-xl-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-xl-4,\r\n  .gy-xl-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-xl-5,\r\n  .gx-xl-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-xl-5,\r\n  .gy-xl-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .col-xxl {\r\n    flex: 1 0 0%;\r\n  }\r\n  .row-cols-xxl-auto > * {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .row-cols-xxl-1 > * {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .row-cols-xxl-2 > * {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .row-cols-xxl-3 > * {\r\n    flex: 0 0 auto;\r\n    width: 33.3333333333%;\r\n  }\r\n  .row-cols-xxl-4 > * {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .row-cols-xxl-5 > * {\r\n    flex: 0 0 auto;\r\n    width: 20%;\r\n  }\r\n  .row-cols-xxl-6 > * {\r\n    flex: 0 0 auto;\r\n    width: 16.6666666667%;\r\n  }\r\n  .col-xxl-auto {\r\n    flex: 0 0 auto;\r\n    width: auto;\r\n  }\r\n  .col-xxl-1 {\r\n    flex: 0 0 auto;\r\n    width: 8.33333333%;\r\n  }\r\n  .col-xxl-2 {\r\n    flex: 0 0 auto;\r\n    width: 16.66666667%;\r\n  }\r\n  .col-xxl-3 {\r\n    flex: 0 0 auto;\r\n    width: 25%;\r\n  }\r\n  .col-xxl-4 {\r\n    flex: 0 0 auto;\r\n    width: 33.33333333%;\r\n  }\r\n  .col-xxl-5 {\r\n    flex: 0 0 auto;\r\n    width: 41.66666667%;\r\n  }\r\n  .col-xxl-6 {\r\n    flex: 0 0 auto;\r\n    width: 50%;\r\n  }\r\n  .col-xxl-7 {\r\n    flex: 0 0 auto;\r\n    width: 58.33333333%;\r\n  }\r\n  .col-xxl-8 {\r\n    flex: 0 0 auto;\r\n    width: 66.66666667%;\r\n  }\r\n  .col-xxl-9 {\r\n    flex: 0 0 auto;\r\n    width: 75%;\r\n  }\r\n  .col-xxl-10 {\r\n    flex: 0 0 auto;\r\n    width: 83.33333333%;\r\n  }\r\n  .col-xxl-11 {\r\n    flex: 0 0 auto;\r\n    width: 91.66666667%;\r\n  }\r\n  .col-xxl-12 {\r\n    flex: 0 0 auto;\r\n    width: 100%;\r\n  }\r\n  .offset-xxl-0 {\r\n    margin-left: 0;\r\n  }\r\n  .offset-xxl-1 {\r\n    margin-left: 8.33333333%;\r\n  }\r\n  .offset-xxl-2 {\r\n    margin-left: 16.66666667%;\r\n  }\r\n  .offset-xxl-3 {\r\n    margin-left: 25%;\r\n  }\r\n  .offset-xxl-4 {\r\n    margin-left: 33.33333333%;\r\n  }\r\n  .offset-xxl-5 {\r\n    margin-left: 41.66666667%;\r\n  }\r\n  .offset-xxl-6 {\r\n    margin-left: 50%;\r\n  }\r\n  .offset-xxl-7 {\r\n    margin-left: 58.33333333%;\r\n  }\r\n  .offset-xxl-8 {\r\n    margin-left: 66.66666667%;\r\n  }\r\n  .offset-xxl-9 {\r\n    margin-left: 75%;\r\n  }\r\n  .offset-xxl-10 {\r\n    margin-left: 83.33333333%;\r\n  }\r\n  .offset-xxl-11 {\r\n    margin-left: 91.66666667%;\r\n  }\r\n  .g-xxl-0,\r\n  .gx-xxl-0 {\r\n    --bs-gutter-x: 0;\r\n  }\r\n  .g-xxl-0,\r\n  .gy-xxl-0 {\r\n    --bs-gutter-y: 0;\r\n  }\r\n  .g-xxl-1,\r\n  .gx-xxl-1 {\r\n    --bs-gutter-x: 0.25rem;\r\n  }\r\n  .g-xxl-1,\r\n  .gy-xxl-1 {\r\n    --bs-gutter-y: 0.25rem;\r\n  }\r\n  .g-xxl-2,\r\n  .gx-xxl-2 {\r\n    --bs-gutter-x: 0.5rem;\r\n  }\r\n  .g-xxl-2,\r\n  .gy-xxl-2 {\r\n    --bs-gutter-y: 0.5rem;\r\n  }\r\n  .g-xxl-3,\r\n  .gx-xxl-3 {\r\n    --bs-gutter-x: 1rem;\r\n  }\r\n  .g-xxl-3,\r\n  .gy-xxl-3 {\r\n    --bs-gutter-y: 1rem;\r\n  }\r\n  .g-xxl-4,\r\n  .gx-xxl-4 {\r\n    --bs-gutter-x: 1.5rem;\r\n  }\r\n  .g-xxl-4,\r\n  .gy-xxl-4 {\r\n    --bs-gutter-y: 1.5rem;\r\n  }\r\n  .g-xxl-5,\r\n  .gx-xxl-5 {\r\n    --bs-gutter-x: 3rem;\r\n  }\r\n  .g-xxl-5,\r\n  .gy-xxl-5 {\r\n    --bs-gutter-y: 3rem;\r\n  }\r\n}\r\n.table, .datatable-table {\r\n  --bs-table-color: var(--bs-body-color);\r\n  --bs-table-bg: transparent;\r\n  --bs-table-border-color: var(--bs-border-color);\r\n  --bs-table-accent-bg: transparent;\r\n  --bs-table-striped-color: var(--bs-body-color);\r\n  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);\r\n  --bs-table-active-color: var(--bs-body-color);\r\n  --bs-table-active-bg: rgba(0, 0, 0, 0.1);\r\n  --bs-table-hover-color: var(--bs-body-color);\r\n  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);\r\n  width: 100%;\r\n  margin-bottom: 1rem;\r\n  color: var(--bs-table-color);\r\n  vertical-align: top;\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n.table > :not(caption) > * > *, .datatable-table > :not(caption) > * > * {\r\n  padding: 0.5rem 0.5rem;\r\n  background-color: var(--bs-table-bg);\r\n  border-bottom-width: 1px;\r\n  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);\r\n}\r\n.table > tbody, .datatable-table > tbody {\r\n  vertical-align: inherit;\r\n}\r\n.table > thead, .datatable-table > thead {\r\n  vertical-align: bottom;\r\n}\r\n\r\n.table-group-divider {\r\n  border-top: 2px solid currentcolor;\r\n}\r\n\r\n.caption-top {\r\n  caption-side: top;\r\n}\r\n\r\n.table-sm > :not(caption) > * > * {\r\n  padding: 0.25rem 0.25rem;\r\n}\r\n\r\n.table-bordered > :not(caption) > *, .datatable-table > :not(caption) > * {\r\n  border-width: 1px 0;\r\n}\r\n.table-bordered > :not(caption) > * > *, .datatable-table > :not(caption) > * > * {\r\n  border-width: 0 1px;\r\n}\r\n\r\n.table-borderless > :not(caption) > * > * {\r\n  border-bottom-width: 0;\r\n}\r\n.table-borderless > :not(:first-child) {\r\n  border-top-width: 0;\r\n}\r\n\r\n.table-striped > tbody > tr:nth-of-type(odd) > * {\r\n  --bs-table-accent-bg: var(--bs-table-striped-bg);\r\n  color: var(--bs-table-striped-color);\r\n}\r\n\r\n.table-striped-columns > :not(caption) > tr > :nth-child(even) {\r\n  --bs-table-accent-bg: var(--bs-table-striped-bg);\r\n  color: var(--bs-table-striped-color);\r\n}\r\n\r\n.table-active {\r\n  --bs-table-accent-bg: var(--bs-table-active-bg);\r\n  color: var(--bs-table-active-color);\r\n}\r\n\r\n.table-hover > tbody > tr:hover > *, .datatable-table > tbody > tr:hover > * {\r\n  --bs-table-accent-bg: var(--bs-table-hover-bg);\r\n  color: var(--bs-table-hover-color);\r\n}\r\n\r\n.table-primary {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #cfe2ff;\r\n  --bs-table-border-color: #bacbe6;\r\n  --bs-table-striped-bg: #c5d7f2;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #bacbe6;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #bfd1ec;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-secondary {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #e2e3e5;\r\n  --bs-table-border-color: #cbccce;\r\n  --bs-table-striped-bg: #d7d8da;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #cbccce;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #d1d2d4;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-success {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #d1e7dd;\r\n  --bs-table-border-color: #bcd0c7;\r\n  --bs-table-striped-bg: #c7dbd2;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #bcd0c7;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #c1d6cc;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-info {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #cff4fc;\r\n  --bs-table-border-color: #badce3;\r\n  --bs-table-striped-bg: #c5e8ef;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #badce3;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #bfe2e9;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-warning {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #fff3cd;\r\n  --bs-table-border-color: #e6dbb9;\r\n  --bs-table-striped-bg: #f2e7c3;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #e6dbb9;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #ece1be;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-danger {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #f8d7da;\r\n  --bs-table-border-color: #dfc2c4;\r\n  --bs-table-striped-bg: #eccccf;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #dfc2c4;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #e5c7ca;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-light {\r\n  --bs-table-color: #000;\r\n  --bs-table-bg: #f8f9fa;\r\n  --bs-table-border-color: #dfe0e1;\r\n  --bs-table-striped-bg: #ecedee;\r\n  --bs-table-striped-color: #000;\r\n  --bs-table-active-bg: #dfe0e1;\r\n  --bs-table-active-color: #000;\r\n  --bs-table-hover-bg: #e5e6e7;\r\n  --bs-table-hover-color: #000;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-dark {\r\n  --bs-table-color: #fff;\r\n  --bs-table-bg: #212529;\r\n  --bs-table-border-color: #373b3e;\r\n  --bs-table-striped-bg: #2c3034;\r\n  --bs-table-striped-color: #fff;\r\n  --bs-table-active-bg: #373b3e;\r\n  --bs-table-active-color: #fff;\r\n  --bs-table-hover-bg: #323539;\r\n  --bs-table-hover-color: #fff;\r\n  color: var(--bs-table-color);\r\n  border-color: var(--bs-table-border-color);\r\n}\r\n\r\n.table-responsive, .datatable-wrapper .datatable-container {\r\n  overflow-x: auto;\r\n  -webkit-overflow-scrolling: touch;\r\n}\r\n\r\n@media (max-width: 575.98px) {\r\n  .table-responsive-sm {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .table-responsive-md {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .table-responsive-lg {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .table-responsive-xl {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .table-responsive-xxl {\r\n    overflow-x: auto;\r\n    -webkit-overflow-scrolling: touch;\r\n  }\r\n}\r\n.form-label {\r\n  margin-bottom: 0.5rem;\r\n}\r\n\r\n.col-form-label {\r\n  padding-top: calc(0.375rem + 1px);\r\n  padding-bottom: calc(0.375rem + 1px);\r\n  margin-bottom: 0;\r\n  font-size: inherit;\r\n  line-height: 1.5;\r\n}\r\n\r\n.col-form-label-lg {\r\n  padding-top: calc(0.5rem + 1px);\r\n  padding-bottom: calc(0.5rem + 1px);\r\n  font-size: 1.25rem;\r\n}\r\n\r\n.col-form-label-sm {\r\n  padding-top: calc(0.25rem + 1px);\r\n  padding-bottom: calc(0.25rem + 1px);\r\n  font-size: 0.875rem;\r\n}\r\n\r\n.form-text {\r\n  margin-top: 0.25rem;\r\n  font-size: 0.875em;\r\n  color: #6c757d;\r\n}\r\n\r\n.form-control, .datatable-input {\r\n  display: block;\r\n  width: 100%;\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  background-color: #fff;\r\n  background-clip: padding-box;\r\n  border: 1px solid #ced4da;\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n  border-radius: 0.375rem;\r\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-control, .datatable-input {\r\n    transition: none;\r\n  }\r\n}\r\n.form-control[type=file], [type=file].datatable-input {\r\n  overflow: hidden;\r\n}\r\n.form-control[type=file]:not(:disabled):not([readonly]), [type=file].datatable-input:not(:disabled):not([readonly]) {\r\n  cursor: pointer;\r\n}\r\n.form-control:focus, .datatable-input:focus {\r\n  color: #212529;\r\n  background-color: #fff;\r\n  border-color: #86b7fe;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-control::-webkit-date-and-time-value, .datatable-input::-webkit-date-and-time-value {\r\n  height: 1.5em;\r\n}\r\n.form-control::-moz-placeholder, .datatable-input::-moz-placeholder {\r\n  color: #6c757d;\r\n  opacity: 1;\r\n}\r\n.form-control::placeholder, .datatable-input::placeholder {\r\n  color: #6c757d;\r\n  opacity: 1;\r\n}\r\n.form-control:disabled, .datatable-input:disabled {\r\n  background-color: #e9ecef;\r\n  opacity: 1;\r\n}\r\n.form-control::file-selector-button, .datatable-input::file-selector-button {\r\n  padding: 0.375rem 0.75rem;\r\n  margin: -0.375rem -0.75rem;\r\n  -webkit-margin-end: 0.75rem;\r\n          margin-inline-end: 0.75rem;\r\n  color: #212529;\r\n  background-color: #e9ecef;\r\n  pointer-events: none;\r\n  border-color: inherit;\r\n  border-style: solid;\r\n  border-width: 0;\r\n  border-inline-end-width: 1px;\r\n  border-radius: 0;\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-control::file-selector-button, .datatable-input::file-selector-button {\r\n    transition: none;\r\n  }\r\n}\r\n.form-control:hover:not(:disabled):not([readonly])::file-selector-button, .datatable-input:hover:not(:disabled):not([readonly])::file-selector-button {\r\n  background-color: #dde0e3;\r\n}\r\n\r\n.form-control-plaintext {\r\n  display: block;\r\n  width: 100%;\r\n  padding: 0.375rem 0;\r\n  margin-bottom: 0;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  background-color: transparent;\r\n  border: solid transparent;\r\n  border-width: 1px 0;\r\n}\r\n.form-control-plaintext:focus {\r\n  outline: 0;\r\n}\r\n.form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {\r\n  padding-right: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n.form-control-sm {\r\n  min-height: calc(1.5em + 0.5rem + 2px);\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 0.875rem;\r\n  border-radius: 0.25rem;\r\n}\r\n.form-control-sm::file-selector-button {\r\n  padding: 0.25rem 0.5rem;\r\n  margin: -0.25rem -0.5rem;\r\n  -webkit-margin-end: 0.5rem;\r\n          margin-inline-end: 0.5rem;\r\n}\r\n\r\n.form-control-lg {\r\n  min-height: calc(1.5em + 1rem + 2px);\r\n  padding: 0.5rem 1rem;\r\n  font-size: 1.25rem;\r\n  border-radius: 0.5rem;\r\n}\r\n.form-control-lg::file-selector-button {\r\n  padding: 0.5rem 1rem;\r\n  margin: -0.5rem -1rem;\r\n  -webkit-margin-end: 1rem;\r\n          margin-inline-end: 1rem;\r\n}\r\n\r\ntextarea.form-control, textarea.datatable-input {\r\n  min-height: calc(1.5em + 0.75rem + 2px);\r\n}\r\ntextarea.form-control-sm {\r\n  min-height: calc(1.5em + 0.5rem + 2px);\r\n}\r\ntextarea.form-control-lg {\r\n  min-height: calc(1.5em + 1rem + 2px);\r\n}\r\n\r\n.form-control-color {\r\n  width: 3rem;\r\n  height: calc(1.5em + 0.75rem + 2px);\r\n  padding: 0.375rem;\r\n}\r\n.form-control-color:not(:disabled):not([readonly]) {\r\n  cursor: pointer;\r\n}\r\n.form-control-color::-moz-color-swatch {\r\n  border: 0 !important;\r\n  border-radius: 0.375rem;\r\n}\r\n.form-control-color::-webkit-color-swatch {\r\n  border-radius: 0.375rem;\r\n}\r\n.form-control-color.form-control-sm {\r\n  height: calc(1.5em + 0.5rem + 2px);\r\n}\r\n.form-control-color.form-control-lg {\r\n  height: calc(1.5em + 1rem + 2px);\r\n}\r\n\r\n.form-select, .datatable-selector {\r\n  display: block;\r\n  width: 100%;\r\n  padding: 0.375rem 2.25rem 0.375rem 0.75rem;\r\n  -moz-padding-start: calc(0.75rem - 3px);\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  background-color: #fff;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e\");\r\n  background-repeat: no-repeat;\r\n  background-position: right 0.75rem center;\r\n  background-size: 16px 12px;\r\n  border: 1px solid #ced4da;\r\n  border-radius: 0.375rem;\r\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-select, .datatable-selector {\r\n    transition: none;\r\n  }\r\n}\r\n.form-select:focus, .datatable-selector:focus {\r\n  border-color: #86b7fe;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-select[multiple], [multiple].datatable-selector, .form-select[size]:not([size=\"1\"]), [size].datatable-selector:not([size=\"1\"]) {\r\n  padding-right: 0.75rem;\r\n  background-image: none;\r\n}\r\n.form-select:disabled, .datatable-selector:disabled {\r\n  background-color: #e9ecef;\r\n}\r\n.form-select:-moz-focusring, .datatable-selector:-moz-focusring {\r\n  color: transparent;\r\n  text-shadow: 0 0 0 #212529;\r\n}\r\n\r\n.form-select-sm {\r\n  padding-top: 0.25rem;\r\n  padding-bottom: 0.25rem;\r\n  padding-left: 0.5rem;\r\n  font-size: 0.875rem;\r\n  border-radius: 0.25rem;\r\n}\r\n\r\n.form-select-lg {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  padding-left: 1rem;\r\n  font-size: 1.25rem;\r\n  border-radius: 0.5rem;\r\n}\r\n\r\n.form-check {\r\n  display: block;\r\n  min-height: 1.5rem;\r\n  padding-left: 1.5em;\r\n  margin-bottom: 0.125rem;\r\n}\r\n.form-check .form-check-input {\r\n  float: left;\r\n  margin-left: -1.5em;\r\n}\r\n\r\n.form-check-reverse {\r\n  padding-right: 1.5em;\r\n  padding-left: 0;\r\n  text-align: right;\r\n}\r\n.form-check-reverse .form-check-input {\r\n  float: right;\r\n  margin-right: -1.5em;\r\n  margin-left: 0;\r\n}\r\n\r\n.form-check-input {\r\n  width: 1em;\r\n  height: 1em;\r\n  margin-top: 0.25em;\r\n  vertical-align: top;\r\n  background-color: #fff;\r\n  background-repeat: no-repeat;\r\n  background-position: center;\r\n  background-size: contain;\r\n  border: 1px solid rgba(0, 0, 0, 0.25);\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n  -webkit-print-color-adjust: exact;\r\n          print-color-adjust: exact;\r\n}\r\n.form-check-input[type=checkbox] {\r\n  border-radius: 0.25em;\r\n}\r\n.form-check-input[type=radio] {\r\n  border-radius: 50%;\r\n}\r\n.form-check-input:active {\r\n  filter: brightness(90%);\r\n}\r\n.form-check-input:focus {\r\n  border-color: #86b7fe;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-check-input:checked {\r\n  background-color: #0d6efd;\r\n  border-color: #0d6efd;\r\n}\r\n.form-check-input:checked[type=checkbox] {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e\");\r\n}\r\n.form-check-input:checked[type=radio] {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e\");\r\n}\r\n.form-check-input[type=checkbox]:indeterminate {\r\n  background-color: #0d6efd;\r\n  border-color: #0d6efd;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e\");\r\n}\r\n.form-check-input:disabled {\r\n  pointer-events: none;\r\n  filter: none;\r\n  opacity: 0.5;\r\n}\r\n.form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {\r\n  cursor: default;\r\n  opacity: 0.5;\r\n}\r\n\r\n.form-switch {\r\n  padding-left: 2.5em;\r\n}\r\n.form-switch .form-check-input {\r\n  width: 2em;\r\n  margin-left: -2.5em;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e\");\r\n  background-position: left center;\r\n  border-radius: 2em;\r\n  transition: background-position 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-switch .form-check-input {\r\n    transition: none;\r\n  }\r\n}\r\n.form-switch .form-check-input:focus {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e\");\r\n}\r\n.form-switch .form-check-input:checked {\r\n  background-position: right center;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e\");\r\n}\r\n.form-switch.form-check-reverse {\r\n  padding-right: 2.5em;\r\n  padding-left: 0;\r\n}\r\n.form-switch.form-check-reverse .form-check-input {\r\n  margin-right: -2.5em;\r\n  margin-left: 0;\r\n}\r\n\r\n.form-check-inline {\r\n  display: inline-block;\r\n  margin-right: 1rem;\r\n}\r\n\r\n.btn-check {\r\n  position: absolute;\r\n  clip: rect(0, 0, 0, 0);\r\n  pointer-events: none;\r\n}\r\n.btn-check[disabled] + .btn, .btn-check:disabled + .btn {\r\n  pointer-events: none;\r\n  filter: none;\r\n  opacity: 0.65;\r\n}\r\n\r\n.form-range {\r\n  width: 100%;\r\n  height: 1.5rem;\r\n  padding: 0;\r\n  background-color: transparent;\r\n  -webkit-appearance: none;\r\n     -moz-appearance: none;\r\n          appearance: none;\r\n}\r\n.form-range:focus {\r\n  outline: 0;\r\n}\r\n.form-range:focus::-webkit-slider-thumb {\r\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-range:focus::-moz-range-thumb {\r\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n}\r\n.form-range::-moz-focus-outer {\r\n  border: 0;\r\n}\r\n.form-range::-webkit-slider-thumb {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  margin-top: -0.25rem;\r\n  background-color: #0d6efd;\r\n  border: 0;\r\n  border-radius: 1rem;\r\n  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  -webkit-appearance: none;\r\n          appearance: none;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-range::-webkit-slider-thumb {\r\n    -webkit-transition: none;\r\n    transition: none;\r\n  }\r\n}\r\n.form-range::-webkit-slider-thumb:active {\r\n  background-color: #b6d4fe;\r\n}\r\n.form-range::-webkit-slider-runnable-track {\r\n  width: 100%;\r\n  height: 0.5rem;\r\n  color: transparent;\r\n  cursor: pointer;\r\n  background-color: #dee2e6;\r\n  border-color: transparent;\r\n  border-radius: 1rem;\r\n}\r\n.form-range::-moz-range-thumb {\r\n  width: 1rem;\r\n  height: 1rem;\r\n  background-color: #0d6efd;\r\n  border: 0;\r\n  border-radius: 1rem;\r\n  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n  -moz-appearance: none;\r\n       appearance: none;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-range::-moz-range-thumb {\r\n    -moz-transition: none;\r\n    transition: none;\r\n  }\r\n}\r\n.form-range::-moz-range-thumb:active {\r\n  background-color: #b6d4fe;\r\n}\r\n.form-range::-moz-range-track {\r\n  width: 100%;\r\n  height: 0.5rem;\r\n  color: transparent;\r\n  cursor: pointer;\r\n  background-color: #dee2e6;\r\n  border-color: transparent;\r\n  border-radius: 1rem;\r\n}\r\n.form-range:disabled {\r\n  pointer-events: none;\r\n}\r\n.form-range:disabled::-webkit-slider-thumb {\r\n  background-color: #adb5bd;\r\n}\r\n.form-range:disabled::-moz-range-thumb {\r\n  background-color: #adb5bd;\r\n}\r\n\r\n.form-floating {\r\n  position: relative;\r\n}\r\n.form-floating > .form-control, .form-floating > .datatable-input,\r\n.form-floating > .form-control-plaintext,\r\n.form-floating > .form-select,\r\n.form-floating > .datatable-selector {\r\n  height: calc(3.5rem + 2px);\r\n  line-height: 1.25;\r\n}\r\n.form-floating > label {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  padding: 1rem 0.75rem;\r\n  overflow: hidden;\r\n  text-align: start;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n  pointer-events: none;\r\n  border: 1px solid transparent;\r\n  transform-origin: 0 0;\r\n  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .form-floating > label {\r\n    transition: none;\r\n  }\r\n}\r\n.form-floating > .form-control, .form-floating > .datatable-input,\r\n.form-floating > .form-control-plaintext {\r\n  padding: 1rem 0.75rem;\r\n}\r\n.form-floating > .form-control::-moz-placeholder, .form-floating > .datatable-input::-moz-placeholder, .form-floating > .form-control-plaintext::-moz-placeholder {\r\n  color: transparent;\r\n}\r\n.form-floating > .form-control::placeholder, .form-floating > .datatable-input::placeholder,\r\n.form-floating > .form-control-plaintext::placeholder {\r\n  color: transparent;\r\n}\r\n.form-floating > .form-control:not(:-moz-placeholder-shown), .form-floating > .datatable-input:not(:-moz-placeholder-shown), .form-floating > .form-control-plaintext:not(:-moz-placeholder-shown) {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-control:focus, .form-floating > .datatable-input:focus, .form-floating > .form-control:not(:placeholder-shown), .form-floating > .datatable-input:not(:placeholder-shown),\r\n.form-floating > .form-control-plaintext:focus,\r\n.form-floating > .form-control-plaintext:not(:placeholder-shown) {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-control:-webkit-autofill, .form-floating > .datatable-input:-webkit-autofill,\r\n.form-floating > .form-control-plaintext:-webkit-autofill {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-select, .form-floating > .datatable-selector {\r\n  padding-top: 1.625rem;\r\n  padding-bottom: 0.625rem;\r\n}\r\n.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label, .form-floating > .datatable-input:not(:-moz-placeholder-shown) ~ label {\r\n  opacity: 0.65;\r\n  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);\r\n}\r\n.form-floating > .form-control:focus ~ label, .form-floating > .datatable-input:focus ~ label,\r\n.form-floating > .form-control:not(:placeholder-shown) ~ label,\r\n.form-floating > .datatable-input:not(:placeholder-shown) ~ label,\r\n.form-floating > .form-control-plaintext ~ label,\r\n.form-floating > .form-select ~ label,\r\n.form-floating > .datatable-selector ~ label {\r\n  opacity: 0.65;\r\n  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);\r\n}\r\n.form-floating > .form-control:-webkit-autofill ~ label, .form-floating > .datatable-input:-webkit-autofill ~ label {\r\n  opacity: 0.65;\r\n  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);\r\n}\r\n.form-floating > .form-control-plaintext ~ label {\r\n  border-width: 1px 0;\r\n}\r\n\r\n.input-group {\r\n  position: relative;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: stretch;\r\n  width: 100%;\r\n}\r\n.input-group > .form-control, .input-group > .datatable-input,\r\n.input-group > .form-select,\r\n.input-group > .datatable-selector,\r\n.input-group > .form-floating {\r\n  position: relative;\r\n  flex: 1 1 auto;\r\n  width: 1%;\r\n  min-width: 0;\r\n}\r\n.input-group > .form-control:focus, .input-group > .datatable-input:focus,\r\n.input-group > .form-select:focus,\r\n.input-group > .datatable-selector:focus,\r\n.input-group > .form-floating:focus-within {\r\n  z-index: 5;\r\n}\r\n.input-group .btn {\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n.input-group .btn:focus {\r\n  z-index: 5;\r\n}\r\n\r\n.input-group-text {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  color: #212529;\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  background-color: #e9ecef;\r\n  border: 1px solid #ced4da;\r\n  border-radius: 0.375rem;\r\n}\r\n\r\n.input-group-lg > .form-control, .input-group-lg > .datatable-input,\r\n.input-group-lg > .form-select,\r\n.input-group-lg > .datatable-selector,\r\n.input-group-lg > .input-group-text,\r\n.input-group-lg > .btn {\r\n  padding: 0.5rem 1rem;\r\n  font-size: 1.25rem;\r\n  border-radius: 0.5rem;\r\n}\r\n\r\n.input-group-sm > .form-control, .input-group-sm > .datatable-input,\r\n.input-group-sm > .form-select,\r\n.input-group-sm > .datatable-selector,\r\n.input-group-sm > .input-group-text,\r\n.input-group-sm > .btn {\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 0.875rem;\r\n  border-radius: 0.25rem;\r\n}\r\n\r\n.input-group-lg > .form-select, .input-group-lg > .datatable-selector,\r\n.input-group-sm > .form-select,\r\n.input-group-sm > .datatable-selector {\r\n  padding-right: 3rem;\r\n}\r\n\r\n.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),\r\n.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3),\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control,\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .datatable-input,\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select,\r\n.input-group:not(.has-validation) > .form-floating:not(:last-child) > .datatable-selector {\r\n  border-top-right-radius: 0;\r\n  border-bottom-right-radius: 0;\r\n}\r\n.input-group.has-validation > :nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),\r\n.input-group.has-validation > .dropdown-toggle:nth-last-child(n+4),\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-control,\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .datatable-input,\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .form-select,\r\n.input-group.has-validation > .form-floating:nth-last-child(n+3) > .datatable-selector {\r\n  border-top-right-radius: 0;\r\n  border-bottom-right-radius: 0;\r\n}\r\n.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {\r\n  margin-left: -1px;\r\n  border-top-left-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n.input-group > .form-floating:not(:first-child) > .form-control, .input-group > .form-floating:not(:first-child) > .datatable-input,\r\n.input-group > .form-floating:not(:first-child) > .form-select,\r\n.input-group > .form-floating:not(:first-child) > .datatable-selector {\r\n  border-top-left-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n\r\n.valid-feedback {\r\n  display: none;\r\n  width: 100%;\r\n  margin-top: 0.25rem;\r\n  font-size: 0.875em;\r\n  color: #198754;\r\n}\r\n\r\n.valid-tooltip {\r\n  position: absolute;\r\n  top: 100%;\r\n  z-index: 5;\r\n  display: none;\r\n  max-width: 100%;\r\n  padding: 0.25rem 0.5rem;\r\n  margin-top: 0.1rem;\r\n  font-size: 0.875rem;\r\n  color: #fff;\r\n  background-color: rgba(25, 135, 84, 0.9);\r\n  border-radius: 0.375rem;\r\n}\r\n\r\n.was-validated :valid ~ .valid-feedback,\r\n.was-validated :valid ~ .valid-tooltip,\r\n.is-valid ~ .valid-feedback,\r\n.is-valid ~ .valid-tooltip {\r\n  display: block;\r\n}\r\n\r\n.was-validated .form-control:valid, .was-validated .datatable-input:valid, .form-control.is-valid, .is-valid.datatable-input {\r\n  border-color: #198754;\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e\");\r\n  background-repeat: no-repeat;\r\n  background-position: right calc(0.375em + 0.1875rem) center;\r\n  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-control:valid:focus, .was-validated .datatable-input:valid:focus, .form-control.is-valid:focus, .is-valid.datatable-input:focus {\r\n  border-color: #198754;\r\n  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);\r\n}\r\n\r\n.was-validated textarea.form-control:valid, .was-validated textarea.datatable-input:valid, textarea.form-control.is-valid, textarea.is-valid.datatable-input {\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);\r\n}\r\n\r\n.was-validated .form-select:valid, .was-validated .datatable-selector:valid, .form-select.is-valid, .is-valid.datatable-selector {\r\n  border-color: #198754;\r\n}\r\n.was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .datatable-selector:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size=\"1\"], .was-validated .datatable-selector:valid:not([multiple])[size=\"1\"], .form-select.is-valid:not([multiple]):not([size]), .is-valid.datatable-selector:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size=\"1\"], .is-valid.datatable-selector:not([multiple])[size=\"1\"] {\r\n  padding-right: 4.125rem;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e\"), url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e\");\r\n  background-position: right 0.75rem center, center right 2.25rem;\r\n  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-select:valid:focus, .was-validated .datatable-selector:valid:focus, .form-select.is-valid:focus, .is-valid.datatable-selector:focus {\r\n  border-color: #198754;\r\n  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);\r\n}\r\n\r\n.was-validated .form-control-color:valid, .form-control-color.is-valid {\r\n  width: calc(3rem + calc(1.5em + 0.75rem));\r\n}\r\n\r\n.was-validated .form-check-input:valid, .form-check-input.is-valid {\r\n  border-color: #198754;\r\n}\r\n.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {\r\n  background-color: #198754;\r\n}\r\n.was-validated .form-check-input:valid:focus, .form-check-input.is-valid:focus {\r\n  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);\r\n}\r\n.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {\r\n  color: #198754;\r\n}\r\n\r\n.form-check-inline .form-check-input ~ .valid-feedback {\r\n  margin-left: 0.5em;\r\n}\r\n\r\n.was-validated .input-group > .form-control:not(:focus):valid, .was-validated .input-group > .datatable-input:not(:focus):valid, .input-group > .form-control:not(:focus).is-valid, .input-group > .datatable-input:not(:focus).is-valid,\r\n.was-validated .input-group > .form-select:not(:focus):valid,\r\n.was-validated .input-group > .datatable-selector:not(:focus):valid,\r\n.input-group > .form-select:not(:focus).is-valid,\r\n.input-group > .datatable-selector:not(:focus).is-valid,\r\n.was-validated .input-group > .form-floating:not(:focus-within):valid,\r\n.input-group > .form-floating:not(:focus-within).is-valid {\r\n  z-index: 3;\r\n}\r\n\r\n.invalid-feedback {\r\n  display: none;\r\n  width: 100%;\r\n  margin-top: 0.25rem;\r\n  font-size: 0.875em;\r\n  color: #dc3545;\r\n}\r\n\r\n.invalid-tooltip {\r\n  position: absolute;\r\n  top: 100%;\r\n  z-index: 5;\r\n  display: none;\r\n  max-width: 100%;\r\n  padding: 0.25rem 0.5rem;\r\n  margin-top: 0.1rem;\r\n  font-size: 0.875rem;\r\n  color: #fff;\r\n  background-color: rgba(220, 53, 69, 0.9);\r\n  border-radius: 0.375rem;\r\n}\r\n\r\n.was-validated :invalid ~ .invalid-feedback,\r\n.was-validated :invalid ~ .invalid-tooltip,\r\n.is-invalid ~ .invalid-feedback,\r\n.is-invalid ~ .invalid-tooltip {\r\n  display: block;\r\n}\r\n\r\n.was-validated .form-control:invalid, .was-validated .datatable-input:invalid, .form-control.is-invalid, .is-invalid.datatable-input {\r\n  border-color: #dc3545;\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e\");\r\n  background-repeat: no-repeat;\r\n  background-position: right calc(0.375em + 0.1875rem) center;\r\n  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-control:invalid:focus, .was-validated .datatable-input:invalid:focus, .form-control.is-invalid:focus, .is-invalid.datatable-input:focus {\r\n  border-color: #dc3545;\r\n  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);\r\n}\r\n\r\n.was-validated textarea.form-control:invalid, .was-validated textarea.datatable-input:invalid, textarea.form-control.is-invalid, textarea.is-invalid.datatable-input {\r\n  padding-right: calc(1.5em + 0.75rem);\r\n  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);\r\n}\r\n\r\n.was-validated .form-select:invalid, .was-validated .datatable-selector:invalid, .form-select.is-invalid, .is-invalid.datatable-selector {\r\n  border-color: #dc3545;\r\n}\r\n.was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .datatable-selector:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size=\"1\"], .was-validated .datatable-selector:invalid:not([multiple])[size=\"1\"], .form-select.is-invalid:not([multiple]):not([size]), .is-invalid.datatable-selector:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size=\"1\"], .is-invalid.datatable-selector:not([multiple])[size=\"1\"] {\r\n  padding-right: 4.125rem;\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e\"), url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e\");\r\n  background-position: right 0.75rem center, center right 2.25rem;\r\n  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);\r\n}\r\n.was-validated .form-select:invalid:focus, .was-validated .datatable-selector:invalid:focus, .form-select.is-invalid:focus, .is-invalid.datatable-selector:focus {\r\n  border-color: #dc3545;\r\n  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);\r\n}\r\n\r\n.was-validated .form-control-color:invalid, .form-control-color.is-invalid {\r\n  width: calc(3rem + calc(1.5em + 0.75rem));\r\n}\r\n\r\n.was-validated .form-check-input:invalid, .form-check-input.is-invalid {\r\n  border-color: #dc3545;\r\n}\r\n.was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {\r\n  background-color: #dc3545;\r\n}\r\n.was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {\r\n  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);\r\n}\r\n.was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {\r\n  color: #dc3545;\r\n}\r\n\r\n.form-check-inline .form-check-input ~ .invalid-feedback {\r\n  margin-left: 0.5em;\r\n}\r\n\r\n.was-validated .input-group > .form-control:not(:focus):invalid, .was-validated .input-group > .datatable-input:not(:focus):invalid, .input-group > .form-control:not(:focus).is-invalid, .input-group > .datatable-input:not(:focus).is-invalid,\r\n.was-validated .input-group > .form-select:not(:focus):invalid,\r\n.was-validated .input-group > .datatable-selector:not(:focus):invalid,\r\n.input-group > .form-select:not(:focus).is-invalid,\r\n.input-group > .datatable-selector:not(:focus).is-invalid,\r\n.was-validated .input-group > .form-floating:not(:focus-within):invalid,\r\n.input-group > .form-floating:not(:focus-within).is-invalid {\r\n  z-index: 4;\r\n}\r\n\r\n.btn {\r\n  --bs-btn-padding-x: 0.75rem;\r\n  --bs-btn-padding-y: 0.375rem;\r\n  --bs-btn-font-family: ;\r\n  --bs-btn-font-size: 1rem;\r\n  --bs-btn-font-weight: 400;\r\n  --bs-btn-line-height: 1.5;\r\n  --bs-btn-color: #212529;\r\n  --bs-btn-bg: transparent;\r\n  --bs-btn-border-width: 1px;\r\n  --bs-btn-border-color: transparent;\r\n  --bs-btn-border-radius: 0.375rem;\r\n  --bs-btn-hover-border-color: transparent;\r\n  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  --bs-btn-disabled-opacity: 0.65;\r\n  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);\r\n  display: inline-block;\r\n  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);\r\n  font-family: var(--bs-btn-font-family);\r\n  font-size: var(--bs-btn-font-size);\r\n  font-weight: var(--bs-btn-font-weight);\r\n  line-height: var(--bs-btn-line-height);\r\n  color: var(--bs-btn-color);\r\n  text-align: center;\r\n  text-decoration: none;\r\n  vertical-align: middle;\r\n  cursor: pointer;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n          user-select: none;\r\n  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);\r\n  border-radius: var(--bs-btn-border-radius);\r\n  background-color: var(--bs-btn-bg);\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .btn {\r\n    transition: none;\r\n  }\r\n}\r\n.btn:hover {\r\n  color: var(--bs-btn-hover-color);\r\n  background-color: var(--bs-btn-hover-bg);\r\n  border-color: var(--bs-btn-hover-border-color);\r\n}\r\n.btn-check + .btn:hover {\r\n  color: var(--bs-btn-color);\r\n  background-color: var(--bs-btn-bg);\r\n  border-color: var(--bs-btn-border-color);\r\n}\r\n.btn:focus-visible {\r\n  color: var(--bs-btn-hover-color);\r\n  background-color: var(--bs-btn-hover-bg);\r\n  border-color: var(--bs-btn-hover-border-color);\r\n  outline: 0;\r\n  box-shadow: var(--bs-btn-focus-box-shadow);\r\n}\r\n.btn-check:focus-visible + .btn {\r\n  border-color: var(--bs-btn-hover-border-color);\r\n  outline: 0;\r\n  box-shadow: var(--bs-btn-focus-box-shadow);\r\n}\r\n.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {\r\n  color: var(--bs-btn-active-color);\r\n  background-color: var(--bs-btn-active-bg);\r\n  border-color: var(--bs-btn-active-border-color);\r\n}\r\n.btn-check:checked + .btn:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .btn:first-child:active:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible {\r\n  box-shadow: var(--bs-btn-focus-box-shadow);\r\n}\r\n.btn:disabled, .btn.disabled, fieldset:disabled .btn {\r\n  color: var(--bs-btn-disabled-color);\r\n  pointer-events: none;\r\n  background-color: var(--bs-btn-disabled-bg);\r\n  border-color: var(--bs-btn-disabled-border-color);\r\n  opacity: var(--bs-btn-disabled-opacity);\r\n}\r\n\r\n.btn-primary {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #0d6efd;\r\n  --bs-btn-border-color: #0d6efd;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #0b5ed7;\r\n  --bs-btn-hover-border-color: #0a58ca;\r\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #0a58ca;\r\n  --bs-btn-active-border-color: #0a53be;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #0d6efd;\r\n  --bs-btn-disabled-border-color: #0d6efd;\r\n}\r\n\r\n.btn-secondary {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #6c757d;\r\n  --bs-btn-border-color: #6c757d;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #5c636a;\r\n  --bs-btn-hover-border-color: #565e64;\r\n  --bs-btn-focus-shadow-rgb: 130, 138, 145;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #565e64;\r\n  --bs-btn-active-border-color: #51585e;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #6c757d;\r\n  --bs-btn-disabled-border-color: #6c757d;\r\n}\r\n\r\n.btn-success {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #198754;\r\n  --bs-btn-border-color: #198754;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #157347;\r\n  --bs-btn-hover-border-color: #146c43;\r\n  --bs-btn-focus-shadow-rgb: 60, 153, 110;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #146c43;\r\n  --bs-btn-active-border-color: #13653f;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #198754;\r\n  --bs-btn-disabled-border-color: #198754;\r\n}\r\n\r\n.btn-info {\r\n  --bs-btn-color: #000;\r\n  --bs-btn-bg: #0dcaf0;\r\n  --bs-btn-border-color: #0dcaf0;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #31d2f2;\r\n  --bs-btn-hover-border-color: #25cff2;\r\n  --bs-btn-focus-shadow-rgb: 11, 172, 204;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #3dd5f3;\r\n  --bs-btn-active-border-color: #25cff2;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #000;\r\n  --bs-btn-disabled-bg: #0dcaf0;\r\n  --bs-btn-disabled-border-color: #0dcaf0;\r\n}\r\n\r\n.btn-warning {\r\n  --bs-btn-color: #000;\r\n  --bs-btn-bg: #ffc107;\r\n  --bs-btn-border-color: #ffc107;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #ffca2c;\r\n  --bs-btn-hover-border-color: #ffc720;\r\n  --bs-btn-focus-shadow-rgb: 217, 164, 6;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #ffcd39;\r\n  --bs-btn-active-border-color: #ffc720;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #000;\r\n  --bs-btn-disabled-bg: #ffc107;\r\n  --bs-btn-disabled-border-color: #ffc107;\r\n}\r\n\r\n.btn-danger {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #dc3545;\r\n  --bs-btn-border-color: #dc3545;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #bb2d3b;\r\n  --bs-btn-hover-border-color: #b02a37;\r\n  --bs-btn-focus-shadow-rgb: 225, 83, 97;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #b02a37;\r\n  --bs-btn-active-border-color: #a52834;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #dc3545;\r\n  --bs-btn-disabled-border-color: #dc3545;\r\n}\r\n\r\n.btn-light {\r\n  --bs-btn-color: #000;\r\n  --bs-btn-bg: #f8f9fa;\r\n  --bs-btn-border-color: #f8f9fa;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #d3d4d5;\r\n  --bs-btn-hover-border-color: #c6c7c8;\r\n  --bs-btn-focus-shadow-rgb: 211, 212, 213;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #c6c7c8;\r\n  --bs-btn-active-border-color: #babbbc;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #000;\r\n  --bs-btn-disabled-bg: #f8f9fa;\r\n  --bs-btn-disabled-border-color: #f8f9fa;\r\n}\r\n\r\n.btn-dark {\r\n  --bs-btn-color: #fff;\r\n  --bs-btn-bg: #212529;\r\n  --bs-btn-border-color: #212529;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #424649;\r\n  --bs-btn-hover-border-color: #373b3e;\r\n  --bs-btn-focus-shadow-rgb: 66, 70, 73;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #4d5154;\r\n  --bs-btn-active-border-color: #373b3e;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #fff;\r\n  --bs-btn-disabled-bg: #212529;\r\n  --bs-btn-disabled-border-color: #212529;\r\n}\r\n\r\n.btn-outline-primary {\r\n  --bs-btn-color: #0d6efd;\r\n  --bs-btn-border-color: #0d6efd;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #0d6efd;\r\n  --bs-btn-hover-border-color: #0d6efd;\r\n  --bs-btn-focus-shadow-rgb: 13, 110, 253;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #0d6efd;\r\n  --bs-btn-active-border-color: #0d6efd;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #0d6efd;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #0d6efd;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-secondary {\r\n  --bs-btn-color: #6c757d;\r\n  --bs-btn-border-color: #6c757d;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #6c757d;\r\n  --bs-btn-hover-border-color: #6c757d;\r\n  --bs-btn-focus-shadow-rgb: 108, 117, 125;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #6c757d;\r\n  --bs-btn-active-border-color: #6c757d;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #6c757d;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #6c757d;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-success {\r\n  --bs-btn-color: #198754;\r\n  --bs-btn-border-color: #198754;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #198754;\r\n  --bs-btn-hover-border-color: #198754;\r\n  --bs-btn-focus-shadow-rgb: 25, 135, 84;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #198754;\r\n  --bs-btn-active-border-color: #198754;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #198754;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #198754;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-info {\r\n  --bs-btn-color: #0dcaf0;\r\n  --bs-btn-border-color: #0dcaf0;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #0dcaf0;\r\n  --bs-btn-hover-border-color: #0dcaf0;\r\n  --bs-btn-focus-shadow-rgb: 13, 202, 240;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #0dcaf0;\r\n  --bs-btn-active-border-color: #0dcaf0;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #0dcaf0;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #0dcaf0;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-warning {\r\n  --bs-btn-color: #ffc107;\r\n  --bs-btn-border-color: #ffc107;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #ffc107;\r\n  --bs-btn-hover-border-color: #ffc107;\r\n  --bs-btn-focus-shadow-rgb: 255, 193, 7;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #ffc107;\r\n  --bs-btn-active-border-color: #ffc107;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #ffc107;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #ffc107;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-danger {\r\n  --bs-btn-color: #dc3545;\r\n  --bs-btn-border-color: #dc3545;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #dc3545;\r\n  --bs-btn-hover-border-color: #dc3545;\r\n  --bs-btn-focus-shadow-rgb: 220, 53, 69;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #dc3545;\r\n  --bs-btn-active-border-color: #dc3545;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #dc3545;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #dc3545;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-light {\r\n  --bs-btn-color: #f8f9fa;\r\n  --bs-btn-border-color: #f8f9fa;\r\n  --bs-btn-hover-color: #000;\r\n  --bs-btn-hover-bg: #f8f9fa;\r\n  --bs-btn-hover-border-color: #f8f9fa;\r\n  --bs-btn-focus-shadow-rgb: 248, 249, 250;\r\n  --bs-btn-active-color: #000;\r\n  --bs-btn-active-bg: #f8f9fa;\r\n  --bs-btn-active-border-color: #f8f9fa;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #f8f9fa;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #f8f9fa;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-outline-dark {\r\n  --bs-btn-color: #212529;\r\n  --bs-btn-border-color: #212529;\r\n  --bs-btn-hover-color: #fff;\r\n  --bs-btn-hover-bg: #212529;\r\n  --bs-btn-hover-border-color: #212529;\r\n  --bs-btn-focus-shadow-rgb: 33, 37, 41;\r\n  --bs-btn-active-color: #fff;\r\n  --bs-btn-active-bg: #212529;\r\n  --bs-btn-active-border-color: #212529;\r\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\r\n  --bs-btn-disabled-color: #212529;\r\n  --bs-btn-disabled-bg: transparent;\r\n  --bs-btn-disabled-border-color: #212529;\r\n  --bs-gradient: none;\r\n}\r\n\r\n.btn-link {\r\n  --bs-btn-font-weight: 400;\r\n  --bs-btn-color: var(--bs-link-color);\r\n  --bs-btn-bg: transparent;\r\n  --bs-btn-border-color: transparent;\r\n  --bs-btn-hover-color: var(--bs-link-hover-color);\r\n  --bs-btn-hover-border-color: transparent;\r\n  --bs-btn-active-color: var(--bs-link-hover-color);\r\n  --bs-btn-active-border-color: transparent;\r\n  --bs-btn-disabled-color: #6c757d;\r\n  --bs-btn-disabled-border-color: transparent;\r\n  --bs-btn-box-shadow: none;\r\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\r\n  text-decoration: underline;\r\n}\r\n.btn-link:focus-visible {\r\n  color: var(--bs-btn-color);\r\n}\r\n.btn-link:hover {\r\n  color: var(--bs-btn-hover-color);\r\n}\r\n\r\n.btn-lg, .btn-group-lg > .btn {\r\n  --bs-btn-padding-y: 0.5rem;\r\n  --bs-btn-padding-x: 1rem;\r\n  --bs-btn-font-size: 1.25rem;\r\n  --bs-btn-border-radius: 0.5rem;\r\n}\r\n\r\n.btn-sm, .btn-group-sm > .btn {\r\n  --bs-btn-padding-y: 0.25rem;\r\n  --bs-btn-padding-x: 0.5rem;\r\n  --bs-btn-font-size: 0.875rem;\r\n  --bs-btn-border-radius: 0.25rem;\r\n}\r\n\r\n.fade {\r\n  transition: opacity 0.15s linear;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .fade {\r\n    transition: none;\r\n  }\r\n}\r\n.fade:not(.show) {\r\n  opacity: 0;\r\n}\r\n\r\n.collapse:not(.show) {\r\n  display: none;\r\n}\r\n\r\n.collapsing {\r\n  height: 0;\r\n  overflow: hidden;\r\n  transition: height 0.35s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .collapsing {\r\n    transition: none;\r\n  }\r\n}\r\n.collapsing.collapse-horizontal {\r\n  width: 0;\r\n  height: auto;\r\n  transition: width 0.35s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .collapsing.collapse-horizontal {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.dropup,\r\n.dropend,\r\n.dropdown,\r\n.dropstart,\r\n.dropup-center,\r\n.dropdown-center {\r\n  position: relative;\r\n}\r\n\r\n.dropdown-toggle {\r\n  white-space: nowrap;\r\n}\r\n.dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0.3em solid;\r\n  border-right: 0.3em solid transparent;\r\n  border-bottom: 0;\r\n  border-left: 0.3em solid transparent;\r\n}\r\n.dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n\r\n.dropdown-menu {\r\n  --bs-dropdown-zindex: 1000;\r\n  --bs-dropdown-min-width: 10rem;\r\n  --bs-dropdown-padding-x: 0;\r\n  --bs-dropdown-padding-y: 0.5rem;\r\n  --bs-dropdown-spacer: 0.125rem;\r\n  --bs-dropdown-font-size: 1rem;\r\n  --bs-dropdown-color: #212529;\r\n  --bs-dropdown-bg: #fff;\r\n  --bs-dropdown-border-color: var(--bs-border-color-translucent);\r\n  --bs-dropdown-border-radius: 0.375rem;\r\n  --bs-dropdown-border-width: 1px;\r\n  --bs-dropdown-inner-border-radius: calc(0.375rem - 1px);\r\n  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);\r\n  --bs-dropdown-divider-margin-y: 0.5rem;\r\n  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  --bs-dropdown-link-color: #212529;\r\n  --bs-dropdown-link-hover-color: #1e2125;\r\n  --bs-dropdown-link-hover-bg: #e9ecef;\r\n  --bs-dropdown-link-active-color: #fff;\r\n  --bs-dropdown-link-active-bg: #0d6efd;\r\n  --bs-dropdown-link-disabled-color: #adb5bd;\r\n  --bs-dropdown-item-padding-x: 1rem;\r\n  --bs-dropdown-item-padding-y: 0.25rem;\r\n  --bs-dropdown-header-color: #6c757d;\r\n  --bs-dropdown-header-padding-x: 1rem;\r\n  --bs-dropdown-header-padding-y: 0.5rem;\r\n  position: absolute;\r\n  z-index: var(--bs-dropdown-zindex);\r\n  display: none;\r\n  min-width: var(--bs-dropdown-min-width);\r\n  padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);\r\n  margin: 0;\r\n  font-size: var(--bs-dropdown-font-size);\r\n  color: var(--bs-dropdown-color);\r\n  text-align: left;\r\n  list-style: none;\r\n  background-color: var(--bs-dropdown-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);\r\n  border-radius: var(--bs-dropdown-border-radius);\r\n}\r\n.dropdown-menu[data-bs-popper] {\r\n  top: 100%;\r\n  left: 0;\r\n  margin-top: var(--bs-dropdown-spacer);\r\n}\r\n\r\n.dropdown-menu-start {\r\n  --bs-position: start;\r\n}\r\n.dropdown-menu-start[data-bs-popper] {\r\n  right: auto;\r\n  left: 0;\r\n}\r\n\r\n.dropdown-menu-end {\r\n  --bs-position: end;\r\n}\r\n.dropdown-menu-end[data-bs-popper] {\r\n  right: 0;\r\n  left: auto;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .dropdown-menu-sm-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-sm-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-sm-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-sm-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .dropdown-menu-md-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-md-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-md-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-md-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .dropdown-menu-lg-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-lg-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-lg-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-lg-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .dropdown-menu-xl-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-xl-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-xl-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-xl-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .dropdown-menu-xxl-start {\r\n    --bs-position: start;\r\n  }\r\n  .dropdown-menu-xxl-start[data-bs-popper] {\r\n    right: auto;\r\n    left: 0;\r\n  }\r\n  .dropdown-menu-xxl-end {\r\n    --bs-position: end;\r\n  }\r\n  .dropdown-menu-xxl-end[data-bs-popper] {\r\n    right: 0;\r\n    left: auto;\r\n  }\r\n}\r\n.dropup .dropdown-menu[data-bs-popper] {\r\n  top: auto;\r\n  bottom: 100%;\r\n  margin-top: 0;\r\n  margin-bottom: var(--bs-dropdown-spacer);\r\n}\r\n.dropup .dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0;\r\n  border-right: 0.3em solid transparent;\r\n  border-bottom: 0.3em solid;\r\n  border-left: 0.3em solid transparent;\r\n}\r\n.dropup .dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n\r\n.dropend .dropdown-menu[data-bs-popper] {\r\n  top: 0;\r\n  right: auto;\r\n  left: 100%;\r\n  margin-top: 0;\r\n  margin-left: var(--bs-dropdown-spacer);\r\n}\r\n.dropend .dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0.3em solid transparent;\r\n  border-right: 0;\r\n  border-bottom: 0.3em solid transparent;\r\n  border-left: 0.3em solid;\r\n}\r\n.dropend .dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n.dropend .dropdown-toggle::after {\r\n  vertical-align: 0;\r\n}\r\n\r\n.dropstart .dropdown-menu[data-bs-popper] {\r\n  top: 0;\r\n  right: 100%;\r\n  left: auto;\r\n  margin-top: 0;\r\n  margin-right: var(--bs-dropdown-spacer);\r\n}\r\n.dropstart .dropdown-toggle::after {\r\n  display: inline-block;\r\n  margin-left: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n}\r\n.dropstart .dropdown-toggle::after {\r\n  display: none;\r\n}\r\n.dropstart .dropdown-toggle::before {\r\n  display: inline-block;\r\n  margin-right: 0.255em;\r\n  vertical-align: 0.255em;\r\n  content: \"\";\r\n  border-top: 0.3em solid transparent;\r\n  border-right: 0.3em solid;\r\n  border-bottom: 0.3em solid transparent;\r\n}\r\n.dropstart .dropdown-toggle:empty::after {\r\n  margin-left: 0;\r\n}\r\n.dropstart .dropdown-toggle::before {\r\n  vertical-align: 0;\r\n}\r\n\r\n.dropdown-divider {\r\n  height: 0;\r\n  margin: var(--bs-dropdown-divider-margin-y) 0;\r\n  overflow: hidden;\r\n  border-top: 1px solid var(--bs-dropdown-divider-bg);\r\n  opacity: 1;\r\n}\r\n\r\n.dropdown-item {\r\n  display: block;\r\n  width: 100%;\r\n  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);\r\n  clear: both;\r\n  font-weight: 400;\r\n  color: var(--bs-dropdown-link-color);\r\n  text-align: inherit;\r\n  text-decoration: none;\r\n  white-space: nowrap;\r\n  background-color: transparent;\r\n  border: 0;\r\n}\r\n.dropdown-item:hover, .dropdown-item:focus {\r\n  color: var(--bs-dropdown-link-hover-color);\r\n  background-color: var(--bs-dropdown-link-hover-bg);\r\n}\r\n.dropdown-item.active, .dropdown-item:active {\r\n  color: var(--bs-dropdown-link-active-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-dropdown-link-active-bg);\r\n}\r\n.dropdown-item.disabled, .dropdown-item:disabled {\r\n  color: var(--bs-dropdown-link-disabled-color);\r\n  pointer-events: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.dropdown-menu.show {\r\n  display: block;\r\n}\r\n\r\n.dropdown-header {\r\n  display: block;\r\n  padding: var(--bs-dropdown-header-padding-y) var(--bs-dropdown-header-padding-x);\r\n  margin-bottom: 0;\r\n  font-size: 0.875rem;\r\n  color: var(--bs-dropdown-header-color);\r\n  white-space: nowrap;\r\n}\r\n\r\n.dropdown-item-text {\r\n  display: block;\r\n  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);\r\n  color: var(--bs-dropdown-link-color);\r\n}\r\n\r\n.dropdown-menu-dark {\r\n  --bs-dropdown-color: #dee2e6;\r\n  --bs-dropdown-bg: #343a40;\r\n  --bs-dropdown-border-color: var(--bs-border-color-translucent);\r\n  --bs-dropdown-box-shadow: ;\r\n  --bs-dropdown-link-color: #dee2e6;\r\n  --bs-dropdown-link-hover-color: #fff;\r\n  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);\r\n  --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);\r\n  --bs-dropdown-link-active-color: #fff;\r\n  --bs-dropdown-link-active-bg: #0d6efd;\r\n  --bs-dropdown-link-disabled-color: #adb5bd;\r\n  --bs-dropdown-header-color: #adb5bd;\r\n}\r\n\r\n.btn-group,\r\n.btn-group-vertical {\r\n  position: relative;\r\n  display: inline-flex;\r\n  vertical-align: middle;\r\n}\r\n.btn-group > .btn,\r\n.btn-group-vertical > .btn {\r\n  position: relative;\r\n  flex: 1 1 auto;\r\n}\r\n.btn-group > .btn-check:checked + .btn,\r\n.btn-group > .btn-check:focus + .btn,\r\n.btn-group > .btn:hover,\r\n.btn-group > .btn:focus,\r\n.btn-group > .btn:active,\r\n.btn-group > .btn.active,\r\n.btn-group-vertical > .btn-check:checked + .btn,\r\n.btn-group-vertical > .btn-check:focus + .btn,\r\n.btn-group-vertical > .btn:hover,\r\n.btn-group-vertical > .btn:focus,\r\n.btn-group-vertical > .btn:active,\r\n.btn-group-vertical > .btn.active {\r\n  z-index: 1;\r\n}\r\n\r\n.btn-toolbar {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: flex-start;\r\n}\r\n.btn-toolbar .input-group {\r\n  width: auto;\r\n}\r\n\r\n.btn-group {\r\n  border-radius: 0.375rem;\r\n}\r\n.btn-group > :not(.btn-check:first-child) + .btn,\r\n.btn-group > .btn-group:not(:first-child) {\r\n  margin-left: -1px;\r\n}\r\n.btn-group > .btn:not(:last-child):not(.dropdown-toggle),\r\n.btn-group > .btn.dropdown-toggle-split:first-child,\r\n.btn-group > .btn-group:not(:last-child) > .btn {\r\n  border-top-right-radius: 0;\r\n  border-bottom-right-radius: 0;\r\n}\r\n.btn-group > .btn:nth-child(n+3),\r\n.btn-group > :not(.btn-check) + .btn,\r\n.btn-group > .btn-group:not(:first-child) > .btn {\r\n  border-top-left-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n\r\n.dropdown-toggle-split {\r\n  padding-right: 0.5625rem;\r\n  padding-left: 0.5625rem;\r\n}\r\n.dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {\r\n  margin-left: 0;\r\n}\r\n.dropstart .dropdown-toggle-split::before {\r\n  margin-right: 0;\r\n}\r\n\r\n.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {\r\n  padding-right: 0.375rem;\r\n  padding-left: 0.375rem;\r\n}\r\n\r\n.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {\r\n  padding-right: 0.75rem;\r\n  padding-left: 0.75rem;\r\n}\r\n\r\n.btn-group-vertical {\r\n  flex-direction: column;\r\n  align-items: flex-start;\r\n  justify-content: center;\r\n}\r\n.btn-group-vertical > .btn,\r\n.btn-group-vertical > .btn-group {\r\n  width: 100%;\r\n}\r\n.btn-group-vertical > .btn:not(:first-child),\r\n.btn-group-vertical > .btn-group:not(:first-child) {\r\n  margin-top: -1px;\r\n}\r\n.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),\r\n.btn-group-vertical > .btn-group:not(:last-child) > .btn {\r\n  border-bottom-right-radius: 0;\r\n  border-bottom-left-radius: 0;\r\n}\r\n.btn-group-vertical > .btn ~ .btn,\r\n.btn-group-vertical > .btn-group:not(:first-child) > .btn {\r\n  border-top-left-radius: 0;\r\n  border-top-right-radius: 0;\r\n}\r\n\r\n.nav {\r\n  --bs-nav-link-padding-x: 1rem;\r\n  --bs-nav-link-padding-y: 0.5rem;\r\n  --bs-nav-link-font-weight: ;\r\n  --bs-nav-link-color: var(--bs-link-color);\r\n  --bs-nav-link-hover-color: var(--bs-link-hover-color);\r\n  --bs-nav-link-disabled-color: #6c757d;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding-left: 0;\r\n  margin-bottom: 0;\r\n  list-style: none;\r\n}\r\n\r\n.nav-link {\r\n  display: block;\r\n  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);\r\n  font-size: var(--bs-nav-link-font-size);\r\n  font-weight: var(--bs-nav-link-font-weight);\r\n  color: var(--bs-nav-link-color);\r\n  text-decoration: none;\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .nav-link {\r\n    transition: none;\r\n  }\r\n}\r\n.nav-link:hover, .nav-link:focus {\r\n  color: var(--bs-nav-link-hover-color);\r\n}\r\n.nav-link.disabled {\r\n  color: var(--bs-nav-link-disabled-color);\r\n  pointer-events: none;\r\n  cursor: default;\r\n}\r\n\r\n.nav-tabs {\r\n  --bs-nav-tabs-border-width: 1px;\r\n  --bs-nav-tabs-border-color: #dee2e6;\r\n  --bs-nav-tabs-border-radius: 0.375rem;\r\n  --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;\r\n  --bs-nav-tabs-link-active-color: #495057;\r\n  --bs-nav-tabs-link-active-bg: #fff;\r\n  --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;\r\n  border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);\r\n}\r\n.nav-tabs .nav-link {\r\n  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));\r\n  background: none;\r\n  border: var(--bs-nav-tabs-border-width) solid transparent;\r\n  border-top-left-radius: var(--bs-nav-tabs-border-radius);\r\n  border-top-right-radius: var(--bs-nav-tabs-border-radius);\r\n}\r\n.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {\r\n  isolation: isolate;\r\n  border-color: var(--bs-nav-tabs-link-hover-border-color);\r\n}\r\n.nav-tabs .nav-link.disabled, .nav-tabs .nav-link:disabled {\r\n  color: var(--bs-nav-link-disabled-color);\r\n  background-color: transparent;\r\n  border-color: transparent;\r\n}\r\n.nav-tabs .nav-link.active,\r\n.nav-tabs .nav-item.show .nav-link {\r\n  color: var(--bs-nav-tabs-link-active-color);\r\n  background-color: var(--bs-nav-tabs-link-active-bg);\r\n  border-color: var(--bs-nav-tabs-link-active-border-color);\r\n}\r\n.nav-tabs .dropdown-menu {\r\n  margin-top: calc(-1 * var(--bs-nav-tabs-border-width));\r\n  border-top-left-radius: 0;\r\n  border-top-right-radius: 0;\r\n}\r\n\r\n.nav-pills {\r\n  --bs-nav-pills-border-radius: 0.375rem;\r\n  --bs-nav-pills-link-active-color: #fff;\r\n  --bs-nav-pills-link-active-bg: #0d6efd;\r\n}\r\n.nav-pills .nav-link {\r\n  background: none;\r\n  border: 0;\r\n  border-radius: var(--bs-nav-pills-border-radius);\r\n}\r\n.nav-pills .nav-link:disabled {\r\n  color: var(--bs-nav-link-disabled-color);\r\n  background-color: transparent;\r\n  border-color: transparent;\r\n}\r\n.nav-pills .nav-link.active,\r\n.nav-pills .show > .nav-link {\r\n  color: var(--bs-nav-pills-link-active-color);\r\n  background-color: var(--bs-nav-pills-link-active-bg);\r\n}\r\n\r\n.nav-fill > .nav-link,\r\n.nav-fill .nav-item {\r\n  flex: 1 1 auto;\r\n  text-align: center;\r\n}\r\n\r\n.nav-justified > .nav-link,\r\n.nav-justified .nav-item {\r\n  flex-basis: 0;\r\n  flex-grow: 1;\r\n  text-align: center;\r\n}\r\n\r\n.nav-fill .nav-item .nav-link,\r\n.nav-justified .nav-item .nav-link {\r\n  width: 100%;\r\n}\r\n\r\n.tab-content > .tab-pane {\r\n  display: none;\r\n}\r\n.tab-content > .active {\r\n  display: block;\r\n}\r\n\r\n.navbar {\r\n  --bs-navbar-padding-x: 0;\r\n  --bs-navbar-padding-y: 0.5rem;\r\n  --bs-navbar-color: rgba(0, 0, 0, 0.55);\r\n  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);\r\n  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);\r\n  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);\r\n  --bs-navbar-brand-padding-y: 0.3125rem;\r\n  --bs-navbar-brand-margin-end: 1rem;\r\n  --bs-navbar-brand-font-size: 1.25rem;\r\n  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);\r\n  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);\r\n  --bs-navbar-nav-link-padding-x: 0.5rem;\r\n  --bs-navbar-toggler-padding-y: 0.25rem;\r\n  --bs-navbar-toggler-padding-x: 0.75rem;\r\n  --bs-navbar-toggler-font-size: 1.25rem;\r\n  --bs-navbar-toggler-icon-bg: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\");\r\n  --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);\r\n  --bs-navbar-toggler-border-radius: 0.375rem;\r\n  --bs-navbar-toggler-focus-width: 0.25rem;\r\n  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;\r\n  position: relative;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);\r\n}\r\n.navbar > .container,\r\n.navbar > .container-fluid,\r\n.navbar > .container-sm,\r\n.navbar > .container-md,\r\n.navbar > .container-lg,\r\n.navbar > .container-xl,\r\n.navbar > .container-xxl {\r\n  display: flex;\r\n  flex-wrap: inherit;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n.navbar-brand {\r\n  padding-top: var(--bs-navbar-brand-padding-y);\r\n  padding-bottom: var(--bs-navbar-brand-padding-y);\r\n  margin-right: var(--bs-navbar-brand-margin-end);\r\n  font-size: var(--bs-navbar-brand-font-size);\r\n  color: var(--bs-navbar-brand-color);\r\n  text-decoration: none;\r\n  white-space: nowrap;\r\n}\r\n.navbar-brand:hover, .navbar-brand:focus {\r\n  color: var(--bs-navbar-brand-hover-color);\r\n}\r\n\r\n.navbar-nav {\r\n  --bs-nav-link-padding-x: 0;\r\n  --bs-nav-link-padding-y: 0.5rem;\r\n  --bs-nav-link-font-weight: ;\r\n  --bs-nav-link-color: var(--bs-navbar-color);\r\n  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);\r\n  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding-left: 0;\r\n  margin-bottom: 0;\r\n  list-style: none;\r\n}\r\n.navbar-nav .show > .nav-link,\r\n.navbar-nav .nav-link.active {\r\n  color: var(--bs-navbar-active-color);\r\n}\r\n.navbar-nav .dropdown-menu {\r\n  position: static;\r\n}\r\n\r\n.navbar-text {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  color: var(--bs-navbar-color);\r\n}\r\n.navbar-text a,\r\n.navbar-text a:hover,\r\n.navbar-text a:focus {\r\n  color: var(--bs-navbar-active-color);\r\n}\r\n\r\n.navbar-collapse {\r\n  flex-basis: 100%;\r\n  flex-grow: 1;\r\n  align-items: center;\r\n}\r\n\r\n.navbar-toggler {\r\n  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);\r\n  font-size: var(--bs-navbar-toggler-font-size);\r\n  line-height: 1;\r\n  color: var(--bs-navbar-color);\r\n  background-color: transparent;\r\n  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);\r\n  border-radius: var(--bs-navbar-toggler-border-radius);\r\n  transition: var(--bs-navbar-toggler-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .navbar-toggler {\r\n    transition: none;\r\n  }\r\n}\r\n.navbar-toggler:hover {\r\n  text-decoration: none;\r\n}\r\n.navbar-toggler:focus {\r\n  text-decoration: none;\r\n  outline: 0;\r\n  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);\r\n}\r\n\r\n.navbar-toggler-icon {\r\n  display: inline-block;\r\n  width: 1.5em;\r\n  height: 1.5em;\r\n  vertical-align: middle;\r\n  background-image: var(--bs-navbar-toggler-icon-bg);\r\n  background-repeat: no-repeat;\r\n  background-position: center;\r\n  background-size: 100%;\r\n}\r\n\r\n.navbar-nav-scroll {\r\n  max-height: var(--bs-scroll-height, 75vh);\r\n  overflow-y: auto;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .navbar-expand-sm {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-sm .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-sm .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-sm .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-sm .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-sm .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-sm .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-sm .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-sm .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-sm .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .navbar-expand-md {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-md .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-md .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-md .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-md .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-md .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-md .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-md .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-md .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-md .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .navbar-expand-lg {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-lg .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-lg .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-lg .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-lg .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-lg .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-lg .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-lg .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-lg .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-lg .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .navbar-expand-xl {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-xl .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-xl .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-xl .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-xl .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-xl .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-xl .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xl .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-xl .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xl .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .navbar-expand-xxl {\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n  }\r\n  .navbar-expand-xxl .navbar-nav {\r\n    flex-direction: row;\r\n  }\r\n  .navbar-expand-xxl .navbar-nav .dropdown-menu {\r\n    position: absolute;\r\n  }\r\n  .navbar-expand-xxl .navbar-nav .nav-link {\r\n    padding-right: var(--bs-navbar-nav-link-padding-x);\r\n    padding-left: var(--bs-navbar-nav-link-padding-x);\r\n  }\r\n  .navbar-expand-xxl .navbar-nav-scroll {\r\n    overflow: visible;\r\n  }\r\n  .navbar-expand-xxl .navbar-collapse {\r\n    display: flex !important;\r\n    flex-basis: auto;\r\n  }\r\n  .navbar-expand-xxl .navbar-toggler {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xxl .offcanvas {\r\n    position: static;\r\n    z-index: auto;\r\n    flex-grow: 1;\r\n    width: auto !important;\r\n    height: auto !important;\r\n    visibility: visible !important;\r\n    background-color: transparent !important;\r\n    border: 0 !important;\r\n    transform: none !important;\r\n    transition: none;\r\n  }\r\n  .navbar-expand-xxl .offcanvas .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .navbar-expand-xxl .offcanvas .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n  }\r\n}\r\n.navbar-expand {\r\n  flex-wrap: nowrap;\r\n  justify-content: flex-start;\r\n}\r\n.navbar-expand .navbar-nav {\r\n  flex-direction: row;\r\n}\r\n.navbar-expand .navbar-nav .dropdown-menu {\r\n  position: absolute;\r\n}\r\n.navbar-expand .navbar-nav .nav-link {\r\n  padding-right: var(--bs-navbar-nav-link-padding-x);\r\n  padding-left: var(--bs-navbar-nav-link-padding-x);\r\n}\r\n.navbar-expand .navbar-nav-scroll {\r\n  overflow: visible;\r\n}\r\n.navbar-expand .navbar-collapse {\r\n  display: flex !important;\r\n  flex-basis: auto;\r\n}\r\n.navbar-expand .navbar-toggler {\r\n  display: none;\r\n}\r\n.navbar-expand .offcanvas {\r\n  position: static;\r\n  z-index: auto;\r\n  flex-grow: 1;\r\n  width: auto !important;\r\n  height: auto !important;\r\n  visibility: visible !important;\r\n  background-color: transparent !important;\r\n  border: 0 !important;\r\n  transform: none !important;\r\n  transition: none;\r\n}\r\n.navbar-expand .offcanvas .offcanvas-header {\r\n  display: none;\r\n}\r\n.navbar-expand .offcanvas .offcanvas-body {\r\n  display: flex;\r\n  flex-grow: 0;\r\n  padding: 0;\r\n  overflow-y: visible;\r\n}\r\n\r\n.navbar-dark {\r\n  --bs-navbar-color: rgba(255, 255, 255, 0.55);\r\n  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);\r\n  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);\r\n  --bs-navbar-active-color: #fff;\r\n  --bs-navbar-brand-color: #fff;\r\n  --bs-navbar-brand-hover-color: #fff;\r\n  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);\r\n  --bs-navbar-toggler-icon-bg: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\");\r\n}\r\n\r\n.card {\r\n  --bs-card-spacer-y: 1rem;\r\n  --bs-card-spacer-x: 1rem;\r\n  --bs-card-title-spacer-y: 0.5rem;\r\n  --bs-card-border-width: 1px;\r\n  --bs-card-border-color: var(--bs-border-color-translucent);\r\n  --bs-card-border-radius: 0.375rem;\r\n  --bs-card-box-shadow: ;\r\n  --bs-card-inner-border-radius: calc(0.375rem - 1px);\r\n  --bs-card-cap-padding-y: 0.5rem;\r\n  --bs-card-cap-padding-x: 1rem;\r\n  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);\r\n  --bs-card-cap-color: ;\r\n  --bs-card-height: ;\r\n  --bs-card-color: ;\r\n  --bs-card-bg: #fff;\r\n  --bs-card-img-overlay-padding: 1rem;\r\n  --bs-card-group-margin: 0.75rem;\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 0;\r\n  height: var(--bs-card-height);\r\n  word-wrap: break-word;\r\n  background-color: var(--bs-card-bg);\r\n  background-clip: border-box;\r\n  border: var(--bs-card-border-width) solid var(--bs-card-border-color);\r\n  border-radius: var(--bs-card-border-radius);\r\n}\r\n.card > hr {\r\n  margin-right: 0;\r\n  margin-left: 0;\r\n}\r\n.card > .list-group {\r\n  border-top: inherit;\r\n  border-bottom: inherit;\r\n}\r\n.card > .list-group:first-child {\r\n  border-top-width: 0;\r\n  border-top-left-radius: var(--bs-card-inner-border-radius);\r\n  border-top-right-radius: var(--bs-card-inner-border-radius);\r\n}\r\n.card > .list-group:last-child {\r\n  border-bottom-width: 0;\r\n  border-bottom-right-radius: var(--bs-card-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-card-inner-border-radius);\r\n}\r\n.card > .card-header + .list-group,\r\n.card > .list-group + .card-footer {\r\n  border-top: 0;\r\n}\r\n\r\n.card-body {\r\n  flex: 1 1 auto;\r\n  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);\r\n  color: var(--bs-card-color);\r\n}\r\n\r\n.card-title {\r\n  margin-bottom: var(--bs-card-title-spacer-y);\r\n}\r\n\r\n.card-subtitle {\r\n  margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));\r\n  margin-bottom: 0;\r\n}\r\n\r\n.card-text:last-child {\r\n  margin-bottom: 0;\r\n}\r\n\r\n.card-link + .card-link {\r\n  margin-left: var(--bs-card-spacer-x);\r\n}\r\n\r\n.card-header {\r\n  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);\r\n  margin-bottom: 0;\r\n  color: var(--bs-card-cap-color);\r\n  background-color: var(--bs-card-cap-bg);\r\n  border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);\r\n}\r\n.card-header:first-child {\r\n  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;\r\n}\r\n\r\n.card-footer {\r\n  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);\r\n  color: var(--bs-card-cap-color);\r\n  background-color: var(--bs-card-cap-bg);\r\n  border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);\r\n}\r\n.card-footer:last-child {\r\n  border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-header-tabs {\r\n  margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n  margin-bottom: calc(-1 * var(--bs-card-cap-padding-y));\r\n  margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n  border-bottom: 0;\r\n}\r\n.card-header-tabs .nav-link.active {\r\n  background-color: var(--bs-card-bg);\r\n  border-bottom-color: var(--bs-card-bg);\r\n}\r\n\r\n.card-header-pills {\r\n  margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n  margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));\r\n}\r\n\r\n.card-img-overlay {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  padding: var(--bs-card-img-overlay-padding);\r\n  border-radius: var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-img,\r\n.card-img-top,\r\n.card-img-bottom {\r\n  width: 100%;\r\n}\r\n\r\n.card-img,\r\n.card-img-top {\r\n  border-top-left-radius: var(--bs-card-inner-border-radius);\r\n  border-top-right-radius: var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-img,\r\n.card-img-bottom {\r\n  border-bottom-right-radius: var(--bs-card-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-card-inner-border-radius);\r\n}\r\n\r\n.card-group > .card {\r\n  margin-bottom: var(--bs-card-group-margin);\r\n}\r\n@media (min-width: 576px) {\r\n  .card-group {\r\n    display: flex;\r\n    flex-flow: row wrap;\r\n  }\r\n  .card-group > .card {\r\n    flex: 1 0 0%;\r\n    margin-bottom: 0;\r\n  }\r\n  .card-group > .card + .card {\r\n    margin-left: 0;\r\n    border-left: 0;\r\n  }\r\n  .card-group > .card:not(:last-child) {\r\n    border-top-right-radius: 0;\r\n    border-bottom-right-radius: 0;\r\n  }\r\n  .card-group > .card:not(:last-child) .card-img-top,\r\n  .card-group > .card:not(:last-child) .card-header {\r\n    border-top-right-radius: 0;\r\n  }\r\n  .card-group > .card:not(:last-child) .card-img-bottom,\r\n  .card-group > .card:not(:last-child) .card-footer {\r\n    border-bottom-right-radius: 0;\r\n  }\r\n  .card-group > .card:not(:first-child) {\r\n    border-top-left-radius: 0;\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .card-group > .card:not(:first-child) .card-img-top,\r\n  .card-group > .card:not(:first-child) .card-header {\r\n    border-top-left-radius: 0;\r\n  }\r\n  .card-group > .card:not(:first-child) .card-img-bottom,\r\n  .card-group > .card:not(:first-child) .card-footer {\r\n    border-bottom-left-radius: 0;\r\n  }\r\n}\r\n\r\n.accordion {\r\n  --bs-accordion-color: #212529;\r\n  --bs-accordion-bg: #fff;\r\n  --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;\r\n  --bs-accordion-border-color: var(--bs-border-color);\r\n  --bs-accordion-border-width: 1px;\r\n  --bs-accordion-border-radius: 0.375rem;\r\n  --bs-accordion-inner-border-radius: calc(0.375rem - 1px);\r\n  --bs-accordion-btn-padding-x: 1.25rem;\r\n  --bs-accordion-btn-padding-y: 1rem;\r\n  --bs-accordion-btn-color: #212529;\r\n  --bs-accordion-btn-bg: var(--bs-accordion-bg);\r\n  --bs-accordion-btn-icon: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e\");\r\n  --bs-accordion-btn-icon-width: 1.25rem;\r\n  --bs-accordion-btn-icon-transform: rotate(-180deg);\r\n  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;\r\n  --bs-accordion-btn-active-icon: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e\");\r\n  --bs-accordion-btn-focus-border-color: #86b7fe;\r\n  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n  --bs-accordion-body-padding-x: 1.25rem;\r\n  --bs-accordion-body-padding-y: 1rem;\r\n  --bs-accordion-active-color: #0c63e4;\r\n  --bs-accordion-active-bg: #e7f1ff;\r\n}\r\n\r\n.accordion-button {\r\n  position: relative;\r\n  display: flex;\r\n  align-items: center;\r\n  width: 100%;\r\n  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);\r\n  font-size: 1rem;\r\n  color: var(--bs-accordion-btn-color);\r\n  text-align: left;\r\n  background-color: var(--bs-accordion-btn-bg);\r\n  border: 0;\r\n  border-radius: 0;\r\n  overflow-anchor: none;\r\n  transition: var(--bs-accordion-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .accordion-button {\r\n    transition: none;\r\n  }\r\n}\r\n.accordion-button:not(.collapsed) {\r\n  color: var(--bs-accordion-active-color);\r\n  background-color: var(--bs-accordion-active-bg);\r\n  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);\r\n}\r\n.accordion-button:not(.collapsed)::after {\r\n  background-image: var(--bs-accordion-btn-active-icon);\r\n  transform: var(--bs-accordion-btn-icon-transform);\r\n}\r\n.accordion-button::after {\r\n  flex-shrink: 0;\r\n  width: var(--bs-accordion-btn-icon-width);\r\n  height: var(--bs-accordion-btn-icon-width);\r\n  margin-left: auto;\r\n  content: \"\";\r\n  background-image: var(--bs-accordion-btn-icon);\r\n  background-repeat: no-repeat;\r\n  background-size: var(--bs-accordion-btn-icon-width);\r\n  transition: var(--bs-accordion-btn-icon-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .accordion-button::after {\r\n    transition: none;\r\n  }\r\n}\r\n.accordion-button:hover {\r\n  z-index: 2;\r\n}\r\n.accordion-button:focus {\r\n  z-index: 3;\r\n  border-color: var(--bs-accordion-btn-focus-border-color);\r\n  outline: 0;\r\n  box-shadow: var(--bs-accordion-btn-focus-box-shadow);\r\n}\r\n\r\n.accordion-header {\r\n  margin-bottom: 0;\r\n}\r\n\r\n.accordion-item {\r\n  color: var(--bs-accordion-color);\r\n  background-color: var(--bs-accordion-bg);\r\n  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);\r\n}\r\n.accordion-item:first-of-type {\r\n  border-top-left-radius: var(--bs-accordion-border-radius);\r\n  border-top-right-radius: var(--bs-accordion-border-radius);\r\n}\r\n.accordion-item:first-of-type .accordion-button {\r\n  border-top-left-radius: var(--bs-accordion-inner-border-radius);\r\n  border-top-right-radius: var(--bs-accordion-inner-border-radius);\r\n}\r\n.accordion-item:not(:first-of-type) {\r\n  border-top: 0;\r\n}\r\n.accordion-item:last-of-type {\r\n  border-bottom-right-radius: var(--bs-accordion-border-radius);\r\n  border-bottom-left-radius: var(--bs-accordion-border-radius);\r\n}\r\n.accordion-item:last-of-type .accordion-button.collapsed {\r\n  border-bottom-right-radius: var(--bs-accordion-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-accordion-inner-border-radius);\r\n}\r\n.accordion-item:last-of-type .accordion-collapse {\r\n  border-bottom-right-radius: var(--bs-accordion-border-radius);\r\n  border-bottom-left-radius: var(--bs-accordion-border-radius);\r\n}\r\n\r\n.accordion-body {\r\n  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);\r\n}\r\n\r\n.accordion-flush .accordion-collapse {\r\n  border-width: 0;\r\n}\r\n.accordion-flush .accordion-item {\r\n  border-right: 0;\r\n  border-left: 0;\r\n  border-radius: 0;\r\n}\r\n.accordion-flush .accordion-item:first-child {\r\n  border-top: 0;\r\n}\r\n.accordion-flush .accordion-item:last-child {\r\n  border-bottom: 0;\r\n}\r\n.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {\r\n  border-radius: 0;\r\n}\r\n\r\n.breadcrumb {\r\n  --bs-breadcrumb-padding-x: 0;\r\n  --bs-breadcrumb-padding-y: 0;\r\n  --bs-breadcrumb-margin-bottom: 1rem;\r\n  --bs-breadcrumb-bg: ;\r\n  --bs-breadcrumb-border-radius: ;\r\n  --bs-breadcrumb-divider-color: #6c757d;\r\n  --bs-breadcrumb-item-padding-x: 0.5rem;\r\n  --bs-breadcrumb-item-active-color: #6c757d;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);\r\n  margin-bottom: var(--bs-breadcrumb-margin-bottom);\r\n  font-size: var(--bs-breadcrumb-font-size);\r\n  list-style: none;\r\n  background-color: var(--bs-breadcrumb-bg);\r\n  border-radius: var(--bs-breadcrumb-border-radius);\r\n}\r\n\r\n.breadcrumb-item + .breadcrumb-item {\r\n  padding-left: var(--bs-breadcrumb-item-padding-x);\r\n}\r\n.breadcrumb-item + .breadcrumb-item::before {\r\n  float: left;\r\n  padding-right: var(--bs-breadcrumb-item-padding-x);\r\n  color: var(--bs-breadcrumb-divider-color);\r\n  content: var(--bs-breadcrumb-divider, \"/\") /* rtl: var(--bs-breadcrumb-divider, \"/\") */;\r\n}\r\n.breadcrumb-item.active {\r\n  color: var(--bs-breadcrumb-item-active-color);\r\n}\r\n\r\n.pagination, .datatable-pagination ul {\r\n  --bs-pagination-padding-x: 0.75rem;\r\n  --bs-pagination-padding-y: 0.375rem;\r\n  --bs-pagination-font-size: 1rem;\r\n  --bs-pagination-color: var(--bs-link-color);\r\n  --bs-pagination-bg: #fff;\r\n  --bs-pagination-border-width: 1px;\r\n  --bs-pagination-border-color: #dee2e6;\r\n  --bs-pagination-border-radius: 0.375rem;\r\n  --bs-pagination-hover-color: var(--bs-link-hover-color);\r\n  --bs-pagination-hover-bg: #e9ecef;\r\n  --bs-pagination-hover-border-color: #dee2e6;\r\n  --bs-pagination-focus-color: var(--bs-link-hover-color);\r\n  --bs-pagination-focus-bg: #e9ecef;\r\n  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n  --bs-pagination-active-color: #fff;\r\n  --bs-pagination-active-bg: #0d6efd;\r\n  --bs-pagination-active-border-color: #0d6efd;\r\n  --bs-pagination-disabled-color: #6c757d;\r\n  --bs-pagination-disabled-bg: #fff;\r\n  --bs-pagination-disabled-border-color: #dee2e6;\r\n  display: flex;\r\n  padding-left: 0;\r\n  list-style: none;\r\n}\r\n\r\n.page-link, .datatable-pagination a {\r\n  position: relative;\r\n  display: block;\r\n  padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);\r\n  font-size: var(--bs-pagination-font-size);\r\n  color: var(--bs-pagination-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-pagination-bg);\r\n  border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);\r\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .page-link, .datatable-pagination a {\r\n    transition: none;\r\n  }\r\n}\r\n.page-link:hover, .datatable-pagination a:hover {\r\n  z-index: 2;\r\n  color: var(--bs-pagination-hover-color);\r\n  background-color: var(--bs-pagination-hover-bg);\r\n  border-color: var(--bs-pagination-hover-border-color);\r\n}\r\n.page-link:focus, .datatable-pagination a:focus {\r\n  z-index: 3;\r\n  color: var(--bs-pagination-focus-color);\r\n  background-color: var(--bs-pagination-focus-bg);\r\n  outline: 0;\r\n  box-shadow: var(--bs-pagination-focus-box-shadow);\r\n}\r\n.page-link.active, .datatable-pagination a.active, .active > .page-link, .datatable-pagination .active > a {\r\n  z-index: 3;\r\n  color: var(--bs-pagination-active-color);\r\n  background-color: var(--bs-pagination-active-bg);\r\n  border-color: var(--bs-pagination-active-border-color);\r\n}\r\n.page-link.disabled, .datatable-pagination a.disabled, .disabled > .page-link, .datatable-pagination .disabled > a {\r\n  color: var(--bs-pagination-disabled-color);\r\n  pointer-events: none;\r\n  background-color: var(--bs-pagination-disabled-bg);\r\n  border-color: var(--bs-pagination-disabled-border-color);\r\n}\r\n\r\n.page-item:not(:first-child) .page-link, .page-item:not(:first-child) .datatable-pagination a, .datatable-pagination .page-item:not(:first-child) a, .datatable-pagination li:not(:first-child) .page-link, .datatable-pagination li:not(:first-child) a {\r\n  margin-left: -1px;\r\n}\r\n.page-item:first-child .page-link, .page-item:first-child .datatable-pagination a, .datatable-pagination .page-item:first-child a, .datatable-pagination li:first-child .page-link, .datatable-pagination li:first-child a {\r\n  border-top-left-radius: var(--bs-pagination-border-radius);\r\n  border-bottom-left-radius: var(--bs-pagination-border-radius);\r\n}\r\n.page-item:last-child .page-link, .page-item:last-child .datatable-pagination a, .datatable-pagination .page-item:last-child a, .datatable-pagination li:last-child .page-link, .datatable-pagination li:last-child a {\r\n  border-top-right-radius: var(--bs-pagination-border-radius);\r\n  border-bottom-right-radius: var(--bs-pagination-border-radius);\r\n}\r\n\r\n.pagination-lg {\r\n  --bs-pagination-padding-x: 1.5rem;\r\n  --bs-pagination-padding-y: 0.75rem;\r\n  --bs-pagination-font-size: 1.25rem;\r\n  --bs-pagination-border-radius: 0.5rem;\r\n}\r\n\r\n.pagination-sm {\r\n  --bs-pagination-padding-x: 0.5rem;\r\n  --bs-pagination-padding-y: 0.25rem;\r\n  --bs-pagination-font-size: 0.875rem;\r\n  --bs-pagination-border-radius: 0.25rem;\r\n}\r\n\r\n.badge {\r\n  --bs-badge-padding-x: 0.65em;\r\n  --bs-badge-padding-y: 0.35em;\r\n  --bs-badge-font-size: 0.75em;\r\n  --bs-badge-font-weight: 700;\r\n  --bs-badge-color: #fff;\r\n  --bs-badge-border-radius: 0.375rem;\r\n  display: inline-block;\r\n  padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);\r\n  font-size: var(--bs-badge-font-size);\r\n  font-weight: var(--bs-badge-font-weight);\r\n  line-height: 1;\r\n  color: var(--bs-badge-color);\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  vertical-align: baseline;\r\n  border-radius: var(--bs-badge-border-radius);\r\n}\r\n.badge:empty {\r\n  display: none;\r\n}\r\n\r\n.btn .badge {\r\n  position: relative;\r\n  top: -1px;\r\n}\r\n\r\n.alert {\r\n  --bs-alert-bg: transparent;\r\n  --bs-alert-padding-x: 1rem;\r\n  --bs-alert-padding-y: 1rem;\r\n  --bs-alert-margin-bottom: 1rem;\r\n  --bs-alert-color: inherit;\r\n  --bs-alert-border-color: transparent;\r\n  --bs-alert-border: 1px solid var(--bs-alert-border-color);\r\n  --bs-alert-border-radius: 0.375rem;\r\n  position: relative;\r\n  padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);\r\n  margin-bottom: var(--bs-alert-margin-bottom);\r\n  color: var(--bs-alert-color);\r\n  background-color: var(--bs-alert-bg);\r\n  border: var(--bs-alert-border);\r\n  border-radius: var(--bs-alert-border-radius);\r\n}\r\n\r\n.alert-heading {\r\n  color: inherit;\r\n}\r\n\r\n.alert-link {\r\n  font-weight: 700;\r\n}\r\n\r\n.alert-dismissible {\r\n  padding-right: 3rem;\r\n}\r\n.alert-dismissible .btn-close {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  z-index: 2;\r\n  padding: 1.25rem 1rem;\r\n}\r\n\r\n.alert-primary {\r\n  --bs-alert-color: #084298;\r\n  --bs-alert-bg: #cfe2ff;\r\n  --bs-alert-border-color: #b6d4fe;\r\n}\r\n.alert-primary .alert-link {\r\n  color: #06357a;\r\n}\r\n\r\n.alert-secondary {\r\n  --bs-alert-color: #41464b;\r\n  --bs-alert-bg: #e2e3e5;\r\n  --bs-alert-border-color: #d3d6d8;\r\n}\r\n.alert-secondary .alert-link {\r\n  color: #34383c;\r\n}\r\n\r\n.alert-success {\r\n  --bs-alert-color: #0f5132;\r\n  --bs-alert-bg: #d1e7dd;\r\n  --bs-alert-border-color: #badbcc;\r\n}\r\n.alert-success .alert-link {\r\n  color: #0c4128;\r\n}\r\n\r\n.alert-info {\r\n  --bs-alert-color: #055160;\r\n  --bs-alert-bg: #cff4fc;\r\n  --bs-alert-border-color: #b6effb;\r\n}\r\n.alert-info .alert-link {\r\n  color: #04414d;\r\n}\r\n\r\n.alert-warning {\r\n  --bs-alert-color: #664d03;\r\n  --bs-alert-bg: #fff3cd;\r\n  --bs-alert-border-color: #ffecb5;\r\n}\r\n.alert-warning .alert-link {\r\n  color: #523e02;\r\n}\r\n\r\n.alert-danger {\r\n  --bs-alert-color: #842029;\r\n  --bs-alert-bg: #f8d7da;\r\n  --bs-alert-border-color: #f5c2c7;\r\n}\r\n.alert-danger .alert-link {\r\n  color: #6a1a21;\r\n}\r\n\r\n.alert-light {\r\n  --bs-alert-color: #636464;\r\n  --bs-alert-bg: #fefefe;\r\n  --bs-alert-border-color: #fdfdfe;\r\n}\r\n.alert-light .alert-link {\r\n  color: #4f5050;\r\n}\r\n\r\n.alert-dark {\r\n  --bs-alert-color: #141619;\r\n  --bs-alert-bg: #d3d3d4;\r\n  --bs-alert-border-color: #bcbebf;\r\n}\r\n.alert-dark .alert-link {\r\n  color: #101214;\r\n}\r\n\r\n@keyframes progress-bar-stripes {\r\n  0% {\r\n    background-position-x: 1rem;\r\n  }\r\n}\r\n.progress {\r\n  --bs-progress-height: 1rem;\r\n  --bs-progress-font-size: 0.75rem;\r\n  --bs-progress-bg: #e9ecef;\r\n  --bs-progress-border-radius: 0.375rem;\r\n  --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);\r\n  --bs-progress-bar-color: #fff;\r\n  --bs-progress-bar-bg: #0d6efd;\r\n  --bs-progress-bar-transition: width 0.6s ease;\r\n  display: flex;\r\n  height: var(--bs-progress-height);\r\n  overflow: hidden;\r\n  font-size: var(--bs-progress-font-size);\r\n  background-color: var(--bs-progress-bg);\r\n  border-radius: var(--bs-progress-border-radius);\r\n}\r\n\r\n.progress-bar {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  overflow: hidden;\r\n  color: var(--bs-progress-bar-color);\r\n  text-align: center;\r\n  white-space: nowrap;\r\n  background-color: var(--bs-progress-bar-bg);\r\n  transition: var(--bs-progress-bar-transition);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .progress-bar {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.progress-bar-striped {\r\n  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\r\n  background-size: var(--bs-progress-height) var(--bs-progress-height);\r\n}\r\n\r\n.progress-bar-animated {\r\n  animation: 1s linear infinite progress-bar-stripes;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .progress-bar-animated {\r\n    animation: none;\r\n  }\r\n}\r\n\r\n.list-group {\r\n  --bs-list-group-color: #212529;\r\n  --bs-list-group-bg: #fff;\r\n  --bs-list-group-border-color: rgba(0, 0, 0, 0.125);\r\n  --bs-list-group-border-width: 1px;\r\n  --bs-list-group-border-radius: 0.375rem;\r\n  --bs-list-group-item-padding-x: 1rem;\r\n  --bs-list-group-item-padding-y: 0.5rem;\r\n  --bs-list-group-action-color: #495057;\r\n  --bs-list-group-action-hover-color: #495057;\r\n  --bs-list-group-action-hover-bg: #f8f9fa;\r\n  --bs-list-group-action-active-color: #212529;\r\n  --bs-list-group-action-active-bg: #e9ecef;\r\n  --bs-list-group-disabled-color: #6c757d;\r\n  --bs-list-group-disabled-bg: #fff;\r\n  --bs-list-group-active-color: #fff;\r\n  --bs-list-group-active-bg: #0d6efd;\r\n  --bs-list-group-active-border-color: #0d6efd;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding-left: 0;\r\n  margin-bottom: 0;\r\n  border-radius: var(--bs-list-group-border-radius);\r\n}\r\n\r\n.list-group-numbered {\r\n  list-style-type: none;\r\n  counter-reset: section;\r\n}\r\n.list-group-numbered > .list-group-item::before {\r\n  content: counters(section, \".\") \". \";\r\n  counter-increment: section;\r\n}\r\n\r\n.list-group-item-action {\r\n  width: 100%;\r\n  color: var(--bs-list-group-action-color);\r\n  text-align: inherit;\r\n}\r\n.list-group-item-action:hover, .list-group-item-action:focus {\r\n  z-index: 1;\r\n  color: var(--bs-list-group-action-hover-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-list-group-action-hover-bg);\r\n}\r\n.list-group-item-action:active {\r\n  color: var(--bs-list-group-action-active-color);\r\n  background-color: var(--bs-list-group-action-active-bg);\r\n}\r\n\r\n.list-group-item {\r\n  position: relative;\r\n  display: block;\r\n  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);\r\n  color: var(--bs-list-group-color);\r\n  text-decoration: none;\r\n  background-color: var(--bs-list-group-bg);\r\n  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);\r\n}\r\n.list-group-item:first-child {\r\n  border-top-left-radius: inherit;\r\n  border-top-right-radius: inherit;\r\n}\r\n.list-group-item:last-child {\r\n  border-bottom-right-radius: inherit;\r\n  border-bottom-left-radius: inherit;\r\n}\r\n.list-group-item.disabled, .list-group-item:disabled {\r\n  color: var(--bs-list-group-disabled-color);\r\n  pointer-events: none;\r\n  background-color: var(--bs-list-group-disabled-bg);\r\n}\r\n.list-group-item.active {\r\n  z-index: 2;\r\n  color: var(--bs-list-group-active-color);\r\n  background-color: var(--bs-list-group-active-bg);\r\n  border-color: var(--bs-list-group-active-border-color);\r\n}\r\n.list-group-item + .list-group-item {\r\n  border-top-width: 0;\r\n}\r\n.list-group-item + .list-group-item.active {\r\n  margin-top: calc(-1 * var(--bs-list-group-border-width));\r\n  border-top-width: var(--bs-list-group-border-width);\r\n}\r\n\r\n.list-group-horizontal {\r\n  flex-direction: row;\r\n}\r\n.list-group-horizontal > .list-group-item:first-child:not(:last-child) {\r\n  border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n  border-top-right-radius: 0;\r\n}\r\n.list-group-horizontal > .list-group-item:last-child:not(:first-child) {\r\n  border-top-right-radius: var(--bs-list-group-border-radius);\r\n  border-bottom-left-radius: 0;\r\n}\r\n.list-group-horizontal > .list-group-item.active {\r\n  margin-top: 0;\r\n}\r\n.list-group-horizontal > .list-group-item + .list-group-item {\r\n  border-top-width: var(--bs-list-group-border-width);\r\n  border-left-width: 0;\r\n}\r\n.list-group-horizontal > .list-group-item + .list-group-item.active {\r\n  margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n  border-left-width: var(--bs-list-group-border-width);\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .list-group-horizontal-sm {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-sm > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .list-group-horizontal-md {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-md > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .list-group-horizontal-lg {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-lg > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .list-group-horizontal-xl {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-xl > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .list-group-horizontal-xxl {\r\n    flex-direction: row;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item:first-child:not(:last-child) {\r\n    border-bottom-left-radius: var(--bs-list-group-border-radius);\r\n    border-top-right-radius: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item:last-child:not(:first-child) {\r\n    border-top-right-radius: var(--bs-list-group-border-radius);\r\n    border-bottom-left-radius: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item.active {\r\n    margin-top: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item + .list-group-item {\r\n    border-top-width: var(--bs-list-group-border-width);\r\n    border-left-width: 0;\r\n  }\r\n  .list-group-horizontal-xxl > .list-group-item + .list-group-item.active {\r\n    margin-left: calc(-1 * var(--bs-list-group-border-width));\r\n    border-left-width: var(--bs-list-group-border-width);\r\n  }\r\n}\r\n.list-group-flush {\r\n  border-radius: 0;\r\n}\r\n.list-group-flush > .list-group-item {\r\n  border-width: 0 0 var(--bs-list-group-border-width);\r\n}\r\n.list-group-flush > .list-group-item:last-child {\r\n  border-bottom-width: 0;\r\n}\r\n\r\n.list-group-item-primary {\r\n  color: #084298;\r\n  background-color: #cfe2ff;\r\n}\r\n.list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {\r\n  color: #084298;\r\n  background-color: #bacbe6;\r\n}\r\n.list-group-item-primary.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #084298;\r\n  border-color: #084298;\r\n}\r\n\r\n.list-group-item-secondary {\r\n  color: #41464b;\r\n  background-color: #e2e3e5;\r\n}\r\n.list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {\r\n  color: #41464b;\r\n  background-color: #cbccce;\r\n}\r\n.list-group-item-secondary.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #41464b;\r\n  border-color: #41464b;\r\n}\r\n\r\n.list-group-item-success {\r\n  color: #0f5132;\r\n  background-color: #d1e7dd;\r\n}\r\n.list-group-item-success.list-group-item-action:hover, .list-group-item-success.list-group-item-action:focus {\r\n  color: #0f5132;\r\n  background-color: #bcd0c7;\r\n}\r\n.list-group-item-success.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #0f5132;\r\n  border-color: #0f5132;\r\n}\r\n\r\n.list-group-item-info {\r\n  color: #055160;\r\n  background-color: #cff4fc;\r\n}\r\n.list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {\r\n  color: #055160;\r\n  background-color: #badce3;\r\n}\r\n.list-group-item-info.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #055160;\r\n  border-color: #055160;\r\n}\r\n\r\n.list-group-item-warning {\r\n  color: #664d03;\r\n  background-color: #fff3cd;\r\n}\r\n.list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {\r\n  color: #664d03;\r\n  background-color: #e6dbb9;\r\n}\r\n.list-group-item-warning.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #664d03;\r\n  border-color: #664d03;\r\n}\r\n\r\n.list-group-item-danger {\r\n  color: #842029;\r\n  background-color: #f8d7da;\r\n}\r\n.list-group-item-danger.list-group-item-action:hover, .list-group-item-danger.list-group-item-action:focus {\r\n  color: #842029;\r\n  background-color: #dfc2c4;\r\n}\r\n.list-group-item-danger.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #842029;\r\n  border-color: #842029;\r\n}\r\n\r\n.list-group-item-light {\r\n  color: #636464;\r\n  background-color: #fefefe;\r\n}\r\n.list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {\r\n  color: #636464;\r\n  background-color: #e5e5e5;\r\n}\r\n.list-group-item-light.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #636464;\r\n  border-color: #636464;\r\n}\r\n\r\n.list-group-item-dark {\r\n  color: #141619;\r\n  background-color: #d3d3d4;\r\n}\r\n.list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {\r\n  color: #141619;\r\n  background-color: #bebebf;\r\n}\r\n.list-group-item-dark.list-group-item-action.active {\r\n  color: #fff;\r\n  background-color: #141619;\r\n  border-color: #141619;\r\n}\r\n\r\n.btn-close {\r\n  box-sizing: content-box;\r\n  width: 1em;\r\n  height: 1em;\r\n  padding: 0.25em 0.25em;\r\n  color: #000;\r\n  background: transparent url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e\") center/1em auto no-repeat;\r\n  border: 0;\r\n  border-radius: 0.375rem;\r\n  opacity: 0.5;\r\n}\r\n.btn-close:hover {\r\n  color: #000;\r\n  text-decoration: none;\r\n  opacity: 0.75;\r\n}\r\n.btn-close:focus {\r\n  outline: 0;\r\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\r\n  opacity: 1;\r\n}\r\n.btn-close:disabled, .btn-close.disabled {\r\n  pointer-events: none;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n          user-select: none;\r\n  opacity: 0.25;\r\n}\r\n\r\n.btn-close-white {\r\n  filter: invert(1) grayscale(100%) brightness(200%);\r\n}\r\n\r\n.toast {\r\n  --bs-toast-zindex: 1090;\r\n  --bs-toast-padding-x: 0.75rem;\r\n  --bs-toast-padding-y: 0.5rem;\r\n  --bs-toast-spacing: 1.5rem;\r\n  --bs-toast-max-width: 350px;\r\n  --bs-toast-font-size: 0.875rem;\r\n  --bs-toast-color: ;\r\n  --bs-toast-bg: rgba(255, 255, 255, 0.85);\r\n  --bs-toast-border-width: 1px;\r\n  --bs-toast-border-color: var(--bs-border-color-translucent);\r\n  --bs-toast-border-radius: 0.375rem;\r\n  --bs-toast-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  --bs-toast-header-color: #6c757d;\r\n  --bs-toast-header-bg: rgba(255, 255, 255, 0.85);\r\n  --bs-toast-header-border-color: rgba(0, 0, 0, 0.05);\r\n  width: var(--bs-toast-max-width);\r\n  max-width: 100%;\r\n  font-size: var(--bs-toast-font-size);\r\n  color: var(--bs-toast-color);\r\n  pointer-events: auto;\r\n  background-color: var(--bs-toast-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-toast-border-width) solid var(--bs-toast-border-color);\r\n  box-shadow: var(--bs-toast-box-shadow);\r\n  border-radius: var(--bs-toast-border-radius);\r\n}\r\n.toast.showing {\r\n  opacity: 0;\r\n}\r\n.toast:not(.show) {\r\n  display: none;\r\n}\r\n\r\n.toast-container {\r\n  --bs-toast-zindex: 1090;\r\n  position: absolute;\r\n  z-index: var(--bs-toast-zindex);\r\n  width: -moz-max-content;\r\n  width: max-content;\r\n  max-width: 100%;\r\n  pointer-events: none;\r\n}\r\n.toast-container > :not(:last-child) {\r\n  margin-bottom: var(--bs-toast-spacing);\r\n}\r\n\r\n.toast-header {\r\n  display: flex;\r\n  align-items: center;\r\n  padding: var(--bs-toast-padding-y) var(--bs-toast-padding-x);\r\n  color: var(--bs-toast-header-color);\r\n  background-color: var(--bs-toast-header-bg);\r\n  background-clip: padding-box;\r\n  border-bottom: var(--bs-toast-border-width) solid var(--bs-toast-header-border-color);\r\n  border-top-left-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));\r\n  border-top-right-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));\r\n}\r\n.toast-header .btn-close {\r\n  margin-right: calc(-0.5 * var(--bs-toast-padding-x));\r\n  margin-left: var(--bs-toast-padding-x);\r\n}\r\n\r\n.toast-body {\r\n  padding: var(--bs-toast-padding-x);\r\n  word-wrap: break-word;\r\n}\r\n\r\n.modal {\r\n  --bs-modal-zindex: 1055;\r\n  --bs-modal-width: 500px;\r\n  --bs-modal-padding: 1rem;\r\n  --bs-modal-margin: 0.5rem;\r\n  --bs-modal-color: ;\r\n  --bs-modal-bg: #fff;\r\n  --bs-modal-border-color: var(--bs-border-color-translucent);\r\n  --bs-modal-border-width: 1px;\r\n  --bs-modal-border-radius: 0.5rem;\r\n  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);\r\n  --bs-modal-inner-border-radius: calc(0.5rem - 1px);\r\n  --bs-modal-header-padding-x: 1rem;\r\n  --bs-modal-header-padding-y: 1rem;\r\n  --bs-modal-header-padding: 1rem 1rem;\r\n  --bs-modal-header-border-color: var(--bs-border-color);\r\n  --bs-modal-header-border-width: 1px;\r\n  --bs-modal-title-line-height: 1.5;\r\n  --bs-modal-footer-gap: 0.5rem;\r\n  --bs-modal-footer-bg: ;\r\n  --bs-modal-footer-border-color: var(--bs-border-color);\r\n  --bs-modal-footer-border-width: 1px;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: var(--bs-modal-zindex);\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow-x: hidden;\r\n  overflow-y: auto;\r\n  outline: 0;\r\n}\r\n\r\n.modal-dialog {\r\n  position: relative;\r\n  width: auto;\r\n  margin: var(--bs-modal-margin);\r\n  pointer-events: none;\r\n}\r\n.modal.fade .modal-dialog {\r\n  transition: transform 0.3s ease-out;\r\n  transform: translate(0, -50px);\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .modal.fade .modal-dialog {\r\n    transition: none;\r\n  }\r\n}\r\n.modal.show .modal-dialog {\r\n  transform: none;\r\n}\r\n.modal.modal-static .modal-dialog {\r\n  transform: scale(1.02);\r\n}\r\n\r\n.modal-dialog-scrollable {\r\n  height: calc(100% - var(--bs-modal-margin) * 2);\r\n}\r\n.modal-dialog-scrollable .modal-content {\r\n  max-height: 100%;\r\n  overflow: hidden;\r\n}\r\n.modal-dialog-scrollable .modal-body {\r\n  overflow-y: auto;\r\n}\r\n\r\n.modal-dialog-centered {\r\n  display: flex;\r\n  align-items: center;\r\n  min-height: calc(100% - var(--bs-modal-margin) * 2);\r\n}\r\n\r\n.modal-content {\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 100%;\r\n  color: var(--bs-modal-color);\r\n  pointer-events: auto;\r\n  background-color: var(--bs-modal-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);\r\n  border-radius: var(--bs-modal-border-radius);\r\n  outline: 0;\r\n}\r\n\r\n.modal-backdrop {\r\n  --bs-backdrop-zindex: 1050;\r\n  --bs-backdrop-bg: #000;\r\n  --bs-backdrop-opacity: 0.5;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: var(--bs-backdrop-zindex);\r\n  width: 100vw;\r\n  height: 100vh;\r\n  background-color: var(--bs-backdrop-bg);\r\n}\r\n.modal-backdrop.fade {\r\n  opacity: 0;\r\n}\r\n.modal-backdrop.show {\r\n  opacity: var(--bs-backdrop-opacity);\r\n}\r\n\r\n.modal-header {\r\n  display: flex;\r\n  flex-shrink: 0;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: var(--bs-modal-header-padding);\r\n  border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);\r\n  border-top-left-radius: var(--bs-modal-inner-border-radius);\r\n  border-top-right-radius: var(--bs-modal-inner-border-radius);\r\n}\r\n.modal-header .btn-close {\r\n  padding: calc(var(--bs-modal-header-padding-y) * 0.5) calc(var(--bs-modal-header-padding-x) * 0.5);\r\n  margin: calc(-0.5 * var(--bs-modal-header-padding-y)) calc(-0.5 * var(--bs-modal-header-padding-x)) calc(-0.5 * var(--bs-modal-header-padding-y)) auto;\r\n}\r\n\r\n.modal-title {\r\n  margin-bottom: 0;\r\n  line-height: var(--bs-modal-title-line-height);\r\n}\r\n\r\n.modal-body {\r\n  position: relative;\r\n  flex: 1 1 auto;\r\n  padding: var(--bs-modal-padding);\r\n}\r\n\r\n.modal-footer {\r\n  display: flex;\r\n  flex-shrink: 0;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  justify-content: flex-end;\r\n  padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);\r\n  background-color: var(--bs-modal-footer-bg);\r\n  border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);\r\n  border-bottom-right-radius: var(--bs-modal-inner-border-radius);\r\n  border-bottom-left-radius: var(--bs-modal-inner-border-radius);\r\n}\r\n.modal-footer > * {\r\n  margin: calc(var(--bs-modal-footer-gap) * 0.5);\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .modal {\r\n    --bs-modal-margin: 1.75rem;\r\n    --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  }\r\n  .modal-dialog {\r\n    max-width: var(--bs-modal-width);\r\n    margin-right: auto;\r\n    margin-left: auto;\r\n  }\r\n  .modal-sm {\r\n    --bs-modal-width: 300px;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .modal-lg,\r\n  .modal-xl {\r\n    --bs-modal-width: 800px;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .modal-xl {\r\n    --bs-modal-width: 1140px;\r\n  }\r\n}\r\n.modal-fullscreen {\r\n  width: 100vw;\r\n  max-width: none;\r\n  height: 100%;\r\n  margin: 0;\r\n}\r\n.modal-fullscreen .modal-content {\r\n  height: 100%;\r\n  border: 0;\r\n  border-radius: 0;\r\n}\r\n.modal-fullscreen .modal-header,\r\n.modal-fullscreen .modal-footer {\r\n  border-radius: 0;\r\n}\r\n.modal-fullscreen .modal-body {\r\n  overflow-y: auto;\r\n}\r\n\r\n@media (max-width: 575.98px) {\r\n  .modal-fullscreen-sm-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-sm-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-sm-down .modal-header,\r\n  .modal-fullscreen-sm-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-sm-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .modal-fullscreen-md-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-md-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-md-down .modal-header,\r\n  .modal-fullscreen-md-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-md-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .modal-fullscreen-lg-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-lg-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-lg-down .modal-header,\r\n  .modal-fullscreen-lg-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-lg-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .modal-fullscreen-xl-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-xl-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xl-down .modal-header,\r\n  .modal-fullscreen-xl-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xl-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .modal-fullscreen-xxl-down {\r\n    width: 100vw;\r\n    max-width: none;\r\n    height: 100%;\r\n    margin: 0;\r\n  }\r\n  .modal-fullscreen-xxl-down .modal-content {\r\n    height: 100%;\r\n    border: 0;\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xxl-down .modal-header,\r\n  .modal-fullscreen-xxl-down .modal-footer {\r\n    border-radius: 0;\r\n  }\r\n  .modal-fullscreen-xxl-down .modal-body {\r\n    overflow-y: auto;\r\n  }\r\n}\r\n.tooltip {\r\n  --bs-tooltip-zindex: 1080;\r\n  --bs-tooltip-max-width: 200px;\r\n  --bs-tooltip-padding-x: 0.5rem;\r\n  --bs-tooltip-padding-y: 0.25rem;\r\n  --bs-tooltip-margin: ;\r\n  --bs-tooltip-font-size: 0.875rem;\r\n  --bs-tooltip-color: #fff;\r\n  --bs-tooltip-bg: #000;\r\n  --bs-tooltip-border-radius: 0.375rem;\r\n  --bs-tooltip-opacity: 0.9;\r\n  --bs-tooltip-arrow-width: 0.8rem;\r\n  --bs-tooltip-arrow-height: 0.4rem;\r\n  z-index: var(--bs-tooltip-zindex);\r\n  display: block;\r\n  padding: var(--bs-tooltip-arrow-height);\r\n  margin: var(--bs-tooltip-margin);\r\n  font-family: var(--bs-font-sans-serif);\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  text-align: left;\r\n  text-align: start;\r\n  text-decoration: none;\r\n  text-shadow: none;\r\n  text-transform: none;\r\n  letter-spacing: normal;\r\n  word-break: normal;\r\n  white-space: normal;\r\n  word-spacing: normal;\r\n  line-break: auto;\r\n  font-size: var(--bs-tooltip-font-size);\r\n  word-wrap: break-word;\r\n  opacity: 0;\r\n}\r\n.tooltip.show {\r\n  opacity: var(--bs-tooltip-opacity);\r\n}\r\n.tooltip .tooltip-arrow {\r\n  display: block;\r\n  width: var(--bs-tooltip-arrow-width);\r\n  height: var(--bs-tooltip-arrow-height);\r\n}\r\n.tooltip .tooltip-arrow::before {\r\n  position: absolute;\r\n  content: \"\";\r\n  border-color: transparent;\r\n  border-style: solid;\r\n}\r\n\r\n.bs-tooltip-top .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow {\r\n  bottom: 0;\r\n}\r\n.bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {\r\n  top: -1px;\r\n  border-width: var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * 0.5) 0;\r\n  border-top-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-tooltip-end .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow {\r\n  left: 0;\r\n  width: var(--bs-tooltip-arrow-height);\r\n  height: var(--bs-tooltip-arrow-width);\r\n}\r\n.bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {\r\n  right: -1px;\r\n  border-width: calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height) calc(var(--bs-tooltip-arrow-width) * 0.5) 0;\r\n  border-right-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.bs-tooltip-bottom .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow {\r\n  top: 0;\r\n}\r\n.bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {\r\n  bottom: -1px;\r\n  border-width: 0 calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height);\r\n  border-bottom-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-tooltip-start .tooltip-arrow, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow {\r\n  right: 0;\r\n  width: var(--bs-tooltip-arrow-height);\r\n  height: var(--bs-tooltip-arrow-width);\r\n}\r\n.bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {\r\n  left: -1px;\r\n  border-width: calc(var(--bs-tooltip-arrow-width) * 0.5) 0 calc(var(--bs-tooltip-arrow-width) * 0.5) var(--bs-tooltip-arrow-height);\r\n  border-left-color: var(--bs-tooltip-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.tooltip-inner {\r\n  max-width: var(--bs-tooltip-max-width);\r\n  padding: var(--bs-tooltip-padding-y) var(--bs-tooltip-padding-x);\r\n  color: var(--bs-tooltip-color);\r\n  text-align: center;\r\n  background-color: var(--bs-tooltip-bg);\r\n  border-radius: var(--bs-tooltip-border-radius);\r\n}\r\n\r\n.popover {\r\n  --bs-popover-zindex: 1070;\r\n  --bs-popover-max-width: 276px;\r\n  --bs-popover-font-size: 0.875rem;\r\n  --bs-popover-bg: #fff;\r\n  --bs-popover-border-width: 1px;\r\n  --bs-popover-border-color: var(--bs-border-color-translucent);\r\n  --bs-popover-border-radius: 0.5rem;\r\n  --bs-popover-inner-border-radius: calc(0.5rem - 1px);\r\n  --bs-popover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\r\n  --bs-popover-header-padding-x: 1rem;\r\n  --bs-popover-header-padding-y: 0.5rem;\r\n  --bs-popover-header-font-size: 1rem;\r\n  --bs-popover-header-color: ;\r\n  --bs-popover-header-bg: #f0f0f0;\r\n  --bs-popover-body-padding-x: 1rem;\r\n  --bs-popover-body-padding-y: 1rem;\r\n  --bs-popover-body-color: #212529;\r\n  --bs-popover-arrow-width: 1rem;\r\n  --bs-popover-arrow-height: 0.5rem;\r\n  --bs-popover-arrow-border: var(--bs-popover-border-color);\r\n  z-index: var(--bs-popover-zindex);\r\n  display: block;\r\n  max-width: var(--bs-popover-max-width);\r\n  font-family: var(--bs-font-sans-serif);\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 1.5;\r\n  text-align: left;\r\n  text-align: start;\r\n  text-decoration: none;\r\n  text-shadow: none;\r\n  text-transform: none;\r\n  letter-spacing: normal;\r\n  word-break: normal;\r\n  white-space: normal;\r\n  word-spacing: normal;\r\n  line-break: auto;\r\n  font-size: var(--bs-popover-font-size);\r\n  word-wrap: break-word;\r\n  background-color: var(--bs-popover-bg);\r\n  background-clip: padding-box;\r\n  border: var(--bs-popover-border-width) solid var(--bs-popover-border-color);\r\n  border-radius: var(--bs-popover-border-radius);\r\n}\r\n.popover .popover-arrow {\r\n  display: block;\r\n  width: var(--bs-popover-arrow-width);\r\n  height: var(--bs-popover-arrow-height);\r\n}\r\n.popover .popover-arrow::before, .popover .popover-arrow::after {\r\n  position: absolute;\r\n  display: block;\r\n  content: \"\";\r\n  border-color: transparent;\r\n  border-style: solid;\r\n  border-width: 0;\r\n}\r\n\r\n.bs-popover-top > .popover-arrow, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow {\r\n  bottom: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n}\r\n.bs-popover-top > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::before, .bs-popover-top > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::after {\r\n  border-width: var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * 0.5) 0;\r\n}\r\n.bs-popover-top > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::before {\r\n  bottom: 0;\r\n  border-top-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-top > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=top] > .popover-arrow::after {\r\n  bottom: var(--bs-popover-border-width);\r\n  border-top-color: var(--bs-popover-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-popover-end > .popover-arrow, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow {\r\n  left: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n  width: var(--bs-popover-arrow-height);\r\n  height: var(--bs-popover-arrow-width);\r\n}\r\n.bs-popover-end > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::before, .bs-popover-end > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::after {\r\n  border-width: calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height) calc(var(--bs-popover-arrow-width) * 0.5) 0;\r\n}\r\n.bs-popover-end > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::before {\r\n  left: 0;\r\n  border-right-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-end > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=right] > .popover-arrow::after {\r\n  left: var(--bs-popover-border-width);\r\n  border-right-color: var(--bs-popover-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.bs-popover-bottom > .popover-arrow, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow {\r\n  top: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n}\r\n.bs-popover-bottom > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before, .bs-popover-bottom > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after {\r\n  border-width: 0 calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height);\r\n}\r\n.bs-popover-bottom > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before {\r\n  top: 0;\r\n  border-bottom-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-bottom > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after {\r\n  top: var(--bs-popover-border-width);\r\n  border-bottom-color: var(--bs-popover-bg);\r\n}\r\n.bs-popover-bottom .popover-header::before, .bs-popover-auto[data-popper-placement^=bottom] .popover-header::before {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 50%;\r\n  display: block;\r\n  width: var(--bs-popover-arrow-width);\r\n  margin-left: calc(-0.5 * var(--bs-popover-arrow-width));\r\n  content: \"\";\r\n  border-bottom: var(--bs-popover-border-width) solid var(--bs-popover-header-bg);\r\n}\r\n\r\n/* rtl:begin:ignore */\r\n.bs-popover-start > .popover-arrow, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow {\r\n  right: calc(-1 * (var(--bs-popover-arrow-height)) - var(--bs-popover-border-width));\r\n  width: var(--bs-popover-arrow-height);\r\n  height: var(--bs-popover-arrow-width);\r\n}\r\n.bs-popover-start > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::before, .bs-popover-start > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::after {\r\n  border-width: calc(var(--bs-popover-arrow-width) * 0.5) 0 calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height);\r\n}\r\n.bs-popover-start > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::before {\r\n  right: 0;\r\n  border-left-color: var(--bs-popover-arrow-border);\r\n}\r\n.bs-popover-start > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=left] > .popover-arrow::after {\r\n  right: var(--bs-popover-border-width);\r\n  border-left-color: var(--bs-popover-bg);\r\n}\r\n\r\n/* rtl:end:ignore */\r\n.popover-header {\r\n  padding: var(--bs-popover-header-padding-y) var(--bs-popover-header-padding-x);\r\n  margin-bottom: 0;\r\n  font-size: var(--bs-popover-header-font-size);\r\n  color: var(--bs-popover-header-color);\r\n  background-color: var(--bs-popover-header-bg);\r\n  border-bottom: var(--bs-popover-border-width) solid var(--bs-popover-border-color);\r\n  border-top-left-radius: var(--bs-popover-inner-border-radius);\r\n  border-top-right-radius: var(--bs-popover-inner-border-radius);\r\n}\r\n.popover-header:empty {\r\n  display: none;\r\n}\r\n\r\n.popover-body {\r\n  padding: var(--bs-popover-body-padding-y) var(--bs-popover-body-padding-x);\r\n  color: var(--bs-popover-body-color);\r\n}\r\n\r\n.carousel {\r\n  position: relative;\r\n}\r\n\r\n.carousel.pointer-event {\r\n  touch-action: pan-y;\r\n}\r\n\r\n.carousel-inner {\r\n  position: relative;\r\n  width: 100%;\r\n  overflow: hidden;\r\n}\r\n.carousel-inner::after {\r\n  display: block;\r\n  clear: both;\r\n  content: \"\";\r\n}\r\n\r\n.carousel-item {\r\n  position: relative;\r\n  display: none;\r\n  float: left;\r\n  width: 100%;\r\n  margin-right: -100%;\r\n  -webkit-backface-visibility: hidden;\r\n          backface-visibility: hidden;\r\n  transition: transform 0.6s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-item {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.carousel-item.active,\r\n.carousel-item-next,\r\n.carousel-item-prev {\r\n  display: block;\r\n}\r\n\r\n.carousel-item-next:not(.carousel-item-start),\r\n.active.carousel-item-end {\r\n  transform: translateX(100%);\r\n}\r\n\r\n.carousel-item-prev:not(.carousel-item-end),\r\n.active.carousel-item-start {\r\n  transform: translateX(-100%);\r\n}\r\n\r\n.carousel-fade .carousel-item {\r\n  opacity: 0;\r\n  transition-property: opacity;\r\n  transform: none;\r\n}\r\n.carousel-fade .carousel-item.active,\r\n.carousel-fade .carousel-item-next.carousel-item-start,\r\n.carousel-fade .carousel-item-prev.carousel-item-end {\r\n  z-index: 1;\r\n  opacity: 1;\r\n}\r\n.carousel-fade .active.carousel-item-start,\r\n.carousel-fade .active.carousel-item-end {\r\n  z-index: 0;\r\n  opacity: 0;\r\n  transition: opacity 0s 0.6s;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-fade .active.carousel-item-start,\r\n  .carousel-fade .active.carousel-item-end {\r\n    transition: none;\r\n  }\r\n}\r\n\r\n.carousel-control-prev,\r\n.carousel-control-next {\r\n  position: absolute;\r\n  top: 0;\r\n  bottom: 0;\r\n  z-index: 1;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 15%;\r\n  padding: 0;\r\n  color: #fff;\r\n  text-align: center;\r\n  background: none;\r\n  border: 0;\r\n  opacity: 0.5;\r\n  transition: opacity 0.15s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-control-prev,\r\n  .carousel-control-next {\r\n    transition: none;\r\n  }\r\n}\r\n.carousel-control-prev:hover, .carousel-control-prev:focus,\r\n.carousel-control-next:hover,\r\n.carousel-control-next:focus {\r\n  color: #fff;\r\n  text-decoration: none;\r\n  outline: 0;\r\n  opacity: 0.9;\r\n}\r\n\r\n.carousel-control-prev {\r\n  left: 0;\r\n}\r\n\r\n.carousel-control-next {\r\n  right: 0;\r\n}\r\n\r\n.carousel-control-prev-icon,\r\n.carousel-control-next-icon {\r\n  display: inline-block;\r\n  width: 2rem;\r\n  height: 2rem;\r\n  background-repeat: no-repeat;\r\n  background-position: 50%;\r\n  background-size: 100% 100%;\r\n}\r\n\r\n/* rtl:options: {\r\n  \"autoRename\": true,\r\n  \"stringMap\":[ {\r\n    \"name\"    : \"prev-next\",\r\n    \"search\"  : \"prev\",\r\n    \"replace\" : \"next\"\r\n  } ]\r\n} */\r\n.carousel-control-prev-icon {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e\");\r\n}\r\n\r\n.carousel-control-next-icon {\r\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e\");\r\n}\r\n\r\n.carousel-indicators {\r\n  position: absolute;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: 2;\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 0;\r\n  margin-right: 15%;\r\n  margin-bottom: 1rem;\r\n  margin-left: 15%;\r\n  list-style: none;\r\n}\r\n.carousel-indicators [data-bs-target] {\r\n  box-sizing: content-box;\r\n  flex: 0 1 auto;\r\n  width: 30px;\r\n  height: 3px;\r\n  padding: 0;\r\n  margin-right: 3px;\r\n  margin-left: 3px;\r\n  text-indent: -999px;\r\n  cursor: pointer;\r\n  background-color: #fff;\r\n  background-clip: padding-box;\r\n  border: 0;\r\n  border-top: 10px solid transparent;\r\n  border-bottom: 10px solid transparent;\r\n  opacity: 0.5;\r\n  transition: opacity 0.6s ease;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .carousel-indicators [data-bs-target] {\r\n    transition: none;\r\n  }\r\n}\r\n.carousel-indicators .active {\r\n  opacity: 1;\r\n}\r\n\r\n.carousel-caption {\r\n  position: absolute;\r\n  right: 15%;\r\n  bottom: 1.25rem;\r\n  left: 15%;\r\n  padding-top: 1.25rem;\r\n  padding-bottom: 1.25rem;\r\n  color: #fff;\r\n  text-align: center;\r\n}\r\n\r\n.carousel-dark .carousel-control-prev-icon,\r\n.carousel-dark .carousel-control-next-icon {\r\n  filter: invert(1) grayscale(100);\r\n}\r\n.carousel-dark .carousel-indicators [data-bs-target] {\r\n  background-color: #000;\r\n}\r\n.carousel-dark .carousel-caption {\r\n  color: #000;\r\n}\r\n\r\n.spinner-grow,\r\n.spinner-border {\r\n  display: inline-block;\r\n  width: var(--bs-spinner-width);\r\n  height: var(--bs-spinner-height);\r\n  vertical-align: var(--bs-spinner-vertical-align);\r\n  border-radius: 50%;\r\n  animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);\r\n}\r\n\r\n@keyframes spinner-border {\r\n  to {\r\n    transform: rotate(360deg) /* rtl:ignore */;\r\n  }\r\n}\r\n.spinner-border {\r\n  --bs-spinner-width: 2rem;\r\n  --bs-spinner-height: 2rem;\r\n  --bs-spinner-vertical-align: -0.125em;\r\n  --bs-spinner-border-width: 0.25em;\r\n  --bs-spinner-animation-speed: 0.75s;\r\n  --bs-spinner-animation-name: spinner-border;\r\n  border: var(--bs-spinner-border-width) solid currentcolor;\r\n  border-right-color: transparent;\r\n}\r\n\r\n.spinner-border-sm {\r\n  --bs-spinner-width: 1rem;\r\n  --bs-spinner-height: 1rem;\r\n  --bs-spinner-border-width: 0.2em;\r\n}\r\n\r\n@keyframes spinner-grow {\r\n  0% {\r\n    transform: scale(0);\r\n  }\r\n  50% {\r\n    opacity: 1;\r\n    transform: none;\r\n  }\r\n}\r\n.spinner-grow {\r\n  --bs-spinner-width: 2rem;\r\n  --bs-spinner-height: 2rem;\r\n  --bs-spinner-vertical-align: -0.125em;\r\n  --bs-spinner-animation-speed: 0.75s;\r\n  --bs-spinner-animation-name: spinner-grow;\r\n  background-color: currentcolor;\r\n  opacity: 0;\r\n}\r\n\r\n.spinner-grow-sm {\r\n  --bs-spinner-width: 1rem;\r\n  --bs-spinner-height: 1rem;\r\n}\r\n\r\n@media (prefers-reduced-motion: reduce) {\r\n  .spinner-border,\r\n  .spinner-grow {\r\n    --bs-spinner-animation-speed: 1.5s;\r\n  }\r\n}\r\n.offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {\r\n  --bs-offcanvas-zindex: 1045;\r\n  --bs-offcanvas-width: 400px;\r\n  --bs-offcanvas-height: 30vh;\r\n  --bs-offcanvas-padding-x: 1rem;\r\n  --bs-offcanvas-padding-y: 1rem;\r\n  --bs-offcanvas-color: ;\r\n  --bs-offcanvas-bg: #fff;\r\n  --bs-offcanvas-border-width: 1px;\r\n  --bs-offcanvas-border-color: var(--bs-border-color-translucent);\r\n  --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);\r\n}\r\n\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-sm {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.showing, .offcanvas-sm.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 575.98px) {\r\n  .offcanvas-sm.showing, .offcanvas-sm.hiding, .offcanvas-sm.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 576px) {\r\n  .offcanvas-sm {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-sm .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-sm .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-md {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.showing, .offcanvas-md.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 767.98px) {\r\n  .offcanvas-md.showing, .offcanvas-md.hiding, .offcanvas-md.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .offcanvas-md {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-md .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-md .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-lg {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.showing, .offcanvas-lg.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 991.98px) {\r\n  .offcanvas-lg.showing, .offcanvas-lg.hiding, .offcanvas-lg.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .offcanvas-lg {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-lg .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-lg .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-xl {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.showing, .offcanvas-xl.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 1199.98px) {\r\n  .offcanvas-xl.showing, .offcanvas-xl.hiding, .offcanvas-xl.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .offcanvas-xl {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-xl .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-xl .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl {\r\n    position: fixed;\r\n    bottom: 0;\r\n    z-index: var(--bs-offcanvas-zindex);\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 100%;\r\n    color: var(--bs-offcanvas-color);\r\n    visibility: hidden;\r\n    background-color: var(--bs-offcanvas-bg);\r\n    background-clip: padding-box;\r\n    outline: 0;\r\n    transition: transform 0.3s ease-in-out;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) and (prefers-reduced-motion: reduce) {\r\n  .offcanvas-xxl {\r\n    transition: none;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(-100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-end {\r\n    top: 0;\r\n    right: 0;\r\n    width: var(--bs-offcanvas-width);\r\n    border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateX(100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-top {\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(-100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.offcanvas-bottom {\r\n    right: 0;\r\n    left: 0;\r\n    height: var(--bs-offcanvas-height);\r\n    max-height: 100%;\r\n    border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n    transform: translateY(100%);\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.showing, .offcanvas-xxl.show:not(.hiding) {\r\n    transform: none;\r\n  }\r\n}\r\n@media (max-width: 1399.98px) {\r\n  .offcanvas-xxl.showing, .offcanvas-xxl.hiding, .offcanvas-xxl.show {\r\n    visibility: visible;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .offcanvas-xxl {\r\n    --bs-offcanvas-height: auto;\r\n    --bs-offcanvas-border-width: 0;\r\n    background-color: transparent !important;\r\n  }\r\n  .offcanvas-xxl .offcanvas-header {\r\n    display: none;\r\n  }\r\n  .offcanvas-xxl .offcanvas-body {\r\n    display: flex;\r\n    flex-grow: 0;\r\n    padding: 0;\r\n    overflow-y: visible;\r\n    background-color: transparent !important;\r\n  }\r\n}\r\n\r\n.offcanvas {\r\n  position: fixed;\r\n  bottom: 0;\r\n  z-index: var(--bs-offcanvas-zindex);\r\n  display: flex;\r\n  flex-direction: column;\r\n  max-width: 100%;\r\n  color: var(--bs-offcanvas-color);\r\n  visibility: hidden;\r\n  background-color: var(--bs-offcanvas-bg);\r\n  background-clip: padding-box;\r\n  outline: 0;\r\n  transition: transform 0.3s ease-in-out;\r\n}\r\n@media (prefers-reduced-motion: reduce) {\r\n  .offcanvas {\r\n    transition: none;\r\n  }\r\n}\r\n.offcanvas.offcanvas-start {\r\n  top: 0;\r\n  left: 0;\r\n  width: var(--bs-offcanvas-width);\r\n  border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateX(-100%);\r\n}\r\n.offcanvas.offcanvas-end {\r\n  top: 0;\r\n  right: 0;\r\n  width: var(--bs-offcanvas-width);\r\n  border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateX(100%);\r\n}\r\n.offcanvas.offcanvas-top {\r\n  top: 0;\r\n  right: 0;\r\n  left: 0;\r\n  height: var(--bs-offcanvas-height);\r\n  max-height: 100%;\r\n  border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateY(-100%);\r\n}\r\n.offcanvas.offcanvas-bottom {\r\n  right: 0;\r\n  left: 0;\r\n  height: var(--bs-offcanvas-height);\r\n  max-height: 100%;\r\n  border-top: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);\r\n  transform: translateY(100%);\r\n}\r\n.offcanvas.showing, .offcanvas.show:not(.hiding) {\r\n  transform: none;\r\n}\r\n.offcanvas.showing, .offcanvas.hiding, .offcanvas.show {\r\n  visibility: visible;\r\n}\r\n\r\n.offcanvas-backdrop {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 1040;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  background-color: #000;\r\n}\r\n.offcanvas-backdrop.fade {\r\n  opacity: 0;\r\n}\r\n.offcanvas-backdrop.show {\r\n  opacity: 0.5;\r\n}\r\n\r\n.offcanvas-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);\r\n}\r\n.offcanvas-header .btn-close {\r\n  padding: calc(var(--bs-offcanvas-padding-y) * 0.5) calc(var(--bs-offcanvas-padding-x) * 0.5);\r\n  margin-top: calc(-0.5 * var(--bs-offcanvas-padding-y));\r\n  margin-right: calc(-0.5 * var(--bs-offcanvas-padding-x));\r\n  margin-bottom: calc(-0.5 * var(--bs-offcanvas-padding-y));\r\n}\r\n\r\n.offcanvas-title {\r\n  margin-bottom: 0;\r\n  line-height: 1.5;\r\n}\r\n\r\n.offcanvas-body {\r\n  flex-grow: 1;\r\n  padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);\r\n  overflow-y: auto;\r\n}\r\n\r\n.placeholder {\r\n  display: inline-block;\r\n  min-height: 1em;\r\n  vertical-align: middle;\r\n  cursor: wait;\r\n  background-color: currentcolor;\r\n  opacity: 0.5;\r\n}\r\n.placeholder.btn::before {\r\n  display: inline-block;\r\n  content: \"\";\r\n}\r\n\r\n.placeholder-xs {\r\n  min-height: 0.6em;\r\n}\r\n\r\n.placeholder-sm {\r\n  min-height: 0.8em;\r\n}\r\n\r\n.placeholder-lg {\r\n  min-height: 1.2em;\r\n}\r\n\r\n.placeholder-glow .placeholder {\r\n  animation: placeholder-glow 2s ease-in-out infinite;\r\n}\r\n\r\n@keyframes placeholder-glow {\r\n  50% {\r\n    opacity: 0.2;\r\n  }\r\n}\r\n.placeholder-wave {\r\n  -webkit-mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);\r\n          mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);\r\n  -webkit-mask-size: 200% 100%;\r\n          mask-size: 200% 100%;\r\n  animation: placeholder-wave 2s linear infinite;\r\n}\r\n\r\n@keyframes placeholder-wave {\r\n  100% {\r\n    -webkit-mask-position: -200% 0%;\r\n            mask-position: -200% 0%;\r\n  }\r\n}\r\n.clearfix::after {\r\n  display: block;\r\n  clear: both;\r\n  content: \"\";\r\n}\r\n\r\n.text-bg-primary {\r\n  color: #fff !important;\r\n  background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-secondary {\r\n  color: #fff !important;\r\n  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-success {\r\n  color: #fff !important;\r\n  background-color: RGBA(25, 135, 84, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-info {\r\n  color: #000 !important;\r\n  background-color: RGBA(13, 202, 240, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-warning {\r\n  color: #000 !important;\r\n  background-color: RGBA(255, 193, 7, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-danger {\r\n  color: #fff !important;\r\n  background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-light {\r\n  color: #000 !important;\r\n  background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.text-bg-dark {\r\n  color: #fff !important;\r\n  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;\r\n}\r\n\r\n.link-primary {\r\n  color: #0d6efd !important;\r\n}\r\n.link-primary:hover, .link-primary:focus {\r\n  color: #0a58ca !important;\r\n}\r\n\r\n.link-secondary {\r\n  color: #6c757d !important;\r\n}\r\n.link-secondary:hover, .link-secondary:focus {\r\n  color: #565e64 !important;\r\n}\r\n\r\n.link-success {\r\n  color: #198754 !important;\r\n}\r\n.link-success:hover, .link-success:focus {\r\n  color: #146c43 !important;\r\n}\r\n\r\n.link-info {\r\n  color: #0dcaf0 !important;\r\n}\r\n.link-info:hover, .link-info:focus {\r\n  color: #3dd5f3 !important;\r\n}\r\n\r\n.link-warning {\r\n  color: #ffc107 !important;\r\n}\r\n.link-warning:hover, .link-warning:focus {\r\n  color: #ffcd39 !important;\r\n}\r\n\r\n.link-danger {\r\n  color: #dc3545 !important;\r\n}\r\n.link-danger:hover, .link-danger:focus {\r\n  color: #b02a37 !important;\r\n}\r\n\r\n.link-light {\r\n  color: #f8f9fa !important;\r\n}\r\n.link-light:hover, .link-light:focus {\r\n  color: #f9fafb !important;\r\n}\r\n\r\n.link-dark {\r\n  color: #212529 !important;\r\n}\r\n.link-dark:hover, .link-dark:focus {\r\n  color: #1a1e21 !important;\r\n}\r\n\r\n.ratio {\r\n  position: relative;\r\n  width: 100%;\r\n}\r\n.ratio::before {\r\n  display: block;\r\n  padding-top: var(--bs-aspect-ratio);\r\n  content: \"\";\r\n}\r\n.ratio > * {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.ratio-1x1 {\r\n  --bs-aspect-ratio: 100%;\r\n}\r\n\r\n.ratio-4x3 {\r\n  --bs-aspect-ratio: 75%;\r\n}\r\n\r\n.ratio-16x9 {\r\n  --bs-aspect-ratio: 56.25%;\r\n}\r\n\r\n.ratio-21x9 {\r\n  --bs-aspect-ratio: 42.8571428571%;\r\n}\r\n\r\n.fixed-top, .sb-nav-fixed #layoutSidenav #layoutSidenav_nav, .sb-nav-fixed .sb-topnav {\r\n  position: fixed;\r\n  top: 0;\r\n  right: 0;\r\n  left: 0;\r\n  z-index: 1030;\r\n}\r\n\r\n.fixed-bottom {\r\n  position: fixed;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: 1030;\r\n}\r\n\r\n.sticky-top {\r\n  position: sticky;\r\n  top: 0;\r\n  z-index: 1020;\r\n}\r\n\r\n.sticky-bottom {\r\n  position: sticky;\r\n  bottom: 0;\r\n  z-index: 1020;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .sticky-sm-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-sm-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .sticky-md-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-md-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .sticky-lg-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-lg-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .sticky-xl-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-xl-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .sticky-xxl-top {\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 1020;\r\n  }\r\n  .sticky-xxl-bottom {\r\n    position: sticky;\r\n    bottom: 0;\r\n    z-index: 1020;\r\n  }\r\n}\r\n.hstack {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  align-self: stretch;\r\n}\r\n\r\n.vstack {\r\n  display: flex;\r\n  flex: 1 1 auto;\r\n  flex-direction: column;\r\n  align-self: stretch;\r\n}\r\n\r\n.visually-hidden,\r\n.visually-hidden-focusable:not(:focus):not(:focus-within) {\r\n  position: absolute !important;\r\n  width: 1px !important;\r\n  height: 1px !important;\r\n  padding: 0 !important;\r\n  margin: -1px !important;\r\n  overflow: hidden !important;\r\n  clip: rect(0, 0, 0, 0) !important;\r\n  white-space: nowrap !important;\r\n  border: 0 !important;\r\n}\r\n\r\n.stretched-link::after {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  z-index: 1;\r\n  content: \"\";\r\n}\r\n\r\n.text-truncate {\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n}\r\n\r\n.vr {\r\n  display: inline-block;\r\n  align-self: stretch;\r\n  width: 1px;\r\n  min-height: 1em;\r\n  background-color: currentcolor;\r\n  opacity: 0.25;\r\n}\r\n\r\n.align-baseline {\r\n  vertical-align: baseline !important;\r\n}\r\n\r\n.align-top {\r\n  vertical-align: top !important;\r\n}\r\n\r\n.align-middle {\r\n  vertical-align: middle !important;\r\n}\r\n\r\n.align-bottom {\r\n  vertical-align: bottom !important;\r\n}\r\n\r\n.align-text-bottom {\r\n  vertical-align: text-bottom !important;\r\n}\r\n\r\n.align-text-top {\r\n  vertical-align: text-top !important;\r\n}\r\n\r\n.float-start {\r\n  float: left !important;\r\n}\r\n\r\n.float-end {\r\n  float: right !important;\r\n}\r\n\r\n.float-none {\r\n  float: none !important;\r\n}\r\n\r\n.opacity-0 {\r\n  opacity: 0 !important;\r\n}\r\n\r\n.opacity-25 {\r\n  opacity: 0.25 !important;\r\n}\r\n\r\n.opacity-50 {\r\n  opacity: 0.5 !important;\r\n}\r\n\r\n.opacity-75 {\r\n  opacity: 0.75 !important;\r\n}\r\n\r\n.opacity-100 {\r\n  opacity: 1 !important;\r\n}\r\n\r\n.overflow-auto {\r\n  overflow: auto !important;\r\n}\r\n\r\n.overflow-hidden {\r\n  overflow: hidden !important;\r\n}\r\n\r\n.overflow-visible {\r\n  overflow: visible !important;\r\n}\r\n\r\n.overflow-scroll {\r\n  overflow: scroll !important;\r\n}\r\n\r\n.d-inline {\r\n  display: inline !important;\r\n}\r\n\r\n.d-inline-block {\r\n  display: inline-block !important;\r\n}\r\n\r\n.d-block {\r\n  display: block !important;\r\n}\r\n\r\n.d-grid {\r\n  display: grid !important;\r\n}\r\n\r\n.d-table {\r\n  display: table !important;\r\n}\r\n\r\n.d-table-row {\r\n  display: table-row !important;\r\n}\r\n\r\n.d-table-cell {\r\n  display: table-cell !important;\r\n}\r\n\r\n.d-flex {\r\n  display: flex !important;\r\n}\r\n\r\n.d-inline-flex {\r\n  display: inline-flex !important;\r\n}\r\n\r\n.d-none {\r\n  display: none !important;\r\n}\r\n\r\n.shadow {\r\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;\r\n}\r\n\r\n.shadow-sm {\r\n  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;\r\n}\r\n\r\n.shadow-lg {\r\n  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;\r\n}\r\n\r\n.shadow-none {\r\n  box-shadow: none !important;\r\n}\r\n\r\n.position-static {\r\n  position: static !important;\r\n}\r\n\r\n.position-relative {\r\n  position: relative !important;\r\n}\r\n\r\n.position-absolute {\r\n  position: absolute !important;\r\n}\r\n\r\n.position-fixed {\r\n  position: fixed !important;\r\n}\r\n\r\n.position-sticky {\r\n  position: sticky !important;\r\n}\r\n\r\n.top-0 {\r\n  top: 0 !important;\r\n}\r\n\r\n.top-50 {\r\n  top: 50% !important;\r\n}\r\n\r\n.top-100 {\r\n  top: 100% !important;\r\n}\r\n\r\n.bottom-0 {\r\n  bottom: 0 !important;\r\n}\r\n\r\n.bottom-50 {\r\n  bottom: 50% !important;\r\n}\r\n\r\n.bottom-100 {\r\n  bottom: 100% !important;\r\n}\r\n\r\n.start-0 {\r\n  left: 0 !important;\r\n}\r\n\r\n.start-50 {\r\n  left: 50% !important;\r\n}\r\n\r\n.start-100 {\r\n  left: 100% !important;\r\n}\r\n\r\n.end-0 {\r\n  right: 0 !important;\r\n}\r\n\r\n.end-50 {\r\n  right: 50% !important;\r\n}\r\n\r\n.end-100 {\r\n  right: 100% !important;\r\n}\r\n\r\n.translate-middle {\r\n  transform: translate(-50%, -50%) !important;\r\n}\r\n\r\n.translate-middle-x {\r\n  transform: translateX(-50%) !important;\r\n}\r\n\r\n.translate-middle-y {\r\n  transform: translateY(-50%) !important;\r\n}\r\n\r\n.border {\r\n  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-0 {\r\n  border: 0 !important;\r\n}\r\n\r\n.border-top {\r\n  border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-top-0 {\r\n  border-top: 0 !important;\r\n}\r\n\r\n.border-end {\r\n  border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-end-0 {\r\n  border-right: 0 !important;\r\n}\r\n\r\n.border-bottom {\r\n  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-bottom-0 {\r\n  border-bottom: 0 !important;\r\n}\r\n\r\n.border-start {\r\n  border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;\r\n}\r\n\r\n.border-start-0 {\r\n  border-left: 0 !important;\r\n}\r\n\r\n.border-primary {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-secondary {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-success {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-info {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-info-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-warning {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-danger {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-light {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-light-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-dark {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-white {\r\n  --bs-border-opacity: 1;\r\n  border-color: rgba(var(--bs-white-rgb), var(--bs-border-opacity)) !important;\r\n}\r\n\r\n.border-1 {\r\n  --bs-border-width: 1px;\r\n}\r\n\r\n.border-2 {\r\n  --bs-border-width: 2px;\r\n}\r\n\r\n.border-3 {\r\n  --bs-border-width: 3px;\r\n}\r\n\r\n.border-4 {\r\n  --bs-border-width: 4px;\r\n}\r\n\r\n.border-5 {\r\n  --bs-border-width: 5px;\r\n}\r\n\r\n.border-opacity-10 {\r\n  --bs-border-opacity: 0.1;\r\n}\r\n\r\n.border-opacity-25 {\r\n  --bs-border-opacity: 0.25;\r\n}\r\n\r\n.border-opacity-50 {\r\n  --bs-border-opacity: 0.5;\r\n}\r\n\r\n.border-opacity-75 {\r\n  --bs-border-opacity: 0.75;\r\n}\r\n\r\n.border-opacity-100 {\r\n  --bs-border-opacity: 1;\r\n}\r\n\r\n.w-25 {\r\n  width: 25% !important;\r\n}\r\n\r\n.w-50 {\r\n  width: 50% !important;\r\n}\r\n\r\n.w-75 {\r\n  width: 75% !important;\r\n}\r\n\r\n.w-100 {\r\n  width: 100% !important;\r\n}\r\n\r\n.w-auto {\r\n  width: auto !important;\r\n}\r\n\r\n.mw-100 {\r\n  max-width: 100% !important;\r\n}\r\n\r\n.vw-100 {\r\n  width: 100vw !important;\r\n}\r\n\r\n.min-vw-100 {\r\n  min-width: 100vw !important;\r\n}\r\n\r\n.h-25 {\r\n  height: 25% !important;\r\n}\r\n\r\n.h-50 {\r\n  height: 50% !important;\r\n}\r\n\r\n.h-75 {\r\n  height: 75% !important;\r\n}\r\n\r\n.h-100 {\r\n  height: 100% !important;\r\n}\r\n\r\n.h-auto {\r\n  height: auto !important;\r\n}\r\n\r\n.mh-100 {\r\n  max-height: 100% !important;\r\n}\r\n\r\n.vh-100 {\r\n  height: 100vh !important;\r\n}\r\n\r\n.min-vh-100 {\r\n  min-height: 100vh !important;\r\n}\r\n\r\n.flex-fill {\r\n  flex: 1 1 auto !important;\r\n}\r\n\r\n.flex-row {\r\n  flex-direction: row !important;\r\n}\r\n\r\n.flex-column {\r\n  flex-direction: column !important;\r\n}\r\n\r\n.flex-row-reverse {\r\n  flex-direction: row-reverse !important;\r\n}\r\n\r\n.flex-column-reverse {\r\n  flex-direction: column-reverse !important;\r\n}\r\n\r\n.flex-grow-0 {\r\n  flex-grow: 0 !important;\r\n}\r\n\r\n.flex-grow-1 {\r\n  flex-grow: 1 !important;\r\n}\r\n\r\n.flex-shrink-0 {\r\n  flex-shrink: 0 !important;\r\n}\r\n\r\n.flex-shrink-1 {\r\n  flex-shrink: 1 !important;\r\n}\r\n\r\n.flex-wrap {\r\n  flex-wrap: wrap !important;\r\n}\r\n\r\n.flex-nowrap {\r\n  flex-wrap: nowrap !important;\r\n}\r\n\r\n.flex-wrap-reverse {\r\n  flex-wrap: wrap-reverse !important;\r\n}\r\n\r\n.justify-content-start {\r\n  justify-content: flex-start !important;\r\n}\r\n\r\n.justify-content-end {\r\n  justify-content: flex-end !important;\r\n}\r\n\r\n.justify-content-center {\r\n  justify-content: center !important;\r\n}\r\n\r\n.justify-content-between {\r\n  justify-content: space-between !important;\r\n}\r\n\r\n.justify-content-around {\r\n  justify-content: space-around !important;\r\n}\r\n\r\n.justify-content-evenly {\r\n  justify-content: space-evenly !important;\r\n}\r\n\r\n.align-items-start {\r\n  align-items: flex-start !important;\r\n}\r\n\r\n.align-items-end {\r\n  align-items: flex-end !important;\r\n}\r\n\r\n.align-items-center {\r\n  align-items: center !important;\r\n}\r\n\r\n.align-items-baseline {\r\n  align-items: baseline !important;\r\n}\r\n\r\n.align-items-stretch {\r\n  align-items: stretch !important;\r\n}\r\n\r\n.align-content-start {\r\n  align-content: flex-start !important;\r\n}\r\n\r\n.align-content-end {\r\n  align-content: flex-end !important;\r\n}\r\n\r\n.align-content-center {\r\n  align-content: center !important;\r\n}\r\n\r\n.align-content-between {\r\n  align-content: space-between !important;\r\n}\r\n\r\n.align-content-around {\r\n  align-content: space-around !important;\r\n}\r\n\r\n.align-content-stretch {\r\n  align-content: stretch !important;\r\n}\r\n\r\n.align-self-auto {\r\n  align-self: auto !important;\r\n}\r\n\r\n.align-self-start {\r\n  align-self: flex-start !important;\r\n}\r\n\r\n.align-self-end {\r\n  align-self: flex-end !important;\r\n}\r\n\r\n.align-self-center {\r\n  align-self: center !important;\r\n}\r\n\r\n.align-self-baseline {\r\n  align-self: baseline !important;\r\n}\r\n\r\n.align-self-stretch {\r\n  align-self: stretch !important;\r\n}\r\n\r\n.order-first {\r\n  order: -1 !important;\r\n}\r\n\r\n.order-0 {\r\n  order: 0 !important;\r\n}\r\n\r\n.order-1 {\r\n  order: 1 !important;\r\n}\r\n\r\n.order-2 {\r\n  order: 2 !important;\r\n}\r\n\r\n.order-3 {\r\n  order: 3 !important;\r\n}\r\n\r\n.order-4 {\r\n  order: 4 !important;\r\n}\r\n\r\n.order-5 {\r\n  order: 5 !important;\r\n}\r\n\r\n.order-last {\r\n  order: 6 !important;\r\n}\r\n\r\n.m-0 {\r\n  margin: 0 !important;\r\n}\r\n\r\n.m-1 {\r\n  margin: 0.25rem !important;\r\n}\r\n\r\n.m-2 {\r\n  margin: 0.5rem !important;\r\n}\r\n\r\n.m-3 {\r\n  margin: 1rem !important;\r\n}\r\n\r\n.m-4 {\r\n  margin: 1.5rem !important;\r\n}\r\n\r\n.m-5 {\r\n  margin: 3rem !important;\r\n}\r\n\r\n.m-auto {\r\n  margin: auto !important;\r\n}\r\n\r\n.mx-0 {\r\n  margin-right: 0 !important;\r\n  margin-left: 0 !important;\r\n}\r\n\r\n.mx-1 {\r\n  margin-right: 0.25rem !important;\r\n  margin-left: 0.25rem !important;\r\n}\r\n\r\n.mx-2 {\r\n  margin-right: 0.5rem !important;\r\n  margin-left: 0.5rem !important;\r\n}\r\n\r\n.mx-3 {\r\n  margin-right: 1rem !important;\r\n  margin-left: 1rem !important;\r\n}\r\n\r\n.mx-4 {\r\n  margin-right: 1.5rem !important;\r\n  margin-left: 1.5rem !important;\r\n}\r\n\r\n.mx-5 {\r\n  margin-right: 3rem !important;\r\n  margin-left: 3rem !important;\r\n}\r\n\r\n.mx-auto {\r\n  margin-right: auto !important;\r\n  margin-left: auto !important;\r\n}\r\n\r\n.my-0 {\r\n  margin-top: 0 !important;\r\n  margin-bottom: 0 !important;\r\n}\r\n\r\n.my-1 {\r\n  margin-top: 0.25rem !important;\r\n  margin-bottom: 0.25rem !important;\r\n}\r\n\r\n.my-2 {\r\n  margin-top: 0.5rem !important;\r\n  margin-bottom: 0.5rem !important;\r\n}\r\n\r\n.my-3 {\r\n  margin-top: 1rem !important;\r\n  margin-bottom: 1rem !important;\r\n}\r\n\r\n.my-4 {\r\n  margin-top: 1.5rem !important;\r\n  margin-bottom: 1.5rem !important;\r\n}\r\n\r\n.my-5 {\r\n  margin-top: 3rem !important;\r\n  margin-bottom: 3rem !important;\r\n}\r\n\r\n.my-auto {\r\n  margin-top: auto !important;\r\n  margin-bottom: auto !important;\r\n}\r\n\r\n.mt-0 {\r\n  margin-top: 0 !important;\r\n}\r\n\r\n.mt-1 {\r\n  margin-top: 0.25rem !important;\r\n}\r\n\r\n.mt-2 {\r\n  margin-top: 0.5rem !important;\r\n}\r\n\r\n.mt-3 {\r\n  margin-top: 1rem !important;\r\n}\r\n\r\n.mt-4 {\r\n  margin-top: 1.5rem !important;\r\n}\r\n\r\n.mt-5 {\r\n  margin-top: 3rem !important;\r\n}\r\n\r\n.mt-auto {\r\n  margin-top: auto !important;\r\n}\r\n\r\n.me-0 {\r\n  margin-right: 0 !important;\r\n}\r\n\r\n.me-1 {\r\n  margin-right: 0.25rem !important;\r\n}\r\n\r\n.me-2 {\r\n  margin-right: 0.5rem !important;\r\n}\r\n\r\n.me-3 {\r\n  margin-right: 1rem !important;\r\n}\r\n\r\n.me-4 {\r\n  margin-right: 1.5rem !important;\r\n}\r\n\r\n.me-5 {\r\n  margin-right: 3rem !important;\r\n}\r\n\r\n.me-auto {\r\n  margin-right: auto !important;\r\n}\r\n\r\n.mb-0 {\r\n  margin-bottom: 0 !important;\r\n}\r\n\r\n.mb-1 {\r\n  margin-bottom: 0.25rem !important;\r\n}\r\n\r\n.mb-2 {\r\n  margin-bottom: 0.5rem !important;\r\n}\r\n\r\n.mb-3 {\r\n  margin-bottom: 1rem !important;\r\n}\r\n\r\n.mb-4 {\r\n  margin-bottom: 1.5rem !important;\r\n}\r\n\r\n.mb-5 {\r\n  margin-bottom: 3rem !important;\r\n}\r\n\r\n.mb-auto {\r\n  margin-bottom: auto !important;\r\n}\r\n\r\n.ms-0 {\r\n  margin-left: 0 !important;\r\n}\r\n\r\n.ms-1 {\r\n  margin-left: 0.25rem !important;\r\n}\r\n\r\n.ms-2 {\r\n  margin-left: 0.5rem !important;\r\n}\r\n\r\n.ms-3 {\r\n  margin-left: 1rem !important;\r\n}\r\n\r\n.ms-4 {\r\n  margin-left: 1.5rem !important;\r\n}\r\n\r\n.ms-5 {\r\n  margin-left: 3rem !important;\r\n}\r\n\r\n.ms-auto {\r\n  margin-left: auto !important;\r\n}\r\n\r\n.p-0 {\r\n  padding: 0 !important;\r\n}\r\n\r\n.p-1 {\r\n  padding: 0.25rem !important;\r\n}\r\n\r\n.p-2 {\r\n  padding: 0.5rem !important;\r\n}\r\n\r\n.p-3 {\r\n  padding: 1rem !important;\r\n}\r\n\r\n.p-4 {\r\n  padding: 1.5rem !important;\r\n}\r\n\r\n.p-5 {\r\n  padding: 3rem !important;\r\n}\r\n\r\n.px-0 {\r\n  padding-right: 0 !important;\r\n  padding-left: 0 !important;\r\n}\r\n\r\n.px-1 {\r\n  padding-right: 0.25rem !important;\r\n  padding-left: 0.25rem !important;\r\n}\r\n\r\n.px-2 {\r\n  padding-right: 0.5rem !important;\r\n  padding-left: 0.5rem !important;\r\n}\r\n\r\n.px-3 {\r\n  padding-right: 1rem !important;\r\n  padding-left: 1rem !important;\r\n}\r\n\r\n.px-4 {\r\n  padding-right: 1.5rem !important;\r\n  padding-left: 1.5rem !important;\r\n}\r\n\r\n.px-5 {\r\n  padding-right: 3rem !important;\r\n  padding-left: 3rem !important;\r\n}\r\n\r\n.py-0 {\r\n  padding-top: 0 !important;\r\n  padding-bottom: 0 !important;\r\n}\r\n\r\n.py-1 {\r\n  padding-top: 0.25rem !important;\r\n  padding-bottom: 0.25rem !important;\r\n}\r\n\r\n.py-2 {\r\n  padding-top: 0.5rem !important;\r\n  padding-bottom: 0.5rem !important;\r\n}\r\n\r\n.py-3 {\r\n  padding-top: 1rem !important;\r\n  padding-bottom: 1rem !important;\r\n}\r\n\r\n.py-4 {\r\n  padding-top: 1.5rem !important;\r\n  padding-bottom: 1.5rem !important;\r\n}\r\n\r\n.py-5 {\r\n  padding-top: 3rem !important;\r\n  padding-bottom: 3rem !important;\r\n}\r\n\r\n.pt-0 {\r\n  padding-top: 0 !important;\r\n}\r\n\r\n.pt-1 {\r\n  padding-top: 0.25rem !important;\r\n}\r\n\r\n.pt-2 {\r\n  padding-top: 0.5rem !important;\r\n}\r\n\r\n.pt-3 {\r\n  padding-top: 1rem !important;\r\n}\r\n\r\n.pt-4 {\r\n  padding-top: 1.5rem !important;\r\n}\r\n\r\n.pt-5 {\r\n  padding-top: 3rem !important;\r\n}\r\n\r\n.pe-0 {\r\n  padding-right: 0 !important;\r\n}\r\n\r\n.pe-1 {\r\n  padding-right: 0.25rem !important;\r\n}\r\n\r\n.pe-2 {\r\n  padding-right: 0.5rem !important;\r\n}\r\n\r\n.pe-3 {\r\n  padding-right: 1rem !important;\r\n}\r\n\r\n.pe-4 {\r\n  padding-right: 1.5rem !important;\r\n}\r\n\r\n.pe-5 {\r\n  padding-right: 3rem !important;\r\n}\r\n\r\n.pb-0 {\r\n  padding-bottom: 0 !important;\r\n}\r\n\r\n.pb-1 {\r\n  padding-bottom: 0.25rem !important;\r\n}\r\n\r\n.pb-2 {\r\n  padding-bottom: 0.5rem !important;\r\n}\r\n\r\n.pb-3 {\r\n  padding-bottom: 1rem !important;\r\n}\r\n\r\n.pb-4 {\r\n  padding-bottom: 1.5rem !important;\r\n}\r\n\r\n.pb-5 {\r\n  padding-bottom: 3rem !important;\r\n}\r\n\r\n.ps-0 {\r\n  padding-left: 0 !important;\r\n}\r\n\r\n.ps-1 {\r\n  padding-left: 0.25rem !important;\r\n}\r\n\r\n.ps-2 {\r\n  padding-left: 0.5rem !important;\r\n}\r\n\r\n.ps-3 {\r\n  padding-left: 1rem !important;\r\n}\r\n\r\n.ps-4 {\r\n  padding-left: 1.5rem !important;\r\n}\r\n\r\n.ps-5 {\r\n  padding-left: 3rem !important;\r\n}\r\n\r\n.gap-0 {\r\n  gap: 0 !important;\r\n}\r\n\r\n.gap-1 {\r\n  gap: 0.25rem !important;\r\n}\r\n\r\n.gap-2 {\r\n  gap: 0.5rem !important;\r\n}\r\n\r\n.gap-3 {\r\n  gap: 1rem !important;\r\n}\r\n\r\n.gap-4 {\r\n  gap: 1.5rem !important;\r\n}\r\n\r\n.gap-5 {\r\n  gap: 3rem !important;\r\n}\r\n\r\n.font-monospace {\r\n  font-family: var(--bs-font-monospace) !important;\r\n}\r\n\r\n.fs-1 {\r\n  font-size: calc(1.375rem + 1.5vw) !important;\r\n}\r\n\r\n.fs-2 {\r\n  font-size: calc(1.325rem + 0.9vw) !important;\r\n}\r\n\r\n.fs-3 {\r\n  font-size: calc(1.3rem + 0.6vw) !important;\r\n}\r\n\r\n.fs-4 {\r\n  font-size: calc(1.275rem + 0.3vw) !important;\r\n}\r\n\r\n.fs-5 {\r\n  font-size: 1.25rem !important;\r\n}\r\n\r\n.fs-6 {\r\n  font-size: 1rem !important;\r\n}\r\n\r\n.fst-italic {\r\n  font-style: italic !important;\r\n}\r\n\r\n.fst-normal {\r\n  font-style: normal !important;\r\n}\r\n\r\n.fw-light {\r\n  font-weight: 300 !important;\r\n}\r\n\r\n.fw-lighter {\r\n  font-weight: lighter !important;\r\n}\r\n\r\n.fw-normal {\r\n  font-weight: 400 !important;\r\n}\r\n\r\n.fw-bold {\r\n  font-weight: 700 !important;\r\n}\r\n\r\n.fw-semibold {\r\n  font-weight: 600 !important;\r\n}\r\n\r\n.fw-bolder {\r\n  font-weight: bolder !important;\r\n}\r\n\r\n.lh-1 {\r\n  line-height: 1 !important;\r\n}\r\n\r\n.lh-sm {\r\n  line-height: 1.25 !important;\r\n}\r\n\r\n.lh-base {\r\n  line-height: 1.5 !important;\r\n}\r\n\r\n.lh-lg {\r\n  line-height: 2 !important;\r\n}\r\n\r\n.text-start {\r\n  text-align: left !important;\r\n}\r\n\r\n.text-end {\r\n  text-align: right !important;\r\n}\r\n\r\n.text-center {\r\n  text-align: center !important;\r\n}\r\n\r\n.text-decoration-none {\r\n  text-decoration: none !important;\r\n}\r\n\r\n.text-decoration-underline {\r\n  text-decoration: underline !important;\r\n}\r\n\r\n.text-decoration-line-through {\r\n  text-decoration: line-through !important;\r\n}\r\n\r\n.text-lowercase {\r\n  text-transform: lowercase !important;\r\n}\r\n\r\n.text-uppercase {\r\n  text-transform: uppercase !important;\r\n}\r\n\r\n.text-capitalize {\r\n  text-transform: capitalize !important;\r\n}\r\n\r\n.text-wrap {\r\n  white-space: normal !important;\r\n}\r\n\r\n.text-nowrap {\r\n  white-space: nowrap !important;\r\n}\r\n\r\n/* rtl:begin:remove */\r\n.text-break {\r\n  word-wrap: break-word !important;\r\n  word-break: break-word !important;\r\n}\r\n\r\n/* rtl:end:remove */\r\n.text-primary {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-secondary {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-success {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-info {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-warning {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-danger {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-light {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-dark {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-black {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-white {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-body {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;\r\n}\r\n\r\n.text-muted {\r\n  --bs-text-opacity: 1;\r\n  color: #6c757d !important;\r\n}\r\n\r\n.text-black-50 {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(0, 0, 0, 0.5) !important;\r\n}\r\n\r\n.text-white-50 {\r\n  --bs-text-opacity: 1;\r\n  color: rgba(255, 255, 255, 0.5) !important;\r\n}\r\n\r\n.text-reset {\r\n  --bs-text-opacity: 1;\r\n  color: inherit !important;\r\n}\r\n\r\n.text-opacity-25 {\r\n  --bs-text-opacity: 0.25;\r\n}\r\n\r\n.text-opacity-50 {\r\n  --bs-text-opacity: 0.5;\r\n}\r\n\r\n.text-opacity-75 {\r\n  --bs-text-opacity: 0.75;\r\n}\r\n\r\n.text-opacity-100 {\r\n  --bs-text-opacity: 1;\r\n}\r\n\r\n.bg-primary {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-secondary {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-success {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-info {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-warning {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-danger {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-light {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-dark {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-black {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-white {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-body {\r\n  --bs-bg-opacity: 1;\r\n  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;\r\n}\r\n\r\n.bg-transparent {\r\n  --bs-bg-opacity: 1;\r\n  background-color: transparent !important;\r\n}\r\n\r\n.bg-opacity-10 {\r\n  --bs-bg-opacity: 0.1;\r\n}\r\n\r\n.bg-opacity-25 {\r\n  --bs-bg-opacity: 0.25;\r\n}\r\n\r\n.bg-opacity-50 {\r\n  --bs-bg-opacity: 0.5;\r\n}\r\n\r\n.bg-opacity-75 {\r\n  --bs-bg-opacity: 0.75;\r\n}\r\n\r\n.bg-opacity-100 {\r\n  --bs-bg-opacity: 1;\r\n}\r\n\r\n.bg-gradient {\r\n  background-image: var(--bs-gradient) !important;\r\n}\r\n\r\n.user-select-all {\r\n  -webkit-user-select: all !important;\r\n     -moz-user-select: all !important;\r\n          user-select: all !important;\r\n}\r\n\r\n.user-select-auto {\r\n  -webkit-user-select: auto !important;\r\n     -moz-user-select: auto !important;\r\n          user-select: auto !important;\r\n}\r\n\r\n.user-select-none {\r\n  -webkit-user-select: none !important;\r\n     -moz-user-select: none !important;\r\n          user-select: none !important;\r\n}\r\n\r\n.pe-none {\r\n  pointer-events: none !important;\r\n}\r\n\r\n.pe-auto {\r\n  pointer-events: auto !important;\r\n}\r\n\r\n.rounded {\r\n  border-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-0 {\r\n  border-radius: 0 !important;\r\n}\r\n\r\n.rounded-1 {\r\n  border-radius: var(--bs-border-radius-sm) !important;\r\n}\r\n\r\n.rounded-2 {\r\n  border-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-3 {\r\n  border-radius: var(--bs-border-radius-lg) !important;\r\n}\r\n\r\n.rounded-4 {\r\n  border-radius: var(--bs-border-radius-xl) !important;\r\n}\r\n\r\n.rounded-5 {\r\n  border-radius: var(--bs-border-radius-2xl) !important;\r\n}\r\n\r\n.rounded-circle {\r\n  border-radius: 50% !important;\r\n}\r\n\r\n.rounded-pill {\r\n  border-radius: var(--bs-border-radius-pill) !important;\r\n}\r\n\r\n.rounded-top {\r\n  border-top-left-radius: var(--bs-border-radius) !important;\r\n  border-top-right-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-end {\r\n  border-top-right-radius: var(--bs-border-radius) !important;\r\n  border-bottom-right-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-bottom {\r\n  border-bottom-right-radius: var(--bs-border-radius) !important;\r\n  border-bottom-left-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.rounded-start {\r\n  border-bottom-left-radius: var(--bs-border-radius) !important;\r\n  border-top-left-radius: var(--bs-border-radius) !important;\r\n}\r\n\r\n.visible {\r\n  visibility: visible !important;\r\n}\r\n\r\n.invisible {\r\n  visibility: hidden !important;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n  .float-sm-start {\r\n    float: left !important;\r\n  }\r\n  .float-sm-end {\r\n    float: right !important;\r\n  }\r\n  .float-sm-none {\r\n    float: none !important;\r\n  }\r\n  .d-sm-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-sm-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-sm-block {\r\n    display: block !important;\r\n  }\r\n  .d-sm-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-sm-table {\r\n    display: table !important;\r\n  }\r\n  .d-sm-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-sm-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-sm-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-sm-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-sm-none {\r\n    display: none !important;\r\n  }\r\n  .flex-sm-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-sm-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-sm-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-sm-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-sm-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-sm-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-sm-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-sm-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-sm-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-sm-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-sm-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-sm-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-sm-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-sm-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-sm-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-sm-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-sm-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-sm-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-sm-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-sm-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-sm-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-sm-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-sm-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-sm-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-sm-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-sm-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-sm-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-sm-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-sm-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-sm-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-sm-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-sm-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-sm-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-sm-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-sm-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-sm-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-sm-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-sm-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-sm-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-sm-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-sm-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-sm-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-sm-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-sm-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-sm-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-sm-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-sm-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-sm-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-sm-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-sm-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-sm-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-sm-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-sm-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-sm-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-sm-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-sm-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-sm-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-sm-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-sm-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-sm-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-sm-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-sm-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-sm-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-sm-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-sm-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-sm-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-sm-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-sm-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-sm-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-sm-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-sm-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-sm-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-sm-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-sm-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-sm-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-sm-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-sm-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-sm-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-sm-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-sm-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-sm-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-sm-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-sm-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-sm-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-sm-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-sm-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-sm-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-sm-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-sm-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-sm-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-sm-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-sm-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-sm-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-sm-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-sm-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-sm-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-sm-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-sm-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-sm-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-sm-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-sm-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-sm-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-sm-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-sm-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-sm-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-sm-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-sm-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-sm-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-sm-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-sm-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-sm-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-sm-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-sm-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-sm-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-sm-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-sm-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-sm-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-sm-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-sm-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-sm-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-sm-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-sm-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-sm-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-sm-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-sm-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-sm-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-sm-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-sm-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-sm-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-sm-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-sm-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-sm-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-sm-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-sm-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-sm-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-sm-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-sm-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-sm-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-sm-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-sm-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-sm-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-sm-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-sm-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 768px) {\r\n  .float-md-start {\r\n    float: left !important;\r\n  }\r\n  .float-md-end {\r\n    float: right !important;\r\n  }\r\n  .float-md-none {\r\n    float: none !important;\r\n  }\r\n  .d-md-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-md-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-md-block {\r\n    display: block !important;\r\n  }\r\n  .d-md-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-md-table {\r\n    display: table !important;\r\n  }\r\n  .d-md-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-md-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-md-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-md-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-md-none {\r\n    display: none !important;\r\n  }\r\n  .flex-md-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-md-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-md-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-md-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-md-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-md-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-md-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-md-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-md-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-md-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-md-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-md-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-md-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-md-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-md-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-md-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-md-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-md-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-md-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-md-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-md-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-md-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-md-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-md-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-md-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-md-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-md-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-md-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-md-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-md-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-md-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-md-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-md-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-md-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-md-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-md-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-md-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-md-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-md-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-md-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-md-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-md-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-md-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-md-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-md-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-md-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-md-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-md-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-md-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-md-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-md-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-md-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-md-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-md-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-md-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-md-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-md-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-md-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-md-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-md-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-md-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-md-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-md-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-md-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-md-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-md-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-md-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-md-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-md-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-md-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-md-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-md-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-md-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-md-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-md-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-md-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-md-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-md-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-md-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-md-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-md-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-md-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-md-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-md-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-md-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-md-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-md-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-md-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-md-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-md-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-md-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-md-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-md-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-md-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-md-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-md-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-md-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-md-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-md-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-md-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-md-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-md-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-md-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-md-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-md-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-md-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-md-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-md-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-md-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-md-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-md-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-md-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-md-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-md-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-md-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-md-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-md-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-md-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-md-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-md-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-md-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-md-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-md-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-md-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-md-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-md-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-md-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-md-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-md-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-md-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-md-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-md-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-md-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-md-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-md-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-md-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-md-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-md-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-md-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-md-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-md-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-md-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-md-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 992px) {\r\n  .float-lg-start {\r\n    float: left !important;\r\n  }\r\n  .float-lg-end {\r\n    float: right !important;\r\n  }\r\n  .float-lg-none {\r\n    float: none !important;\r\n  }\r\n  .d-lg-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-lg-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-lg-block {\r\n    display: block !important;\r\n  }\r\n  .d-lg-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-lg-table {\r\n    display: table !important;\r\n  }\r\n  .d-lg-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-lg-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-lg-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-lg-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-lg-none {\r\n    display: none !important;\r\n  }\r\n  .flex-lg-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-lg-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-lg-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-lg-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-lg-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-lg-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-lg-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-lg-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-lg-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-lg-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-lg-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-lg-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-lg-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-lg-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-lg-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-lg-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-lg-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-lg-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-lg-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-lg-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-lg-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-lg-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-lg-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-lg-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-lg-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-lg-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-lg-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-lg-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-lg-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-lg-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-lg-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-lg-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-lg-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-lg-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-lg-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-lg-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-lg-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-lg-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-lg-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-lg-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-lg-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-lg-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-lg-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-lg-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-lg-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-lg-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-lg-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-lg-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-lg-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-lg-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-lg-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-lg-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-lg-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-lg-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-lg-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-lg-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-lg-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-lg-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-lg-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-lg-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-lg-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-lg-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-lg-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-lg-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-lg-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-lg-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-lg-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-lg-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-lg-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-lg-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-lg-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-lg-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-lg-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-lg-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-lg-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-lg-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-lg-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-lg-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-lg-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-lg-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-lg-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-lg-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-lg-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-lg-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-lg-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-lg-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-lg-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-lg-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-lg-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-lg-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-lg-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-lg-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-lg-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-lg-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-lg-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-lg-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-lg-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-lg-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-lg-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-lg-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-lg-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-lg-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-lg-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-lg-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-lg-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-lg-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-lg-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-lg-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-lg-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-lg-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-lg-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-lg-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-lg-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-lg-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-lg-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-lg-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-lg-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-lg-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-lg-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-lg-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-lg-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-lg-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-lg-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-lg-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-lg-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-lg-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-lg-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-lg-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-lg-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-lg-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-lg-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-lg-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-lg-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-lg-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-lg-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-lg-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-lg-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-lg-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-lg-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-lg-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-lg-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-lg-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-lg-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .float-xl-start {\r\n    float: left !important;\r\n  }\r\n  .float-xl-end {\r\n    float: right !important;\r\n  }\r\n  .float-xl-none {\r\n    float: none !important;\r\n  }\r\n  .d-xl-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-xl-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-xl-block {\r\n    display: block !important;\r\n  }\r\n  .d-xl-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-xl-table {\r\n    display: table !important;\r\n  }\r\n  .d-xl-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-xl-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-xl-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-xl-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-xl-none {\r\n    display: none !important;\r\n  }\r\n  .flex-xl-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-xl-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-xl-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-xl-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-xl-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-xl-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-xl-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-xl-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-xl-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-xl-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-xl-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-xl-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-xl-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-xl-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-xl-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-xl-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-xl-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-xl-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-xl-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-xl-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-xl-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-xl-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-xl-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-xl-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-xl-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-xl-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-xl-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-xl-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-xl-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-xl-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-xl-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-xl-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-xl-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-xl-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-xl-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-xl-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-xl-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-xl-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-xl-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-xl-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-xl-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-xl-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-xl-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-xl-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-xl-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-xl-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-xl-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-xl-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-xl-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-xl-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-xl-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-xl-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-xl-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-xl-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-xl-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-xl-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-xl-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-xl-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-xl-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-xl-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-xl-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-xl-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-xl-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-xl-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-xl-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-xl-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-xl-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-xl-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-xl-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-xl-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-xl-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-xl-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-xl-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-xl-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-xl-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-xl-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-xl-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-xl-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-xl-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-xl-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-xl-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-xl-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-xl-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-xl-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-xl-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-xl-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-xl-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-xl-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-xl-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-xl-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-xl-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-xl-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-xl-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-xl-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-xl-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-xl-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-xl-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-xl-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-xl-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-xl-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-xl-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-xl-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-xl-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-xl-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-xl-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-xl-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-xl-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-xl-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-xl-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-xl-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-xl-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-xl-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-xl-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-xl-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-xl-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-xl-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-xl-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-xl-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-xl-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-xl-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-xl-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-xl-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-xl-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-xl-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-xl-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-xl-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-xl-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-xl-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-xl-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-xl-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-xl-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-xl-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-xl-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-xl-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-xl-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-xl-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-xl-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-xl-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-xl-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-xl-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-xl-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-xl-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-xl-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 1400px) {\r\n  .float-xxl-start {\r\n    float: left !important;\r\n  }\r\n  .float-xxl-end {\r\n    float: right !important;\r\n  }\r\n  .float-xxl-none {\r\n    float: none !important;\r\n  }\r\n  .d-xxl-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-xxl-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-xxl-block {\r\n    display: block !important;\r\n  }\r\n  .d-xxl-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-xxl-table {\r\n    display: table !important;\r\n  }\r\n  .d-xxl-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-xxl-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-xxl-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-xxl-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-xxl-none {\r\n    display: none !important;\r\n  }\r\n  .flex-xxl-fill {\r\n    flex: 1 1 auto !important;\r\n  }\r\n  .flex-xxl-row {\r\n    flex-direction: row !important;\r\n  }\r\n  .flex-xxl-column {\r\n    flex-direction: column !important;\r\n  }\r\n  .flex-xxl-row-reverse {\r\n    flex-direction: row-reverse !important;\r\n  }\r\n  .flex-xxl-column-reverse {\r\n    flex-direction: column-reverse !important;\r\n  }\r\n  .flex-xxl-grow-0 {\r\n    flex-grow: 0 !important;\r\n  }\r\n  .flex-xxl-grow-1 {\r\n    flex-grow: 1 !important;\r\n  }\r\n  .flex-xxl-shrink-0 {\r\n    flex-shrink: 0 !important;\r\n  }\r\n  .flex-xxl-shrink-1 {\r\n    flex-shrink: 1 !important;\r\n  }\r\n  .flex-xxl-wrap {\r\n    flex-wrap: wrap !important;\r\n  }\r\n  .flex-xxl-nowrap {\r\n    flex-wrap: nowrap !important;\r\n  }\r\n  .flex-xxl-wrap-reverse {\r\n    flex-wrap: wrap-reverse !important;\r\n  }\r\n  .justify-content-xxl-start {\r\n    justify-content: flex-start !important;\r\n  }\r\n  .justify-content-xxl-end {\r\n    justify-content: flex-end !important;\r\n  }\r\n  .justify-content-xxl-center {\r\n    justify-content: center !important;\r\n  }\r\n  .justify-content-xxl-between {\r\n    justify-content: space-between !important;\r\n  }\r\n  .justify-content-xxl-around {\r\n    justify-content: space-around !important;\r\n  }\r\n  .justify-content-xxl-evenly {\r\n    justify-content: space-evenly !important;\r\n  }\r\n  .align-items-xxl-start {\r\n    align-items: flex-start !important;\r\n  }\r\n  .align-items-xxl-end {\r\n    align-items: flex-end !important;\r\n  }\r\n  .align-items-xxl-center {\r\n    align-items: center !important;\r\n  }\r\n  .align-items-xxl-baseline {\r\n    align-items: baseline !important;\r\n  }\r\n  .align-items-xxl-stretch {\r\n    align-items: stretch !important;\r\n  }\r\n  .align-content-xxl-start {\r\n    align-content: flex-start !important;\r\n  }\r\n  .align-content-xxl-end {\r\n    align-content: flex-end !important;\r\n  }\r\n  .align-content-xxl-center {\r\n    align-content: center !important;\r\n  }\r\n  .align-content-xxl-between {\r\n    align-content: space-between !important;\r\n  }\r\n  .align-content-xxl-around {\r\n    align-content: space-around !important;\r\n  }\r\n  .align-content-xxl-stretch {\r\n    align-content: stretch !important;\r\n  }\r\n  .align-self-xxl-auto {\r\n    align-self: auto !important;\r\n  }\r\n  .align-self-xxl-start {\r\n    align-self: flex-start !important;\r\n  }\r\n  .align-self-xxl-end {\r\n    align-self: flex-end !important;\r\n  }\r\n  .align-self-xxl-center {\r\n    align-self: center !important;\r\n  }\r\n  .align-self-xxl-baseline {\r\n    align-self: baseline !important;\r\n  }\r\n  .align-self-xxl-stretch {\r\n    align-self: stretch !important;\r\n  }\r\n  .order-xxl-first {\r\n    order: -1 !important;\r\n  }\r\n  .order-xxl-0 {\r\n    order: 0 !important;\r\n  }\r\n  .order-xxl-1 {\r\n    order: 1 !important;\r\n  }\r\n  .order-xxl-2 {\r\n    order: 2 !important;\r\n  }\r\n  .order-xxl-3 {\r\n    order: 3 !important;\r\n  }\r\n  .order-xxl-4 {\r\n    order: 4 !important;\r\n  }\r\n  .order-xxl-5 {\r\n    order: 5 !important;\r\n  }\r\n  .order-xxl-last {\r\n    order: 6 !important;\r\n  }\r\n  .m-xxl-0 {\r\n    margin: 0 !important;\r\n  }\r\n  .m-xxl-1 {\r\n    margin: 0.25rem !important;\r\n  }\r\n  .m-xxl-2 {\r\n    margin: 0.5rem !important;\r\n  }\r\n  .m-xxl-3 {\r\n    margin: 1rem !important;\r\n  }\r\n  .m-xxl-4 {\r\n    margin: 1.5rem !important;\r\n  }\r\n  .m-xxl-5 {\r\n    margin: 3rem !important;\r\n  }\r\n  .m-xxl-auto {\r\n    margin: auto !important;\r\n  }\r\n  .mx-xxl-0 {\r\n    margin-right: 0 !important;\r\n    margin-left: 0 !important;\r\n  }\r\n  .mx-xxl-1 {\r\n    margin-right: 0.25rem !important;\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .mx-xxl-2 {\r\n    margin-right: 0.5rem !important;\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .mx-xxl-3 {\r\n    margin-right: 1rem !important;\r\n    margin-left: 1rem !important;\r\n  }\r\n  .mx-xxl-4 {\r\n    margin-right: 1.5rem !important;\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .mx-xxl-5 {\r\n    margin-right: 3rem !important;\r\n    margin-left: 3rem !important;\r\n  }\r\n  .mx-xxl-auto {\r\n    margin-right: auto !important;\r\n    margin-left: auto !important;\r\n  }\r\n  .my-xxl-0 {\r\n    margin-top: 0 !important;\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .my-xxl-1 {\r\n    margin-top: 0.25rem !important;\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .my-xxl-2 {\r\n    margin-top: 0.5rem !important;\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .my-xxl-3 {\r\n    margin-top: 1rem !important;\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .my-xxl-4 {\r\n    margin-top: 1.5rem !important;\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .my-xxl-5 {\r\n    margin-top: 3rem !important;\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .my-xxl-auto {\r\n    margin-top: auto !important;\r\n    margin-bottom: auto !important;\r\n  }\r\n  .mt-xxl-0 {\r\n    margin-top: 0 !important;\r\n  }\r\n  .mt-xxl-1 {\r\n    margin-top: 0.25rem !important;\r\n  }\r\n  .mt-xxl-2 {\r\n    margin-top: 0.5rem !important;\r\n  }\r\n  .mt-xxl-3 {\r\n    margin-top: 1rem !important;\r\n  }\r\n  .mt-xxl-4 {\r\n    margin-top: 1.5rem !important;\r\n  }\r\n  .mt-xxl-5 {\r\n    margin-top: 3rem !important;\r\n  }\r\n  .mt-xxl-auto {\r\n    margin-top: auto !important;\r\n  }\r\n  .me-xxl-0 {\r\n    margin-right: 0 !important;\r\n  }\r\n  .me-xxl-1 {\r\n    margin-right: 0.25rem !important;\r\n  }\r\n  .me-xxl-2 {\r\n    margin-right: 0.5rem !important;\r\n  }\r\n  .me-xxl-3 {\r\n    margin-right: 1rem !important;\r\n  }\r\n  .me-xxl-4 {\r\n    margin-right: 1.5rem !important;\r\n  }\r\n  .me-xxl-5 {\r\n    margin-right: 3rem !important;\r\n  }\r\n  .me-xxl-auto {\r\n    margin-right: auto !important;\r\n  }\r\n  .mb-xxl-0 {\r\n    margin-bottom: 0 !important;\r\n  }\r\n  .mb-xxl-1 {\r\n    margin-bottom: 0.25rem !important;\r\n  }\r\n  .mb-xxl-2 {\r\n    margin-bottom: 0.5rem !important;\r\n  }\r\n  .mb-xxl-3 {\r\n    margin-bottom: 1rem !important;\r\n  }\r\n  .mb-xxl-4 {\r\n    margin-bottom: 1.5rem !important;\r\n  }\r\n  .mb-xxl-5 {\r\n    margin-bottom: 3rem !important;\r\n  }\r\n  .mb-xxl-auto {\r\n    margin-bottom: auto !important;\r\n  }\r\n  .ms-xxl-0 {\r\n    margin-left: 0 !important;\r\n  }\r\n  .ms-xxl-1 {\r\n    margin-left: 0.25rem !important;\r\n  }\r\n  .ms-xxl-2 {\r\n    margin-left: 0.5rem !important;\r\n  }\r\n  .ms-xxl-3 {\r\n    margin-left: 1rem !important;\r\n  }\r\n  .ms-xxl-4 {\r\n    margin-left: 1.5rem !important;\r\n  }\r\n  .ms-xxl-5 {\r\n    margin-left: 3rem !important;\r\n  }\r\n  .ms-xxl-auto {\r\n    margin-left: auto !important;\r\n  }\r\n  .p-xxl-0 {\r\n    padding: 0 !important;\r\n  }\r\n  .p-xxl-1 {\r\n    padding: 0.25rem !important;\r\n  }\r\n  .p-xxl-2 {\r\n    padding: 0.5rem !important;\r\n  }\r\n  .p-xxl-3 {\r\n    padding: 1rem !important;\r\n  }\r\n  .p-xxl-4 {\r\n    padding: 1.5rem !important;\r\n  }\r\n  .p-xxl-5 {\r\n    padding: 3rem !important;\r\n  }\r\n  .px-xxl-0 {\r\n    padding-right: 0 !important;\r\n    padding-left: 0 !important;\r\n  }\r\n  .px-xxl-1 {\r\n    padding-right: 0.25rem !important;\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .px-xxl-2 {\r\n    padding-right: 0.5rem !important;\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .px-xxl-3 {\r\n    padding-right: 1rem !important;\r\n    padding-left: 1rem !important;\r\n  }\r\n  .px-xxl-4 {\r\n    padding-right: 1.5rem !important;\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .px-xxl-5 {\r\n    padding-right: 3rem !important;\r\n    padding-left: 3rem !important;\r\n  }\r\n  .py-xxl-0 {\r\n    padding-top: 0 !important;\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .py-xxl-1 {\r\n    padding-top: 0.25rem !important;\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .py-xxl-2 {\r\n    padding-top: 0.5rem !important;\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .py-xxl-3 {\r\n    padding-top: 1rem !important;\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .py-xxl-4 {\r\n    padding-top: 1.5rem !important;\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .py-xxl-5 {\r\n    padding-top: 3rem !important;\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .pt-xxl-0 {\r\n    padding-top: 0 !important;\r\n  }\r\n  .pt-xxl-1 {\r\n    padding-top: 0.25rem !important;\r\n  }\r\n  .pt-xxl-2 {\r\n    padding-top: 0.5rem !important;\r\n  }\r\n  .pt-xxl-3 {\r\n    padding-top: 1rem !important;\r\n  }\r\n  .pt-xxl-4 {\r\n    padding-top: 1.5rem !important;\r\n  }\r\n  .pt-xxl-5 {\r\n    padding-top: 3rem !important;\r\n  }\r\n  .pe-xxl-0 {\r\n    padding-right: 0 !important;\r\n  }\r\n  .pe-xxl-1 {\r\n    padding-right: 0.25rem !important;\r\n  }\r\n  .pe-xxl-2 {\r\n    padding-right: 0.5rem !important;\r\n  }\r\n  .pe-xxl-3 {\r\n    padding-right: 1rem !important;\r\n  }\r\n  .pe-xxl-4 {\r\n    padding-right: 1.5rem !important;\r\n  }\r\n  .pe-xxl-5 {\r\n    padding-right: 3rem !important;\r\n  }\r\n  .pb-xxl-0 {\r\n    padding-bottom: 0 !important;\r\n  }\r\n  .pb-xxl-1 {\r\n    padding-bottom: 0.25rem !important;\r\n  }\r\n  .pb-xxl-2 {\r\n    padding-bottom: 0.5rem !important;\r\n  }\r\n  .pb-xxl-3 {\r\n    padding-bottom: 1rem !important;\r\n  }\r\n  .pb-xxl-4 {\r\n    padding-bottom: 1.5rem !important;\r\n  }\r\n  .pb-xxl-5 {\r\n    padding-bottom: 3rem !important;\r\n  }\r\n  .ps-xxl-0 {\r\n    padding-left: 0 !important;\r\n  }\r\n  .ps-xxl-1 {\r\n    padding-left: 0.25rem !important;\r\n  }\r\n  .ps-xxl-2 {\r\n    padding-left: 0.5rem !important;\r\n  }\r\n  .ps-xxl-3 {\r\n    padding-left: 1rem !important;\r\n  }\r\n  .ps-xxl-4 {\r\n    padding-left: 1.5rem !important;\r\n  }\r\n  .ps-xxl-5 {\r\n    padding-left: 3rem !important;\r\n  }\r\n  .gap-xxl-0 {\r\n    gap: 0 !important;\r\n  }\r\n  .gap-xxl-1 {\r\n    gap: 0.25rem !important;\r\n  }\r\n  .gap-xxl-2 {\r\n    gap: 0.5rem !important;\r\n  }\r\n  .gap-xxl-3 {\r\n    gap: 1rem !important;\r\n  }\r\n  .gap-xxl-4 {\r\n    gap: 1.5rem !important;\r\n  }\r\n  .gap-xxl-5 {\r\n    gap: 3rem !important;\r\n  }\r\n  .text-xxl-start {\r\n    text-align: left !important;\r\n  }\r\n  .text-xxl-end {\r\n    text-align: right !important;\r\n  }\r\n  .text-xxl-center {\r\n    text-align: center !important;\r\n  }\r\n}\r\n@media (min-width: 1200px) {\r\n  .fs-1 {\r\n    font-size: 2.5rem !important;\r\n  }\r\n  .fs-2 {\r\n    font-size: 2rem !important;\r\n  }\r\n  .fs-3 {\r\n    font-size: 1.75rem !important;\r\n  }\r\n  .fs-4 {\r\n    font-size: 1.5rem !important;\r\n  }\r\n}\r\n@media print {\r\n  .d-print-inline {\r\n    display: inline !important;\r\n  }\r\n  .d-print-inline-block {\r\n    display: inline-block !important;\r\n  }\r\n  .d-print-block {\r\n    display: block !important;\r\n  }\r\n  .d-print-grid {\r\n    display: grid !important;\r\n  }\r\n  .d-print-table {\r\n    display: table !important;\r\n  }\r\n  .d-print-table-row {\r\n    display: table-row !important;\r\n  }\r\n  .d-print-table-cell {\r\n    display: table-cell !important;\r\n  }\r\n  .d-print-flex {\r\n    display: flex !important;\r\n  }\r\n  .d-print-inline-flex {\r\n    display: inline-flex !important;\r\n  }\r\n  .d-print-none {\r\n    display: none !important;\r\n  }\r\n}\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n}\r\n\r\n#layoutAuthentication {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-height: 100vh;\r\n}\r\n#layoutAuthentication #layoutAuthentication_content {\r\n  min-width: 0;\r\n  flex-grow: 1;\r\n}\r\n#layoutAuthentication #layoutAuthentication_footer {\r\n  min-width: 0;\r\n}\r\n\r\n#layoutSidenav {\r\n  display: flex;\r\n}\r\n#layoutSidenav #layoutSidenav_nav {\r\n  flex-basis: 225px;\r\n  flex-shrink: 0;\r\n  transition: transform 0.15s ease-in-out;\r\n  z-index: 1038;\r\n  transform: translateX(-225px);\r\n}\r\n#layoutSidenav #layoutSidenav_content {\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  min-width: 0;\r\n  flex-grow: 1;\r\n  min-height: calc(100vh - 56px);\r\n  margin-left: -225px;\r\n}\r\n\r\n.sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {\r\n  transform: translateX(0);\r\n}\r\n.sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {\r\n  content: \"\";\r\n  display: block;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #000;\r\n  z-index: 1037;\r\n  opacity: 0.5;\r\n  transition: opacity 0.3s ease-in-out;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n  #layoutSidenav #layoutSidenav_nav {\r\n    transform: translateX(0);\r\n  }\r\n  #layoutSidenav #layoutSidenav_content {\r\n    margin-left: 0;\r\n    transition: margin 0.15s ease-in-out;\r\n  }\r\n  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {\r\n    transform: translateX(-225px);\r\n  }\r\n  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content {\r\n    margin-left: -225px;\r\n  }\r\n  .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {\r\n    display: none;\r\n  }\r\n}\r\n.sb-nav-fixed .sb-topnav {\r\n  z-index: 1039;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_nav {\r\n  width: 225px;\r\n  height: 100vh;\r\n  z-index: 1038;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav {\r\n  padding-top: 56px;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {\r\n  overflow-y: auto;\r\n}\r\n.sb-nav-fixed #layoutSidenav #layoutSidenav_content {\r\n  padding-left: 225px;\r\n  top: 56px;\r\n}\r\n\r\n#layoutError {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-height: 100vh;\r\n}\r\n#layoutError #layoutError_content {\r\n  min-width: 0;\r\n  flex-grow: 1;\r\n}\r\n#layoutError #layoutError_footer {\r\n  min-width: 0;\r\n}\r\n\r\n.img-error {\r\n  max-width: 20rem;\r\n}\r\n\r\n.nav .nav-link .sb-nav-link-icon,\r\n.sb-sidenav-menu .nav-link .sb-nav-link-icon {\r\n  margin-right: 0.5rem;\r\n}\r\n\r\n.sb-topnav {\r\n  padding-left: 0;\r\n  height: 56px;\r\n  z-index: 1039;\r\n}\r\n.sb-topnav .navbar-brand {\r\n  width: 225px;\r\n  margin: 0;\r\n}\r\n.sb-topnav.navbar-dark #sidebarToggle {\r\n  color: rgba(255, 255, 255, 0.5);\r\n}\r\n.sb-topnav.navbar-light #sidebarToggle {\r\n  color: #212529;\r\n}\r\n\r\n.sb-sidenav {\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 100%;\r\n  flex-wrap: nowrap;\r\n}\r\n.sb-sidenav .sb-sidenav-menu {\r\n  flex-grow: 1;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav {\r\n  flex-direction: column;\r\n  flex-wrap: nowrap;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {\r\n  padding: 1.75rem 1rem 0.75rem;\r\n  font-size: 0.75rem;\r\n  font-weight: bold;\r\n  text-transform: uppercase;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link {\r\n  display: flex;\r\n  align-items: center;\r\n  padding-top: 0.75rem;\r\n  padding-bottom: 0.75rem;\r\n  position: relative;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {\r\n  font-size: 0.9rem;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-sidenav-collapse-arrow {\r\n  display: inline-block;\r\n  margin-left: auto;\r\n  transition: transform 0.15s ease;\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .nav-link.collapsed .sb-sidenav-collapse-arrow {\r\n  transform: rotate(-90deg);\r\n}\r\n.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-nested {\r\n  margin-left: 1.5rem;\r\n  flex-direction: column;\r\n}\r\n.sb-sidenav .sb-sidenav-footer {\r\n  padding: 0.75rem;\r\n  flex-shrink: 0;\r\n}\r\n\r\n.sb-sidenav-dark {\r\n  background-color: #212529;\r\n  color: rgba(255, 255, 255, 0.5);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {\r\n  color: rgba(255, 255, 255, 0.25);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link {\r\n  color: rgba(255, 255, 255, 0.5);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {\r\n  color: rgba(255, 255, 255, 0.25);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {\r\n  color: rgba(255, 255, 255, 0.25);\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {\r\n  color: #fff;\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {\r\n  color: #fff;\r\n}\r\n.sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {\r\n  color: #fff;\r\n}\r\n.sb-sidenav-dark .sb-sidenav-footer {\r\n  background-color: #343a40;\r\n}\r\n\r\n.sb-sidenav-light {\r\n  background-color: #f8f9fa;\r\n  color: #212529;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .sb-sidenav-menu-heading {\r\n  color: #adb5bd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link {\r\n  color: #212529;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-nav-link-icon {\r\n  color: #adb5bd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {\r\n  color: #adb5bd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link:hover {\r\n  color: #0d6efd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link.active {\r\n  color: #0d6efd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {\r\n  color: #0d6efd;\r\n}\r\n.sb-sidenav-light .sb-sidenav-footer {\r\n  background-color: #e9ecef;\r\n}\r\n\r\n.datatable-wrapper .datatable-container {\r\n  font-size: 0.875rem;\r\n}\r\n\r\n.datatable-wrapper.no-header .datatable-container {\r\n  border-top: none;\r\n}\r\n\r\n.datatable-wrapper.no-footer .datatable-container {\r\n  border-bottom: none;\r\n}\r\n\r\n.datatable-top {\r\n  padding: 0 0 1rem;\r\n}\r\n\r\n.datatable-bottom {\r\n  padding: 0;\r\n}\r\n\r\n.datatable-top > nav:first-child,\r\n.datatable-top > div:first-child,\r\n.datatable-bottom > nav:first-child,\r\n.datatable-bottom > div:first-child {\r\n  float: left;\r\n}\r\n\r\n.datatable-top > nav:last-child,\r\n.datatable-top > div:last-child,\r\n.datatable-bottom > nav:last-child,\r\n.datatable-bottom > div:last-child {\r\n  float: right;\r\n}\r\n\r\n.datatable-selector {\r\n  width: auto;\r\n  display: inline-block;\r\n  padding-left: 1.125rem;\r\n  padding-right: 2.125rem;\r\n  margin-right: 0.25rem;\r\n}\r\n\r\n.datatable-info {\r\n  margin: 7px 0;\r\n}\r\n\r\n/* PAGER */\r\n.datatable-pagination a:hover {\r\n  background-color: #e9ecef;\r\n}\r\n\r\n.datatable-pagination .active a,\r\n.datatable-pagination .active a:focus,\r\n.datatable-pagination .active a:hover {\r\n  background-color: #0d6efd;\r\n}\r\n\r\n.datatable-pagination .ellipsis a,\r\n.datatable-pagination .disabled a,\r\n.datatable-pagination .disabled a:focus,\r\n.datatable-pagination .disabled a:hover {\r\n  cursor: not-allowed;\r\n}\r\n\r\n.datatable-pagination .disabled a,\r\n.datatable-pagination .disabled a:focus,\r\n.datatable-pagination .disabled a:hover {\r\n  cursor: not-allowed;\r\n  opacity: 0.4;\r\n}\r\n\r\n.datatable-pagination .pager a {\r\n  font-weight: bold;\r\n}\r\n\r\n/* TABLE */\r\n.datatable-table {\r\n  border-collapse: collapse;\r\n}\r\n\r\n.datatable-table > tbody > tr > td,\r\n.datatable-table > tbody > tr > th,\r\n.datatable-table > tfoot > tr > td,\r\n.datatable-table > tfoot > tr > th,\r\n.datatable-table > thead > tr > td,\r\n.datatable-table > thead > tr > th {\r\n  vertical-align: top;\r\n  padding: 0.5rem 0.5rem;\r\n}\r\n\r\n.datatable-table > thead > tr > th {\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n  border-bottom: none;\r\n}\r\n\r\n.datatable-table > tfoot > tr > th {\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n\r\n.datatable-table th {\r\n  vertical-align: bottom;\r\n  text-align: left;\r\n}\r\n\r\n.datatable-table th a {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.datatable-sorter {\r\n  display: inline-block;\r\n  height: 100%;\r\n  position: relative;\r\n  width: 100%;\r\n  padding-right: 1rem;\r\n}\r\n\r\n.datatable-sorter::before,\r\n.datatable-sorter::after {\r\n  content: \"\";\r\n  height: 0;\r\n  width: 0;\r\n  position: absolute;\r\n  right: 4px;\r\n  border-left: 4px solid transparent;\r\n  border-right: 4px solid transparent;\r\n  opacity: 0.2;\r\n}\r\n\r\n.datatable-sorter::before {\r\n  bottom: 4px;\r\n}\r\n\r\n.datatable-sorter::after {\r\n  top: 0px;\r\n}\r\n\r\n.asc .datatable-sorter::after,\r\n.desc .datatable-sorter::before {\r\n  opacity: 0.6;\r\n}\r\n\r\n.datatables-empty {\r\n  text-align: center;\r\n}\r\n\r\n.datatable-top::after,\r\n.datatable-bottom::after {\r\n  clear: both;\r\n  content: \" \";\r\n  display: table;\r\n}\r\n\r\n.datatable-pagination li.datatable-hidden {\r\n  visibility: visible;\r\n}\r\n\r\n.btn-datatable {\r\n  height: 20px !important;\r\n  width: 20px !important;\r\n  font-size: 0.75rem;\r\n  border-radius: 0.375rem !important;\r\n}\r\n\r\n/* 새로 추가 */\r\nrouter-link {\r\n  text-decoration: none;\r\n  color: inherit;\r\n  /* 그 외의 스타일 속성도 필요한 경우 여기에 추가 */\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37442,6 +37771,146 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/components/FooterComponent.vue":
+/*!**************************************************!*\
+  !*** ./resources/components/FooterComponent.vue ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _FooterComponent_vue_vue_type_template_id_62bb55c1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FooterComponent.vue?vue&type=template&id=62bb55c1 */ "./resources/components/FooterComponent.vue?vue&type=template&id=62bb55c1");
+/* harmony import */ var _FooterComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FooterComponent.vue?vue&type=script&lang=js */ "./resources/components/FooterComponent.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_FooterComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_FooterComponent_vue_vue_type_template_id_62bb55c1__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/components/FooterComponent.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/components/MusixMatchComponent.vue":
+/*!******************************************************!*\
+  !*** ./resources/components/MusixMatchComponent.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _MusixMatchComponent_vue_vue_type_template_id_16230b9e__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MusixMatchComponent.vue?vue&type=template&id=16230b9e */ "./resources/components/MusixMatchComponent.vue?vue&type=template&id=16230b9e");
+/* harmony import */ var _MusixMatchComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MusixMatchComponent.vue?vue&type=script&lang=js */ "./resources/components/MusixMatchComponent.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_MusixMatchComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_MusixMatchComponent_vue_vue_type_template_id_16230b9e__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/components/MusixMatchComponent.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/components/NavComponent.vue":
+/*!***********************************************!*\
+  !*** ./resources/components/NavComponent.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _NavComponent_vue_vue_type_template_id_6e86078b__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NavComponent.vue?vue&type=template&id=6e86078b */ "./resources/components/NavComponent.vue?vue&type=template&id=6e86078b");
+/* harmony import */ var _NavComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavComponent.vue?vue&type=script&lang=js */ "./resources/components/NavComponent.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_NavComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_NavComponent_vue_vue_type_template_id_6e86078b__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/components/NavComponent.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/components/SideComponent.vue":
+/*!************************************************!*\
+  !*** ./resources/components/SideComponent.vue ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _SideComponent_vue_vue_type_template_id_4f2f9545__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SideComponent.vue?vue&type=template&id=4f2f9545 */ "./resources/components/SideComponent.vue?vue&type=template&id=4f2f9545");
+/* harmony import */ var _SideComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SideComponent.vue?vue&type=script&lang=js */ "./resources/components/SideComponent.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_SideComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_SideComponent_vue_vue_type_template_id_4f2f9545__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/components/SideComponent.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/components/VibeComponent.vue":
+/*!************************************************!*\
+  !*** ./resources/components/VibeComponent.vue ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _VibeComponent_vue_vue_type_template_id_e5134a74__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./VibeComponent.vue?vue&type=template&id=e5134a74 */ "./resources/components/VibeComponent.vue?vue&type=template&id=e5134a74");
+/* harmony import */ var _VibeComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VibeComponent.vue?vue&type=script&lang=js */ "./resources/components/VibeComponent.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_VibeComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_VibeComponent_vue_vue_type_template_id_e5134a74__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/components/VibeComponent.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/components/AppComponent.vue?vue&type=script&lang=js":
 /*!***********************************************************************!*\
   !*** ./resources/components/AppComponent.vue?vue&type=script&lang=js ***!
@@ -37458,6 +37927,86 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/components/FooterComponent.vue?vue&type=script&lang=js":
+/*!**************************************************************************!*\
+  !*** ./resources/components/FooterComponent.vue?vue&type=script&lang=js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_FooterComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_FooterComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./FooterComponent.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/FooterComponent.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/components/MusixMatchComponent.vue?vue&type=script&lang=js":
+/*!******************************************************************************!*\
+  !*** ./resources/components/MusixMatchComponent.vue?vue&type=script&lang=js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MusixMatchComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MusixMatchComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./MusixMatchComponent.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/MusixMatchComponent.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/components/NavComponent.vue?vue&type=script&lang=js":
+/*!***********************************************************************!*\
+  !*** ./resources/components/NavComponent.vue?vue&type=script&lang=js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./NavComponent.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/NavComponent.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/components/SideComponent.vue?vue&type=script&lang=js":
+/*!************************************************************************!*\
+  !*** ./resources/components/SideComponent.vue?vue&type=script&lang=js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SideComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SideComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./SideComponent.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/SideComponent.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/components/VibeComponent.vue?vue&type=script&lang=js":
+/*!************************************************************************!*\
+  !*** ./resources/components/VibeComponent.vue?vue&type=script&lang=js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_VibeComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_VibeComponent_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./VibeComponent.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/VibeComponent.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/components/AppComponent.vue?vue&type=template&id=1a737966":
 /*!*****************************************************************************!*\
   !*** ./resources/components/AppComponent.vue?vue&type=template&id=1a737966 ***!
@@ -37470,6 +38019,86 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AppComponent_vue_vue_type_template_id_1a737966__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AppComponent_vue_vue_type_template_id_1a737966__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AppComponent.vue?vue&type=template&id=1a737966 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/AppComponent.vue?vue&type=template&id=1a737966");
+
+
+/***/ }),
+
+/***/ "./resources/components/FooterComponent.vue?vue&type=template&id=62bb55c1":
+/*!********************************************************************************!*\
+  !*** ./resources/components/FooterComponent.vue?vue&type=template&id=62bb55c1 ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_FooterComponent_vue_vue_type_template_id_62bb55c1__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_FooterComponent_vue_vue_type_template_id_62bb55c1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./FooterComponent.vue?vue&type=template&id=62bb55c1 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/FooterComponent.vue?vue&type=template&id=62bb55c1");
+
+
+/***/ }),
+
+/***/ "./resources/components/MusixMatchComponent.vue?vue&type=template&id=16230b9e":
+/*!************************************************************************************!*\
+  !*** ./resources/components/MusixMatchComponent.vue?vue&type=template&id=16230b9e ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MusixMatchComponent_vue_vue_type_template_id_16230b9e__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_MusixMatchComponent_vue_vue_type_template_id_16230b9e__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./MusixMatchComponent.vue?vue&type=template&id=16230b9e */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/MusixMatchComponent.vue?vue&type=template&id=16230b9e");
+
+
+/***/ }),
+
+/***/ "./resources/components/NavComponent.vue?vue&type=template&id=6e86078b":
+/*!*****************************************************************************!*\
+  !*** ./resources/components/NavComponent.vue?vue&type=template&id=6e86078b ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavComponent_vue_vue_type_template_id_6e86078b__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_NavComponent_vue_vue_type_template_id_6e86078b__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./NavComponent.vue?vue&type=template&id=6e86078b */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/NavComponent.vue?vue&type=template&id=6e86078b");
+
+
+/***/ }),
+
+/***/ "./resources/components/SideComponent.vue?vue&type=template&id=4f2f9545":
+/*!******************************************************************************!*\
+  !*** ./resources/components/SideComponent.vue?vue&type=template&id=4f2f9545 ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SideComponent_vue_vue_type_template_id_4f2f9545__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SideComponent_vue_vue_type_template_id_4f2f9545__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./SideComponent.vue?vue&type=template&id=4f2f9545 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/SideComponent.vue?vue&type=template&id=4f2f9545");
+
+
+/***/ }),
+
+/***/ "./resources/components/VibeComponent.vue?vue&type=template&id=e5134a74":
+/*!******************************************************************************!*\
+  !*** ./resources/components/VibeComponent.vue?vue&type=template&id=e5134a74 ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_VibeComponent_vue_vue_type_template_id_e5134a74__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_VibeComponent_vue_vue_type_template_id_e5134a74__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./VibeComponent.vue?vue&type=template&id=e5134a74 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/components/VibeComponent.vue?vue&type=template&id=e5134a74");
 
 
 /***/ }),
@@ -39209,6 +39838,3671 @@ var index = {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (index);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-router/dist/vue-router.mjs":
+/*!*****************************************************!*\
+  !*** ./node_modules/vue-router/dist/vue-router.mjs ***!
+  \*****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   NavigationFailureType: () => (/* binding */ NavigationFailureType),
+/* harmony export */   RouterLink: () => (/* binding */ RouterLink),
+/* harmony export */   RouterView: () => (/* binding */ RouterView),
+/* harmony export */   START_LOCATION: () => (/* binding */ START_LOCATION_NORMALIZED),
+/* harmony export */   createMemoryHistory: () => (/* binding */ createMemoryHistory),
+/* harmony export */   createRouter: () => (/* binding */ createRouter),
+/* harmony export */   createRouterMatcher: () => (/* binding */ createRouterMatcher),
+/* harmony export */   createWebHashHistory: () => (/* binding */ createWebHashHistory),
+/* harmony export */   createWebHistory: () => (/* binding */ createWebHistory),
+/* harmony export */   isNavigationFailure: () => (/* binding */ isNavigationFailure),
+/* harmony export */   loadRouteLocation: () => (/* binding */ loadRouteLocation),
+/* harmony export */   matchedRouteKey: () => (/* binding */ matchedRouteKey),
+/* harmony export */   onBeforeRouteLeave: () => (/* binding */ onBeforeRouteLeave),
+/* harmony export */   onBeforeRouteUpdate: () => (/* binding */ onBeforeRouteUpdate),
+/* harmony export */   parseQuery: () => (/* binding */ parseQuery),
+/* harmony export */   routeLocationKey: () => (/* binding */ routeLocationKey),
+/* harmony export */   routerKey: () => (/* binding */ routerKey),
+/* harmony export */   routerViewLocationKey: () => (/* binding */ routerViewLocationKey),
+/* harmony export */   stringifyQuery: () => (/* binding */ stringifyQuery),
+/* harmony export */   useLink: () => (/* binding */ useLink),
+/* harmony export */   useRoute: () => (/* binding */ useRoute),
+/* harmony export */   useRouter: () => (/* binding */ useRouter),
+/* harmony export */   viewDepthKey: () => (/* binding */ viewDepthKey)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _vue_devtools_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @vue/devtools-api */ "./node_modules/@vue/devtools-api/lib/esm/index.js");
+/*!
+  * vue-router v4.2.5
+  * (c) 2023 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+
+
+const isBrowser = typeof window !== 'undefined';
+
+function isESModule(obj) {
+    return obj.__esModule || obj[Symbol.toStringTag] === 'Module';
+}
+const assign = Object.assign;
+function applyToParams(fn, params) {
+    const newParams = {};
+    for (const key in params) {
+        const value = params[key];
+        newParams[key] = isArray(value)
+            ? value.map(fn)
+            : fn(value);
+    }
+    return newParams;
+}
+const noop = () => { };
+/**
+ * Typesafe alternative to Array.isArray
+ * https://github.com/microsoft/TypeScript/pull/48228
+ */
+const isArray = Array.isArray;
+
+function warn(msg) {
+    // avoid using ...args as it breaks in older Edge builds
+    const args = Array.from(arguments).slice(1);
+    console.warn.apply(console, ['[Vue Router warn]: ' + msg].concat(args));
+}
+
+const TRAILING_SLASH_RE = /\/$/;
+const removeTrailingSlash = (path) => path.replace(TRAILING_SLASH_RE, '');
+/**
+ * Transforms a URI into a normalized history location
+ *
+ * @param parseQuery
+ * @param location - URI to normalize
+ * @param currentLocation - current absolute location. Allows resolving relative
+ * paths. Must start with `/`. Defaults to `/`
+ * @returns a normalized history location
+ */
+function parseURL(parseQuery, location, currentLocation = '/') {
+    let path, query = {}, searchString = '', hash = '';
+    // Could use URL and URLSearchParams but IE 11 doesn't support it
+    // TODO: move to new URL()
+    const hashPos = location.indexOf('#');
+    let searchPos = location.indexOf('?');
+    // the hash appears before the search, so it's not part of the search string
+    if (hashPos < searchPos && hashPos >= 0) {
+        searchPos = -1;
+    }
+    if (searchPos > -1) {
+        path = location.slice(0, searchPos);
+        searchString = location.slice(searchPos + 1, hashPos > -1 ? hashPos : location.length);
+        query = parseQuery(searchString);
+    }
+    if (hashPos > -1) {
+        path = path || location.slice(0, hashPos);
+        // keep the # character
+        hash = location.slice(hashPos, location.length);
+    }
+    // no search and no query
+    path = resolveRelativePath(path != null ? path : location, currentLocation);
+    // empty path means a relative query or hash `?foo=f`, `#thing`
+    return {
+        fullPath: path + (searchString && '?') + searchString + hash,
+        path,
+        query,
+        hash,
+    };
+}
+/**
+ * Stringifies a URL object
+ *
+ * @param stringifyQuery
+ * @param location
+ */
+function stringifyURL(stringifyQuery, location) {
+    const query = location.query ? stringifyQuery(location.query) : '';
+    return location.path + (query && '?') + query + (location.hash || '');
+}
+/**
+ * Strips off the base from the beginning of a location.pathname in a non-case-sensitive way.
+ *
+ * @param pathname - location.pathname
+ * @param base - base to strip off
+ */
+function stripBase(pathname, base) {
+    // no base or base is not found at the beginning
+    if (!base || !pathname.toLowerCase().startsWith(base.toLowerCase()))
+        return pathname;
+    return pathname.slice(base.length) || '/';
+}
+/**
+ * Checks if two RouteLocation are equal. This means that both locations are
+ * pointing towards the same {@link RouteRecord} and that all `params`, `query`
+ * parameters and `hash` are the same
+ *
+ * @param stringifyQuery - A function that takes a query object of type LocationQueryRaw and returns a string representation of it.
+ * @param a - first {@link RouteLocation}
+ * @param b - second {@link RouteLocation}
+ */
+function isSameRouteLocation(stringifyQuery, a, b) {
+    const aLastIndex = a.matched.length - 1;
+    const bLastIndex = b.matched.length - 1;
+    return (aLastIndex > -1 &&
+        aLastIndex === bLastIndex &&
+        isSameRouteRecord(a.matched[aLastIndex], b.matched[bLastIndex]) &&
+        isSameRouteLocationParams(a.params, b.params) &&
+        stringifyQuery(a.query) === stringifyQuery(b.query) &&
+        a.hash === b.hash);
+}
+/**
+ * Check if two `RouteRecords` are equal. Takes into account aliases: they are
+ * considered equal to the `RouteRecord` they are aliasing.
+ *
+ * @param a - first {@link RouteRecord}
+ * @param b - second {@link RouteRecord}
+ */
+function isSameRouteRecord(a, b) {
+    // since the original record has an undefined value for aliasOf
+    // but all aliases point to the original record, this will always compare
+    // the original record
+    return (a.aliasOf || a) === (b.aliasOf || b);
+}
+function isSameRouteLocationParams(a, b) {
+    if (Object.keys(a).length !== Object.keys(b).length)
+        return false;
+    for (const key in a) {
+        if (!isSameRouteLocationParamsValue(a[key], b[key]))
+            return false;
+    }
+    return true;
+}
+function isSameRouteLocationParamsValue(a, b) {
+    return isArray(a)
+        ? isEquivalentArray(a, b)
+        : isArray(b)
+            ? isEquivalentArray(b, a)
+            : a === b;
+}
+/**
+ * Check if two arrays are the same or if an array with one single entry is the
+ * same as another primitive value. Used to check query and parameters
+ *
+ * @param a - array of values
+ * @param b - array of values or a single value
+ */
+function isEquivalentArray(a, b) {
+    return isArray(b)
+        ? a.length === b.length && a.every((value, i) => value === b[i])
+        : a.length === 1 && a[0] === b;
+}
+/**
+ * Resolves a relative path that starts with `.`.
+ *
+ * @param to - path location we are resolving
+ * @param from - currentLocation.path, should start with `/`
+ */
+function resolveRelativePath(to, from) {
+    if (to.startsWith('/'))
+        return to;
+    if (( true) && !from.startsWith('/')) {
+        warn(`Cannot resolve a relative location without an absolute path. Trying to resolve "${to}" from "${from}". It should look like "/${from}".`);
+        return to;
+    }
+    if (!to)
+        return from;
+    const fromSegments = from.split('/');
+    const toSegments = to.split('/');
+    const lastToSegment = toSegments[toSegments.length - 1];
+    // make . and ./ the same (../ === .., ../../ === ../..)
+    // this is the same behavior as new URL()
+    if (lastToSegment === '..' || lastToSegment === '.') {
+        toSegments.push('');
+    }
+    let position = fromSegments.length - 1;
+    let toPosition;
+    let segment;
+    for (toPosition = 0; toPosition < toSegments.length; toPosition++) {
+        segment = toSegments[toPosition];
+        // we stay on the same position
+        if (segment === '.')
+            continue;
+        // go up in the from array
+        if (segment === '..') {
+            // we can't go below zero, but we still need to increment toPosition
+            if (position > 1)
+                position--;
+            // continue
+        }
+        // we reached a non-relative path, we stop here
+        else
+            break;
+    }
+    return (fromSegments.slice(0, position).join('/') +
+        '/' +
+        toSegments
+            // ensure we use at least the last element in the toSegments
+            .slice(toPosition - (toPosition === toSegments.length ? 1 : 0))
+            .join('/'));
+}
+
+var NavigationType;
+(function (NavigationType) {
+    NavigationType["pop"] = "pop";
+    NavigationType["push"] = "push";
+})(NavigationType || (NavigationType = {}));
+var NavigationDirection;
+(function (NavigationDirection) {
+    NavigationDirection["back"] = "back";
+    NavigationDirection["forward"] = "forward";
+    NavigationDirection["unknown"] = "";
+})(NavigationDirection || (NavigationDirection = {}));
+/**
+ * Starting location for Histories
+ */
+const START = '';
+// Generic utils
+/**
+ * Normalizes a base by removing any trailing slash and reading the base tag if
+ * present.
+ *
+ * @param base - base to normalize
+ */
+function normalizeBase(base) {
+    if (!base) {
+        if (isBrowser) {
+            // respect <base> tag
+            const baseEl = document.querySelector('base');
+            base = (baseEl && baseEl.getAttribute('href')) || '/';
+            // strip full URL origin
+            base = base.replace(/^\w+:\/\/[^\/]+/, '');
+        }
+        else {
+            base = '/';
+        }
+    }
+    // ensure leading slash when it was removed by the regex above avoid leading
+    // slash with hash because the file could be read from the disk like file://
+    // and the leading slash would cause problems
+    if (base[0] !== '/' && base[0] !== '#')
+        base = '/' + base;
+    // remove the trailing slash so all other method can just do `base + fullPath`
+    // to build an href
+    return removeTrailingSlash(base);
+}
+// remove any character before the hash
+const BEFORE_HASH_RE = /^[^#]+#/;
+function createHref(base, location) {
+    return base.replace(BEFORE_HASH_RE, '#') + location;
+}
+
+function getElementPosition(el, offset) {
+    const docRect = document.documentElement.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+    return {
+        behavior: offset.behavior,
+        left: elRect.left - docRect.left - (offset.left || 0),
+        top: elRect.top - docRect.top - (offset.top || 0),
+    };
+}
+const computeScrollPosition = () => ({
+    left: window.pageXOffset,
+    top: window.pageYOffset,
+});
+function scrollToPosition(position) {
+    let scrollToOptions;
+    if ('el' in position) {
+        const positionEl = position.el;
+        const isIdSelector = typeof positionEl === 'string' && positionEl.startsWith('#');
+        /**
+         * `id`s can accept pretty much any characters, including CSS combinators
+         * like `>` or `~`. It's still possible to retrieve elements using
+         * `document.getElementById('~')` but it needs to be escaped when using
+         * `document.querySelector('#\\~')` for it to be valid. The only
+         * requirements for `id`s are them to be unique on the page and to not be
+         * empty (`id=""`). Because of that, when passing an id selector, it should
+         * be properly escaped for it to work with `querySelector`. We could check
+         * for the id selector to be simple (no CSS combinators `+ >~`) but that
+         * would make things inconsistent since they are valid characters for an
+         * `id` but would need to be escaped when using `querySelector`, breaking
+         * their usage and ending up in no selector returned. Selectors need to be
+         * escaped:
+         *
+         * - `#1-thing` becomes `#\31 -thing`
+         * - `#with~symbols` becomes `#with\\~symbols`
+         *
+         * - More information about  the topic can be found at
+         *   https://mathiasbynens.be/notes/html5-id-class.
+         * - Practical example: https://mathiasbynens.be/demo/html5-id
+         */
+        if (( true) && typeof position.el === 'string') {
+            if (!isIdSelector || !document.getElementById(position.el.slice(1))) {
+                try {
+                    const foundEl = document.querySelector(position.el);
+                    if (isIdSelector && foundEl) {
+                        warn(`The selector "${position.el}" should be passed as "el: document.querySelector('${position.el}')" because it starts with "#".`);
+                        // return to avoid other warnings
+                        return;
+                    }
+                }
+                catch (err) {
+                    warn(`The selector "${position.el}" is invalid. If you are using an id selector, make sure to escape it. You can find more information about escaping characters in selectors at https://mathiasbynens.be/notes/css-escapes or use CSS.escape (https://developer.mozilla.org/en-US/docs/Web/API/CSS/escape).`);
+                    // return to avoid other warnings
+                    return;
+                }
+            }
+        }
+        const el = typeof positionEl === 'string'
+            ? isIdSelector
+                ? document.getElementById(positionEl.slice(1))
+                : document.querySelector(positionEl)
+            : positionEl;
+        if (!el) {
+            ( true) &&
+                warn(`Couldn't find element using selector "${position.el}" returned by scrollBehavior.`);
+            return;
+        }
+        scrollToOptions = getElementPosition(el, position);
+    }
+    else {
+        scrollToOptions = position;
+    }
+    if ('scrollBehavior' in document.documentElement.style)
+        window.scrollTo(scrollToOptions);
+    else {
+        window.scrollTo(scrollToOptions.left != null ? scrollToOptions.left : window.pageXOffset, scrollToOptions.top != null ? scrollToOptions.top : window.pageYOffset);
+    }
+}
+function getScrollKey(path, delta) {
+    const position = history.state ? history.state.position - delta : -1;
+    return position + path;
+}
+const scrollPositions = new Map();
+function saveScrollPosition(key, scrollPosition) {
+    scrollPositions.set(key, scrollPosition);
+}
+function getSavedScrollPosition(key) {
+    const scroll = scrollPositions.get(key);
+    // consume it so it's not used again
+    scrollPositions.delete(key);
+    return scroll;
+}
+// TODO: RFC about how to save scroll position
+/**
+ * ScrollBehavior instance used by the router to compute and restore the scroll
+ * position when navigating.
+ */
+// export interface ScrollHandler<ScrollPositionEntry extends HistoryStateValue, ScrollPosition extends ScrollPositionEntry> {
+//   // returns a scroll position that can be saved in history
+//   compute(): ScrollPositionEntry
+//   // can take an extended ScrollPositionEntry
+//   scroll(position: ScrollPosition): void
+// }
+// export const scrollHandler: ScrollHandler<ScrollPosition> = {
+//   compute: computeScroll,
+//   scroll: scrollToPosition,
+// }
+
+let createBaseLocation = () => location.protocol + '//' + location.host;
+/**
+ * Creates a normalized history location from a window.location object
+ * @param base - The base path
+ * @param location - The window.location object
+ */
+function createCurrentLocation(base, location) {
+    const { pathname, search, hash } = location;
+    // allows hash bases like #, /#, #/, #!, #!/, /#!/, or even /folder#end
+    const hashPos = base.indexOf('#');
+    if (hashPos > -1) {
+        let slicePos = hash.includes(base.slice(hashPos))
+            ? base.slice(hashPos).length
+            : 1;
+        let pathFromHash = hash.slice(slicePos);
+        // prepend the starting slash to hash so the url starts with /#
+        if (pathFromHash[0] !== '/')
+            pathFromHash = '/' + pathFromHash;
+        return stripBase(pathFromHash, '');
+    }
+    const path = stripBase(pathname, base);
+    return path + search + hash;
+}
+function useHistoryListeners(base, historyState, currentLocation, replace) {
+    let listeners = [];
+    let teardowns = [];
+    // TODO: should it be a stack? a Dict. Check if the popstate listener
+    // can trigger twice
+    let pauseState = null;
+    const popStateHandler = ({ state, }) => {
+        const to = createCurrentLocation(base, location);
+        const from = currentLocation.value;
+        const fromState = historyState.value;
+        let delta = 0;
+        if (state) {
+            currentLocation.value = to;
+            historyState.value = state;
+            // ignore the popstate and reset the pauseState
+            if (pauseState && pauseState === from) {
+                pauseState = null;
+                return;
+            }
+            delta = fromState ? state.position - fromState.position : 0;
+        }
+        else {
+            replace(to);
+        }
+        // Here we could also revert the navigation by calling history.go(-delta)
+        // this listener will have to be adapted to not trigger again and to wait for the url
+        // to be updated before triggering the listeners. Some kind of validation function would also
+        // need to be passed to the listeners so the navigation can be accepted
+        // call all listeners
+        listeners.forEach(listener => {
+            listener(currentLocation.value, from, {
+                delta,
+                type: NavigationType.pop,
+                direction: delta
+                    ? delta > 0
+                        ? NavigationDirection.forward
+                        : NavigationDirection.back
+                    : NavigationDirection.unknown,
+            });
+        });
+    };
+    function pauseListeners() {
+        pauseState = currentLocation.value;
+    }
+    function listen(callback) {
+        // set up the listener and prepare teardown callbacks
+        listeners.push(callback);
+        const teardown = () => {
+            const index = listeners.indexOf(callback);
+            if (index > -1)
+                listeners.splice(index, 1);
+        };
+        teardowns.push(teardown);
+        return teardown;
+    }
+    function beforeUnloadListener() {
+        const { history } = window;
+        if (!history.state)
+            return;
+        history.replaceState(assign({}, history.state, { scroll: computeScrollPosition() }), '');
+    }
+    function destroy() {
+        for (const teardown of teardowns)
+            teardown();
+        teardowns = [];
+        window.removeEventListener('popstate', popStateHandler);
+        window.removeEventListener('beforeunload', beforeUnloadListener);
+    }
+    // set up the listeners and prepare teardown callbacks
+    window.addEventListener('popstate', popStateHandler);
+    // TODO: could we use 'pagehide' or 'visibilitychange' instead?
+    // https://developer.chrome.com/blog/page-lifecycle-api/
+    window.addEventListener('beforeunload', beforeUnloadListener, {
+        passive: true,
+    });
+    return {
+        pauseListeners,
+        listen,
+        destroy,
+    };
+}
+/**
+ * Creates a state object
+ */
+function buildState(back, current, forward, replaced = false, computeScroll = false) {
+    return {
+        back,
+        current,
+        forward,
+        replaced,
+        position: window.history.length,
+        scroll: computeScroll ? computeScrollPosition() : null,
+    };
+}
+function useHistoryStateNavigation(base) {
+    const { history, location } = window;
+    // private variables
+    const currentLocation = {
+        value: createCurrentLocation(base, location),
+    };
+    const historyState = { value: history.state };
+    // build current history entry as this is a fresh navigation
+    if (!historyState.value) {
+        changeLocation(currentLocation.value, {
+            back: null,
+            current: currentLocation.value,
+            forward: null,
+            // the length is off by one, we need to decrease it
+            position: history.length - 1,
+            replaced: true,
+            // don't add a scroll as the user may have an anchor, and we want
+            // scrollBehavior to be triggered without a saved position
+            scroll: null,
+        }, true);
+    }
+    function changeLocation(to, state, replace) {
+        /**
+         * if a base tag is provided, and we are on a normal domain, we have to
+         * respect the provided `base` attribute because pushState() will use it and
+         * potentially erase anything before the `#` like at
+         * https://github.com/vuejs/router/issues/685 where a base of
+         * `/folder/#` but a base of `/` would erase the `/folder/` section. If
+         * there is no host, the `<base>` tag makes no sense and if there isn't a
+         * base tag we can just use everything after the `#`.
+         */
+        const hashIndex = base.indexOf('#');
+        const url = hashIndex > -1
+            ? (location.host && document.querySelector('base')
+                ? base
+                : base.slice(hashIndex)) + to
+            : createBaseLocation() + base + to;
+        try {
+            // BROWSER QUIRK
+            // NOTE: Safari throws a SecurityError when calling this function 100 times in 30 seconds
+            history[replace ? 'replaceState' : 'pushState'](state, '', url);
+            historyState.value = state;
+        }
+        catch (err) {
+            if ((true)) {
+                warn('Error with push/replace State', err);
+            }
+            else {}
+            // Force the navigation, this also resets the call count
+            location[replace ? 'replace' : 'assign'](url);
+        }
+    }
+    function replace(to, data) {
+        const state = assign({}, history.state, buildState(historyState.value.back, 
+        // keep back and forward entries but override current position
+        to, historyState.value.forward, true), data, { position: historyState.value.position });
+        changeLocation(to, state, true);
+        currentLocation.value = to;
+    }
+    function push(to, data) {
+        // Add to current entry the information of where we are going
+        // as well as saving the current position
+        const currentState = assign({}, 
+        // use current history state to gracefully handle a wrong call to
+        // history.replaceState
+        // https://github.com/vuejs/router/issues/366
+        historyState.value, history.state, {
+            forward: to,
+            scroll: computeScrollPosition(),
+        });
+        if (( true) && !history.state) {
+            warn(`history.state seems to have been manually replaced without preserving the necessary values. Make sure to preserve existing history state if you are manually calling history.replaceState:\n\n` +
+                `history.replaceState(history.state, '', url)\n\n` +
+                `You can find more information at https://next.router.vuejs.org/guide/migration/#usage-of-history-state.`);
+        }
+        changeLocation(currentState.current, currentState, true);
+        const state = assign({}, buildState(currentLocation.value, to, null), { position: currentState.position + 1 }, data);
+        changeLocation(to, state, false);
+        currentLocation.value = to;
+    }
+    return {
+        location: currentLocation,
+        state: historyState,
+        push,
+        replace,
+    };
+}
+/**
+ * Creates an HTML5 history. Most common history for single page applications.
+ *
+ * @param base -
+ */
+function createWebHistory(base) {
+    base = normalizeBase(base);
+    const historyNavigation = useHistoryStateNavigation(base);
+    const historyListeners = useHistoryListeners(base, historyNavigation.state, historyNavigation.location, historyNavigation.replace);
+    function go(delta, triggerListeners = true) {
+        if (!triggerListeners)
+            historyListeners.pauseListeners();
+        history.go(delta);
+    }
+    const routerHistory = assign({
+        // it's overridden right after
+        location: '',
+        base,
+        go,
+        createHref: createHref.bind(null, base),
+    }, historyNavigation, historyListeners);
+    Object.defineProperty(routerHistory, 'location', {
+        enumerable: true,
+        get: () => historyNavigation.location.value,
+    });
+    Object.defineProperty(routerHistory, 'state', {
+        enumerable: true,
+        get: () => historyNavigation.state.value,
+    });
+    return routerHistory;
+}
+
+/**
+ * Creates an in-memory based history. The main purpose of this history is to handle SSR. It starts in a special location that is nowhere.
+ * It's up to the user to replace that location with the starter location by either calling `router.push` or `router.replace`.
+ *
+ * @param base - Base applied to all urls, defaults to '/'
+ * @returns a history object that can be passed to the router constructor
+ */
+function createMemoryHistory(base = '') {
+    let listeners = [];
+    let queue = [START];
+    let position = 0;
+    base = normalizeBase(base);
+    function setLocation(location) {
+        position++;
+        if (position !== queue.length) {
+            // we are in the middle, we remove everything from here in the queue
+            queue.splice(position);
+        }
+        queue.push(location);
+    }
+    function triggerListeners(to, from, { direction, delta }) {
+        const info = {
+            direction,
+            delta,
+            type: NavigationType.pop,
+        };
+        for (const callback of listeners) {
+            callback(to, from, info);
+        }
+    }
+    const routerHistory = {
+        // rewritten by Object.defineProperty
+        location: START,
+        // TODO: should be kept in queue
+        state: {},
+        base,
+        createHref: createHref.bind(null, base),
+        replace(to) {
+            // remove current entry and decrement position
+            queue.splice(position--, 1);
+            setLocation(to);
+        },
+        push(to, data) {
+            setLocation(to);
+        },
+        listen(callback) {
+            listeners.push(callback);
+            return () => {
+                const index = listeners.indexOf(callback);
+                if (index > -1)
+                    listeners.splice(index, 1);
+            };
+        },
+        destroy() {
+            listeners = [];
+            queue = [START];
+            position = 0;
+        },
+        go(delta, shouldTrigger = true) {
+            const from = this.location;
+            const direction = 
+            // we are considering delta === 0 going forward, but in abstract mode
+            // using 0 for the delta doesn't make sense like it does in html5 where
+            // it reloads the page
+            delta < 0 ? NavigationDirection.back : NavigationDirection.forward;
+            position = Math.max(0, Math.min(position + delta, queue.length - 1));
+            if (shouldTrigger) {
+                triggerListeners(this.location, from, {
+                    direction,
+                    delta,
+                });
+            }
+        },
+    };
+    Object.defineProperty(routerHistory, 'location', {
+        enumerable: true,
+        get: () => queue[position],
+    });
+    return routerHistory;
+}
+
+/**
+ * Creates a hash history. Useful for web applications with no host (e.g. `file://`) or when configuring a server to
+ * handle any URL is not possible.
+ *
+ * @param base - optional base to provide. Defaults to `location.pathname + location.search` If there is a `<base>` tag
+ * in the `head`, its value will be ignored in favor of this parameter **but note it affects all the history.pushState()
+ * calls**, meaning that if you use a `<base>` tag, it's `href` value **has to match this parameter** (ignoring anything
+ * after the `#`).
+ *
+ * @example
+ * ```js
+ * // at https://example.com/folder
+ * createWebHashHistory() // gives a url of `https://example.com/folder#`
+ * createWebHashHistory('/folder/') // gives a url of `https://example.com/folder/#`
+ * // if the `#` is provided in the base, it won't be added by `createWebHashHistory`
+ * createWebHashHistory('/folder/#/app/') // gives a url of `https://example.com/folder/#/app/`
+ * // you should avoid doing this because it changes the original url and breaks copying urls
+ * createWebHashHistory('/other-folder/') // gives a url of `https://example.com/other-folder/#`
+ *
+ * // at file:///usr/etc/folder/index.html
+ * // for locations with no `host`, the base is ignored
+ * createWebHashHistory('/iAmIgnored') // gives a url of `file:///usr/etc/folder/index.html#`
+ * ```
+ */
+function createWebHashHistory(base) {
+    // Make sure this implementation is fine in terms of encoding, specially for IE11
+    // for `file://`, directly use the pathname and ignore the base
+    // location.pathname contains an initial `/` even at the root: `https://example.com`
+    base = location.host ? base || location.pathname + location.search : '';
+    // allow the user to provide a `#` in the middle: `/base/#/app`
+    if (!base.includes('#'))
+        base += '#';
+    if (( true) && !base.endsWith('#/') && !base.endsWith('#')) {
+        warn(`A hash base must end with a "#":\n"${base}" should be "${base.replace(/#.*$/, '#')}".`);
+    }
+    return createWebHistory(base);
+}
+
+function isRouteLocation(route) {
+    return typeof route === 'string' || (route && typeof route === 'object');
+}
+function isRouteName(name) {
+    return typeof name === 'string' || typeof name === 'symbol';
+}
+
+/**
+ * Initial route location where the router is. Can be used in navigation guards
+ * to differentiate the initial navigation.
+ *
+ * @example
+ * ```js
+ * import { START_LOCATION } from 'vue-router'
+ *
+ * router.beforeEach((to, from) => {
+ *   if (from === START_LOCATION) {
+ *     // initial navigation
+ *   }
+ * })
+ * ```
+ */
+const START_LOCATION_NORMALIZED = {
+    path: '/',
+    name: undefined,
+    params: {},
+    query: {},
+    hash: '',
+    fullPath: '/',
+    matched: [],
+    meta: {},
+    redirectedFrom: undefined,
+};
+
+const NavigationFailureSymbol = Symbol(( true) ? 'navigation failure' : 0);
+/**
+ * Enumeration with all possible types for navigation failures. Can be passed to
+ * {@link isNavigationFailure} to check for specific failures.
+ */
+var NavigationFailureType;
+(function (NavigationFailureType) {
+    /**
+     * An aborted navigation is a navigation that failed because a navigation
+     * guard returned `false` or called `next(false)`
+     */
+    NavigationFailureType[NavigationFailureType["aborted"] = 4] = "aborted";
+    /**
+     * A cancelled navigation is a navigation that failed because a more recent
+     * navigation finished started (not necessarily finished).
+     */
+    NavigationFailureType[NavigationFailureType["cancelled"] = 8] = "cancelled";
+    /**
+     * A duplicated navigation is a navigation that failed because it was
+     * initiated while already being at the exact same location.
+     */
+    NavigationFailureType[NavigationFailureType["duplicated"] = 16] = "duplicated";
+})(NavigationFailureType || (NavigationFailureType = {}));
+// DEV only debug messages
+const ErrorTypeMessages = {
+    [1 /* ErrorTypes.MATCHER_NOT_FOUND */]({ location, currentLocation }) {
+        return `No match for\n ${JSON.stringify(location)}${currentLocation
+            ? '\nwhile being at\n' + JSON.stringify(currentLocation)
+            : ''}`;
+    },
+    [2 /* ErrorTypes.NAVIGATION_GUARD_REDIRECT */]({ from, to, }) {
+        return `Redirected from "${from.fullPath}" to "${stringifyRoute(to)}" via a navigation guard.`;
+    },
+    [4 /* ErrorTypes.NAVIGATION_ABORTED */]({ from, to }) {
+        return `Navigation aborted from "${from.fullPath}" to "${to.fullPath}" via a navigation guard.`;
+    },
+    [8 /* ErrorTypes.NAVIGATION_CANCELLED */]({ from, to }) {
+        return `Navigation cancelled from "${from.fullPath}" to "${to.fullPath}" with a new navigation.`;
+    },
+    [16 /* ErrorTypes.NAVIGATION_DUPLICATED */]({ from, to }) {
+        return `Avoided redundant navigation to current location: "${from.fullPath}".`;
+    },
+};
+function createRouterError(type, params) {
+    // keep full error messages in cjs versions
+    if (true) {
+        return assign(new Error(ErrorTypeMessages[type](params)), {
+            type,
+            [NavigationFailureSymbol]: true,
+        }, params);
+    }
+    else {}
+}
+function isNavigationFailure(error, type) {
+    return (error instanceof Error &&
+        NavigationFailureSymbol in error &&
+        (type == null || !!(error.type & type)));
+}
+const propertiesToLog = ['params', 'query', 'hash'];
+function stringifyRoute(to) {
+    if (typeof to === 'string')
+        return to;
+    if ('path' in to)
+        return to.path;
+    const location = {};
+    for (const key of propertiesToLog) {
+        if (key in to)
+            location[key] = to[key];
+    }
+    return JSON.stringify(location, null, 2);
+}
+
+// default pattern for a param: non-greedy everything but /
+const BASE_PARAM_PATTERN = '[^/]+?';
+const BASE_PATH_PARSER_OPTIONS = {
+    sensitive: false,
+    strict: false,
+    start: true,
+    end: true,
+};
+// Special Regex characters that must be escaped in static tokens
+const REGEX_CHARS_RE = /[.+*?^${}()[\]/\\]/g;
+/**
+ * Creates a path parser from an array of Segments (a segment is an array of Tokens)
+ *
+ * @param segments - array of segments returned by tokenizePath
+ * @param extraOptions - optional options for the regexp
+ * @returns a PathParser
+ */
+function tokensToParser(segments, extraOptions) {
+    const options = assign({}, BASE_PATH_PARSER_OPTIONS, extraOptions);
+    // the amount of scores is the same as the length of segments except for the root segment "/"
+    const score = [];
+    // the regexp as a string
+    let pattern = options.start ? '^' : '';
+    // extracted keys
+    const keys = [];
+    for (const segment of segments) {
+        // the root segment needs special treatment
+        const segmentScores = segment.length ? [] : [90 /* PathScore.Root */];
+        // allow trailing slash
+        if (options.strict && !segment.length)
+            pattern += '/';
+        for (let tokenIndex = 0; tokenIndex < segment.length; tokenIndex++) {
+            const token = segment[tokenIndex];
+            // resets the score if we are inside a sub-segment /:a-other-:b
+            let subSegmentScore = 40 /* PathScore.Segment */ +
+                (options.sensitive ? 0.25 /* PathScore.BonusCaseSensitive */ : 0);
+            if (token.type === 0 /* TokenType.Static */) {
+                // prepend the slash if we are starting a new segment
+                if (!tokenIndex)
+                    pattern += '/';
+                pattern += token.value.replace(REGEX_CHARS_RE, '\\$&');
+                subSegmentScore += 40 /* PathScore.Static */;
+            }
+            else if (token.type === 1 /* TokenType.Param */) {
+                const { value, repeatable, optional, regexp } = token;
+                keys.push({
+                    name: value,
+                    repeatable,
+                    optional,
+                });
+                const re = regexp ? regexp : BASE_PARAM_PATTERN;
+                // the user provided a custom regexp /:id(\\d+)
+                if (re !== BASE_PARAM_PATTERN) {
+                    subSegmentScore += 10 /* PathScore.BonusCustomRegExp */;
+                    // make sure the regexp is valid before using it
+                    try {
+                        new RegExp(`(${re})`);
+                    }
+                    catch (err) {
+                        throw new Error(`Invalid custom RegExp for param "${value}" (${re}): ` +
+                            err.message);
+                    }
+                }
+                // when we repeat we must take care of the repeating leading slash
+                let subPattern = repeatable ? `((?:${re})(?:/(?:${re}))*)` : `(${re})`;
+                // prepend the slash if we are starting a new segment
+                if (!tokenIndex)
+                    subPattern =
+                        // avoid an optional / if there are more segments e.g. /:p?-static
+                        // or /:p?-:p2
+                        optional && segment.length < 2
+                            ? `(?:/${subPattern})`
+                            : '/' + subPattern;
+                if (optional)
+                    subPattern += '?';
+                pattern += subPattern;
+                subSegmentScore += 20 /* PathScore.Dynamic */;
+                if (optional)
+                    subSegmentScore += -8 /* PathScore.BonusOptional */;
+                if (repeatable)
+                    subSegmentScore += -20 /* PathScore.BonusRepeatable */;
+                if (re === '.*')
+                    subSegmentScore += -50 /* PathScore.BonusWildcard */;
+            }
+            segmentScores.push(subSegmentScore);
+        }
+        // an empty array like /home/ -> [[{home}], []]
+        // if (!segment.length) pattern += '/'
+        score.push(segmentScores);
+    }
+    // only apply the strict bonus to the last score
+    if (options.strict && options.end) {
+        const i = score.length - 1;
+        score[i][score[i].length - 1] += 0.7000000000000001 /* PathScore.BonusStrict */;
+    }
+    // TODO: dev only warn double trailing slash
+    if (!options.strict)
+        pattern += '/?';
+    if (options.end)
+        pattern += '$';
+    // allow paths like /dynamic to only match dynamic or dynamic/... but not dynamic_something_else
+    else if (options.strict)
+        pattern += '(?:/|$)';
+    const re = new RegExp(pattern, options.sensitive ? '' : 'i');
+    function parse(path) {
+        const match = path.match(re);
+        const params = {};
+        if (!match)
+            return null;
+        for (let i = 1; i < match.length; i++) {
+            const value = match[i] || '';
+            const key = keys[i - 1];
+            params[key.name] = value && key.repeatable ? value.split('/') : value;
+        }
+        return params;
+    }
+    function stringify(params) {
+        let path = '';
+        // for optional parameters to allow to be empty
+        let avoidDuplicatedSlash = false;
+        for (const segment of segments) {
+            if (!avoidDuplicatedSlash || !path.endsWith('/'))
+                path += '/';
+            avoidDuplicatedSlash = false;
+            for (const token of segment) {
+                if (token.type === 0 /* TokenType.Static */) {
+                    path += token.value;
+                }
+                else if (token.type === 1 /* TokenType.Param */) {
+                    const { value, repeatable, optional } = token;
+                    const param = value in params ? params[value] : '';
+                    if (isArray(param) && !repeatable) {
+                        throw new Error(`Provided param "${value}" is an array but it is not repeatable (* or + modifiers)`);
+                    }
+                    const text = isArray(param)
+                        ? param.join('/')
+                        : param;
+                    if (!text) {
+                        if (optional) {
+                            // if we have more than one optional param like /:a?-static we don't need to care about the optional param
+                            if (segment.length < 2) {
+                                // remove the last slash as we could be at the end
+                                if (path.endsWith('/'))
+                                    path = path.slice(0, -1);
+                                // do not append a slash on the next iteration
+                                else
+                                    avoidDuplicatedSlash = true;
+                            }
+                        }
+                        else
+                            throw new Error(`Missing required param "${value}"`);
+                    }
+                    path += text;
+                }
+            }
+        }
+        // avoid empty path when we have multiple optional params
+        return path || '/';
+    }
+    return {
+        re,
+        score,
+        keys,
+        parse,
+        stringify,
+    };
+}
+/**
+ * Compares an array of numbers as used in PathParser.score and returns a
+ * number. This function can be used to `sort` an array
+ *
+ * @param a - first array of numbers
+ * @param b - second array of numbers
+ * @returns 0 if both are equal, < 0 if a should be sorted first, > 0 if b
+ * should be sorted first
+ */
+function compareScoreArray(a, b) {
+    let i = 0;
+    while (i < a.length && i < b.length) {
+        const diff = b[i] - a[i];
+        // only keep going if diff === 0
+        if (diff)
+            return diff;
+        i++;
+    }
+    // if the last subsegment was Static, the shorter segments should be sorted first
+    // otherwise sort the longest segment first
+    if (a.length < b.length) {
+        return a.length === 1 && a[0] === 40 /* PathScore.Static */ + 40 /* PathScore.Segment */
+            ? -1
+            : 1;
+    }
+    else if (a.length > b.length) {
+        return b.length === 1 && b[0] === 40 /* PathScore.Static */ + 40 /* PathScore.Segment */
+            ? 1
+            : -1;
+    }
+    return 0;
+}
+/**
+ * Compare function that can be used with `sort` to sort an array of PathParser
+ *
+ * @param a - first PathParser
+ * @param b - second PathParser
+ * @returns 0 if both are equal, < 0 if a should be sorted first, > 0 if b
+ */
+function comparePathParserScore(a, b) {
+    let i = 0;
+    const aScore = a.score;
+    const bScore = b.score;
+    while (i < aScore.length && i < bScore.length) {
+        const comp = compareScoreArray(aScore[i], bScore[i]);
+        // do not return if both are equal
+        if (comp)
+            return comp;
+        i++;
+    }
+    if (Math.abs(bScore.length - aScore.length) === 1) {
+        if (isLastScoreNegative(aScore))
+            return 1;
+        if (isLastScoreNegative(bScore))
+            return -1;
+    }
+    // if a and b share the same score entries but b has more, sort b first
+    return bScore.length - aScore.length;
+    // this is the ternary version
+    // return aScore.length < bScore.length
+    //   ? 1
+    //   : aScore.length > bScore.length
+    //   ? -1
+    //   : 0
+}
+/**
+ * This allows detecting splats at the end of a path: /home/:id(.*)*
+ *
+ * @param score - score to check
+ * @returns true if the last entry is negative
+ */
+function isLastScoreNegative(score) {
+    const last = score[score.length - 1];
+    return score.length > 0 && last[last.length - 1] < 0;
+}
+
+const ROOT_TOKEN = {
+    type: 0 /* TokenType.Static */,
+    value: '',
+};
+const VALID_PARAM_RE = /[a-zA-Z0-9_]/;
+// After some profiling, the cache seems to be unnecessary because tokenizePath
+// (the slowest part of adding a route) is very fast
+// const tokenCache = new Map<string, Token[][]>()
+function tokenizePath(path) {
+    if (!path)
+        return [[]];
+    if (path === '/')
+        return [[ROOT_TOKEN]];
+    if (!path.startsWith('/')) {
+        throw new Error(( true)
+            ? `Route paths should start with a "/": "${path}" should be "/${path}".`
+            : 0);
+    }
+    // if (tokenCache.has(path)) return tokenCache.get(path)!
+    function crash(message) {
+        throw new Error(`ERR (${state})/"${buffer}": ${message}`);
+    }
+    let state = 0 /* TokenizerState.Static */;
+    let previousState = state;
+    const tokens = [];
+    // the segment will always be valid because we get into the initial state
+    // with the leading /
+    let segment;
+    function finalizeSegment() {
+        if (segment)
+            tokens.push(segment);
+        segment = [];
+    }
+    // index on the path
+    let i = 0;
+    // char at index
+    let char;
+    // buffer of the value read
+    let buffer = '';
+    // custom regexp for a param
+    let customRe = '';
+    function consumeBuffer() {
+        if (!buffer)
+            return;
+        if (state === 0 /* TokenizerState.Static */) {
+            segment.push({
+                type: 0 /* TokenType.Static */,
+                value: buffer,
+            });
+        }
+        else if (state === 1 /* TokenizerState.Param */ ||
+            state === 2 /* TokenizerState.ParamRegExp */ ||
+            state === 3 /* TokenizerState.ParamRegExpEnd */) {
+            if (segment.length > 1 && (char === '*' || char === '+'))
+                crash(`A repeatable param (${buffer}) must be alone in its segment. eg: '/:ids+.`);
+            segment.push({
+                type: 1 /* TokenType.Param */,
+                value: buffer,
+                regexp: customRe,
+                repeatable: char === '*' || char === '+',
+                optional: char === '*' || char === '?',
+            });
+        }
+        else {
+            crash('Invalid state to consume buffer');
+        }
+        buffer = '';
+    }
+    function addCharToBuffer() {
+        buffer += char;
+    }
+    while (i < path.length) {
+        char = path[i++];
+        if (char === '\\' && state !== 2 /* TokenizerState.ParamRegExp */) {
+            previousState = state;
+            state = 4 /* TokenizerState.EscapeNext */;
+            continue;
+        }
+        switch (state) {
+            case 0 /* TokenizerState.Static */:
+                if (char === '/') {
+                    if (buffer) {
+                        consumeBuffer();
+                    }
+                    finalizeSegment();
+                }
+                else if (char === ':') {
+                    consumeBuffer();
+                    state = 1 /* TokenizerState.Param */;
+                }
+                else {
+                    addCharToBuffer();
+                }
+                break;
+            case 4 /* TokenizerState.EscapeNext */:
+                addCharToBuffer();
+                state = previousState;
+                break;
+            case 1 /* TokenizerState.Param */:
+                if (char === '(') {
+                    state = 2 /* TokenizerState.ParamRegExp */;
+                }
+                else if (VALID_PARAM_RE.test(char)) {
+                    addCharToBuffer();
+                }
+                else {
+                    consumeBuffer();
+                    state = 0 /* TokenizerState.Static */;
+                    // go back one character if we were not modifying
+                    if (char !== '*' && char !== '?' && char !== '+')
+                        i--;
+                }
+                break;
+            case 2 /* TokenizerState.ParamRegExp */:
+                // TODO: is it worth handling nested regexp? like :p(?:prefix_([^/]+)_suffix)
+                // it already works by escaping the closing )
+                // https://paths.esm.dev/?p=AAMeJbiAwQEcDKbAoAAkP60PG2R6QAvgNaA6AFACM2ABuQBB#
+                // is this really something people need since you can also write
+                // /prefix_:p()_suffix
+                if (char === ')') {
+                    // handle the escaped )
+                    if (customRe[customRe.length - 1] == '\\')
+                        customRe = customRe.slice(0, -1) + char;
+                    else
+                        state = 3 /* TokenizerState.ParamRegExpEnd */;
+                }
+                else {
+                    customRe += char;
+                }
+                break;
+            case 3 /* TokenizerState.ParamRegExpEnd */:
+                // same as finalizing a param
+                consumeBuffer();
+                state = 0 /* TokenizerState.Static */;
+                // go back one character if we were not modifying
+                if (char !== '*' && char !== '?' && char !== '+')
+                    i--;
+                customRe = '';
+                break;
+            default:
+                crash('Unknown state');
+                break;
+        }
+    }
+    if (state === 2 /* TokenizerState.ParamRegExp */)
+        crash(`Unfinished custom RegExp for param "${buffer}"`);
+    consumeBuffer();
+    finalizeSegment();
+    // tokenCache.set(path, tokens)
+    return tokens;
+}
+
+function createRouteRecordMatcher(record, parent, options) {
+    const parser = tokensToParser(tokenizePath(record.path), options);
+    // warn against params with the same name
+    if ((true)) {
+        const existingKeys = new Set();
+        for (const key of parser.keys) {
+            if (existingKeys.has(key.name))
+                warn(`Found duplicated params with name "${key.name}" for path "${record.path}". Only the last one will be available on "$route.params".`);
+            existingKeys.add(key.name);
+        }
+    }
+    const matcher = assign(parser, {
+        record,
+        parent,
+        // these needs to be populated by the parent
+        children: [],
+        alias: [],
+    });
+    if (parent) {
+        // both are aliases or both are not aliases
+        // we don't want to mix them because the order is used when
+        // passing originalRecord in Matcher.addRoute
+        if (!matcher.record.aliasOf === !parent.record.aliasOf)
+            parent.children.push(matcher);
+    }
+    return matcher;
+}
+
+/**
+ * Creates a Router Matcher.
+ *
+ * @internal
+ * @param routes - array of initial routes
+ * @param globalOptions - global route options
+ */
+function createRouterMatcher(routes, globalOptions) {
+    // normalized ordered array of matchers
+    const matchers = [];
+    const matcherMap = new Map();
+    globalOptions = mergeOptions({ strict: false, end: true, sensitive: false }, globalOptions);
+    function getRecordMatcher(name) {
+        return matcherMap.get(name);
+    }
+    function addRoute(record, parent, originalRecord) {
+        // used later on to remove by name
+        const isRootAdd = !originalRecord;
+        const mainNormalizedRecord = normalizeRouteRecord(record);
+        if ((true)) {
+            checkChildMissingNameWithEmptyPath(mainNormalizedRecord, parent);
+        }
+        // we might be the child of an alias
+        mainNormalizedRecord.aliasOf = originalRecord && originalRecord.record;
+        const options = mergeOptions(globalOptions, record);
+        // generate an array of records to correctly handle aliases
+        const normalizedRecords = [
+            mainNormalizedRecord,
+        ];
+        if ('alias' in record) {
+            const aliases = typeof record.alias === 'string' ? [record.alias] : record.alias;
+            for (const alias of aliases) {
+                normalizedRecords.push(assign({}, mainNormalizedRecord, {
+                    // this allows us to hold a copy of the `components` option
+                    // so that async components cache is hold on the original record
+                    components: originalRecord
+                        ? originalRecord.record.components
+                        : mainNormalizedRecord.components,
+                    path: alias,
+                    // we might be the child of an alias
+                    aliasOf: originalRecord
+                        ? originalRecord.record
+                        : mainNormalizedRecord,
+                    // the aliases are always of the same kind as the original since they
+                    // are defined on the same record
+                }));
+            }
+        }
+        let matcher;
+        let originalMatcher;
+        for (const normalizedRecord of normalizedRecords) {
+            const { path } = normalizedRecord;
+            // Build up the path for nested routes if the child isn't an absolute
+            // route. Only add the / delimiter if the child path isn't empty and if the
+            // parent path doesn't have a trailing slash
+            if (parent && path[0] !== '/') {
+                const parentPath = parent.record.path;
+                const connectingSlash = parentPath[parentPath.length - 1] === '/' ? '' : '/';
+                normalizedRecord.path =
+                    parent.record.path + (path && connectingSlash + path);
+            }
+            if (( true) && normalizedRecord.path === '*') {
+                throw new Error('Catch all routes ("*") must now be defined using a param with a custom regexp.\n' +
+                    'See more at https://next.router.vuejs.org/guide/migration/#removed-star-or-catch-all-routes.');
+            }
+            // create the object beforehand, so it can be passed to children
+            matcher = createRouteRecordMatcher(normalizedRecord, parent, options);
+            if (( true) && parent && path[0] === '/')
+                checkMissingParamsInAbsolutePath(matcher, parent);
+            // if we are an alias we must tell the original record that we exist,
+            // so we can be removed
+            if (originalRecord) {
+                originalRecord.alias.push(matcher);
+                if ((true)) {
+                    checkSameParams(originalRecord, matcher);
+                }
+            }
+            else {
+                // otherwise, the first record is the original and others are aliases
+                originalMatcher = originalMatcher || matcher;
+                if (originalMatcher !== matcher)
+                    originalMatcher.alias.push(matcher);
+                // remove the route if named and only for the top record (avoid in nested calls)
+                // this works because the original record is the first one
+                if (isRootAdd && record.name && !isAliasRecord(matcher))
+                    removeRoute(record.name);
+            }
+            if (mainNormalizedRecord.children) {
+                const children = mainNormalizedRecord.children;
+                for (let i = 0; i < children.length; i++) {
+                    addRoute(children[i], matcher, originalRecord && originalRecord.children[i]);
+                }
+            }
+            // if there was no original record, then the first one was not an alias and all
+            // other aliases (if any) need to reference this record when adding children
+            originalRecord = originalRecord || matcher;
+            // TODO: add normalized records for more flexibility
+            // if (parent && isAliasRecord(originalRecord)) {
+            //   parent.children.push(originalRecord)
+            // }
+            // Avoid adding a record that doesn't display anything. This allows passing through records without a component to
+            // not be reached and pass through the catch all route
+            if ((matcher.record.components &&
+                Object.keys(matcher.record.components).length) ||
+                matcher.record.name ||
+                matcher.record.redirect) {
+                insertMatcher(matcher);
+            }
+        }
+        return originalMatcher
+            ? () => {
+                // since other matchers are aliases, they should be removed by the original matcher
+                removeRoute(originalMatcher);
+            }
+            : noop;
+    }
+    function removeRoute(matcherRef) {
+        if (isRouteName(matcherRef)) {
+            const matcher = matcherMap.get(matcherRef);
+            if (matcher) {
+                matcherMap.delete(matcherRef);
+                matchers.splice(matchers.indexOf(matcher), 1);
+                matcher.children.forEach(removeRoute);
+                matcher.alias.forEach(removeRoute);
+            }
+        }
+        else {
+            const index = matchers.indexOf(matcherRef);
+            if (index > -1) {
+                matchers.splice(index, 1);
+                if (matcherRef.record.name)
+                    matcherMap.delete(matcherRef.record.name);
+                matcherRef.children.forEach(removeRoute);
+                matcherRef.alias.forEach(removeRoute);
+            }
+        }
+    }
+    function getRoutes() {
+        return matchers;
+    }
+    function insertMatcher(matcher) {
+        let i = 0;
+        while (i < matchers.length &&
+            comparePathParserScore(matcher, matchers[i]) >= 0 &&
+            // Adding children with empty path should still appear before the parent
+            // https://github.com/vuejs/router/issues/1124
+            (matcher.record.path !== matchers[i].record.path ||
+                !isRecordChildOf(matcher, matchers[i])))
+            i++;
+        matchers.splice(i, 0, matcher);
+        // only add the original record to the name map
+        if (matcher.record.name && !isAliasRecord(matcher))
+            matcherMap.set(matcher.record.name, matcher);
+    }
+    function resolve(location, currentLocation) {
+        let matcher;
+        let params = {};
+        let path;
+        let name;
+        if ('name' in location && location.name) {
+            matcher = matcherMap.get(location.name);
+            if (!matcher)
+                throw createRouterError(1 /* ErrorTypes.MATCHER_NOT_FOUND */, {
+                    location,
+                });
+            // warn if the user is passing invalid params so they can debug it better when they get removed
+            if ((true)) {
+                const invalidParams = Object.keys(location.params || {}).filter(paramName => !matcher.keys.find(k => k.name === paramName));
+                if (invalidParams.length) {
+                    warn(`Discarded invalid param(s) "${invalidParams.join('", "')}" when navigating. See https://github.com/vuejs/router/blob/main/packages/router/CHANGELOG.md#414-2022-08-22 for more details.`);
+                }
+            }
+            name = matcher.record.name;
+            params = assign(
+            // paramsFromLocation is a new object
+            paramsFromLocation(currentLocation.params, 
+            // only keep params that exist in the resolved location
+            // TODO: only keep optional params coming from a parent record
+            matcher.keys.filter(k => !k.optional).map(k => k.name)), 
+            // discard any existing params in the current location that do not exist here
+            // #1497 this ensures better active/exact matching
+            location.params &&
+                paramsFromLocation(location.params, matcher.keys.map(k => k.name)));
+            // throws if cannot be stringified
+            path = matcher.stringify(params);
+        }
+        else if ('path' in location) {
+            // no need to resolve the path with the matcher as it was provided
+            // this also allows the user to control the encoding
+            path = location.path;
+            if (( true) && !path.startsWith('/')) {
+                warn(`The Matcher cannot resolve relative paths but received "${path}". Unless you directly called \`matcher.resolve("${path}")\`, this is probably a bug in vue-router. Please open an issue at https://github.com/vuejs/router/issues/new/choose.`);
+            }
+            matcher = matchers.find(m => m.re.test(path));
+            // matcher should have a value after the loop
+            if (matcher) {
+                // we know the matcher works because we tested the regexp
+                params = matcher.parse(path);
+                name = matcher.record.name;
+            }
+            // location is a relative path
+        }
+        else {
+            // match by name or path of current route
+            matcher = currentLocation.name
+                ? matcherMap.get(currentLocation.name)
+                : matchers.find(m => m.re.test(currentLocation.path));
+            if (!matcher)
+                throw createRouterError(1 /* ErrorTypes.MATCHER_NOT_FOUND */, {
+                    location,
+                    currentLocation,
+                });
+            name = matcher.record.name;
+            // since we are navigating to the same location, we don't need to pick the
+            // params like when `name` is provided
+            params = assign({}, currentLocation.params, location.params);
+            path = matcher.stringify(params);
+        }
+        const matched = [];
+        let parentMatcher = matcher;
+        while (parentMatcher) {
+            // reversed order so parents are at the beginning
+            matched.unshift(parentMatcher.record);
+            parentMatcher = parentMatcher.parent;
+        }
+        return {
+            name,
+            path,
+            params,
+            matched,
+            meta: mergeMetaFields(matched),
+        };
+    }
+    // add initial routes
+    routes.forEach(route => addRoute(route));
+    return { addRoute, resolve, removeRoute, getRoutes, getRecordMatcher };
+}
+function paramsFromLocation(params, keys) {
+    const newParams = {};
+    for (const key of keys) {
+        if (key in params)
+            newParams[key] = params[key];
+    }
+    return newParams;
+}
+/**
+ * Normalizes a RouteRecordRaw. Creates a copy
+ *
+ * @param record
+ * @returns the normalized version
+ */
+function normalizeRouteRecord(record) {
+    return {
+        path: record.path,
+        redirect: record.redirect,
+        name: record.name,
+        meta: record.meta || {},
+        aliasOf: undefined,
+        beforeEnter: record.beforeEnter,
+        props: normalizeRecordProps(record),
+        children: record.children || [],
+        instances: {},
+        leaveGuards: new Set(),
+        updateGuards: new Set(),
+        enterCallbacks: {},
+        components: 'components' in record
+            ? record.components || null
+            : record.component && { default: record.component },
+    };
+}
+/**
+ * Normalize the optional `props` in a record to always be an object similar to
+ * components. Also accept a boolean for components.
+ * @param record
+ */
+function normalizeRecordProps(record) {
+    const propsObject = {};
+    // props does not exist on redirect records, but we can set false directly
+    const props = record.props || false;
+    if ('component' in record) {
+        propsObject.default = props;
+    }
+    else {
+        // NOTE: we could also allow a function to be applied to every component.
+        // Would need user feedback for use cases
+        for (const name in record.components)
+            propsObject[name] = typeof props === 'object' ? props[name] : props;
+    }
+    return propsObject;
+}
+/**
+ * Checks if a record or any of its parent is an alias
+ * @param record
+ */
+function isAliasRecord(record) {
+    while (record) {
+        if (record.record.aliasOf)
+            return true;
+        record = record.parent;
+    }
+    return false;
+}
+/**
+ * Merge meta fields of an array of records
+ *
+ * @param matched - array of matched records
+ */
+function mergeMetaFields(matched) {
+    return matched.reduce((meta, record) => assign(meta, record.meta), {});
+}
+function mergeOptions(defaults, partialOptions) {
+    const options = {};
+    for (const key in defaults) {
+        options[key] = key in partialOptions ? partialOptions[key] : defaults[key];
+    }
+    return options;
+}
+function isSameParam(a, b) {
+    return (a.name === b.name &&
+        a.optional === b.optional &&
+        a.repeatable === b.repeatable);
+}
+/**
+ * Check if a path and its alias have the same required params
+ *
+ * @param a - original record
+ * @param b - alias record
+ */
+function checkSameParams(a, b) {
+    for (const key of a.keys) {
+        if (!key.optional && !b.keys.find(isSameParam.bind(null, key)))
+            return warn(`Alias "${b.record.path}" and the original record: "${a.record.path}" must have the exact same param named "${key.name}"`);
+    }
+    for (const key of b.keys) {
+        if (!key.optional && !a.keys.find(isSameParam.bind(null, key)))
+            return warn(`Alias "${b.record.path}" and the original record: "${a.record.path}" must have the exact same param named "${key.name}"`);
+    }
+}
+/**
+ * A route with a name and a child with an empty path without a name should warn when adding the route
+ *
+ * @param mainNormalizedRecord - RouteRecordNormalized
+ * @param parent - RouteRecordMatcher
+ */
+function checkChildMissingNameWithEmptyPath(mainNormalizedRecord, parent) {
+    if (parent &&
+        parent.record.name &&
+        !mainNormalizedRecord.name &&
+        !mainNormalizedRecord.path) {
+        warn(`The route named "${String(parent.record.name)}" has a child without a name and an empty path. Using that name won't render the empty path child so you probably want to move the name to the child instead. If this is intentional, add a name to the child route to remove the warning.`);
+    }
+}
+function checkMissingParamsInAbsolutePath(record, parent) {
+    for (const key of parent.keys) {
+        if (!record.keys.find(isSameParam.bind(null, key)))
+            return warn(`Absolute path "${record.record.path}" must have the exact same param named "${key.name}" as its parent "${parent.record.path}".`);
+    }
+}
+function isRecordChildOf(record, parent) {
+    return parent.children.some(child => child === record || isRecordChildOf(record, child));
+}
+
+/**
+ * Encoding Rules ␣ = Space Path: ␣ " < > # ? { } Query: ␣ " < > # & = Hash: ␣ "
+ * < > `
+ *
+ * On top of that, the RFC3986 (https://tools.ietf.org/html/rfc3986#section-2.2)
+ * defines some extra characters to be encoded. Most browsers do not encode them
+ * in encodeURI https://github.com/whatwg/url/issues/369, so it may be safer to
+ * also encode `!'()*`. Leaving un-encoded only ASCII alphanumeric(`a-zA-Z0-9`)
+ * plus `-._~`. This extra safety should be applied to query by patching the
+ * string returned by encodeURIComponent encodeURI also encodes `[\]^`. `\`
+ * should be encoded to avoid ambiguity. Browsers (IE, FF, C) transform a `\`
+ * into a `/` if directly typed in. The _backtick_ (`````) should also be
+ * encoded everywhere because some browsers like FF encode it when directly
+ * written while others don't. Safari and IE don't encode ``"<>{}``` in hash.
+ */
+// const EXTRA_RESERVED_RE = /[!'()*]/g
+// const encodeReservedReplacer = (c: string) => '%' + c.charCodeAt(0).toString(16)
+const HASH_RE = /#/g; // %23
+const AMPERSAND_RE = /&/g; // %26
+const SLASH_RE = /\//g; // %2F
+const EQUAL_RE = /=/g; // %3D
+const IM_RE = /\?/g; // %3F
+const PLUS_RE = /\+/g; // %2B
+/**
+ * NOTE: It's not clear to me if we should encode the + symbol in queries, it
+ * seems to be less flexible than not doing so and I can't find out the legacy
+ * systems requiring this for regular requests like text/html. In the standard,
+ * the encoding of the plus character is only mentioned for
+ * application/x-www-form-urlencoded
+ * (https://url.spec.whatwg.org/#urlencoded-parsing) and most browsers seems lo
+ * leave the plus character as is in queries. To be more flexible, we allow the
+ * plus character on the query, but it can also be manually encoded by the user.
+ *
+ * Resources:
+ * - https://url.spec.whatwg.org/#urlencoded-parsing
+ * - https://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20
+ */
+const ENC_BRACKET_OPEN_RE = /%5B/g; // [
+const ENC_BRACKET_CLOSE_RE = /%5D/g; // ]
+const ENC_CARET_RE = /%5E/g; // ^
+const ENC_BACKTICK_RE = /%60/g; // `
+const ENC_CURLY_OPEN_RE = /%7B/g; // {
+const ENC_PIPE_RE = /%7C/g; // |
+const ENC_CURLY_CLOSE_RE = /%7D/g; // }
+const ENC_SPACE_RE = /%20/g; // }
+/**
+ * Encode characters that need to be encoded on the path, search and hash
+ * sections of the URL.
+ *
+ * @internal
+ * @param text - string to encode
+ * @returns encoded string
+ */
+function commonEncode(text) {
+    return encodeURI('' + text)
+        .replace(ENC_PIPE_RE, '|')
+        .replace(ENC_BRACKET_OPEN_RE, '[')
+        .replace(ENC_BRACKET_CLOSE_RE, ']');
+}
+/**
+ * Encode characters that need to be encoded on the hash section of the URL.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+function encodeHash(text) {
+    return commonEncode(text)
+        .replace(ENC_CURLY_OPEN_RE, '{')
+        .replace(ENC_CURLY_CLOSE_RE, '}')
+        .replace(ENC_CARET_RE, '^');
+}
+/**
+ * Encode characters that need to be encoded query values on the query
+ * section of the URL.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+function encodeQueryValue(text) {
+    return (commonEncode(text)
+        // Encode the space as +, encode the + to differentiate it from the space
+        .replace(PLUS_RE, '%2B')
+        .replace(ENC_SPACE_RE, '+')
+        .replace(HASH_RE, '%23')
+        .replace(AMPERSAND_RE, '%26')
+        .replace(ENC_BACKTICK_RE, '`')
+        .replace(ENC_CURLY_OPEN_RE, '{')
+        .replace(ENC_CURLY_CLOSE_RE, '}')
+        .replace(ENC_CARET_RE, '^'));
+}
+/**
+ * Like `encodeQueryValue` but also encodes the `=` character.
+ *
+ * @param text - string to encode
+ */
+function encodeQueryKey(text) {
+    return encodeQueryValue(text).replace(EQUAL_RE, '%3D');
+}
+/**
+ * Encode characters that need to be encoded on the path section of the URL.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+function encodePath(text) {
+    return commonEncode(text).replace(HASH_RE, '%23').replace(IM_RE, '%3F');
+}
+/**
+ * Encode characters that need to be encoded on the path section of the URL as a
+ * param. This function encodes everything {@link encodePath} does plus the
+ * slash (`/`) character. If `text` is `null` or `undefined`, returns an empty
+ * string instead.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+function encodeParam(text) {
+    return text == null ? '' : encodePath(text).replace(SLASH_RE, '%2F');
+}
+/**
+ * Decode text using `decodeURIComponent`. Returns the original text if it
+ * fails.
+ *
+ * @param text - string to decode
+ * @returns decoded string
+ */
+function decode(text) {
+    try {
+        return decodeURIComponent('' + text);
+    }
+    catch (err) {
+        ( true) && warn(`Error decoding "${text}". Using original value`);
+    }
+    return '' + text;
+}
+
+/**
+ * Transforms a queryString into a {@link LocationQuery} object. Accept both, a
+ * version with the leading `?` and without Should work as URLSearchParams
+
+ * @internal
+ *
+ * @param search - search string to parse
+ * @returns a query object
+ */
+function parseQuery(search) {
+    const query = {};
+    // avoid creating an object with an empty key and empty value
+    // because of split('&')
+    if (search === '' || search === '?')
+        return query;
+    const hasLeadingIM = search[0] === '?';
+    const searchParams = (hasLeadingIM ? search.slice(1) : search).split('&');
+    for (let i = 0; i < searchParams.length; ++i) {
+        // pre decode the + into space
+        const searchParam = searchParams[i].replace(PLUS_RE, ' ');
+        // allow the = character
+        const eqPos = searchParam.indexOf('=');
+        const key = decode(eqPos < 0 ? searchParam : searchParam.slice(0, eqPos));
+        const value = eqPos < 0 ? null : decode(searchParam.slice(eqPos + 1));
+        if (key in query) {
+            // an extra variable for ts types
+            let currentValue = query[key];
+            if (!isArray(currentValue)) {
+                currentValue = query[key] = [currentValue];
+            }
+            currentValue.push(value);
+        }
+        else {
+            query[key] = value;
+        }
+    }
+    return query;
+}
+/**
+ * Stringifies a {@link LocationQueryRaw} object. Like `URLSearchParams`, it
+ * doesn't prepend a `?`
+ *
+ * @internal
+ *
+ * @param query - query object to stringify
+ * @returns string version of the query without the leading `?`
+ */
+function stringifyQuery(query) {
+    let search = '';
+    for (let key in query) {
+        const value = query[key];
+        key = encodeQueryKey(key);
+        if (value == null) {
+            // only null adds the value
+            if (value !== undefined) {
+                search += (search.length ? '&' : '') + key;
+            }
+            continue;
+        }
+        // keep null values
+        const values = isArray(value)
+            ? value.map(v => v && encodeQueryValue(v))
+            : [value && encodeQueryValue(value)];
+        values.forEach(value => {
+            // skip undefined values in arrays as if they were not present
+            // smaller code than using filter
+            if (value !== undefined) {
+                // only append & with non-empty search
+                search += (search.length ? '&' : '') + key;
+                if (value != null)
+                    search += '=' + value;
+            }
+        });
+    }
+    return search;
+}
+/**
+ * Transforms a {@link LocationQueryRaw} into a {@link LocationQuery} by casting
+ * numbers into strings, removing keys with an undefined value and replacing
+ * undefined with null in arrays
+ *
+ * @param query - query object to normalize
+ * @returns a normalized query object
+ */
+function normalizeQuery(query) {
+    const normalizedQuery = {};
+    for (const key in query) {
+        const value = query[key];
+        if (value !== undefined) {
+            normalizedQuery[key] = isArray(value)
+                ? value.map(v => (v == null ? null : '' + v))
+                : value == null
+                    ? value
+                    : '' + value;
+        }
+    }
+    return normalizedQuery;
+}
+
+/**
+ * RouteRecord being rendered by the closest ancestor Router View. Used for
+ * `onBeforeRouteUpdate` and `onBeforeRouteLeave`. rvlm stands for Router View
+ * Location Matched
+ *
+ * @internal
+ */
+const matchedRouteKey = Symbol(( true) ? 'router view location matched' : 0);
+/**
+ * Allows overriding the router view depth to control which component in
+ * `matched` is rendered. rvd stands for Router View Depth
+ *
+ * @internal
+ */
+const viewDepthKey = Symbol(( true) ? 'router view depth' : 0);
+/**
+ * Allows overriding the router instance returned by `useRouter` in tests. r
+ * stands for router
+ *
+ * @internal
+ */
+const routerKey = Symbol(( true) ? 'router' : 0);
+/**
+ * Allows overriding the current route returned by `useRoute` in tests. rl
+ * stands for route location
+ *
+ * @internal
+ */
+const routeLocationKey = Symbol(( true) ? 'route location' : 0);
+/**
+ * Allows overriding the current route used by router-view. Internally this is
+ * used when the `route` prop is passed.
+ *
+ * @internal
+ */
+const routerViewLocationKey = Symbol(( true) ? 'router view location' : 0);
+
+/**
+ * Create a list of callbacks that can be reset. Used to create before and after navigation guards list
+ */
+function useCallbacks() {
+    let handlers = [];
+    function add(handler) {
+        handlers.push(handler);
+        return () => {
+            const i = handlers.indexOf(handler);
+            if (i > -1)
+                handlers.splice(i, 1);
+        };
+    }
+    function reset() {
+        handlers = [];
+    }
+    return {
+        add,
+        list: () => handlers.slice(),
+        reset,
+    };
+}
+
+function registerGuard(record, name, guard) {
+    const removeFromList = () => {
+        record[name].delete(guard);
+    };
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onUnmounted)(removeFromList);
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onDeactivated)(removeFromList);
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.onActivated)(() => {
+        record[name].add(guard);
+    });
+    record[name].add(guard);
+}
+/**
+ * Add a navigation guard that triggers whenever the component for the current
+ * location is about to be left. Similar to {@link beforeRouteLeave} but can be
+ * used in any component. The guard is removed when the component is unmounted.
+ *
+ * @param leaveGuard - {@link NavigationGuard}
+ */
+function onBeforeRouteLeave(leaveGuard) {
+    if (( true) && !(0,vue__WEBPACK_IMPORTED_MODULE_0__.getCurrentInstance)()) {
+        warn('getCurrentInstance() returned null. onBeforeRouteLeave() must be called at the top of a setup function');
+        return;
+    }
+    const activeRecord = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(matchedRouteKey, 
+    // to avoid warning
+    {}).value;
+    if (!activeRecord) {
+        ( true) &&
+            warn('No active route record was found when calling `onBeforeRouteLeave()`. Make sure you call this function inside a component child of <router-view>. Maybe you called it inside of App.vue?');
+        return;
+    }
+    registerGuard(activeRecord, 'leaveGuards', leaveGuard);
+}
+/**
+ * Add a navigation guard that triggers whenever the current location is about
+ * to be updated. Similar to {@link beforeRouteUpdate} but can be used in any
+ * component. The guard is removed when the component is unmounted.
+ *
+ * @param updateGuard - {@link NavigationGuard}
+ */
+function onBeforeRouteUpdate(updateGuard) {
+    if (( true) && !(0,vue__WEBPACK_IMPORTED_MODULE_0__.getCurrentInstance)()) {
+        warn('getCurrentInstance() returned null. onBeforeRouteUpdate() must be called at the top of a setup function');
+        return;
+    }
+    const activeRecord = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(matchedRouteKey, 
+    // to avoid warning
+    {}).value;
+    if (!activeRecord) {
+        ( true) &&
+            warn('No active route record was found when calling `onBeforeRouteUpdate()`. Make sure you call this function inside a component child of <router-view>. Maybe you called it inside of App.vue?');
+        return;
+    }
+    registerGuard(activeRecord, 'updateGuards', updateGuard);
+}
+function guardToPromiseFn(guard, to, from, record, name) {
+    // keep a reference to the enterCallbackArray to prevent pushing callbacks if a new navigation took place
+    const enterCallbackArray = record &&
+        // name is defined if record is because of the function overload
+        (record.enterCallbacks[name] = record.enterCallbacks[name] || []);
+    return () => new Promise((resolve, reject) => {
+        const next = (valid) => {
+            if (valid === false) {
+                reject(createRouterError(4 /* ErrorTypes.NAVIGATION_ABORTED */, {
+                    from,
+                    to,
+                }));
+            }
+            else if (valid instanceof Error) {
+                reject(valid);
+            }
+            else if (isRouteLocation(valid)) {
+                reject(createRouterError(2 /* ErrorTypes.NAVIGATION_GUARD_REDIRECT */, {
+                    from: to,
+                    to: valid,
+                }));
+            }
+            else {
+                if (enterCallbackArray &&
+                    // since enterCallbackArray is truthy, both record and name also are
+                    record.enterCallbacks[name] === enterCallbackArray &&
+                    typeof valid === 'function') {
+                    enterCallbackArray.push(valid);
+                }
+                resolve();
+            }
+        };
+        // wrapping with Promise.resolve allows it to work with both async and sync guards
+        const guardReturn = guard.call(record && record.instances[name], to, from, ( true) ? canOnlyBeCalledOnce(next, to, from) : 0);
+        let guardCall = Promise.resolve(guardReturn);
+        if (guard.length < 3)
+            guardCall = guardCall.then(next);
+        if (( true) && guard.length > 2) {
+            const message = `The "next" callback was never called inside of ${guard.name ? '"' + guard.name + '"' : ''}:\n${guard.toString()}\n. If you are returning a value instead of calling "next", make sure to remove the "next" parameter from your function.`;
+            if (typeof guardReturn === 'object' && 'then' in guardReturn) {
+                guardCall = guardCall.then(resolvedValue => {
+                    // @ts-expect-error: _called is added at canOnlyBeCalledOnce
+                    if (!next._called) {
+                        warn(message);
+                        return Promise.reject(new Error('Invalid navigation guard'));
+                    }
+                    return resolvedValue;
+                });
+            }
+            else if (guardReturn !== undefined) {
+                // @ts-expect-error: _called is added at canOnlyBeCalledOnce
+                if (!next._called) {
+                    warn(message);
+                    reject(new Error('Invalid navigation guard'));
+                    return;
+                }
+            }
+        }
+        guardCall.catch(err => reject(err));
+    });
+}
+function canOnlyBeCalledOnce(next, to, from) {
+    let called = 0;
+    return function () {
+        if (called++ === 1)
+            warn(`The "next" callback was called more than once in one navigation guard when going from "${from.fullPath}" to "${to.fullPath}". It should be called exactly one time in each navigation guard. This will fail in production.`);
+        // @ts-expect-error: we put it in the original one because it's easier to check
+        next._called = true;
+        if (called === 1)
+            next.apply(null, arguments);
+    };
+}
+function extractComponentsGuards(matched, guardType, to, from) {
+    const guards = [];
+    for (const record of matched) {
+        if (( true) && !record.components && !record.children.length) {
+            warn(`Record with path "${record.path}" is either missing a "component(s)"` +
+                ` or "children" property.`);
+        }
+        for (const name in record.components) {
+            let rawComponent = record.components[name];
+            if ((true)) {
+                if (!rawComponent ||
+                    (typeof rawComponent !== 'object' &&
+                        typeof rawComponent !== 'function')) {
+                    warn(`Component "${name}" in record with path "${record.path}" is not` +
+                        ` a valid component. Received "${String(rawComponent)}".`);
+                    // throw to ensure we stop here but warn to ensure the message isn't
+                    // missed by the user
+                    throw new Error('Invalid route component');
+                }
+                else if ('then' in rawComponent) {
+                    // warn if user wrote import('/component.vue') instead of () =>
+                    // import('./component.vue')
+                    warn(`Component "${name}" in record with path "${record.path}" is a ` +
+                        `Promise instead of a function that returns a Promise. Did you ` +
+                        `write "import('./MyPage.vue')" instead of ` +
+                        `"() => import('./MyPage.vue')" ? This will break in ` +
+                        `production if not fixed.`);
+                    const promise = rawComponent;
+                    rawComponent = () => promise;
+                }
+                else if (rawComponent.__asyncLoader &&
+                    // warn only once per component
+                    !rawComponent.__warnedDefineAsync) {
+                    rawComponent.__warnedDefineAsync = true;
+                    warn(`Component "${name}" in record with path "${record.path}" is defined ` +
+                        `using "defineAsyncComponent()". ` +
+                        `Write "() => import('./MyPage.vue')" instead of ` +
+                        `"defineAsyncComponent(() => import('./MyPage.vue'))".`);
+                }
+            }
+            // skip update and leave guards if the route component is not mounted
+            if (guardType !== 'beforeRouteEnter' && !record.instances[name])
+                continue;
+            if (isRouteComponent(rawComponent)) {
+                // __vccOpts is added by vue-class-component and contain the regular options
+                const options = rawComponent.__vccOpts || rawComponent;
+                const guard = options[guardType];
+                guard && guards.push(guardToPromiseFn(guard, to, from, record, name));
+            }
+            else {
+                // start requesting the chunk already
+                let componentPromise = rawComponent();
+                if (( true) && !('catch' in componentPromise)) {
+                    warn(`Component "${name}" in record with path "${record.path}" is a function that does not return a Promise. If you were passing a functional component, make sure to add a "displayName" to the component. This will break in production if not fixed.`);
+                    componentPromise = Promise.resolve(componentPromise);
+                }
+                guards.push(() => componentPromise.then(resolved => {
+                    if (!resolved)
+                        return Promise.reject(new Error(`Couldn't resolve component "${name}" at "${record.path}"`));
+                    const resolvedComponent = isESModule(resolved)
+                        ? resolved.default
+                        : resolved;
+                    // replace the function with the resolved component
+                    // cannot be null or undefined because we went into the for loop
+                    record.components[name] = resolvedComponent;
+                    // __vccOpts is added by vue-class-component and contain the regular options
+                    const options = resolvedComponent.__vccOpts || resolvedComponent;
+                    const guard = options[guardType];
+                    return guard && guardToPromiseFn(guard, to, from, record, name)();
+                }));
+            }
+        }
+    }
+    return guards;
+}
+/**
+ * Allows differentiating lazy components from functional components and vue-class-component
+ * @internal
+ *
+ * @param component
+ */
+function isRouteComponent(component) {
+    return (typeof component === 'object' ||
+        'displayName' in component ||
+        'props' in component ||
+        '__vccOpts' in component);
+}
+/**
+ * Ensures a route is loaded, so it can be passed as o prop to `<RouterView>`.
+ *
+ * @param route - resolved route to load
+ */
+function loadRouteLocation(route) {
+    return route.matched.every(record => record.redirect)
+        ? Promise.reject(new Error('Cannot load a route that redirects.'))
+        : Promise.all(route.matched.map(record => record.components &&
+            Promise.all(Object.keys(record.components).reduce((promises, name) => {
+                const rawComponent = record.components[name];
+                if (typeof rawComponent === 'function' &&
+                    !('displayName' in rawComponent)) {
+                    promises.push(rawComponent().then(resolved => {
+                        if (!resolved)
+                            return Promise.reject(new Error(`Couldn't resolve component "${name}" at "${record.path}". Ensure you passed a function that returns a promise.`));
+                        const resolvedComponent = isESModule(resolved)
+                            ? resolved.default
+                            : resolved;
+                        // replace the function with the resolved component
+                        // cannot be null or undefined because we went into the for loop
+                        record.components[name] = resolvedComponent;
+                        return;
+                    }));
+                }
+                return promises;
+            }, [])))).then(() => route);
+}
+
+// TODO: we could allow currentRoute as a prop to expose `isActive` and
+// `isExactActive` behavior should go through an RFC
+function useLink(props) {
+    const router = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(routerKey);
+    const currentRoute = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(routeLocationKey);
+    const route = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => router.resolve((0,vue__WEBPACK_IMPORTED_MODULE_0__.unref)(props.to)));
+    const activeRecordIndex = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => {
+        const { matched } = route.value;
+        const { length } = matched;
+        const routeMatched = matched[length - 1];
+        const currentMatched = currentRoute.matched;
+        if (!routeMatched || !currentMatched.length)
+            return -1;
+        const index = currentMatched.findIndex(isSameRouteRecord.bind(null, routeMatched));
+        if (index > -1)
+            return index;
+        // possible parent record
+        const parentRecordPath = getOriginalPath(matched[length - 2]);
+        return (
+        // we are dealing with nested routes
+        length > 1 &&
+            // if the parent and matched route have the same path, this link is
+            // referring to the empty child. Or we currently are on a different
+            // child of the same parent
+            getOriginalPath(routeMatched) === parentRecordPath &&
+            // avoid comparing the child with its parent
+            currentMatched[currentMatched.length - 1].path !== parentRecordPath
+            ? currentMatched.findIndex(isSameRouteRecord.bind(null, matched[length - 2]))
+            : index);
+    });
+    const isActive = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => activeRecordIndex.value > -1 &&
+        includesParams(currentRoute.params, route.value.params));
+    const isExactActive = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => activeRecordIndex.value > -1 &&
+        activeRecordIndex.value === currentRoute.matched.length - 1 &&
+        isSameRouteLocationParams(currentRoute.params, route.value.params));
+    function navigate(e = {}) {
+        if (guardEvent(e)) {
+            return router[(0,vue__WEBPACK_IMPORTED_MODULE_0__.unref)(props.replace) ? 'replace' : 'push']((0,vue__WEBPACK_IMPORTED_MODULE_0__.unref)(props.to)
+            // avoid uncaught errors are they are logged anyway
+            ).catch(noop);
+        }
+        return Promise.resolve();
+    }
+    // devtools only
+    if (( true) && isBrowser) {
+        const instance = (0,vue__WEBPACK_IMPORTED_MODULE_0__.getCurrentInstance)();
+        if (instance) {
+            const linkContextDevtools = {
+                route: route.value,
+                isActive: isActive.value,
+                isExactActive: isExactActive.value,
+            };
+            // @ts-expect-error: this is internal
+            instance.__vrl_devtools = instance.__vrl_devtools || [];
+            // @ts-expect-error: this is internal
+            instance.__vrl_devtools.push(linkContextDevtools);
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.watchEffect)(() => {
+                linkContextDevtools.route = route.value;
+                linkContextDevtools.isActive = isActive.value;
+                linkContextDevtools.isExactActive = isExactActive.value;
+            }, { flush: 'post' });
+        }
+    }
+    /**
+     * NOTE: update {@link _RouterLinkI}'s `$slots` type when updating this
+     */
+    return {
+        route,
+        href: (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => route.value.href),
+        isActive,
+        isExactActive,
+        navigate,
+    };
+}
+const RouterLinkImpl = /*#__PURE__*/ (0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
+    name: 'RouterLink',
+    compatConfig: { MODE: 3 },
+    props: {
+        to: {
+            type: [String, Object],
+            required: true,
+        },
+        replace: Boolean,
+        activeClass: String,
+        // inactiveClass: String,
+        exactActiveClass: String,
+        custom: Boolean,
+        ariaCurrentValue: {
+            type: String,
+            default: 'page',
+        },
+    },
+    useLink,
+    setup(props, { slots }) {
+        const link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)(useLink(props));
+        const { options } = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(routerKey);
+        const elClass = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => ({
+            [getLinkClass(props.activeClass, options.linkActiveClass, 'router-link-active')]: link.isActive,
+            // [getLinkClass(
+            //   props.inactiveClass,
+            //   options.linkInactiveClass,
+            //   'router-link-inactive'
+            // )]: !link.isExactActive,
+            [getLinkClass(props.exactActiveClass, options.linkExactActiveClass, 'router-link-exact-active')]: link.isExactActive,
+        }));
+        return () => {
+            const children = slots.default && slots.default(link);
+            return props.custom
+                ? children
+                : (0,vue__WEBPACK_IMPORTED_MODULE_0__.h)('a', {
+                    'aria-current': link.isExactActive
+                        ? props.ariaCurrentValue
+                        : null,
+                    href: link.href,
+                    // this would override user added attrs but Vue will still add
+                    // the listener, so we end up triggering both
+                    onClick: link.navigate,
+                    class: elClass.value,
+                }, children);
+        };
+    },
+});
+// export the public type for h/tsx inference
+// also to avoid inline import() in generated d.ts files
+/**
+ * Component to render a link that triggers a navigation on click.
+ */
+const RouterLink = RouterLinkImpl;
+function guardEvent(e) {
+    // don't redirect with control keys
+    if (e.metaKey || e.altKey || e.ctrlKey || e.shiftKey)
+        return;
+    // don't redirect when preventDefault called
+    if (e.defaultPrevented)
+        return;
+    // don't redirect on right click
+    if (e.button !== undefined && e.button !== 0)
+        return;
+    // don't redirect if `target="_blank"`
+    // @ts-expect-error getAttribute does exist
+    if (e.currentTarget && e.currentTarget.getAttribute) {
+        // @ts-expect-error getAttribute exists
+        const target = e.currentTarget.getAttribute('target');
+        if (/\b_blank\b/i.test(target))
+            return;
+    }
+    // this may be a Weex event which doesn't have this method
+    if (e.preventDefault)
+        e.preventDefault();
+    return true;
+}
+function includesParams(outer, inner) {
+    for (const key in inner) {
+        const innerValue = inner[key];
+        const outerValue = outer[key];
+        if (typeof innerValue === 'string') {
+            if (innerValue !== outerValue)
+                return false;
+        }
+        else {
+            if (!isArray(outerValue) ||
+                outerValue.length !== innerValue.length ||
+                innerValue.some((value, i) => value !== outerValue[i]))
+                return false;
+        }
+    }
+    return true;
+}
+/**
+ * Get the original path value of a record by following its aliasOf
+ * @param record
+ */
+function getOriginalPath(record) {
+    return record ? (record.aliasOf ? record.aliasOf.path : record.path) : '';
+}
+/**
+ * Utility class to get the active class based on defaults.
+ * @param propClass
+ * @param globalClass
+ * @param defaultClass
+ */
+const getLinkClass = (propClass, globalClass, defaultClass) => propClass != null
+    ? propClass
+    : globalClass != null
+        ? globalClass
+        : defaultClass;
+
+const RouterViewImpl = /*#__PURE__*/ (0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
+    name: 'RouterView',
+    // #674 we manually inherit them
+    inheritAttrs: false,
+    props: {
+        name: {
+            type: String,
+            default: 'default',
+        },
+        route: Object,
+    },
+    // Better compat for @vue/compat users
+    // https://github.com/vuejs/router/issues/1315
+    compatConfig: { MODE: 3 },
+    setup(props, { attrs, slots }) {
+        ( true) && warnDeprecatedUsage();
+        const injectedRoute = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(routerViewLocationKey);
+        const routeToDisplay = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => props.route || injectedRoute.value);
+        const injectedDepth = (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(viewDepthKey, 0);
+        // The depth changes based on empty components option, which allows passthrough routes e.g. routes with children
+        // that are used to reuse the `path` property
+        const depth = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => {
+            let initialDepth = (0,vue__WEBPACK_IMPORTED_MODULE_0__.unref)(injectedDepth);
+            const { matched } = routeToDisplay.value;
+            let matchedRoute;
+            while ((matchedRoute = matched[initialDepth]) &&
+                !matchedRoute.components) {
+                initialDepth++;
+            }
+            return initialDepth;
+        });
+        const matchedRouteRef = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => routeToDisplay.value.matched[depth.value]);
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.provide)(viewDepthKey, (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(() => depth.value + 1));
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.provide)(matchedRouteKey, matchedRouteRef);
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.provide)(routerViewLocationKey, routeToDisplay);
+        const viewRef = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)();
+        // watch at the same time the component instance, the route record we are
+        // rendering, and the name
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.watch)(() => [viewRef.value, matchedRouteRef.value, props.name], ([instance, to, name], [oldInstance, from, oldName]) => {
+            // copy reused instances
+            if (to) {
+                // this will update the instance for new instances as well as reused
+                // instances when navigating to a new route
+                to.instances[name] = instance;
+                // the component instance is reused for a different route or name, so
+                // we copy any saved update or leave guards. With async setup, the
+                // mounting component will mount before the matchedRoute changes,
+                // making instance === oldInstance, so we check if guards have been
+                // added before. This works because we remove guards when
+                // unmounting/deactivating components
+                if (from && from !== to && instance && instance === oldInstance) {
+                    if (!to.leaveGuards.size) {
+                        to.leaveGuards = from.leaveGuards;
+                    }
+                    if (!to.updateGuards.size) {
+                        to.updateGuards = from.updateGuards;
+                    }
+                }
+            }
+            // trigger beforeRouteEnter next callbacks
+            if (instance &&
+                to &&
+                // if there is no instance but to and from are the same this might be
+                // the first visit
+                (!from || !isSameRouteRecord(to, from) || !oldInstance)) {
+                (to.enterCallbacks[name] || []).forEach(callback => callback(instance));
+            }
+        }, { flush: 'post' });
+        return () => {
+            const route = routeToDisplay.value;
+            // we need the value at the time we render because when we unmount, we
+            // navigated to a different location so the value is different
+            const currentName = props.name;
+            const matchedRoute = matchedRouteRef.value;
+            const ViewComponent = matchedRoute && matchedRoute.components[currentName];
+            if (!ViewComponent) {
+                return normalizeSlot(slots.default, { Component: ViewComponent, route });
+            }
+            // props from route configuration
+            const routePropsOption = matchedRoute.props[currentName];
+            const routeProps = routePropsOption
+                ? routePropsOption === true
+                    ? route.params
+                    : typeof routePropsOption === 'function'
+                        ? routePropsOption(route)
+                        : routePropsOption
+                : null;
+            const onVnodeUnmounted = vnode => {
+                // remove the instance reference to prevent leak
+                if (vnode.component.isUnmounted) {
+                    matchedRoute.instances[currentName] = null;
+                }
+            };
+            const component = (0,vue__WEBPACK_IMPORTED_MODULE_0__.h)(ViewComponent, assign({}, routeProps, attrs, {
+                onVnodeUnmounted,
+                ref: viewRef,
+            }));
+            if (( true) &&
+                isBrowser &&
+                component.ref) {
+                // TODO: can display if it's an alias, its props
+                const info = {
+                    depth: depth.value,
+                    name: matchedRoute.name,
+                    path: matchedRoute.path,
+                    meta: matchedRoute.meta,
+                };
+                const internalInstances = isArray(component.ref)
+                    ? component.ref.map(r => r.i)
+                    : [component.ref.i];
+                internalInstances.forEach(instance => {
+                    // @ts-expect-error
+                    instance.__vrv_devtools = info;
+                });
+            }
+            return (
+            // pass the vnode to the slot as a prop.
+            // h and <component :is="..."> both accept vnodes
+            normalizeSlot(slots.default, { Component: component, route }) ||
+                component);
+        };
+    },
+});
+function normalizeSlot(slot, data) {
+    if (!slot)
+        return null;
+    const slotContent = slot(data);
+    return slotContent.length === 1 ? slotContent[0] : slotContent;
+}
+// export the public type for h/tsx inference
+// also to avoid inline import() in generated d.ts files
+/**
+ * Component to display the current route the user is at.
+ */
+const RouterView = RouterViewImpl;
+// warn against deprecated usage with <transition> & <keep-alive>
+// due to functional component being no longer eager in Vue 3
+function warnDeprecatedUsage() {
+    const instance = (0,vue__WEBPACK_IMPORTED_MODULE_0__.getCurrentInstance)();
+    const parentName = instance.parent && instance.parent.type.name;
+    const parentSubTreeType = instance.parent && instance.parent.subTree && instance.parent.subTree.type;
+    if (parentName &&
+        (parentName === 'KeepAlive' || parentName.includes('Transition')) &&
+        typeof parentSubTreeType === 'object' &&
+        parentSubTreeType.name === 'RouterView') {
+        const comp = parentName === 'KeepAlive' ? 'keep-alive' : 'transition';
+        warn(`<router-view> can no longer be used directly inside <transition> or <keep-alive>.\n` +
+            `Use slot props instead:\n\n` +
+            `<router-view v-slot="{ Component }">\n` +
+            `  <${comp}>\n` +
+            `    <component :is="Component" />\n` +
+            `  </${comp}>\n` +
+            `</router-view>`);
+    }
+}
+
+/**
+ * Copies a route location and removes any problematic properties that cannot be shown in devtools (e.g. Vue instances).
+ *
+ * @param routeLocation - routeLocation to format
+ * @param tooltip - optional tooltip
+ * @returns a copy of the routeLocation
+ */
+function formatRouteLocation(routeLocation, tooltip) {
+    const copy = assign({}, routeLocation, {
+        // remove variables that can contain vue instances
+        matched: routeLocation.matched.map(matched => omit(matched, ['instances', 'children', 'aliasOf'])),
+    });
+    return {
+        _custom: {
+            type: null,
+            readOnly: true,
+            display: routeLocation.fullPath,
+            tooltip,
+            value: copy,
+        },
+    };
+}
+function formatDisplay(display) {
+    return {
+        _custom: {
+            display,
+        },
+    };
+}
+// to support multiple router instances
+let routerId = 0;
+function addDevtools(app, router, matcher) {
+    // Take over router.beforeEach and afterEach
+    // make sure we are not registering the devtool twice
+    if (router.__hasDevtools)
+        return;
+    router.__hasDevtools = true;
+    // increment to support multiple router instances
+    const id = routerId++;
+    (0,_vue_devtools_api__WEBPACK_IMPORTED_MODULE_1__.setupDevtoolsPlugin)({
+        id: 'org.vuejs.router' + (id ? '.' + id : ''),
+        label: 'Vue Router',
+        packageName: 'vue-router',
+        homepage: 'https://router.vuejs.org',
+        logo: 'https://router.vuejs.org/logo.png',
+        componentStateTypes: ['Routing'],
+        app,
+    }, api => {
+        if (typeof api.now !== 'function') {
+            console.warn('[Vue Router]: You seem to be using an outdated version of Vue Devtools. Are you still using the Beta release instead of the stable one? You can find the links at https://devtools.vuejs.org/guide/installation.html.');
+        }
+        // display state added by the router
+        api.on.inspectComponent((payload, ctx) => {
+            if (payload.instanceData) {
+                payload.instanceData.state.push({
+                    type: 'Routing',
+                    key: '$route',
+                    editable: false,
+                    value: formatRouteLocation(router.currentRoute.value, 'Current Route'),
+                });
+            }
+        });
+        // mark router-link as active and display tags on router views
+        api.on.visitComponentTree(({ treeNode: node, componentInstance }) => {
+            if (componentInstance.__vrv_devtools) {
+                const info = componentInstance.__vrv_devtools;
+                node.tags.push({
+                    label: (info.name ? `${info.name.toString()}: ` : '') + info.path,
+                    textColor: 0,
+                    tooltip: 'This component is rendered by &lt;router-view&gt;',
+                    backgroundColor: PINK_500,
+                });
+            }
+            // if multiple useLink are used
+            if (isArray(componentInstance.__vrl_devtools)) {
+                componentInstance.__devtoolsApi = api;
+                componentInstance.__vrl_devtools.forEach(devtoolsData => {
+                    let backgroundColor = ORANGE_400;
+                    let tooltip = '';
+                    if (devtoolsData.isExactActive) {
+                        backgroundColor = LIME_500;
+                        tooltip = 'This is exactly active';
+                    }
+                    else if (devtoolsData.isActive) {
+                        backgroundColor = BLUE_600;
+                        tooltip = 'This link is active';
+                    }
+                    node.tags.push({
+                        label: devtoolsData.route.path,
+                        textColor: 0,
+                        tooltip,
+                        backgroundColor,
+                    });
+                });
+            }
+        });
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.watch)(router.currentRoute, () => {
+            // refresh active state
+            refreshRoutesView();
+            api.notifyComponentUpdate();
+            api.sendInspectorTree(routerInspectorId);
+            api.sendInspectorState(routerInspectorId);
+        });
+        const navigationsLayerId = 'router:navigations:' + id;
+        api.addTimelineLayer({
+            id: navigationsLayerId,
+            label: `Router${id ? ' ' + id : ''} Navigations`,
+            color: 0x40a8c4,
+        });
+        // const errorsLayerId = 'router:errors'
+        // api.addTimelineLayer({
+        //   id: errorsLayerId,
+        //   label: 'Router Errors',
+        //   color: 0xea5455,
+        // })
+        router.onError((error, to) => {
+            api.addTimelineEvent({
+                layerId: navigationsLayerId,
+                event: {
+                    title: 'Error during Navigation',
+                    subtitle: to.fullPath,
+                    logType: 'error',
+                    time: api.now(),
+                    data: { error },
+                    groupId: to.meta.__navigationId,
+                },
+            });
+        });
+        // attached to `meta` and used to group events
+        let navigationId = 0;
+        router.beforeEach((to, from) => {
+            const data = {
+                guard: formatDisplay('beforeEach'),
+                from: formatRouteLocation(from, 'Current Location during this navigation'),
+                to: formatRouteLocation(to, 'Target location'),
+            };
+            // Used to group navigations together, hide from devtools
+            Object.defineProperty(to.meta, '__navigationId', {
+                value: navigationId++,
+            });
+            api.addTimelineEvent({
+                layerId: navigationsLayerId,
+                event: {
+                    time: api.now(),
+                    title: 'Start of navigation',
+                    subtitle: to.fullPath,
+                    data,
+                    groupId: to.meta.__navigationId,
+                },
+            });
+        });
+        router.afterEach((to, from, failure) => {
+            const data = {
+                guard: formatDisplay('afterEach'),
+            };
+            if (failure) {
+                data.failure = {
+                    _custom: {
+                        type: Error,
+                        readOnly: true,
+                        display: failure ? failure.message : '',
+                        tooltip: 'Navigation Failure',
+                        value: failure,
+                    },
+                };
+                data.status = formatDisplay('❌');
+            }
+            else {
+                data.status = formatDisplay('✅');
+            }
+            // we set here to have the right order
+            data.from = formatRouteLocation(from, 'Current Location during this navigation');
+            data.to = formatRouteLocation(to, 'Target location');
+            api.addTimelineEvent({
+                layerId: navigationsLayerId,
+                event: {
+                    title: 'End of navigation',
+                    subtitle: to.fullPath,
+                    time: api.now(),
+                    data,
+                    logType: failure ? 'warning' : 'default',
+                    groupId: to.meta.__navigationId,
+                },
+            });
+        });
+        /**
+         * Inspector of Existing routes
+         */
+        const routerInspectorId = 'router-inspector:' + id;
+        api.addInspector({
+            id: routerInspectorId,
+            label: 'Routes' + (id ? ' ' + id : ''),
+            icon: 'book',
+            treeFilterPlaceholder: 'Search routes',
+        });
+        function refreshRoutesView() {
+            // the routes view isn't active
+            if (!activeRoutesPayload)
+                return;
+            const payload = activeRoutesPayload;
+            // children routes will appear as nested
+            let routes = matcher.getRoutes().filter(route => !route.parent ||
+                // these routes have a parent with no component which will not appear in the view
+                // therefore we still need to include them
+                !route.parent.record.components);
+            // reset match state to false
+            routes.forEach(resetMatchStateOnRouteRecord);
+            // apply a match state if there is a payload
+            if (payload.filter) {
+                routes = routes.filter(route => 
+                // save matches state based on the payload
+                isRouteMatching(route, payload.filter.toLowerCase()));
+            }
+            // mark active routes
+            routes.forEach(route => markRouteRecordActive(route, router.currentRoute.value));
+            payload.rootNodes = routes.map(formatRouteRecordForInspector);
+        }
+        let activeRoutesPayload;
+        api.on.getInspectorTree(payload => {
+            activeRoutesPayload = payload;
+            if (payload.app === app && payload.inspectorId === routerInspectorId) {
+                refreshRoutesView();
+            }
+        });
+        /**
+         * Display information about the currently selected route record
+         */
+        api.on.getInspectorState(payload => {
+            if (payload.app === app && payload.inspectorId === routerInspectorId) {
+                const routes = matcher.getRoutes();
+                const route = routes.find(route => route.record.__vd_id === payload.nodeId);
+                if (route) {
+                    payload.state = {
+                        options: formatRouteRecordMatcherForStateInspector(route),
+                    };
+                }
+            }
+        });
+        api.sendInspectorTree(routerInspectorId);
+        api.sendInspectorState(routerInspectorId);
+    });
+}
+function modifierForKey(key) {
+    if (key.optional) {
+        return key.repeatable ? '*' : '?';
+    }
+    else {
+        return key.repeatable ? '+' : '';
+    }
+}
+function formatRouteRecordMatcherForStateInspector(route) {
+    const { record } = route;
+    const fields = [
+        { editable: false, key: 'path', value: record.path },
+    ];
+    if (record.name != null) {
+        fields.push({
+            editable: false,
+            key: 'name',
+            value: record.name,
+        });
+    }
+    fields.push({ editable: false, key: 'regexp', value: route.re });
+    if (route.keys.length) {
+        fields.push({
+            editable: false,
+            key: 'keys',
+            value: {
+                _custom: {
+                    type: null,
+                    readOnly: true,
+                    display: route.keys
+                        .map(key => `${key.name}${modifierForKey(key)}`)
+                        .join(' '),
+                    tooltip: 'Param keys',
+                    value: route.keys,
+                },
+            },
+        });
+    }
+    if (record.redirect != null) {
+        fields.push({
+            editable: false,
+            key: 'redirect',
+            value: record.redirect,
+        });
+    }
+    if (route.alias.length) {
+        fields.push({
+            editable: false,
+            key: 'aliases',
+            value: route.alias.map(alias => alias.record.path),
+        });
+    }
+    if (Object.keys(route.record.meta).length) {
+        fields.push({
+            editable: false,
+            key: 'meta',
+            value: route.record.meta,
+        });
+    }
+    fields.push({
+        key: 'score',
+        editable: false,
+        value: {
+            _custom: {
+                type: null,
+                readOnly: true,
+                display: route.score.map(score => score.join(', ')).join(' | '),
+                tooltip: 'Score used to sort routes',
+                value: route.score,
+            },
+        },
+    });
+    return fields;
+}
+/**
+ * Extracted from tailwind palette
+ */
+const PINK_500 = 0xec4899;
+const BLUE_600 = 0x2563eb;
+const LIME_500 = 0x84cc16;
+const CYAN_400 = 0x22d3ee;
+const ORANGE_400 = 0xfb923c;
+// const GRAY_100 = 0xf4f4f5
+const DARK = 0x666666;
+function formatRouteRecordForInspector(route) {
+    const tags = [];
+    const { record } = route;
+    if (record.name != null) {
+        tags.push({
+            label: String(record.name),
+            textColor: 0,
+            backgroundColor: CYAN_400,
+        });
+    }
+    if (record.aliasOf) {
+        tags.push({
+            label: 'alias',
+            textColor: 0,
+            backgroundColor: ORANGE_400,
+        });
+    }
+    if (route.__vd_match) {
+        tags.push({
+            label: 'matches',
+            textColor: 0,
+            backgroundColor: PINK_500,
+        });
+    }
+    if (route.__vd_exactActive) {
+        tags.push({
+            label: 'exact',
+            textColor: 0,
+            backgroundColor: LIME_500,
+        });
+    }
+    if (route.__vd_active) {
+        tags.push({
+            label: 'active',
+            textColor: 0,
+            backgroundColor: BLUE_600,
+        });
+    }
+    if (record.redirect) {
+        tags.push({
+            label: typeof record.redirect === 'string'
+                ? `redirect: ${record.redirect}`
+                : 'redirects',
+            textColor: 0xffffff,
+            backgroundColor: DARK,
+        });
+    }
+    // add an id to be able to select it. Using the `path` is not possible because
+    // empty path children would collide with their parents
+    let id = record.__vd_id;
+    if (id == null) {
+        id = String(routeRecordId++);
+        record.__vd_id = id;
+    }
+    return {
+        id,
+        label: record.path,
+        tags,
+        children: route.children.map(formatRouteRecordForInspector),
+    };
+}
+//  incremental id for route records and inspector state
+let routeRecordId = 0;
+const EXTRACT_REGEXP_RE = /^\/(.*)\/([a-z]*)$/;
+function markRouteRecordActive(route, currentRoute) {
+    // no route will be active if matched is empty
+    // reset the matching state
+    const isExactActive = currentRoute.matched.length &&
+        isSameRouteRecord(currentRoute.matched[currentRoute.matched.length - 1], route.record);
+    route.__vd_exactActive = route.__vd_active = isExactActive;
+    if (!isExactActive) {
+        route.__vd_active = currentRoute.matched.some(match => isSameRouteRecord(match, route.record));
+    }
+    route.children.forEach(childRoute => markRouteRecordActive(childRoute, currentRoute));
+}
+function resetMatchStateOnRouteRecord(route) {
+    route.__vd_match = false;
+    route.children.forEach(resetMatchStateOnRouteRecord);
+}
+function isRouteMatching(route, filter) {
+    const found = String(route.re).match(EXTRACT_REGEXP_RE);
+    route.__vd_match = false;
+    if (!found || found.length < 3) {
+        return false;
+    }
+    // use a regexp without $ at the end to match nested routes better
+    const nonEndingRE = new RegExp(found[1].replace(/\$$/, ''), found[2]);
+    if (nonEndingRE.test(filter)) {
+        // mark children as matches
+        route.children.forEach(child => isRouteMatching(child, filter));
+        // exception case: `/`
+        if (route.record.path !== '/' || filter === '/') {
+            route.__vd_match = route.re.test(filter);
+            return true;
+        }
+        // hide the / route
+        return false;
+    }
+    const path = route.record.path.toLowerCase();
+    const decodedPath = decode(path);
+    // also allow partial matching on the path
+    if (!filter.startsWith('/') &&
+        (decodedPath.includes(filter) || path.includes(filter)))
+        return true;
+    if (decodedPath.startsWith(filter) || path.startsWith(filter))
+        return true;
+    if (route.record.name && String(route.record.name).includes(filter))
+        return true;
+    return route.children.some(child => isRouteMatching(child, filter));
+}
+function omit(obj, keys) {
+    const ret = {};
+    for (const key in obj) {
+        if (!keys.includes(key)) {
+            // @ts-expect-error
+            ret[key] = obj[key];
+        }
+    }
+    return ret;
+}
+
+/**
+ * Creates a Router instance that can be used by a Vue app.
+ *
+ * @param options - {@link RouterOptions}
+ */
+function createRouter(options) {
+    const matcher = createRouterMatcher(options.routes, options);
+    const parseQuery$1 = options.parseQuery || parseQuery;
+    const stringifyQuery$1 = options.stringifyQuery || stringifyQuery;
+    const routerHistory = options.history;
+    if (( true) && !routerHistory)
+        throw new Error('Provide the "history" option when calling "createRouter()":' +
+            ' https://next.router.vuejs.org/api/#history.');
+    const beforeGuards = useCallbacks();
+    const beforeResolveGuards = useCallbacks();
+    const afterGuards = useCallbacks();
+    const currentRoute = (0,vue__WEBPACK_IMPORTED_MODULE_0__.shallowRef)(START_LOCATION_NORMALIZED);
+    let pendingLocation = START_LOCATION_NORMALIZED;
+    // leave the scrollRestoration if no scrollBehavior is provided
+    if (isBrowser && options.scrollBehavior && 'scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+    const normalizeParams = applyToParams.bind(null, paramValue => '' + paramValue);
+    const encodeParams = applyToParams.bind(null, encodeParam);
+    const decodeParams = 
+    // @ts-expect-error: intentionally avoid the type check
+    applyToParams.bind(null, decode);
+    function addRoute(parentOrRoute, route) {
+        let parent;
+        let record;
+        if (isRouteName(parentOrRoute)) {
+            parent = matcher.getRecordMatcher(parentOrRoute);
+            record = route;
+        }
+        else {
+            record = parentOrRoute;
+        }
+        return matcher.addRoute(record, parent);
+    }
+    function removeRoute(name) {
+        const recordMatcher = matcher.getRecordMatcher(name);
+        if (recordMatcher) {
+            matcher.removeRoute(recordMatcher);
+        }
+        else if ((true)) {
+            warn(`Cannot remove non-existent route "${String(name)}"`);
+        }
+    }
+    function getRoutes() {
+        return matcher.getRoutes().map(routeMatcher => routeMatcher.record);
+    }
+    function hasRoute(name) {
+        return !!matcher.getRecordMatcher(name);
+    }
+    function resolve(rawLocation, currentLocation) {
+        // const objectLocation = routerLocationAsObject(rawLocation)
+        // we create a copy to modify it later
+        currentLocation = assign({}, currentLocation || currentRoute.value);
+        if (typeof rawLocation === 'string') {
+            const locationNormalized = parseURL(parseQuery$1, rawLocation, currentLocation.path);
+            const matchedRoute = matcher.resolve({ path: locationNormalized.path }, currentLocation);
+            const href = routerHistory.createHref(locationNormalized.fullPath);
+            if ((true)) {
+                if (href.startsWith('//'))
+                    warn(`Location "${rawLocation}" resolved to "${href}". A resolved location cannot start with multiple slashes.`);
+                else if (!matchedRoute.matched.length) {
+                    warn(`No match found for location with path "${rawLocation}"`);
+                }
+            }
+            // locationNormalized is always a new object
+            return assign(locationNormalized, matchedRoute, {
+                params: decodeParams(matchedRoute.params),
+                hash: decode(locationNormalized.hash),
+                redirectedFrom: undefined,
+                href,
+            });
+        }
+        let matcherLocation;
+        // path could be relative in object as well
+        if ('path' in rawLocation) {
+            if (( true) &&
+                'params' in rawLocation &&
+                !('name' in rawLocation) &&
+                // @ts-expect-error: the type is never
+                Object.keys(rawLocation.params).length) {
+                warn(`Path "${rawLocation.path}" was passed with params but they will be ignored. Use a named route alongside params instead.`);
+            }
+            matcherLocation = assign({}, rawLocation, {
+                path: parseURL(parseQuery$1, rawLocation.path, currentLocation.path).path,
+            });
+        }
+        else {
+            // remove any nullish param
+            const targetParams = assign({}, rawLocation.params);
+            for (const key in targetParams) {
+                if (targetParams[key] == null) {
+                    delete targetParams[key];
+                }
+            }
+            // pass encoded values to the matcher, so it can produce encoded path and fullPath
+            matcherLocation = assign({}, rawLocation, {
+                params: encodeParams(targetParams),
+            });
+            // current location params are decoded, we need to encode them in case the
+            // matcher merges the params
+            currentLocation.params = encodeParams(currentLocation.params);
+        }
+        const matchedRoute = matcher.resolve(matcherLocation, currentLocation);
+        const hash = rawLocation.hash || '';
+        if (( true) && hash && !hash.startsWith('#')) {
+            warn(`A \`hash\` should always start with the character "#". Replace "${hash}" with "#${hash}".`);
+        }
+        // the matcher might have merged current location params, so
+        // we need to run the decoding again
+        matchedRoute.params = normalizeParams(decodeParams(matchedRoute.params));
+        const fullPath = stringifyURL(stringifyQuery$1, assign({}, rawLocation, {
+            hash: encodeHash(hash),
+            path: matchedRoute.path,
+        }));
+        const href = routerHistory.createHref(fullPath);
+        if ((true)) {
+            if (href.startsWith('//')) {
+                warn(`Location "${rawLocation}" resolved to "${href}". A resolved location cannot start with multiple slashes.`);
+            }
+            else if (!matchedRoute.matched.length) {
+                warn(`No match found for location with path "${'path' in rawLocation ? rawLocation.path : rawLocation}"`);
+            }
+        }
+        return assign({
+            fullPath,
+            // keep the hash encoded so fullPath is effectively path + encodedQuery +
+            // hash
+            hash,
+            query: 
+            // if the user is using a custom query lib like qs, we might have
+            // nested objects, so we keep the query as is, meaning it can contain
+            // numbers at `$route.query`, but at the point, the user will have to
+            // use their own type anyway.
+            // https://github.com/vuejs/router/issues/328#issuecomment-649481567
+            stringifyQuery$1 === stringifyQuery
+                ? normalizeQuery(rawLocation.query)
+                : (rawLocation.query || {}),
+        }, matchedRoute, {
+            redirectedFrom: undefined,
+            href,
+        });
+    }
+    function locationAsObject(to) {
+        return typeof to === 'string'
+            ? parseURL(parseQuery$1, to, currentRoute.value.path)
+            : assign({}, to);
+    }
+    function checkCanceledNavigation(to, from) {
+        if (pendingLocation !== to) {
+            return createRouterError(8 /* ErrorTypes.NAVIGATION_CANCELLED */, {
+                from,
+                to,
+            });
+        }
+    }
+    function push(to) {
+        return pushWithRedirect(to);
+    }
+    function replace(to) {
+        return push(assign(locationAsObject(to), { replace: true }));
+    }
+    function handleRedirectRecord(to) {
+        const lastMatched = to.matched[to.matched.length - 1];
+        if (lastMatched && lastMatched.redirect) {
+            const { redirect } = lastMatched;
+            let newTargetLocation = typeof redirect === 'function' ? redirect(to) : redirect;
+            if (typeof newTargetLocation === 'string') {
+                newTargetLocation =
+                    newTargetLocation.includes('?') || newTargetLocation.includes('#')
+                        ? (newTargetLocation = locationAsObject(newTargetLocation))
+                        : // force empty params
+                            { path: newTargetLocation };
+                // @ts-expect-error: force empty params when a string is passed to let
+                // the router parse them again
+                newTargetLocation.params = {};
+            }
+            if (( true) &&
+                !('path' in newTargetLocation) &&
+                !('name' in newTargetLocation)) {
+                warn(`Invalid redirect found:\n${JSON.stringify(newTargetLocation, null, 2)}\n when navigating to "${to.fullPath}". A redirect must contain a name or path. This will break in production.`);
+                throw new Error('Invalid redirect');
+            }
+            return assign({
+                query: to.query,
+                hash: to.hash,
+                // avoid transferring params if the redirect has a path
+                params: 'path' in newTargetLocation ? {} : to.params,
+            }, newTargetLocation);
+        }
+    }
+    function pushWithRedirect(to, redirectedFrom) {
+        const targetLocation = (pendingLocation = resolve(to));
+        const from = currentRoute.value;
+        const data = to.state;
+        const force = to.force;
+        // to could be a string where `replace` is a function
+        const replace = to.replace === true;
+        const shouldRedirect = handleRedirectRecord(targetLocation);
+        if (shouldRedirect)
+            return pushWithRedirect(assign(locationAsObject(shouldRedirect), {
+                state: typeof shouldRedirect === 'object'
+                    ? assign({}, data, shouldRedirect.state)
+                    : data,
+                force,
+                replace,
+            }), 
+            // keep original redirectedFrom if it exists
+            redirectedFrom || targetLocation);
+        // if it was a redirect we already called `pushWithRedirect` above
+        const toLocation = targetLocation;
+        toLocation.redirectedFrom = redirectedFrom;
+        let failure;
+        if (!force && isSameRouteLocation(stringifyQuery$1, from, targetLocation)) {
+            failure = createRouterError(16 /* ErrorTypes.NAVIGATION_DUPLICATED */, { to: toLocation, from });
+            // trigger scroll to allow scrolling to the same anchor
+            handleScroll(from, from, 
+            // this is a push, the only way for it to be triggered from a
+            // history.listen is with a redirect, which makes it become a push
+            true, 
+            // This cannot be the first navigation because the initial location
+            // cannot be manually navigated to
+            false);
+        }
+        return (failure ? Promise.resolve(failure) : navigate(toLocation, from))
+            .catch((error) => isNavigationFailure(error)
+            ? // navigation redirects still mark the router as ready
+                isNavigationFailure(error, 2 /* ErrorTypes.NAVIGATION_GUARD_REDIRECT */)
+                    ? error
+                    : markAsReady(error) // also returns the error
+            : // reject any unknown error
+                triggerError(error, toLocation, from))
+            .then((failure) => {
+            if (failure) {
+                if (isNavigationFailure(failure, 2 /* ErrorTypes.NAVIGATION_GUARD_REDIRECT */)) {
+                    if (( true) &&
+                        // we are redirecting to the same location we were already at
+                        isSameRouteLocation(stringifyQuery$1, resolve(failure.to), toLocation) &&
+                        // and we have done it a couple of times
+                        redirectedFrom &&
+                        // @ts-expect-error: added only in dev
+                        (redirectedFrom._count = redirectedFrom._count
+                            ? // @ts-expect-error
+                                redirectedFrom._count + 1
+                            : 1) > 30) {
+                        warn(`Detected a possibly infinite redirection in a navigation guard when going from "${from.fullPath}" to "${toLocation.fullPath}". Aborting to avoid a Stack Overflow.\n Are you always returning a new location within a navigation guard? That would lead to this error. Only return when redirecting or aborting, that should fix this. This might break in production if not fixed.`);
+                        return Promise.reject(new Error('Infinite redirect in navigation guard'));
+                    }
+                    return pushWithRedirect(
+                    // keep options
+                    assign({
+                        // preserve an existing replacement but allow the redirect to override it
+                        replace,
+                    }, locationAsObject(failure.to), {
+                        state: typeof failure.to === 'object'
+                            ? assign({}, data, failure.to.state)
+                            : data,
+                        force,
+                    }), 
+                    // preserve the original redirectedFrom if any
+                    redirectedFrom || toLocation);
+                }
+            }
+            else {
+                // if we fail we don't finalize the navigation
+                failure = finalizeNavigation(toLocation, from, true, replace, data);
+            }
+            triggerAfterEach(toLocation, from, failure);
+            return failure;
+        });
+    }
+    /**
+     * Helper to reject and skip all navigation guards if a new navigation happened
+     * @param to
+     * @param from
+     */
+    function checkCanceledNavigationAndReject(to, from) {
+        const error = checkCanceledNavigation(to, from);
+        return error ? Promise.reject(error) : Promise.resolve();
+    }
+    function runWithContext(fn) {
+        const app = installedApps.values().next().value;
+        // support Vue < 3.3
+        return app && typeof app.runWithContext === 'function'
+            ? app.runWithContext(fn)
+            : fn();
+    }
+    // TODO: refactor the whole before guards by internally using router.beforeEach
+    function navigate(to, from) {
+        let guards;
+        const [leavingRecords, updatingRecords, enteringRecords] = extractChangingRecords(to, from);
+        // all components here have been resolved once because we are leaving
+        guards = extractComponentsGuards(leavingRecords.reverse(), 'beforeRouteLeave', to, from);
+        // leavingRecords is already reversed
+        for (const record of leavingRecords) {
+            record.leaveGuards.forEach(guard => {
+                guards.push(guardToPromiseFn(guard, to, from));
+            });
+        }
+        const canceledNavigationCheck = checkCanceledNavigationAndReject.bind(null, to, from);
+        guards.push(canceledNavigationCheck);
+        // run the queue of per route beforeRouteLeave guards
+        return (runGuardQueue(guards)
+            .then(() => {
+            // check global guards beforeEach
+            guards = [];
+            for (const guard of beforeGuards.list()) {
+                guards.push(guardToPromiseFn(guard, to, from));
+            }
+            guards.push(canceledNavigationCheck);
+            return runGuardQueue(guards);
+        })
+            .then(() => {
+            // check in components beforeRouteUpdate
+            guards = extractComponentsGuards(updatingRecords, 'beforeRouteUpdate', to, from);
+            for (const record of updatingRecords) {
+                record.updateGuards.forEach(guard => {
+                    guards.push(guardToPromiseFn(guard, to, from));
+                });
+            }
+            guards.push(canceledNavigationCheck);
+            // run the queue of per route beforeEnter guards
+            return runGuardQueue(guards);
+        })
+            .then(() => {
+            // check the route beforeEnter
+            guards = [];
+            for (const record of enteringRecords) {
+                // do not trigger beforeEnter on reused views
+                if (record.beforeEnter) {
+                    if (isArray(record.beforeEnter)) {
+                        for (const beforeEnter of record.beforeEnter)
+                            guards.push(guardToPromiseFn(beforeEnter, to, from));
+                    }
+                    else {
+                        guards.push(guardToPromiseFn(record.beforeEnter, to, from));
+                    }
+                }
+            }
+            guards.push(canceledNavigationCheck);
+            // run the queue of per route beforeEnter guards
+            return runGuardQueue(guards);
+        })
+            .then(() => {
+            // NOTE: at this point to.matched is normalized and does not contain any () => Promise<Component>
+            // clear existing enterCallbacks, these are added by extractComponentsGuards
+            to.matched.forEach(record => (record.enterCallbacks = {}));
+            // check in-component beforeRouteEnter
+            guards = extractComponentsGuards(enteringRecords, 'beforeRouteEnter', to, from);
+            guards.push(canceledNavigationCheck);
+            // run the queue of per route beforeEnter guards
+            return runGuardQueue(guards);
+        })
+            .then(() => {
+            // check global guards beforeResolve
+            guards = [];
+            for (const guard of beforeResolveGuards.list()) {
+                guards.push(guardToPromiseFn(guard, to, from));
+            }
+            guards.push(canceledNavigationCheck);
+            return runGuardQueue(guards);
+        })
+            // catch any navigation canceled
+            .catch(err => isNavigationFailure(err, 8 /* ErrorTypes.NAVIGATION_CANCELLED */)
+            ? err
+            : Promise.reject(err)));
+    }
+    function triggerAfterEach(to, from, failure) {
+        // navigation is confirmed, call afterGuards
+        // TODO: wrap with error handlers
+        afterGuards
+            .list()
+            .forEach(guard => runWithContext(() => guard(to, from, failure)));
+    }
+    /**
+     * - Cleans up any navigation guards
+     * - Changes the url if necessary
+     * - Calls the scrollBehavior
+     */
+    function finalizeNavigation(toLocation, from, isPush, replace, data) {
+        // a more recent navigation took place
+        const error = checkCanceledNavigation(toLocation, from);
+        if (error)
+            return error;
+        // only consider as push if it's not the first navigation
+        const isFirstNavigation = from === START_LOCATION_NORMALIZED;
+        const state = !isBrowser ? {} : history.state;
+        // change URL only if the user did a push/replace and if it's not the initial navigation because
+        // it's just reflecting the url
+        if (isPush) {
+            // on the initial navigation, we want to reuse the scroll position from
+            // history state if it exists
+            if (replace || isFirstNavigation)
+                routerHistory.replace(toLocation.fullPath, assign({
+                    scroll: isFirstNavigation && state && state.scroll,
+                }, data));
+            else
+                routerHistory.push(toLocation.fullPath, data);
+        }
+        // accept current navigation
+        currentRoute.value = toLocation;
+        handleScroll(toLocation, from, isPush, isFirstNavigation);
+        markAsReady();
+    }
+    let removeHistoryListener;
+    // attach listener to history to trigger navigations
+    function setupListeners() {
+        // avoid setting up listeners twice due to an invalid first navigation
+        if (removeHistoryListener)
+            return;
+        removeHistoryListener = routerHistory.listen((to, _from, info) => {
+            if (!router.listening)
+                return;
+            // cannot be a redirect route because it was in history
+            const toLocation = resolve(to);
+            // due to dynamic routing, and to hash history with manual navigation
+            // (manually changing the url or calling history.hash = '#/somewhere'),
+            // there could be a redirect record in history
+            const shouldRedirect = handleRedirectRecord(toLocation);
+            if (shouldRedirect) {
+                pushWithRedirect(assign(shouldRedirect, { replace: true }), toLocation).catch(noop);
+                return;
+            }
+            pendingLocation = toLocation;
+            const from = currentRoute.value;
+            // TODO: should be moved to web history?
+            if (isBrowser) {
+                saveScrollPosition(getScrollKey(from.fullPath, info.delta), computeScrollPosition());
+            }
+            navigate(toLocation, from)
+                .catch((error) => {
+                if (isNavigationFailure(error, 4 /* ErrorTypes.NAVIGATION_ABORTED */ | 8 /* ErrorTypes.NAVIGATION_CANCELLED */)) {
+                    return error;
+                }
+                if (isNavigationFailure(error, 2 /* ErrorTypes.NAVIGATION_GUARD_REDIRECT */)) {
+                    // Here we could call if (info.delta) routerHistory.go(-info.delta,
+                    // false) but this is bug prone as we have no way to wait the
+                    // navigation to be finished before calling pushWithRedirect. Using
+                    // a setTimeout of 16ms seems to work but there is no guarantee for
+                    // it to work on every browser. So instead we do not restore the
+                    // history entry and trigger a new navigation as requested by the
+                    // navigation guard.
+                    // the error is already handled by router.push we just want to avoid
+                    // logging the error
+                    pushWithRedirect(error.to, toLocation
+                    // avoid an uncaught rejection, let push call triggerError
+                    )
+                        .then(failure => {
+                        // manual change in hash history #916 ending up in the URL not
+                        // changing, but it was changed by the manual url change, so we
+                        // need to manually change it ourselves
+                        if (isNavigationFailure(failure, 4 /* ErrorTypes.NAVIGATION_ABORTED */ |
+                            16 /* ErrorTypes.NAVIGATION_DUPLICATED */) &&
+                            !info.delta &&
+                            info.type === NavigationType.pop) {
+                            routerHistory.go(-1, false);
+                        }
+                    })
+                        .catch(noop);
+                    // avoid the then branch
+                    return Promise.reject();
+                }
+                // do not restore history on unknown direction
+                if (info.delta) {
+                    routerHistory.go(-info.delta, false);
+                }
+                // unrecognized error, transfer to the global handler
+                return triggerError(error, toLocation, from);
+            })
+                .then((failure) => {
+                failure =
+                    failure ||
+                        finalizeNavigation(
+                        // after navigation, all matched components are resolved
+                        toLocation, from, false);
+                // revert the navigation
+                if (failure) {
+                    if (info.delta &&
+                        // a new navigation has been triggered, so we do not want to revert, that will change the current history
+                        // entry while a different route is displayed
+                        !isNavigationFailure(failure, 8 /* ErrorTypes.NAVIGATION_CANCELLED */)) {
+                        routerHistory.go(-info.delta, false);
+                    }
+                    else if (info.type === NavigationType.pop &&
+                        isNavigationFailure(failure, 4 /* ErrorTypes.NAVIGATION_ABORTED */ | 16 /* ErrorTypes.NAVIGATION_DUPLICATED */)) {
+                        // manual change in hash history #916
+                        // it's like a push but lacks the information of the direction
+                        routerHistory.go(-1, false);
+                    }
+                }
+                triggerAfterEach(toLocation, from, failure);
+            })
+                // avoid warnings in the console about uncaught rejections, they are logged by triggerErrors
+                .catch(noop);
+        });
+    }
+    // Initialization and Errors
+    let readyHandlers = useCallbacks();
+    let errorListeners = useCallbacks();
+    let ready;
+    /**
+     * Trigger errorListeners added via onError and throws the error as well
+     *
+     * @param error - error to throw
+     * @param to - location we were navigating to when the error happened
+     * @param from - location we were navigating from when the error happened
+     * @returns the error as a rejected promise
+     */
+    function triggerError(error, to, from) {
+        markAsReady(error);
+        const list = errorListeners.list();
+        if (list.length) {
+            list.forEach(handler => handler(error, to, from));
+        }
+        else {
+            if ((true)) {
+                warn('uncaught error during route navigation:');
+            }
+            console.error(error);
+        }
+        // reject the error no matter there were error listeners or not
+        return Promise.reject(error);
+    }
+    function isReady() {
+        if (ready && currentRoute.value !== START_LOCATION_NORMALIZED)
+            return Promise.resolve();
+        return new Promise((resolve, reject) => {
+            readyHandlers.add([resolve, reject]);
+        });
+    }
+    function markAsReady(err) {
+        if (!ready) {
+            // still not ready if an error happened
+            ready = !err;
+            setupListeners();
+            readyHandlers
+                .list()
+                .forEach(([resolve, reject]) => (err ? reject(err) : resolve()));
+            readyHandlers.reset();
+        }
+        return err;
+    }
+    // Scroll behavior
+    function handleScroll(to, from, isPush, isFirstNavigation) {
+        const { scrollBehavior } = options;
+        if (!isBrowser || !scrollBehavior)
+            return Promise.resolve();
+        const scrollPosition = (!isPush && getSavedScrollPosition(getScrollKey(to.fullPath, 0))) ||
+            ((isFirstNavigation || !isPush) &&
+                history.state &&
+                history.state.scroll) ||
+            null;
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.nextTick)()
+            .then(() => scrollBehavior(to, from, scrollPosition))
+            .then(position => position && scrollToPosition(position))
+            .catch(err => triggerError(err, to, from));
+    }
+    const go = (delta) => routerHistory.go(delta);
+    let started;
+    const installedApps = new Set();
+    const router = {
+        currentRoute,
+        listening: true,
+        addRoute,
+        removeRoute,
+        hasRoute,
+        getRoutes,
+        resolve,
+        options,
+        push,
+        replace,
+        go,
+        back: () => go(-1),
+        forward: () => go(1),
+        beforeEach: beforeGuards.add,
+        beforeResolve: beforeResolveGuards.add,
+        afterEach: afterGuards.add,
+        onError: errorListeners.add,
+        isReady,
+        install(app) {
+            const router = this;
+            app.component('RouterLink', RouterLink);
+            app.component('RouterView', RouterView);
+            app.config.globalProperties.$router = router;
+            Object.defineProperty(app.config.globalProperties, '$route', {
+                enumerable: true,
+                get: () => (0,vue__WEBPACK_IMPORTED_MODULE_0__.unref)(currentRoute),
+            });
+            // this initial navigation is only necessary on client, on server it doesn't
+            // make sense because it will create an extra unnecessary navigation and could
+            // lead to problems
+            if (isBrowser &&
+                // used for the initial navigation client side to avoid pushing
+                // multiple times when the router is used in multiple apps
+                !started &&
+                currentRoute.value === START_LOCATION_NORMALIZED) {
+                // see above
+                started = true;
+                push(routerHistory.location).catch(err => {
+                    if ((true))
+                        warn('Unexpected error when starting the router:', err);
+                });
+            }
+            const reactiveRoute = {};
+            for (const key in START_LOCATION_NORMALIZED) {
+                Object.defineProperty(reactiveRoute, key, {
+                    get: () => currentRoute.value[key],
+                    enumerable: true,
+                });
+            }
+            app.provide(routerKey, router);
+            app.provide(routeLocationKey, (0,vue__WEBPACK_IMPORTED_MODULE_0__.shallowReactive)(reactiveRoute));
+            app.provide(routerViewLocationKey, currentRoute);
+            const unmountApp = app.unmount;
+            installedApps.add(app);
+            app.unmount = function () {
+                installedApps.delete(app);
+                // the router is not attached to an app anymore
+                if (installedApps.size < 1) {
+                    // invalidate the current navigation
+                    pendingLocation = START_LOCATION_NORMALIZED;
+                    removeHistoryListener && removeHistoryListener();
+                    removeHistoryListener = null;
+                    currentRoute.value = START_LOCATION_NORMALIZED;
+                    started = false;
+                    ready = false;
+                }
+                unmountApp();
+            };
+            // TODO: this probably needs to be updated so it can be used by vue-termui
+            if (( true) && isBrowser) {
+                addDevtools(app, router, matcher);
+            }
+        },
+    };
+    // TODO: type this as NavigationGuardReturn or similar instead of any
+    function runGuardQueue(guards) {
+        return guards.reduce((promise, guard) => promise.then(() => runWithContext(guard)), Promise.resolve());
+    }
+    return router;
+}
+function extractChangingRecords(to, from) {
+    const leavingRecords = [];
+    const updatingRecords = [];
+    const enteringRecords = [];
+    const len = Math.max(from.matched.length, to.matched.length);
+    for (let i = 0; i < len; i++) {
+        const recordFrom = from.matched[i];
+        if (recordFrom) {
+            if (to.matched.find(record => isSameRouteRecord(record, recordFrom)))
+                updatingRecords.push(recordFrom);
+            else
+                leavingRecords.push(recordFrom);
+        }
+        const recordTo = to.matched[i];
+        if (recordTo) {
+            // the type doesn't matter because we are comparing per reference
+            if (!from.matched.find(record => isSameRouteRecord(record, recordTo))) {
+                enteringRecords.push(recordTo);
+            }
+        }
+    }
+    return [leavingRecords, updatingRecords, enteringRecords];
+}
+
+/**
+ * Returns the router instance. Equivalent to using `$router` inside
+ * templates.
+ */
+function useRouter() {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(routerKey);
+}
+/**
+ * Returns the current route location. Equivalent to using `$route` inside
+ * templates.
+ */
+function useRoute() {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.inject)(routeLocationKey);
+}
+
 
 
 

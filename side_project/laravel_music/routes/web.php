@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::fallback(function(){
-    return response()->json([
-        'code' => 'E03'
-    ], 404);
-});
+// Route::fallback(function(){
+//     return response()->json([
+//         'code' => 'E03'
+//     ], 404);
+// });
+
+Route::any('{any}', function($any) {
+    return view('welcome');
+})->where('any', '.*');

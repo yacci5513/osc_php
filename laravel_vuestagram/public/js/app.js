@@ -19338,7 +19338,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ContainerComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContainerComponent.vue */ "./resources/components/ContainerComponent.vue");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'App',
+  name: 'AppComponent',
   created: function created() {
     // store의 action 호출
     this.$store.dispatch('actionGetBoardList');
