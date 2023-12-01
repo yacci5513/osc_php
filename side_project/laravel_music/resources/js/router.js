@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from 'vue-router';
 import VibeComponent from '../components/VibeComponent.vue'
 import MusixMatchComponent from '../components/MusixMatchComponent.vue'
+import MelonComponent from '../components/MelonComponent.vue'
 
 const routes = [
     {
@@ -14,6 +15,10 @@ const routes = [
     {
         path: "/MusixMatch",
         component: MusixMatchComponent,
+    },
+    {
+        path: "/Melon",
+        component: MelonComponent,
     },
 ];
 

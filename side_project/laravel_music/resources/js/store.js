@@ -8,6 +8,7 @@ const store = createStore({
         return {
             MusixMatchData: [],
             VibeData: [],
+            MelonData: [],
         }
     },
 
@@ -18,6 +19,9 @@ const store = createStore({
         },
         setVibeDataList(state, data) {
             state.VibeData = data;
+        },
+        setMelonDataList(state, data) {
+            state.MelonData = data;
         },
 
 
@@ -39,9 +43,20 @@ const store = createStore({
             const url ='/api/chart/vibechart';
             axios.get(url)
             .then(res => {
-                console.log(res.data);
                 context.commit('setVibeDataList', res.data);
             })
+
+            .catch(err => {
+                console.log(err);
+            })
+        },
+        actionGetMelonDataList(context) {
+            const url ='/api/chart/melonchart';
+            axios.get(url)
+            .then(res => {
+                context.commit('setMelonDataList', res.data);
+            })
+
             .catch(err => {
                 console.log(err);
             })

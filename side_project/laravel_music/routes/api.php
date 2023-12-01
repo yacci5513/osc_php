@@ -26,6 +26,7 @@ use App\Http\Controllers\ChartsController;
 Route::prefix('chart')->group(function () {
     Route::get('/musixmatchchart', [ChartsController::class, 'sendMusixMatchChart'])->name('chart.musixmatchchart');
     Route::get('/vibechart', [ChartsController::class, 'sendVibeChart'])->name('chart.vibechart');
+    Route::get('/melonchart', [ChartsController::class, 'sendMelonChart'])->name('chart.melonchart');
 });
 
 // 일치하는거 없을 때
