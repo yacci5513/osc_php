@@ -8,3 +8,4 @@ CREATE TABLE IF NOT EXISTS boards (
 	,b_delete_at DATETIME DEFAULT NULL
 );
 
+
